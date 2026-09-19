@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="theme-color" content="#0b0d12" />
-<title>AI情報 Top 50</title>
+<title>AI情報 Top 100</title>
 <style>
 :root {
   --bg:#0b0d12; --card:#151a22; --card-h:#1c2330; --line:#2a3140;
@@ -32,9 +32,19 @@ header{
 .left{display:flex;align-items:baseline;gap:10px;min-width:0}
 h1{font-size:16px;font-weight:800;white-space:nowrap}
 .date{font-size:11px;color:var(--muted);white-space:nowrap}
+.right{display:flex;align-items:center;gap:8px;flex:0 0 auto}
+.seg{
+  display:inline-flex;align-items:center;padding:2px;border-radius:999px;
+  border:1px solid var(--line);background:#121722;gap:2px;
+}
+.seg button{
+  appearance:none;border:0;cursor:pointer;font:inherit;font-size:11px;font-weight:700;
+  color:var(--muted);background:transparent;border-radius:999px;padding:4px 10px;line-height:1;
+}
+.seg button.active{color:#0b0d12;background:var(--accent)}
 .pill{font-size:12px;font-weight:700;color:#d5def0;background:#1e2636;border:1px solid var(--line);border-radius:999px;padding:4px 10px}
 #board{
-  min-height:0;height:100%;overflow:hidden;
+  min-height:0;height:100%;overflow:hidden;touch-action:pan-y;
   display:grid;grid-template-columns:repeat(5,minmax(0,1fr));grid-template-rows:repeat(10,minmax(0,1fr));
   gap:var(--gap);
 }
@@ -59,6 +69,8 @@ h1{font-size:16px;font-weight:800;white-space:nowrap}
 @media (orientation:portrait){
   :root{--h:46px;--gap:5px}
   .thumb{width:38px;height:38px}
+  h1{font-size:14px}
+  .seg button{padding:4px 8px;font-size:10px}
 }
 @media (max-height:900px){
   .snippet{font-size:9px}
@@ -70,35 +82,101 @@ h1{font-size:16px;font-weight:800;white-space:nowrap}
 </head>
 <body>
 <header>
-  <div class="left"><h1>AI情報 Top 50</h1><span class="date" id="date"></span></div>
-  <span class="pill" id="pill">Top 50</span>
+  <div class="left"><h1 id="title">AI情報 Top 100</h1><span class="date" id="date"></span></div>
+  <div class="right">
+    <div class="seg" role="group" aria-label="ページ">
+      <button type="button" id="btn-p1" data-page="1" class="active">1–50</button>
+      <button type="button" id="btn-p2" data-page="2">51–100</button>
+    </div>
+    <div class="seg" role="group" aria-label="言語">
+      <button type="button" id="btn-ja" data-lang="ja" class="active">日本語</button>
+      <button type="button" id="btn-en" data-lang="en">原文</button>
+    </div>
+    <span class="pill" id="pill">1–50</span>
+  </div>
 </header>
-<main id="board" aria-label="AI情報 Top 50"></main>
+<main id="board" aria-label="AI情報 Top 100"></main>
 <script>
 window.AI_X_TOP50 = null;
+window.__lang = localStorage.getItem('ai-x-top50-lang') || 'ja';
+window.__page = parseInt(localStorage.getItem('ai-x-top50-page') || '1', 10);
+if (window.__page !== 1 && window.__page !== 2) window.__page = 1;
 (function(){
   const base = 'https://raw.githubusercontent.com/ishibashm/ai-x-top100/main/';
   Promise.all([
     fetch(base+'data-meta.json').then(r=>{ if(!r.ok) throw new Error('meta '+r.status); return r.json(); }),
     fetch(base+'data-part1.json').then(r=>{ if(!r.ok) throw new Error('p1 '+r.status); return r.json(); }),
-    fetch(base+'data-part2.json').then(r=>{ if(!r.ok) throw new Error('p2 '+r.status); return r.json(); })
+    fetch(base+'data-part2.json').then(r=>{ if(!r.ok) throw new Error('p2 '+r.status); return r.json(); }),
+    fetch(base+'data-part3.json').then(r=>{ if(!r.ok) throw new Error('p3 '+r.status); return r.json(); }),
+    fetch(base+'data-part4.json').then(r=>{ if(!r.ok) throw new Error('p4 '+r.status); return r.json(); })
   ]).then(function(arr){
-    const meta = arr[0], a = arr[1], b = arr[2];
-    window.AI_X_TOP50 = Object.assign({}, meta, {posts: a.concat(b)});
+    const meta = arr[0], a = arr[1], b = arr[2], c = arr[3], d = arr[4];
+    window.AI_X_TOP50 = Object.assign({}, meta, {posts: a.concat(b, c, d)});
     if (window.__bootBoard) window.__bootBoard();
   }).catch(function(e){
     document.body.innerHTML = '<p style="padding:24px;font:16px system-ui">データ読込失敗: '+String(e)+'</p>';
   });
 })();
 
+function setLang(lang){
+  window.__lang = (lang === 'en') ? 'en' : 'ja';
+  try { localStorage.setItem('ai-x-top50-lang', window.__lang); } catch (e) {}
+  if (window.__bootBoard) window.__bootBoard();
+}
+function setPage(page){
+  window.__page = (page === 2) ? 2 : 1;
+  try { localStorage.setItem('ai-x-top50-page', String(window.__page)); } catch (e) {}
+  if (window.__bootBoard) window.__bootBoard();
+}
+
+document.getElementById('btn-ja').addEventListener('click', function(){ setLang('ja'); });
+document.getElementById('btn-en').addEventListener('click', function(){ setLang('en'); });
+document.getElementById('btn-p1').addEventListener('click', function(){ setPage(1); });
+document.getElementById('btn-p2').addEventListener('click', function(){ setPage(2); });
+
+(function swipePages(){
+  const board = document.getElementById('board');
+  let x0 = null, y0 = null;
+  board.addEventListener('touchstart', function(e){
+    if (!e.changedTouches || !e.changedTouches[0]) return;
+    x0 = e.changedTouches[0].clientX; y0 = e.changedTouches[0].clientY;
+  }, {passive:true});
+  board.addEventListener('touchend', function(e){
+    if (x0 == null || !e.changedTouches || !e.changedTouches[0]) return;
+    const dx = e.changedTouches[0].clientX - x0;
+    const dy = e.changedTouches[0].clientY - y0;
+    x0 = y0 = null;
+    if (Math.abs(dx) < 60 || Math.abs(dx) < Math.abs(dy) * 1.2) return;
+    if (dx < 0) setPage(2); else setPage(1);
+  }, {passive:true});
+})();
+
 window.__bootBoard = function(){
   const data = window.AI_X_TOP50 || {posts:[]};
   const board = document.getElementById('board');
+  const lang = window.__lang || 'ja';
+  const page = window.__page === 2 ? 2 : 1;
+  const ja = lang === 'ja';
+  const pageSize = data.page_size || 50;
+  const start = (page - 1) * pageSize;
+  const end = start + pageSize;
+  const rangeLabel = page === 1 ? '1–50' : '51–100';
+  document.getElementById('title').textContent = ja
+    ? (data.title_ja || data.title || 'AI情報 Top 100')
+    : (data.title_en || 'AI News Top 100');
   document.getElementById('date').textContent = data.updated_label || '';
-  document.getElementById('pill').textContent = 'Top ' + (data.seeded || (data.posts||[]).length);
+  document.getElementById('pill').textContent = rangeLabel;
+  document.getElementById('btn-ja').classList.toggle('active', ja);
+  document.getElementById('btn-en').classList.toggle('active', !ja);
+  document.getElementById('btn-p1').classList.toggle('active', page === 1);
+  document.getElementById('btn-p2').classList.toggle('active', page === 2);
+  document.documentElement.lang = ja ? 'ja' : 'en';
+  board.setAttribute('aria-label', (ja ? 'AI情報 Top 100' : 'AI News Top 100') + ' ' + rangeLabel);
+  board.innerHTML = '';
   const esc = (s) => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const initial = (name, handle) => (String(name || handle || '?').trim().charAt(0) || '?').toUpperCase();
-  (data.posts || []).slice(0,50).forEach(p => {
+  const posts = (data.posts || []).slice(start, end);
+  posts.forEach(p => {
     const a = document.createElement('a');
     a.className = 'card';
     a.href = p.url || '#';
@@ -106,7 +184,7 @@ window.__bootBoard = function(){
     a.rel = 'noopener noreferrer';
     const handle = String(p.handle || '').replace(/^@/,'');
     const name = p.name || handle;
-    const snip = p.snippet || p.text || '';
+    const snip = ja ? (p.snippet_ja || p.snippet || p.text || '') : (p.snippet || p.text || '');
     const metric = p.metric ? `<span class="metric">${esc(p.metric)}👁</span>` : '';
     let av;
     if (p.avatar) {
