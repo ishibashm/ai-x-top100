@@ -1,1 +1,406 @@
-PLACEHOLDER
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<title>AI情報 Top 100</title>
+<style>
+  :root {
+    --bg: #0b0d12;
+    --card: #161a22;
+    --card-h: #1c2230;
+    --border: #2a3140;
+    --text: #e8ecf4;
+    --muted: #8b93a7;
+    --dim: #5c6578;
+    --rank: #9eb0d0;
+    --metric: #7dd3a8;
+    --empty: #1a1e27;
+    --safe-top: env(safe-area-inset-top, 0px);
+    --safe-bottom: env(safe-area-inset-bottom, 0px);
+    --safe-left: env(safe-area-inset-left, 0px);
+    --safe-right: env(safe-area-inset-right, 0px);
+    --header-h: 42px;
+    --gap: 4px;
+    --pad: 6px;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN",
+      "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    height: 100dvh;
+    width: 100vw;
+    max-width: 1366px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: var(--header-h) 1fr;
+    padding:
+      calc(var(--pad) + var(--safe-top))
+      calc(var(--pad) + var(--safe-right))
+      calc(var(--pad) + var(--safe-bottom))
+      calc(var(--pad) + var(--safe-left));
+    gap: var(--gap);
+    overflow: hidden;
+  }
+  header.app-header {
+    height: var(--header-h);
+    min-height: 36px;
+    max-height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    padding: 0 8px;
+    background: linear-gradient(180deg, #141822 0%, #10141c 100%);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    flex-shrink: 0;
+  }
+  .title-block { display: flex; align-items: baseline; gap: 8px; min-width: 0; }
+  .title { font-size: 15px; font-weight: 700; letter-spacing: 0.02em; white-space: nowrap; }
+  .updated { font-size: 11px; color: var(--muted); white-space: nowrap; }
+  .count-pill {
+    font-size: 12px; font-weight: 600; color: #c9d4ea;
+    background: #1e2636; border: 1px solid var(--border);
+    border-radius: 999px; padding: 4px 10px; white-space: nowrap;
+  }
+  .count-pill.incomplete { color: #f0c674; border-color: #5a4a28; background: #2a2418; }
+
+  #board {
+    display: grid;
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+    grid-template-rows: repeat(10, minmax(0, 1fr));
+    gap: var(--gap);
+    min-height: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .cell {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2px;
+    min-height: 0;
+    min-width: 0;
+    padding: 4px 5px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    transition: background 0.12s ease, border-color 0.12s ease, transform 0.08s ease;
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+  }
+  .cell:hover, .cell:focus-visible {
+    background: var(--card-h);
+    border-color: #3d4a63;
+    outline: none;
+  }
+  .cell:active { transform: scale(0.98); }
+  .cell.empty {
+    background: var(--empty);
+    border-style: dashed;
+    border-color: #252b38;
+    cursor: default;
+    pointer-events: none;
+  }
+  .cell.empty:active { transform: none; }
+
+  .rank {
+    font-size: 11px; font-weight: 700; color: var(--rank);
+    line-height: 1.1; font-variant-numeric: tabular-nums;
+  }
+  .handle {
+    font-size: 10px; font-weight: 600; color: var(--text);
+    line-height: 1.15; max-width: 100%;
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  }
+  .metric {
+    font-size: 9px; font-weight: 500; color: var(--metric);
+    line-height: 1.1; opacity: 0.95;
+  }
+  .placeholder { font-size: 14px; color: var(--dim); width: 100%; text-align: center; }
+
+  @media (orientation: landscape) and (min-width: 1100px) {
+    :root { --header-h: 40px; --gap: 5px; --pad: 8px; }
+    .title { font-size: 16px; }
+    .rank { font-size: 12px; }
+    .handle { font-size: 11px; }
+    .metric { font-size: 10px; }
+  }
+  @media (orientation: portrait) {
+    :root { --header-h: 44px; --gap: 4px; }
+    .rank { font-size: 11px; }
+    .handle { font-size: 9.5px; }
+    .metric { font-size: 9px; }
+  }
+  @media (max-height: 900px) {
+    .rank { font-size: 10px; }
+    .handle { font-size: 9px; }
+    .metric { font-size: 8px; }
+  }
+</style>
+</head>
+<body>
+  <header class="app-header" role="banner">
+    <div class="title-block">
+      <h1 class="title">AI情報 Top 100</h1>
+      <span class="updated" id="updatedLabel"></span>
+    </div>
+    <div class="count-pill" id="countPill" aria-live="polite">Top 100</div>
+  </header>
+  <main id="board" role="list" aria-label="AI情報ランキング 10×10"></main>
+
+  <script>
+/* AI情報 Top 100 — seeded from /workspace/ai-x-sources.md (Sep 2026). Metrics are measured snapshots; not invented. */
+window.AI_X_TOP100 = {
+  "title": "AI情報 Top 100",
+  "updated": "2026-09-19T10:25:00+09:00",
+  "updated_label": "2026-09-19 更新",
+  "target": 100,
+  "seeded": 100,
+  "note": "Sep 2026 AI primary/high-signal X posts. Engagement from ai-x-sources.md (fxtwitter snapshots). Not invented.",
+  "posts": [
+    {
+      "rank": 1,
+      "id": "2098773920774074715",
+      "handle": "DarioAmodei",
+      "url": "https://x.com/DarioAmodei/status/2098773920774074715",
+      "category": "評価",
+      "source_category": "Anthropic",
+      "snippet": "We Must Pace the Frontier: I’ve written a new essay on why the AI industry should slow down, with a three-part plan f…",
+      "views": 75600000,
+      "likes": 87500,
+      "retweets": 16300,
+      "replies": 10600,
+      "metric": "76M"
+    },
+    {
+      "rank": 2,
+      "id": "2099925682726002904",
+      "handle": "CompleteSkeptic",
+      "url": "https://x.com/CompleteSkeptic/status/2099925682726002904",
+      "category": "jev",
+      "source_category": "TypeSafe/Jev",
+      "snippet": "After co-inventing ChatGPT, I kept asking myself: why have superhuman chat models not led to AGI?  I’ve spent the las…",
+      "views": 35400000,
+      "likes": 70200,
+      "retweets": 7500,
+      "replies": 3700,
+      "metric": "35M"
+    },
+    {
+      "rank": 3,
+      "id": "2097476203863224394",
+      "handle": "hilbertspaess",
+      "url": "https://x.com/hilbertspaess/status/2097476203863224394",
+      "category": "その他",
+      "source_category": "AI community",
+      "snippet": "The people building AI earnestly believe that it could kill us all by the end of the decade. This is not a marketing …",
+      "views": 26700000,
+      "likes": 132200,
+      "retweets": 15800,
+      "replies": 1500,
+      "metric": "27M"
+    },
+    {
+      "rank": 4,
+      "id": "2098811563415150910",
+      "handle": "sama",
+      "url": "https://x.com/sama/status/2098811563415150910",
+      "category": "評価",
+      "source_category": "OpenAI",
+      "snippet": "I agree with Dario that we need to pace the frontier. This has been a primary topic of discussions we've had at OpenA…",
+      "views": 16900000,
+      "likes": 67600,
+      "retweets": 7200,
+      "replies": 5200,
+      "metric": "17M"
+    },
+    {
+      "rank": 5,
+      "id": "2098789109980332057",
+      "handle": "elonmusk",
+      "url": "https://x.com/elonmusk/status/2098789109980332057",
+      "category": "研究所",
+      "source_category": "xAI",
+      "snippet": "Dario is right",
+      "views": 12500000,
+      "likes": 58300,
+      "retweets": 6600,
+      "replies": 6400,
+      "metric": "12M"
+    },
+    {
+      "rank": 6,
+      "id": "2098935235446551022",
+      "handle": "elonmusk",
+      "url": "https://x.com/elonmusk/status/2098935235446551022",
+      "category": "研究所",
+      "source_category": "xAI",
+      "snippet": "I’ve been sounding the alarm on AI for a long time",
+      "views": 9600000,
+      "likes": 80500,
+      "retweets": 9700,
+      "replies": 6200,
+      "metric": "9.6M"
+    },
+    {
+      "rank": 7,
+      "id": "2098973625252708460",
+      "handle": "DavidSacks",
+      "url": "https://x.com/DavidSacks/status/2098973625252708460",
+      "category": "評価",
+      "source_category": "Safety discourse",
+      "snippet": "Dario has written that we need to “pace the frontier,” and Sam has agreed. People may be surprised by my response: go…",
+      "views": 9500000,
+      "likes": 72100,
+      "retweets": 12300,
+      "replies": 3400,
+      "metric": "9.5M"
+    },
+    {
+      "rank": 8,
+      "id": "2098937640108093571",
+      "handle": "elonmusk",
+      "url": "https://x.com/elonmusk/status/2098937640108093571",
+      "category": "研究所",
+      "source_category": "xAI",
+      "snippet": "12 years ago",
+      "views": 8200000,
+      "likes": 53700,
+      "retweets": 5900,
+      "replies": 2700,
+      "metric": "8.2M"
+    },
+    {
+      "rank": 9,
+      "id": "2096630018495377464",
+      "handle": "merettm",
+      "url": "https://x.com/merettm/status/2096630018495377464",
+      "category": "研究所",
+      "source_category": "OpenAI",
+      "snippet": "I wrote about the state of AI, why I’m concerned about the next few years, and the choices we need to make to keep th…",
+      "views": 7600000,
+      "likes": 15300,
+      "retweets": 2500,
+      "replies": 970,
+      "metric": "7.6M"
+    },
+    {
+      "rank": 10,
+      "id": "2099997096896274533",
+      "handle": "finkd",
+      "url": "https://x.com/finkd/status/2099997096896274533",
+      "category": "研究所",
+      "source_category": "Meta",
+      "snippet": "Last month I wrote about how we can build a positive and safe future for everyone: http://meta.com/thefutureisforever…",
+      "views": 7600000,
+      "likes": 28300,
+      "retweets": 2900,
+      "replies": 1900,
+      "metric": "7.6M"
+    }
+  ]
+};
+
+</script>
+  <script>
+  (function () {
+    const TARGET = 100;
+    const data = window.AI_X_TOP100 || { posts: [], seeded: 0, target: TARGET, updated_label: "" };
+    const posts = Array.isArray(data.posts) ? data.posts.slice() : [];
+    const seeded = data.seeded != null ? data.seeded : posts.length;
+    document.getElementById("updatedLabel").textContent = data.updated_label || "";
+
+    const pill = document.getElementById("countPill");
+    if (seeded >= TARGET) {
+      pill.textContent = "Top 100";
+      pill.classList.remove("incomplete");
+    } else {
+      pill.textContent = "収集中: " + seeded + "/" + TARGET;
+      pill.classList.add("incomplete");
+    }
+
+    const byRank = new Map();
+    for (const p of posts) {
+      if (p && p.rank != null) byRank.set(Number(p.rank), p);
+    }
+
+    function metricLabel(p) {
+      if (p.metric) return p.metric + "👁";
+      if (p.views != null) {
+        const v = p.views;
+        let s;
+        if (v >= 1e6) {
+          const x = v / 1e6;
+          s = (x >= 10 ? Math.round(x) : Math.round(x * 10) / 10) + "M";
+        } else if (v >= 1e3) {
+          s = Math.round(v / 1e3) + "K";
+        } else s = String(v);
+        return s + "👁";
+      }
+      if (p.likes != null) {
+        const l = p.likes;
+        return (l >= 1e3 ? Math.round(l / 1e3) + "K" : String(l)) + "♥";
+      }
+      return "";
+    }
+
+    const board = document.getElementById("board");
+    const frag = document.createDocumentFragment();
+
+    for (let i = 1; i <= TARGET; i++) {
+      const post = byRank.get(i) || null;
+      if (!post || !post.url) {
+        const empty = document.createElement("div");
+        empty.className = "cell empty";
+        empty.setAttribute("role", "listitem");
+        empty.setAttribute("aria-label", "空き枠 " + i);
+        empty.innerHTML =
+          '<span class="rank">' + i + "</span>" +
+          '<span class="placeholder" aria-hidden="true">—</span>';
+        frag.appendChild(empty);
+        continue;
+      }
+
+      const a = document.createElement("a");
+      a.className = "cell";
+      a.href = post.url;
+      a.target = "_blank";
+      a.rel = "noopener noreferrer";
+      a.setAttribute("role", "listitem");
+      const handle = String(post.handle || "").replace(/^@/, "");
+      a.setAttribute("aria-label", i + "位 @" + handle);
+      a.title = "@" + handle + (post.snippet ? " — " + post.snippet : "");
+
+      const m = metricLabel(post);
+      a.innerHTML =
+        '<span class="rank">#' + i + "</span>" +
+        '<span class="handle">@' + handle + "</span>" +
+        (m ? '<span class="metric">' + m + "</span>" : "");
+      frag.appendChild(a);
+    }
+
+    board.appendChild(frag);
+  })();
+  </script>
+</body>
+</html>
