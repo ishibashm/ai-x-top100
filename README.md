@@ -80,6 +80,11 @@ node scripts/build-foryou.mjs --check
 
 生成処理はデータを検証し、`<` などをUnicodeエスケープしてscript要素への安全な埋め込みを行います。ブラウザ側でも本文をHTMLとして解釈しません。実取得・自動ログイン・スクレイピングは実装していません。
 
+
+### アカウント追加
+
+`foryou-data.json` の `accounts` 配列に同じ形式のオブジェクトを足せば、切替にアカウントを追加できます（件数の上限はありません）。追加後は `node scripts/build-foryou.mjs` を実行してHTMLを再生成してください。
+
 ### 公開
 
 既存 `.github/workflows/pages.yml` はリポジトリ全体を公開するため変更不要です。これらの追加ファイルをmainへ反映し既存デプロイが成功すると、[For Youページ](https://ishibashm.github.io/ai-x-top100/foryou.html) で利用できます。反映前は未公開です。[htmlpreview](https://htmlpreview.github.io/?https://github.com/ishibashm/ai-x-top100/blob/main/foryou.html) でも埋め込みデータで動作する構成です。

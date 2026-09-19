@@ -950,6 +950,7 @@
             "views": 35000,
             "likes": 265
           }
+<<<<<<< HEAD
         },
         {
           "id": "2101124023375774073",
@@ -1457,6 +1458,259 @@
           "metrics": {
             "views": 158,
             "likes": 4
+=======
+        },
+        {
+          "id": "2101124023375774073",
+          "author": "ギガビット@ゲームつくるひと",
+          "handle": "gigabit_million",
+          "text": "話題のJevってどういうAIなの？の雰囲気がわかるサイト作りました！入力した言葉のイメージを判定して色で回答します。\n高速で固定の型で出力するJevの特性。こんな簡易サイトでも今までのAIだとすぐ破産できたけどJevなら無料で公開したって大丈夫！という格安感が表現できていると思います。",
+          "url": "https://x.com/gigabit_million/status/2101124023375774073",
+          "createdAt": "2026-09-19T01:39:38.000Z",
+          "metrics": {
+            "views": 17000,
+            "likes": 125
+          }
+        },
+        {
+          "id": "2100850013454926083",
+          "author": "mizchi",
+          "handle": "mizchi",
+          "text": "昨日よりも Jev が何なのか解像度が上がったので、そのレポートを書きました。\n\nたぶんプログラマなら用途がピンと来ると思うので、使い倒す価値があります。",
+          "url": "https://x.com/mizchi/status/2100850013454926083",
+          "createdAt": "2026-09-18T07:30:49.000Z",
+          "metrics": {
+            "views": 230000,
+            "likes": 2022
+          }
+        },
+        {
+          "id": "2101206777924858319",
+          "author": "Charly Wargnier",
+          "handle": "DataChaz",
+          "text": "Jevは本当の意味で、AIにとっての「インターネットの瞬間」になる可能性がある。\n\nTypeSafeの報告によると、Claude Fable 5.1とGPT-6 Astraを使ったテストで、最大193倍高速で444倍安価なパフォーマンスが達成された。",
+          "url": "https://x.com/DataChaz/status/2101206777924858319",
+          "createdAt": "2026-09-19T07:08:29.000Z",
+          "metrics": {
+            "views": 99000,
+            "likes": 733
+          }
+        },
+        {
+          "id": "2101301230048092253",
+          "author": "StudioYebisu",
+          "handle": "studio_yebisu",
+          "text": "デカイ計算資源とAI知識がある人は\n「専用Jevの蒸留モデルを企業向けにカスタマイズ販売する」\nというビッグビジネスの可能性に気づいたほうがいい。\nJevの弱点はAPIであることと、判断の正確性に疑義がある。という点だが、\n\n企業側が求める正解の教師データを適切に揃え、",
+          "url": "https://x.com/studio_yebisu/status/2101301230048092253",
+          "createdAt": "2026-09-19T13:23:48.000Z",
+          "metrics": {
+            "views": 39000,
+            "likes": 408
+          }
+        },
+        {
+          "id": "2101307857191006463",
+          "author": "鈴木裕斗 | Offers | AI x HR",
+          "handle": "yutosuzuki",
+          "text": "試しに browser-use/jev-ultrafastを使ってみる\n東京駅から車で3時間以内で、明日から1泊2日で5万円以下で泊まれる宿を楽天トラベルで探してみたところ、時間は13分の1、コストは190分の1に\n\n\nhttps://\nx.com/gregpr07/statu\ns/2100411066966749359\n…",
+          "url": "https://x.com/yutosuzuki/status/2101307857191006463",
+          "createdAt": "2026-09-19T13:50:08.000Z",
+          "metrics": {
+            "views": 4580,
+            "likes": 31
+          }
+        },
+        {
+          "id": "2101037514945597645",
+          "author": "Akshay",
+          "handle": "akshay_pachaar",
+          "text": "",
+          "url": "https://x.com/akshay_pachaar/status/2101037514945597645",
+          "createdAt": "2026-09-18T19:55:53.000Z",
+          "metrics": {
+            "views": 390000,
+            "likes": 2944
+          }
+        },
+        {
+          "id": "2101135254849515776",
+          "author": "熊井悠(くまいゆう) | ランスティア",
+          "handle": "qumaiu",
+          "text": "JevでXのポストのジャンル分類・分析をさせるChrome拡張を作ってみた。こうしてみるとXを読むだけでも脳の処理が多いことに気付かされる。Chrome拡張とJevを組み合わせて、小さな意思決定や判断をどんどん外していきたいものだ。",
+          "url": "https://x.com/qumaiu/status/2101135254849515776",
+          "createdAt": "2026-09-19T02:24:16.000Z",
+          "metrics": {
+            "views": 9960,
+            "likes": 82
+          }
+        },
+        {
+          "id": "2100951347080421409",
+          "author": "Elvis",
+          "handle": "elvissun",
+          "text": "Jevはぶっ飛んでる。\n\n24.9秒で今朝の384件のニュースを読み、15のブランドに今日飛びつくべきストーリーを提案した。料金はわずか0.19ドル。\n\n同じフィードで同じ時間に動作したClaude Opus 5は、384件中4件しか処理できず、料金は0.77ドルかかった。",
+          "url": "https://x.com/elvissun/status/2100951347080421409",
+          "createdAt": "2026-09-18T14:13:29.000Z",
+          "metrics": {
+            "views": 540000,
+            "likes": 3655
+          }
+        },
+        {
+          "id": "2101278899158327721",
+          "author": "チャエン | デジライズ CEO《重要AIニュースを毎日最速で発信》",
+          "handle": "masahirochaen",
+          "text": "【朗報】Vercel AI Gatewayの評価特化モデル「Jev」(TypeSafe AI製)が9/25まで無料開放\n\nGateway上で最速級に採用が伸びている評価専用モデル\n\n・通常は入力100万トークンあたり0.042ドル\n・コンテキスト長は32,000トークン\n・生成はせず判定結果のみを返す設計",
+          "url": "https://x.com/masahirochaen/status/2101278899158327721",
+          "createdAt": "2026-09-19T11:55:04.000Z",
+          "metrics": {
+            "views": 16000,
+            "likes": 109
+          }
+        },
+        {
+          "id": "2101254577794490830",
+          "author": "金のニワトリ",
+          "handle": "gosrum",
+          "text": "Jev を使ったデモアプリ① \n〜YouTuber 向け配信ディレクターアプリ〜\n\nチャットや配信者の発言から、自動的なシーン切替やモード切替提案をリアルタイムで行うことができる",
+          "url": "https://x.com/gosrum/status/2101254577794490830",
+          "createdAt": "2026-09-19T10:18:25.000Z",
+          "metrics": {
+            "views": 12000,
+            "likes": 66
+          }
+        },
+        {
+          "id": "2101343432929059319",
+          "author": "Ricker",
+          "handle": "0xRicker",
+          "text": "Jev Engineering は、ほとんどのエージェントスタックがまだ欠けているレイヤーです。\n\nstate → decision → action → verification → next state\n\n私たちのテストでは、最大193倍高速で444倍安価です。\n\n誰もがモデルを最適化しています。\n\nJev Engineering",
+          "url": "https://x.com/0xRicker/status/2101343432929059319",
+          "createdAt": "2026-09-19T16:11:30.000Z",
+          "metrics": {
+            "views": 22000,
+            "likes": 232
+          }
+        },
+        {
+          "id": "2101280897030893804",
+          "author": "黄小木",
+          "handle": "ai_xiaomu",
+          "text": "Jev 商業化の実例：\n\n300 万個の再生イベントを分析し、「苛立ったクリック」と JS エラーを捕捉し、213 個の修正 PR を直接送信。\n\n開発パイプラインに組み込み、R&D チームの痛点を直撃。\n\nこれらすべてを達成するのに、わずか 40 秒と 2 ドルで済みました。",
+          "url": "https://x.com/ai_xiaomu/status/2101280897030893804",
+          "createdAt": "2026-09-19T12:03:00.000Z",
+          "metrics": {
+            "views": 51000,
+            "likes": 177
+          }
+        },
+        {
+          "id": "2100878828285681848",
+          "author": "はる｜最高月収2,200万円",
+          "handle": "haru_affiliate1",
+          "text": "",
+          "url": "https://x.com/haru_affiliate1/status/2100878828285681848",
+          "createdAt": "2026-09-18T09:25:19.000Z",
+          "metrics": {
+            "views": 480000,
+            "likes": 542
+          }
+        },
+        {
+          "id": "2101165576303607837",
+          "author": "にも｜AIによって爆誕",
+          "handle": "ai_ai_ailover",
+          "text": "URLを貼るだけでサイトが丸ごとFigmaで編集できる、エグい方法見つけた！\nhttps://\nhtml.to.designっていうFigmaプラグイン。263万人が使ってるのに、日本ではほぼ知られてない。えぐいえぐい",
+          "url": "https://x.com/ai_ai_ailover/status/2101165576303607837",
+          "createdAt": "2026-09-19T04:24:45.000Z",
+          "metrics": {
+            "views": 4089,
+            "likes": 34
+          }
+        },
+        {
+          "id": "2101070906852298910",
+          "author": "Kevin Wang",
+          "handle": "mxfp4",
+          "text": "みんながJevを使ってデモを作ってる\n\nでも誰も本物のプロダクトを作ってない\n\n\nhttps://\nlurk.so を紹介します\n\nAIに引用されるためにRedditのスレッドを探して監視\n> 無料\n> 4000のRedditスレッドをスキャン\n> メール、Discord、Slack\n\nJevと\n@getanyapi\nのおかげで無料で提供できる",
+          "url": "https://x.com/mxfp4/status/2101070906852298910",
+          "createdAt": "2026-09-18T22:08:34.000Z",
+          "metrics": {
+            "views": 65000,
+            "likes": 654
+          }
+        },
+        {
+          "id": "2100987499262984216",
+          "author": "りも",
+          "handle": "vibe_walking",
+          "text": "ChatGPTにRemote Desktop MCP繋いだらクソ簡単に家のPCいじれるからかなり良いかも\n\n\nhttps://\nchatgpt.com/plugins/plugin\n_asdk_app_6a057d268ebc81919918d37eec718425\n…",
+          "url": "https://x.com/vibe_walking/status/2100987499262984216",
+          "createdAt": "2026-09-18T16:37:08.000Z",
+          "metrics": {
+            "views": 62000,
+            "likes": 722
+          }
+        },
+        {
+          "id": "2101054124334911816",
+          "author": "えーたん/AI×時短で仕事効率化",
+          "handle": "ai_jitan",
+          "text": "",
+          "url": "https://x.com/ai_jitan/status/2101054124334911816",
+          "createdAt": "2026-09-18T21:01:53.000Z",
+          "metrics": {
+            "views": 87000,
+            "likes": 130
+          }
+        },
+        {
+          "id": "2101015648306642949",
+          "author": "Rahul",
+          "handle": "sairahul1",
+          "text": "今年中にモデルのファインチューニングを学びましょう\n今年中にモデルのファインチューニングを学びましょう\n今年中にモデルのファインチューニングを学びましょう\n今年中にモデルのファインチューニングを学びましょう\n今年中にモデルのファインチューニングを学びましょう\n\n小さく始めましょう",
+          "url": "https://x.com/sairahul1/status/2101015648306642949",
+          "createdAt": "2026-09-18T18:29:00.000Z",
+          "metrics": {
+            "views": 740000,
+            "likes": 5565
+          }
+        },
+        {
+          "id": "2101165373148291128",
+          "author": "AI様の下僕",
+          "handle": "aigeboku",
+          "text": "動画生成を使わずに映像作品を作る\n\nこちら、実は動画生成使ってません。\n使ったのはCodexとDavinci resolveだけなのよ。\nCodex内のGPT-Imagesしか使ってないので制作費はCodex代ぐらい。\n\nこういうスタイルの映像も面白いと思うので気になる方はぜひ\nやり方はまたYoutubeで公開します",
+          "url": "https://x.com/aigeboku/status/2101165373148291128",
+          "createdAt": "2026-09-19T04:23:57.000Z",
+          "metrics": {
+            "views": 9303,
+            "likes": 166
+          }
+        },
+        {
+          "id": "2101098949205713304",
+          "author": "Matt Canham",
+          "handle": "matthewcanham",
+          "text": "Jevは、テキスト生成ではなく意思決定に最適化された新しいタイプのモデルです\n\nこれがこれまでに見つけた中で、仕組みを分解して説明した最高の記事です - imoでは週末の必須読書です",
+          "url": "https://x.com/matthewcanham/status/2101098949205713304",
+          "createdAt": "2026-09-19T00:00:00.000Z",
+          "metrics": {
+            "views": 320000,
+            "likes": 1192
+          }
+        },
+        {
+          "id": "2101188796381594033",
+          "author": "hiro",
+          "handle": "mercury_dev0517",
+          "text": "丁寧に書かれていてわかりやすい！",
+          "url": "https://x.com/mercury_dev0517/status/2101188796381594033",
+          "createdAt": "2026-09-19T05:57:01.000Z",
+          "metrics": {
+            "views": 2377,
+            "likes": 37
+>>>>>>> b98afd3f7b4793547aeb8d9b3c09014c0333a572
           }
         }
       ]
