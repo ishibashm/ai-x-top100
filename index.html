@@ -32,6 +32,16 @@ header{
 .left{display:flex;align-items:baseline;gap:10px;min-width:0}
 h1{font-size:16px;font-weight:800;white-space:nowrap}
 .date{font-size:11px;color:var(--muted);white-space:nowrap}
+.right{display:flex;align-items:center;gap:8px;flex:0 0 auto}
+.lang{
+  display:inline-flex;align-items:center;padding:2px;border-radius:999px;
+  border:1px solid var(--line);background:#121722;gap:2px;
+}
+.lang button{
+  appearance:none;border:0;cursor:pointer;font:inherit;font-size:11px;font-weight:700;
+  color:var(--muted);background:transparent;border-radius:999px;padding:4px 10px;line-height:1;
+}
+.lang button.active{color:#0b0d12;background:var(--accent)}
 .pill{font-size:12px;font-weight:700;color:#d5def0;background:#1e2636;border:1px solid var(--line);border-radius:999px;padding:4px 10px}
 #board{
   min-height:0;height:100%;overflow:hidden;
@@ -70,12 +80,19 @@ h1{font-size:16px;font-weight:800;white-space:nowrap}
 </head>
 <body>
 <header>
-  <div class="left"><h1>AI情報 Top 50</h1><span class="date" id="date"></span></div>
-  <span class="pill" id="pill">Top 50</span>
+  <div class="left"><h1 id="title">AI情報 Top 50</h1><span class="date" id="date"></span></div>
+  <div class="right">
+    <div class="lang" role="group" aria-label="言語">
+      <button type="button" id="btn-ja" data-lang="ja" class="active">日本語</button>
+      <button type="button" id="btn-en" data-lang="en">原文</button>
+    </div>
+    <span class="pill" id="pill">Top 50</span>
+  </div>
 </header>
 <main id="board" aria-label="AI情報 Top 50"></main>
 <script>
 window.AI_X_TOP50 = null;
+window.__lang = localStorage.getItem('ai-x-top50-lang') || 'ja';
 (function(){
   const base = 'https://raw.githubusercontent.com/ishibashm/ai-x-top100/main/';
   Promise.all([
@@ -91,11 +108,29 @@ window.AI_X_TOP50 = null;
   });
 })();
 
+function setLang(lang){
+  window.__lang = (lang === 'en') ? 'en' : 'ja';
+  try { localStorage.setItem('ai-x-top50-lang', window.__lang); } catch (e) {}
+  document.getElementById('btn-ja').classList.toggle('active', window.__lang === 'ja');
+  document.getElementById('btn-en').classList.toggle('active', window.__lang === 'en');
+  if (window.__bootBoard) window.__bootBoard();
+}
+
+document.getElementById('btn-ja').addEventListener('click', function(){ setLang('ja'); });
+document.getElementById('btn-en').addEventListener('click', function(){ setLang('en'); });
+
 window.__bootBoard = function(){
   const data = window.AI_X_TOP50 || {posts:[]};
   const board = document.getElementById('board');
+  const lang = window.__lang || 'ja';
+  const ja = lang === 'ja';
+  document.getElementById('title').textContent = ja ? (data.title || 'AI情報 Top 50') : (data.title_en || 'AI News Top 50');
   document.getElementById('date').textContent = data.updated_label || '';
   document.getElementById('pill').textContent = 'Top ' + (data.seeded || (data.posts||[]).length);
+  document.getElementById('btn-ja').classList.toggle('active', ja);
+  document.getElementById('btn-en').classList.toggle('active', !ja);
+  document.documentElement.lang = ja ? 'ja' : 'en';
+  board.innerHTML = '';
   const esc = (s) => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const initial = (name, handle) => (String(name || handle || '?').trim().charAt(0) || '?').toUpperCase();
   (data.posts || []).slice(0,50).forEach(p => {
@@ -106,7 +141,7 @@ window.__bootBoard = function(){
     a.rel = 'noopener noreferrer';
     const handle = String(p.handle || '').replace(/^@/,'');
     const name = p.name || handle;
-    const snip = p.snippet || p.text || '';
+    const snip = ja ? (p.snippet_ja || p.snippet || p.text || '') : (p.snippet || p.text || '');
     const metric = p.metric ? `<span class="metric">${esc(p.metric)}👁</span>` : '';
     let av;
     if (p.avatar) {
