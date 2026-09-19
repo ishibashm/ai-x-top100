@@ -12,6 +12,8 @@ for (const account of data.accounts) {
   const ids = new Set();
   for (const p of account.posts) {
     if (typeof p.id !== 'string' || !p.id || ids.has(p.id) || typeof p.handle !== 'string' || typeof p.text !== 'string' || typeof (p.author ?? p.name) !== 'string') throw Error('Invalid or duplicate post: ' + account.handle + ' ' + (p && p.id));
+    if (p.textJa !== undefined && (typeof p.textJa !== 'string' || !p.textJa.trim())) throw Error('Invalid Japanese translation: ' + p.id);
+    if (p.lang !== undefined && (typeof p.lang !== 'string' || !/^[a-z]{2,3}(?:-[A-Za-z0-9]+)*$/.test(p.lang))) throw Error('Invalid source language: ' + p.id);
     ids.add(p.id);
   }
 }
