@@ -10,8 +10,6 @@ iPad向けのスクロールなしボード。AI関連の注目ポスト Top 100
 
 https://ishibashm.github.io/ai-x-top100/
 
-（初回は Settings → Pages で Source を **GitHub Actions** にすると有効になります。このリポジトリ専用の URL なので、別リポジトリの日次デプロイには影響しません。）
-
 ## プレビュー（バックアップ）
 
 https://htmlpreview.github.io/?https://github.com/ishibashm/ai-x-top100/blob/main/index.html
