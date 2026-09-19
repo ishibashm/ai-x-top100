@@ -2,11 +2,125 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="theme-color" content="#0b0d12" />
 <title>AI情報 Top 50</title>
+<style>
+:root {
+  --bg:#0b0d12; --card:#151a22; --card-h:#1c2330; --line:#2a3140;
+  --text:#eef2fa; --muted:#8b93a7; --rank:#9eb0d0; --accent:#7dd3a8;
+  --h:42px; --gap:6px; --pad:8px;
+  --st:env(safe-area-inset-top,0px); --sb:env(safe-area-inset-bottom,0px);
+  --sl:env(safe-area-inset-left,0px); --sr:env(safe-area-inset-right,0px);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;width:100%;overflow:hidden;background:var(--bg);color:var(--text);
+  font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Hiragino Kaku Gothic ProN","Segoe UI",Roboto,sans-serif;
+  -webkit-tap-highlight-color:transparent}
+body{
+  height:100dvh;width:100vw;max-width:1366px;margin:0 auto;display:grid;
+  grid-template-rows:var(--h) 1fr;
+  padding:calc(var(--pad)+var(--st)) calc(var(--pad)+var(--sr)) calc(var(--pad)+var(--sb)) calc(var(--pad)+var(--sl));
+  gap:var(--gap);overflow:hidden;
+}
+header{
+  height:var(--h);display:flex;align-items:center;justify-content:space-between;gap:8px;
+  padding:0 12px;border:1px solid var(--line);border-radius:12px;
+  background:linear-gradient(180deg,#141822,#10141c);
+}
+.left{display:flex;align-items:baseline;gap:10px;min-width:0}
+h1{font-size:16px;font-weight:800;white-space:nowrap}
+.date{font-size:11px;color:var(--muted);white-space:nowrap}
+.pill{font-size:12px;font-weight:700;color:#d5def0;background:#1e2636;border:1px solid var(--line);border-radius:999px;padding:4px 10px}
+#board{
+  min-height:0;height:100%;overflow:hidden;
+  display:grid;grid-template-columns:repeat(5,minmax(0,1fr));grid-template-rows:repeat(10,minmax(0,1fr));
+  gap:var(--gap);
+}
+.card{
+  min-width:0;min-height:0;overflow:hidden;text-decoration:none;color:inherit;
+  display:flex;flex-direction:column;gap:5px;padding:7px 8px;
+  background:var(--card);border:1px solid var(--line);border-radius:10px;
+}
+.card:hover,.card:focus-visible{background:var(--card-h);border-color:#3d4a63;outline:none}
+.top{display:flex;align-items:center;gap:6px;min-width:0}
+.rank{font-size:11px;font-weight:800;color:var(--rank);font-variant-numeric:tabular-nums;flex:0 0 auto}
+.avatar{width:28px;height:28px;border-radius:50%;object-fit:cover;background:#243044;flex:0 0 auto}
+.fallback{width:28px;height:28px;border-radius:50%;background:#2a3348;display:grid;place-items:center;font-size:12px;font-weight:800;flex:0 0 auto}
+.who{min-width:0;flex:1 1 auto}
+.name{font-size:11px;font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;line-height:1.15}
+.handle{font-size:9px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.metric{font-size:10px;font-weight:700;color:var(--accent);white-space:nowrap;flex:0 0 auto}
+.copy{display:flex;gap:6px;align-items:flex-start;min-height:0;flex:1 1 auto;overflow:hidden}
+.snippet{flex:1 1 auto;min-width:0;font-size:10px;line-height:1.28;color:#c8d0e2;
+  display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+.thumb{width:44px;height:44px;border-radius:7px;object-fit:cover;background:#222;flex:0 0 auto;border:1px solid rgba(255,255,255,.1)}
+@media (orientation:portrait){
+  :root{--h:46px;--gap:5px}
+  .thumb{width:38px;height:38px}
+}
+@media (max-height:900px){
+  .snippet{font-size:9px}
+  .name{font-size:10px}
+  .avatar,.fallback{width:24px;height:24px}
+  .thumb{width:34px;height:34px}
+}
+</style>
 </head>
 <body>
+<header>
+  <div class="left"><h1>AI情報 Top 50</h1><span class="date" id="date"></span></div>
+  <span class="pill" id="pill">Top 50</span>
+</header>
+<main id="board" aria-label="AI情報 Top 50"></main>
 <script>
-window.AI_X_TOP50 = {"title":"AI情報 Top 50","seeded":50,"posts":[{"rank":1,"name":"Dario Amodei","handle":"DarioAmodei","metric":"76M","snippet":"We Must Pace the Frontier","avatar":"https://pbs.twimg.com/profile_images/2015835742577012736/uOwdzrEz_200x200.jpg","media":null,"url":"https://x.com/DarioAmodei"}]};
+window.AI_X_TOP50 = null;
+(function(){
+  const base = 'https://raw.githubusercontent.com/ishibashm/ai-x-top100/main/';
+  Promise.all([
+    fetch(base+'data-meta.json').then(r=>{ if(!r.ok) throw new Error('meta '+r.status); return r.json(); }),
+    fetch(base+'data-part1.json').then(r=>{ if(!r.ok) throw new Error('p1 '+r.status); return r.json(); }),
+    fetch(base+'data-part2.json').then(r=>{ if(!r.ok) throw new Error('p2 '+r.status); return r.json(); })
+  ]).then(function(arr){
+    const meta = arr[0], a = arr[1], b = arr[2];
+    window.AI_X_TOP50 = Object.assign({}, meta, {posts: a.concat(b)});
+    if (window.__bootBoard) window.__bootBoard();
+  }).catch(function(e){
+    document.body.innerHTML = '<p style="padding:24px;font:16px system-ui">データ読込失敗: '+String(e)+'</p>';
+  });
+})();
+
+window.__bootBoard = function(){
+  const data = window.AI_X_TOP50 || {posts:[]};
+  const board = document.getElementById('board');
+  document.getElementById('date').textContent = data.updated_label || '';
+  document.getElementById('pill').textContent = 'Top ' + (data.seeded || (data.posts||[]).length);
+  const esc = (s) => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const initial = (name, handle) => (String(name || handle || '?').trim().charAt(0) || '?').toUpperCase();
+  (data.posts || []).slice(0,50).forEach(p => {
+    const a = document.createElement('a');
+    a.className = 'card';
+    a.href = p.url || '#';
+    a.target = '_blank';
+    a.rel = 'noopener noreferrer';
+    const handle = String(p.handle || '').replace(/^@/,'');
+    const name = p.name || handle;
+    const snip = p.snippet || p.text || '';
+    const metric = p.metric ? `<span class="metric">${esc(p.metric)}👁</span>` : '';
+    let av;
+    if (p.avatar) {
+      av = `<img class="avatar" loading="lazy" decoding="async" src="${esc(p.avatar)}" alt="" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><span class="fallback" style="display:none">${esc(initial(name, handle))}</span>`;
+    } else {
+      av = `<span class="fallback">${esc(initial(name, handle))}</span>`;
+    }
+    const thumb = p.media ? `<img class="thumb" loading="lazy" decoding="async" src="${esc(p.media)}" alt="" onerror="this.remove()">` : '';
+    a.innerHTML = `<div class="top"><span class="rank">#${esc(p.rank)}</span>${av}<div class="who"><div class="name">${esc(name)}</div><div class="handle">@${esc(handle)}</div></div>${metric}</div><div class="copy"><p class="snippet">${esc(snip)}</p>${thumb}</div>`;
+    board.appendChild(a);
+  });
+};
+
+if (window.AI_X_TOP50) window.__bootBoard();
 </script>
-<p>placeholder - full board upload in progress</p>
-</body></html>
+</body>
+</html>
