@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jev Voice Browser</title>
+  <link rel="stylesheet" href="sidepanel.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🎤 Jev Voice</h1>
+      <div class="status" id="connectionStatus">
+        <span class="dot"></span>
+        <span id="statusText">接続中...</span>
+      </div>
+    </header>
+
+    <main>
+      <!-- 音声入力セクション -->
+      <section class="voice-section">
+        <button id="recordBtn" class="record-btn" disabled>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
+            <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+            <line x1="12" y1="19" x2="12" y2="23"/>
+            <line x1="8" y1="23" x2="16" y2="23"/>
+          </svg>
+          <span id="recordText">音声入力</span>
+        </button>
+        <div class="recording-indicator" id="recordingIndicator">
+          <span class="pulse"></span>
+          録音中...
+        </div>
+      </section>
+
+      <!-- テキスト入力セクション -->
+      <section class="text-section">
+        <div class="input-group">
+          <textarea 
+            id="textInput" 
+            placeholder="ここにテキストで指示を入力..."
+            rows="3"
+          ></textarea>
+          <button id="sendBtn" class="send-btn" disabled>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="22" y1="2" x2="11" y2="13"/>
+              <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+            </svg>
+            送信
+          </button>
+        </div>
+      </section>
+
+      <!-- 結果表示セクション -->
+      <section class="result-section">
+        <h2>応答</h2>
+        <div id="resultArea" class="result-area">
+          <p class="placeholder">音声またはテキストで指示してください</p>
+        </div>
+      </section>
+
+      <!-- ログセクション -->
+      <section class="log-section">
+        <details>
+          <summary>ログ</summary>
+          <div id="logArea" class="log-area"></div>
+        </details>
+      </section>
+    </main>
+
+    <footer>
+      <div class="settings">
+        <label>
+          <input type="checkbox" id="autoExecute" checked>
+          自動実行
+        </label>
+        <button id="settingsBtn" class="icon-btn" title="設定">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="3"/>
+            <path d="M12 1v6m0 6v6M5.64 5.64l4.24 4.24m4.24 4.24l4.24 4.24M1 12h6m6 0h6M5.64 18.36l4.24-4.24m4.24-4.24l4.24-4.24"/>
+          </svg>
+        </button>
+      </div>
+      <div class="server-info">
+        <small id="serverInfo">localhost:3456</small>
+      </div>
+    </footer>
+  </div>
+
+  <script src="sidepanel.js" type="module"></script>
+</body>
+</html>

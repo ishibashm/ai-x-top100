@@ -6,6 +6,49 @@ iPad向けのスクロールなしボード。AI関連の注目ポスト Top 100
 - ヘッダーで「1–50」「51–100」切替（左右スワイプ可）
 - 「日本語／原文」トグル（localStorageに保存）
 
+## 🎤 Jev Voice Browser（NEW）
+
+音声とテキストでChromeブラウザを操作できる拡張機能を追加しました。
+
+### 主な機能
+
+- 🎤 **音声入力**: マイクから音声コマンドを入力してブラウザを操作
+- ⌨️ **テキスト入力**: テキストでも指示を送信可能
+- 🔒 **セキュア**: APIキーはサーバー側で管理、拡張機能には含まれません
+- 📱 **サイドパネル**: Chromeのサイドパネルで常に表示
+
+### クイックスタート
+
+詳細なインストール手順は [docs/chrome-extension.md](docs/chrome-extension.md) を参照してください。
+
+```bash
+# 1. サーバーを起動
+cd third_party/jev-voice-browser
+npm install
+npm start
+
+# 2. Chrome拡張機能を読み込む
+# chrome://extensions/ で「パッケージ化されていない拡張機能を読み込む」
+# extensions/jev-voice/ ディレクトリを選択
+```
+
+### アーキテクチャ
+
+```
+Chrome拡張機能 (extensions/jev-voice/)
+  ├── サイドパネル (UI、音声入力)
+  ├── サービスワーカー
+  └── コンテンツスクリプト (DOM操作)
+       ↓ WebSocket
+Node.jsサーバー (third_party/jev-voice-browser/)
+  └── TypeSafe API連携
+```
+
+詳細は以下を参照：
+- [拡張機能のREADME](extensions/jev-voice/README.md)
+- [サーバーのREADME](third_party/jev-voice-browser/README.md)
+- [インストール手順（日本語）](docs/chrome-extension.md)
+
 ## 常時公開（GitHub Pages）
 
 https://ishibashm.github.io/ai-x-top100/
