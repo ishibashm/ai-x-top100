@@ -34,6 +34,16 @@ https://github.com/ishibashm/ai-x-top100
 
 最短手順：`foryou-data.json` の対象アカウントの `posts`・`sample`・`updatedAt` を更新 → `node scripts/build-foryou.mjs` → JSONとHTMLを一緒に反映。
 
+### digest 下書き生成
+
+For You の既存 JSON から、日本語の digest 下書きをローカル生成できます。公開や X 投稿は行いません。
+
+```sh
+node scripts/foryou-jev-digest.mjs --dry-run
+```
+
+詳細は [`docs/foryou-jev-digest.md`](docs/foryou-jev-digest.md) を参照してください。
+
 ### 使いやすさの改善
 
 - アカウント選択を44px以上の高さとアクセント色で強調。ページ移動ボタンも44px四方以上にし、タップしやすくしました。
