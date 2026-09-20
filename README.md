@@ -101,3 +101,53 @@ node scripts/build-foryou.mjs --check
 - 全カードから本文を拡大して読める操作に統一し、原文／訳文・Xへのリンクを集約。
 - 少数件数の案内、正確な最終ページ範囲、更新の相対時刻。
 - アカウント選択48px、言語・ページ操作44px前後、Top100へのリンクを小画面でも表示。
+
+## 📱 Android コントロールアプリ
+
+For You / JEV Voiceスタック用のAndroidリモートコントロールアプリを追加しました。スマートフォンからPC上のサーバーを操作できます。
+
+### 概要
+
+- **PWA（プログレッシブウェブアプリ）**: ホーム画面に追加してネイティブアプリのように使用
+- **LAN接続**: Wi-Fi経由でPC上のNode.jsサーバーに接続
+- **テキストコマンド**: 検索、ナビゲート、更新などの操作
+- **セキュア**: 認証トークンによる接続保護
+- **TYPESAFE_API_KEY**: PCサーバー側のみで保持、APKには含まれません
+
+### クイックスタート
+
+#### 1. PC側サーバーの起動
+
+```bash
+cd apps/jev-voice-server
+npm install
+npm start
+```
+
+起動時に表示される認証トークンを控えてください。
+
+#### 2. Androidアプリのセットアップ
+
+スマートフォンのChromeブラウザで `apps/android-control/public/index.html` を開き、「ホーム画面に追加」を選択します。
+
+#### 3. 接続
+
+- **サーバーURL**: `ws://[PCのIPアドレス]:8765`
+- **認証トークン**: PCコンソールに表示されたトークン
+
+### 詳細ドキュメント
+
+- **📖 完全セットアップガイド**: [docs/android-app.md](docs/android-app.md)
+- **🖥️ サーバーREADME**: [apps/jev-voice-server/README.md](apps/jev-voice-server/README.md)
+- **📱 アプリREADME**: [apps/android-control/README.md](apps/android-control/README.md)
+
+### アーキテクチャ
+
+```
+Android PWA (UI)  ◄──WebSocket──►  PC Server (Node.js)  ◄──►  Chrome拡張機能
+   [操作画面]      [認証トークン]    [TYPESAFE_API_KEY]        [ブラウザ制御]
+```
+
+- スマートフォンが直接Chromeを操作することはありません
+- PCサーバーが仲介役として動作します
+- APIキーはPC側のみで保持され、APKには含まれません
