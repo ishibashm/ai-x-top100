@@ -1,0 +1,20 @@
+{
+  "name": "jev-voice-browser",
+  "version": "1.0.0",
+  "description": "Voice browser server with TypeSafe API integration",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": ["voice", "browser", "jev", "typesafe"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.18.0",
+    "express": "^4.21.2",
+    "cors": "^2.8.5",
+    "playwright": "^1.49.1"
+  }
+}

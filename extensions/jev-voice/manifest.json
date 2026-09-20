@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "Jev Voice Browser",
+  "version": "1.0.0",
+  "description": "音声とテキストでブラウザを操作する拡張機能",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "sidePanel",
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "action": {
+    "default_title": "Jev Voice Browserを開く"
+  }
+}
