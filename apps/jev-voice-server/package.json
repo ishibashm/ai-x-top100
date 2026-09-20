@@ -1,0 +1,17 @@
+{
+  "name": "jev-voice-server",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "PC Node.js server for For You voice/text control via LAN",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": ["websocket", "voice", "control", "foryou"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#1a73e8">
+  <title>For You リモートコントロール</title>
+  
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- PWA用アイコン -->
+  <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="icon-512.png">
+  <link rel="apple-touch-icon" href="icon-192.png">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🎤 For You コントロール</h1>
+      <div class="status" id="status">未接続</div>
+    </header>
+
+    <main>
+      <!-- 接続設定 -->
+      <section class="card settings-card">
+        <h2>サーバー設定</h2>
+        <div class="form-group">
+          <label for="serverUrl">サーバーURL</label>
+          <input 
+            type="text" 
+            id="serverUrl" 
+            placeholder="ws://192.168.1.100:8765"
+            value="ws://192.168.1.100:8765"
+          >
+          <small>例: ws://[PCのIPアドレス]:8765</small>
+        </div>
+        <div class="form-group">
+          <label for="authToken">認証トークン</label>
+          <input 
+            type="password" 
+            id="authToken" 
+            placeholder="サーバー起動時に表示されたトークン"
+          >
+          <small>PCのコンソールに表示されます</small>
+        </div>
+        <button id="connectBtn" class="btn btn-primary">接続</button>
+        <button id="disconnectBtn" class="btn btn-secondary" style="display: none;">切断</button>
+      </section>
+
+      <!-- コマンド送信 -->
+      <section class="card command-card" id="commandSection" style="display: none;">
+        <h2>コマンド送信</h2>
+        
+        <!-- クイックアクション -->
+        <div class="quick-actions">
+          <button class="btn btn-action" data-command="refresh">
+            🔄 更新
+          </button>
+          <button class="btn btn-action" data-command="navigate" data-text="top">
+            🏠 トップ
+          </button>
+          <button class="btn btn-action" data-command="navigate" data-text="foryou">
+            ⭐ For You
+          </button>
+        </div>
+
+        <!-- テキストコマンド -->
+        <div class="form-group">
+          <label for="commandType">コマンドタイプ</label>
+          <select id="commandType">
+            <option value="search">検索</option>
+            <option value="navigate">ナビゲート</option>
+            <option value="speak">音声読み上げ</option>
+            <option value="refresh">更新</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="commandText">テキスト</label>
+          <input 
+            type="text" 
+            id="commandText" 
+            placeholder="コマンドテキストを入力"
+          >
+        </div>
+        <button id="sendCommandBtn" class="btn btn-primary">送信</button>
+
+        <!-- マイク入力（将来の拡張用） -->
+        <div class="mic-section">
+          <button id="micBtn" class="btn btn-mic" disabled title="音声認識は今後対応予定">
+            🎤 音声入力（準備中）
+          </button>
+        </div>
+      </section>
+
+      <!-- ステータス表示 -->
+      <section class="card status-card">
+        <h2>接続状態</h2>
+        <div class="status-info">
+          <div class="status-item">
+            <span class="label">サーバー:</span>
+            <span id="serverStatus">未接続</span>
+          </div>
+          <div class="status-item">
+            <span class="label">最終更新:</span>
+            <span id="lastUpdate">-</span>
+          </div>
+          <div class="status-item">
+            <span class="label">アカウント数:</span>
+            <span id="accountCount">-</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ログ表示 -->
+      <section class="card log-card">
+        <h2>ログ</h2>
+        <div id="logArea" class="log-area"></div>
+        <button id="clearLogBtn" class="btn btn-small">ログクリア</button>
+      </section>
+    </main>
+
+    <footer>
+      <p>For You / JEV Voice Control v1.0</p>
+      <p><small>PC上のサーバーに接続して操作します</small></p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

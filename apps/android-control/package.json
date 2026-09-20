@@ -1,0 +1,16 @@
+{
+  "name": "foryou-android-control",
+  "version": "1.0.0",
+  "description": "For You / JEV Voice remote control PWA for Android",
+  "type": "module",
+  "scripts": {
+    "serve": "cd public && python3 -m http.server 8080",
+    "generate-icons": "node generate-icons.js"
+  },
+  "keywords": ["pwa", "android", "control", "foryou", "voice"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "sharp": "^0.33.0"
+  }
+}
