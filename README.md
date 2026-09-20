@@ -101,3 +101,77 @@ node scripts/build-foryou.mjs --check
 - 全カードから本文を拡大して読める操作に統一し、原文／訳文・Xへのリンクを集約。
 - 少数件数の案内、正確な最終ページ範囲、更新の相対時刻。
 - アカウント選択48px、言語・ページ操作44px前後、Top100へのリンクを小画面でも表示。
+
+## jev-voice-browser 統合 / Voice Browser Integration
+
+このプロジェクトには、音声でブラウザを制御してコンテンツを収集する **jev-voice-browser** が統合されています。
+
+### 概要
+
+jev-voice-browserは、音声コマンドで実際のブラウザ（Chromium via Playwright）を制御し、TypeSafeのJevモデルを使用して音声を意図に変換するシステムです。収集したニュースやウェブコンテンツをFor Youボードに統合できます。
+
+### セットアップ
+
+1. **TypeSafe APIキーの取得**
+   - https://console.typesafe.ai/keys でアカウントを作成
+   - APIキーを生成
+
+2. **環境変数の設定**
+   ```bash
+   cp .env.example .env
+   # .envファイルにTYPESAFE_API_KEYを設定
+   ```
+
+3. **依存関係のインストール**
+   ```bash
+   cd third_party/jev-voice-browser
+   npm install
+   npx playwright install chromium
+   ```
+
+4. **voice-browserの起動**
+   ```bash
+   ./scripts/run-voice-browser.sh
+   ```
+
+5. **制御UIへのアクセス**
+   - Chrome/Edgeで `http://localhost:8787` を開く
+   - 「Start mic」をクリックしてマイクを有効化
+
+### 音声コマンドの例
+
+- "go to wikipedia" — Wikipediaに移動
+- "search for AI news" — ページ内検索またはDuckDuckGo
+- "click the first result" — 最初の結果をクリック
+- "scroll down" — スクロールダウン
+
+### For Youボードへのデータ統合
+
+収集したコンテンツをFor You形式に変換：
+
+```bash
+# サンプルデータで試す（ドライラン）
+echo '{"items":[{"title":"AI News","url":"https://example.com","summary":"Breaking news"}]}' | \
+  node scripts/voice-to-foryou-bridge.js --dry-run
+
+# 実際にforyou-data.jsonに追加
+echo '{"items":[...]}' | node scripts/voice-to-foryou-bridge.js
+
+# HTMLを再生成
+node scripts/build-foryou.mjs
+```
+
+### ドキュメント
+
+- [統合ガイド](docs/jev-voice-browser-integration.md) — セットアップ、使い方、トラブルシューティング
+- [アーキテクチャ](docs/voice-jev-mcp-architecture.md) — システム構成、データフロー、技術詳細
+- [サードパーティ](third_party/README.md) — ライセンス情報
+
+### 注意事項
+
+- **APIキー:** `.env`ファイルは絶対にコミットしないでください
+- **ブラウザ:** Web Speech APIはChrome/Edgeのみ対応
+- **コスト:** 1リクエストあたり約$0.0002、30分セッションで約$0.01-0.05
+- **セキュリティ:** デフォルトで`localhost`のみリッスン
+
+詳細は [docs/jev-voice-browser-integration.md](docs/jev-voice-browser-integration.md) を参照してください。

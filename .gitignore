@@ -1,0 +1,28 @@
+# Environment variables
+.env
+.env.local
+
+# Browser profiles (jev-voice-browser)
+.browser-profile/
+
+# Node modules
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+tmp/
+temp/
