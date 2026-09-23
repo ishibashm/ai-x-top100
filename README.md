@@ -101,3 +101,29 @@ node scripts/build-foryou.mjs --check
 - 全カードから本文を拡大して読める操作に統一し、原文／訳文・Xへのリンクを集約。
 - 少数件数の案内、正確な最終ページ範囲、更新の相対時刻。
 - アカウント選択48px、言語・ページ操作44px前後、Top100へのリンクを小画面でも表示。
+
+## For Youボードから@cloud用ドラフト生成
+
+For Youボードのシグナルから、@cloud8wq用の長文日本語ドラフトを生成するスクリプトを用意しています。
+
+```bash
+node scripts/draft-cloud-from-foryou.mjs
+```
+
+トピックキーワード（デフォルト: `jev|typesafe|system one`）で投稿をフィルタリングし、@cloudの投稿構造（見出し・背景・要点・なぜ重要か・注意点・元リンク）に沿ったドラフトを生成します。
+
+**重要**: スクリプトはドラフトを生成するだけで、Xへの自動投稿は行いません。すべての投稿は人間による確認・承認が必須です。
+
+詳細は [`docs/cloud-from-foryou.md`](docs/cloud-from-foryou.md) を参照してください。
+
+### 主なオプション
+
+- `--topic PATTERN` : フィルタリング用トピックキーワード
+- `--account HANDLE` : 特定のボードアカウントのみ対象
+- `--dry-run` : ファイルを書き込まずに概要だけ表示
+- `--help` : ヘルプを表示
+
+### 出力ファイル
+
+- `drafts/cloud-from-foryou-<日付>-signals.json` : マッチした投稿のメタデータ
+- `drafts/cloud-from-foryou-<日付>.md` : @cloud長文投稿用ドラフト

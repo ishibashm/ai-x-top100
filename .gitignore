@@ -1,0 +1,16 @@
+# Generated draft files
+drafts/
+
+# Node modules (if added in the future)
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
