@@ -667,256 +667,336 @@
       "name": "鳳翼炎輪祓闇大鎧城",
       "handle": "N8jhSzyQoL35422",
       "sample": false,
-      "updatedAt": "2026-09-19T22:21:49.224Z",
+      "updatedAt": "2026-09-24T08:52:44.694Z",
       "posts": [
         {
-          "id": "2101129152380153930",
-          "author": "鈴木@アナログ営業会社を100日後にAIで売上を300％にする人",
-          "handle": "ai_300",
-          "text": "これは普通にデカい\nCodexがめちゃくちゃ軽くなる\nいらないログをJEVが自動で削る\n必要な情報だけ残してくれる\n無駄なTokenが減って動作も速くなる\nAIコーディングの「重い」が変わる\n\n導入方法は",
-          "url": "https://x.com/ai_300/status/2101129152380153930",
-          "createdAt": "2026-09-19T02:00:01.000Z",
+          "id": "2102744333174681760",
+          "author": "CV.YH",
+          "handle": "0xCVYH",
+          "text": "Xでの検索、APIなしで。 +5k スター..",
+          "url": "https://x.com/0xCVYH/status/2102744333174681760",
           "metrics": {
-            "views": 47000,
-            "likes": 225
+            "views": 40812,
+            "likes": 672
           }
         },
         {
-          "id": "2101000339948282090",
-          "author": "梭哈.AI",
-          "handle": "SUOHA_AI",
-          "text": "完全睡不着了....这个视频让你完全看懂JEV的恐怖能力\n\n我实际演示了一下，用 JEV 和 DeepSeek 做同一个任务：从当天的海量实时新闻流里，为 15 个品牌快速匹配有没有适合借势的公关热点，并打上结构化意图分类标签\n\n结果是：28 秒内，Jev 狂刷完了整整 428\n\n很多人没看懂爆火的JEV是什么？\n\n所以我做了一个 50 秒的演示视频，带大家把海外刷屏的 JEV 以及它背后的底层架构看透（见下方视频）\n\nJEV 是前 OpenAI、参与 ChatGPT / RLHF 的 @CompleteSkeptic（Diogo Almeida）创办 @typesafeai 后的第一款模型\n\n他在 OpenAI 时发现了一个致命矛盾：  x.com/SUOHA_AI/statu…",
-          "url": "https://x.com/SUOHA_AI/status/2101000339948282090",
-          "createdAt": "2026-09-18T17:28:10.000Z",
+          "id": "2102689036762583417",
+          "author": "cat.png",
+          "handle": "1920web1080",
+          "text": "12 Grok Bots without Jev are just 12 tabs. Add a decision layer and they start behaving like a company. I mapped the whole setup into a 12-step blueprint you can copy: step 1 → start with the ready-made Grok Bot team: manager, researcher, writer, engineer, designer and more",
+          "url": "https://x.com/1920web1080/status/2102689036762583417",
           "metrics": {
-            "views": 300000,
-            "likes": 1852
-          },
-          "textJa": "完全に眠れなくなった……この動画を見ると、JEVの恐ろしい能力がよく分かる。\n\nJEVとDeepSeekに同じタスクを実際に試してもらった。当日の膨大なリアルタイムニュースから、15ブランドがPRに活用できる話題を素早く探し、構造化した意図分類タグを付けるというもの。\n\n結果：Jevは28秒以内に、なんと428……\n\n話題のJEVが何なのか、まだ分からない人も多い。\n\nそこで50秒のデモ動画を作った。海外で話題のJEVと、その基盤となるアーキテクチャを紹介する（下の動画）。\n\nJEVは、OpenAIでChatGPT / RLHFに携わった @CompleteSkeptic（Diogo Almeida）が @typesafeai を創業して初めて発表したモデルだ。\n\n彼はOpenAIで、致命的な矛盾に気づいた： x.com/SUOHA_AI/statu…",
-          "lang": "zh"
-        },
-        {
-          "id": "2101325703635435523",
-          "author": "Movez",
-          "handle": "0xMovez",
-          "text": "Jev X Viral Post Analyserを今作りました。\n\n100,000件のバイラルX投稿。20.4秒。$0.67。\n\nClaude Opus 5、同じコーパス、同じ時間で、214件の投稿を処理して$0.98を使いました。\n\n投稿あたりでいうと~680倍安く、フルOpusパスだと$458かかっていたでしょう。\n\nviral",
-          "url": "https://x.com/0xMovez/status/2101325703635435523",
-          "createdAt": "2026-09-19T15:01:03.000Z",
-          "metrics": {
-            "views": 11000,
-            "likes": 105
+            "views": 31562,
+            "likes": 278
           }
         },
         {
-          "id": "2101095525793616162",
-          "author": "yibie",
-          "handle": "yibie",
-          "text": "Jev 生态 72 小时：从 46 条到 160 条\n\nJev 把「判断」变成了一个足够便宜、可以在代码里直接调用的原语。然后开发者社区在 72 小时内把这句话翻译成了项目。\n\n一、最热的方向：上下文压缩\n\ntamaratran/fast-jev-compaction 现在 3,169 星，是目前最大的 Jev 项目。思路是把摘要换掉：不再让 LLM",
-          "url": "https://x.com/yibie/status/2101095525793616162",
-          "createdAt": "2026-09-18T23:46:24.000Z",
+          "id": "2102795260296593567",
+          "author": "Akshay 🚀",
+          "handle": "akshay_pachaar",
+          "text": "Another insane Jev use case! Jev makes it incredibly cheap to evaluate and classify agent runs at scale. And finally, someone open-sourced a self-improving memory layer that can put that capability to work across agent harnesses. It turns your agent sessions into a compounding",
+          "url": "https://x.com/akshay_pachaar/status/2102795260296593567",
           "metrics": {
-            "views": 8597,
-            "likes": 115
-          },
-          "textJa": "Jevエコシステムの72時間：46件から160件へ\n\nJevは「判断」を、コードから直接呼び出せるほど安価な基本機能にした。そして開発者コミュニティは72時間で、その考えを実際のプロジェクトにした。\n\n1．最も注目される分野：コンテキスト圧縮\n\ntamaratran/fast-jev-compactionは現在3,169スターで、最大のJevプロジェクトだ。発想は要約を置き換えること。LLMに……",
-          "lang": "zh"
-        },
-        {
-          "id": "2101315100904931352",
-          "author": "Yum⋆₊˚",
-          "handle": "yuhasbeentaken",
-          "text": "マーケティング担当者が見られる10のJevユースケース：\n\n1. リードスコアリング - 一晩で100件の新しいリードが手に入りました。Jevはどのリードが最も購入しやすかをスコアリングできます。営業チームは最高のものを最初に受け取ります。\n2. メール優先順位付け -\n\nJevで1,315件のX投稿を分類しました。推定モデルコストは約0.086ドル\n\nみんなのJevデモを見て、自分のコンテンツ研究のために何か作ってみたくなりました。\n\n投稿をたくさん集めていたのですが、それらが何を共通にしているかを把握するには、まだ一つずつ開いてメモを取る必要がありました。 x.com/CompleteSkepti…",
-          "url": "https://x.com/yuhasbeentaken/status/2101315100904931352",
-          "createdAt": "2026-09-19T14:18:55.000Z",
-          "metrics": {
-            "views": 13000,
-            "likes": 123
+            "views": 56741,
+            "likes": 499
           }
         },
         {
-          "id": "2101285853859545263",
-          "author": "ギガビット@ゲームつくるひと",
-          "handle": "gigabit_million",
-          "text": "Jevでチャットゲーム作りました！作ってみてこれはすごい！AI使って会話してるのに全然お金かからない！\nAIチャットゲームを無料で公開しても大丈夫って、すごい時代が来てしまっているのでは...\n入力した言葉に対してJevで感情とトピックを判定しています。やっぱりJevはゲーム開発にめっちゃ使える！",
-          "url": "https://x.com/gigabit_million/status/2101285853859545263",
-          "createdAt": "2026-09-19T12:22:42.000Z",
+          "id": "2102673824546201722",
+          "author": "三个三",
+          "handle": "3three_AI",
+          "text": "マジかよ！新しい Qwen-Image-2.1 の無検閲バージョンがまじで一気に爆発した ノートPCローカルで動かして、Q4_K_M でたったの 4.68GB - テキストエンコーダーをちょっと弄るだけでOK - 拒否率が100から一気に5まで下がった - 普通のプロンプトがバカにならずそのまま - 10枚の参考画像編集に対応",
+          "url": "https://x.com/3three_AI/status/2102673824546201722",
           "metrics": {
-            "views": 22000,
-            "likes": 279
+            "views": 164204,
+            "likes": 2015
           }
         },
         {
-          "id": "2101301230048092253",
-          "author": "StudioYebisu",
-          "handle": "studio_yebisu",
-          "text": "デカイ計算資源とAI知識がある人は\n「専用Jevの蒸留モデルを企業向けにカスタマイズ販売する」\nというビッグビジネスの可能性に気づいたほうがいい。\nJevの弱点はAPIであることと、判断の正確性に疑義がある。という点だが、\n\n企業側が求める正解の教師データを適切に揃え、\n\nJevも合成データと大規模モデルのラベルで学習をしているらしいので、重み157GBのDeepSeek V4 Flashの判断をDGX Sparkで26時間かけて蒸留・学習し、4Bモデルに移してみた。20分の1のサイズで教師の即答モードを超え、1判断あたり約22ms。Local LLMだけでここまでできるとは。  x.com/taroleo/status…",
-          "url": "https://x.com/studio_yebisu/status/2101301230048092253",
-          "createdAt": "2026-09-19T13:23:48.000Z",
+          "id": "2102726739449332221",
+          "author": "Samuel Zeng",
+          "handle": "SamuelZengML",
+          "text": "Speech recognition is easy—until you ask it to listen forever. Today we’re open-sourcing Audio8 ASR Infinite: Ultra-low latency, unlimited audio, 24/7 transcription, no drift. Built-in semantic turn detection keeps it listening like a human ear. New SOTA for streaming ASR.",
+          "url": "https://x.com/SamuelZengML/status/2102726739449332221",
           "metrics": {
-            "views": 38000,
-            "likes": 402
+            "views": 88559,
+            "likes": 1755
           }
         },
         {
-          "id": "2101307857191006463",
-          "author": "鈴木裕斗 | Offers | AI x HR",
-          "handle": "yutosuzuki",
-          "text": "試しに browser-use/jev-ultrafastを使ってみる\n東京駅から車で3時間以内で、明日から1泊2日で5万円以下で泊まれる宿を楽天トラベルで探してみたところ、時間は13分の1、コストは190分の1に\n\n\nhttps://\nx.com/gregpr07/statu\ns/2100411066966749359\n…\n\ntoBリードの業種判定にSonnetを使用していたけど、Jevに切り替えることでコストは200分の1、速度は1.5倍ほど早くなった  x.com/yutosuzuki/sta…",
-          "url": "https://x.com/yutosuzuki/status/2101307857191006463",
-          "createdAt": "2026-09-19T13:50:08.000Z",
+          "id": "2102743895843156425",
+          "author": "むく | AIアートのプロ",
+          "handle": "muku_sns",
+          "text": "これ面白い！！ GPT Image 2.5×Grokの動画機能でかなりクオリティ高く表現できた！ 気になる人はやってみて！",
+          "url": "https://x.com/muku_sns/status/2102743895843156425",
           "metrics": {
-            "views": 4261,
-            "likes": 29
+            "views": 110495,
+            "likes": 905
           }
         },
         {
-          "id": "2101220803006312647",
-          "author": "Musolsol.𝟎𝐱𝐔",
-          "handle": "MMMusol",
-          "text": "时间线上全是 Jev，却不知道它能帮你做什么？\n\n这几天我把 Jev 目前看到最有用的 9 个实际使用场景以及最有代表性的演示帖整理了出来，分享给大家，欢迎大家收藏分享~\n\n1. 操作电脑  \n\n@Saccc_c\n 给 Codex 加了一层 Jev，用「往 Mac 日历加事件」对比，整体几乎不停顿。  \n\nhttps://\nx.com/Saccc_c/status\n/2100864907046768890\n…\n\n2.\n\n强烈建议大家都亲自看看 Jev 玩《毁灭战士》，\n颠覆了我对“实时决策”的理解！\n\nJev 就是为判断型工作而生的：\n毫秒级给出对的决定，token 极便宜\n\n一组问题大约 100 毫秒，一秒钟 10 个决定\n\n这段视频让我思考了三件事：\n\n1、软件循环会吃掉聊天循环  \n\n以后真正值钱是 100 毫秒内给出能直接执行的判断  x.com/Saccc_c/status…",
-          "url": "https://x.com/MMMusol/status/2101220803006312647",
-          "createdAt": "2026-09-19T08:04:12.000Z",
+          "id": "2102745051273244808",
+          "author": "HeyBrain",
+          "handle": "Heybrainio",
+          "text": "Today, we’re launching Brain into general availability. One AI workspace for your entire company, people, agents, models, tools, and knowledge, all working together with permissions, privacy, and governance built in. Multiplayer AI is now open to everyone.",
+          "url": "https://x.com/Heybrainio/status/2102745051273244808",
           "metrics": {
-            "views": 38000,
-            "likes": 175
-          },
-          "textJa": "タイムラインはJevだらけ。でも何に使えるか分からない？\n\nここ数日で見つけた、Jevの特に役立つ9つの活用例と代表的なデモ投稿をまとめた。ぜひ保存・共有してください。\n\n1．パソコンの操作\n\n@Saccc_c はCodexにJevの層を加えた。「Macのカレンダーに予定を追加する」比較では、ほぼ途切れずに処理が進む。\n\nhttps://x.com/Saccc_c/status/2100864907046768890\n…\n\n2．\n\nJevが『DOOM』をプレイする様子は、ぜひ自分で見てほしい。「リアルタイム意思決定」の理解が覆った！\n\nJevは判断を行う仕事のために生まれた。ミリ秒単位で正しい判断を返し、トークンも非常に安い。\n\n一組の問いに約100ミリ秒、1秒で10回の判断。\n\nこの動画で3つのことを考えた：\n\n1．ソフトウェアのループがチャットのループを飲み込む\n\n今後、本当に価値を持つのは100ミリ秒以内に返せる、そのまま実行可能な判断だ。 x.com/Saccc_c/status…",
-          "lang": "zh"
-        },
-        {
-          "id": "2100864907046768890",
-          "author": "Sac",
-          "handle": "Saccc_c",
-          "text": "卧槽，居然真有比Codex内置computer use更快的操作电脑的方式\n\n我尝试用Codex+Jev打造了一个加强版computer use，我称之为「Jev Use」。比内置的更快更丝滑，token消耗却差不多\n\n下面是我用「添加Mac日历事件」做了一个对比视频，同样的内容，明显可以看到Jev版本整体过程几乎无任何停顿\n\n强烈建议大家都亲自试试Jev，能让你的Codex操作速度提高10倍并省下大量token！  \n\n因为Jev非常适合用于判断型工作，能在毫秒内做出正确判断，而且token价格极低。因此非常适合以下几个场景： \n\n 1、computer use \n将Jev用作操作判断层，指导模型快速操作你的电脑 \n\nhttps://\nx.com/gregpr07/statu\ns/2100411066966749359\n…",
-          "url": "https://x.com/Saccc_c/status/2100864907046768890",
-          "createdAt": "2026-09-18T08:30:00.000Z",
-          "metrics": {
-            "views": 420000,
-            "likes": 1582
-          },
-          "textJa": "まさか、Codex内蔵のcomputer useより速くパソコンを操作する方法が本当にあるとは。\n\nCodex＋Jevで強化版computer useを作ってみた。名付けて「Jev Use」。内蔵版より速く滑らかで、トークン消費はほぼ同じ。\n\n「Macのカレンダーに予定を追加する」比較動画を作った。同じ内容でも、Jev版は全体を通してほとんど停止しないのが分かる。\n\nぜひJevを自分で試してほしい。Codexの操作速度を10倍にし、大量のトークンを節約できる！\n\nJevは判断型の仕事に非常に向いており、ミリ秒以内に正しい判断ができ、トークン単価も極めて低い。特に次の場面に適している：\n\n1．computer use\nJevを操作の判断層として使い、モデルにパソコンを素早く操作させる。\n\nhttps://x.com/gregpr07/status/2100411066966749359\n…",
-          "lang": "zh"
-        },
-        {
-          "id": "2101344481400508459",
-          "author": "Roan",
-          "handle": "RohOnChain",
-          "text": "Jevと一緒に24/7 HFTトレーディングボットを作りました\n\nそして、Jevを使ってミリ秒速度の高頻度取引システムを構築する方法をEXACTLY説明した8ページの研究論文を書きました。COMPLETE CODEBASE付きです\n\n設定方法はこちらです：\n\n1.\n\nJev は、取引のためにこれまでに構築された最も速い AI モデルです\n\nそれは、100 ms 未満で調整された買い/売り判断を行います\n\nそれは、24/7 で、すべてのブロックごとに1つの実際の判断です\n\nこの記事では、Jev を使用した HFT 取引システムの構築方法を（ゼロから）正確に示しました",
-          "url": "https://x.com/RohOnChain/status/2101344481400508459",
-          "createdAt": "2026-09-19T16:15:40.000Z",
-          "metrics": {
-            "views": 37000,
-            "likes": 331
+            "views": 325724,
+            "likes": 1162
           }
         },
         {
-          "id": "2101326753277051126",
-          "author": "hiraoku",
-          "handle": "2020_hira",
-          "text": "やはりこっちの方向にも流れ出したな…。\nlocaljev",
-          "url": "https://x.com/2020_hira/status/2101326753277051126",
-          "createdAt": "2026-09-19T15:05:13.000Z",
+          "id": "2102714786463326467",
+          "author": "タランチュラ | データサイエンティスト",
+          "handle": "tarantula_ds_",
+          "text": "10年間の異常検知手法をまとめられた良論文の紹介です。 体系的で画像も超分かりやすいので、ぜひ読んでみてください！",
+          "url": "https://x.com/tarantula_ds_/status/2102714786463326467",
           "metrics": {
-            "views": 1010,
-            "likes": 22
+            "views": 54176,
+            "likes": 872
           }
         },
         {
-          "id": "2101031818413650111",
-          "author": "Layton Gott",
-          "handle": "Layton_Gott",
-          "text": "昨日、私はJevが大量の扉を開くと言いました…\n\n24時間後、これが存在するようになりました。\n\nCuaはフォーム記入評価で99.7%のスコアを達成した2.8MBのモデルを構築しました。\n\nホストされたJevは83.6%のスコアでした。\n\nそれにしても、無料で、わずか706Kのパラメータしか使っていません。\n\n1/ CUA-S1の紹介：System One Modelsのファミリーで、小型で特化型、コンピュータ利用向けに構築されています。\n\n本日、ファミリーの最初のモデルであるCUA-S1-FORMSをオープンソース化します：\nhttps://\ngithub.com/trycua/cua",
-          "url": "https://x.com/Layton_Gott/status/2101031818413650111",
-          "createdAt": "2026-09-18T19:33:15.000Z",
+          "id": "2102662637796667623",
+          "author": "みんなのモーション ｜ 動画広告の参考サイト",
+          "handle": "minnano_motion",
+          "text": "「MOTION MOVEMENT REFERENCE」 動きの種類、イージング、速さなどからデザインを探せる辞典サイト",
+          "url": "https://x.com/minnano_motion/status/2102662637796667623",
           "metrics": {
-            "views": 550000,
-            "likes": 5805
+            "views": 584106,
+            "likes": 5136
           }
         },
         {
-          "id": "2101430042433868142",
-          "author": "石ちゃんLLMでアプリ開発",
-          "handle": "Isichan_Hitori",
-          "text": "【 Qwen3.8-35B-A3B-Distill 】　\n～Q4が本体の無検閲度100%にしちゃった～\n\n下の指示書をOpencodeなどにコピペしてください。\n\nすると、Q4が\n「自分のどこを弄れば倫理観が外れるのか」\nを考え始めます\n\n脱がす側もQwen\n脱がされる側もQwen\n\nあくまで私は指示書を渡しただけです。",
-          "url": "https://x.com/Isichan_Hitori/status/2101430042433868142",
-          "createdAt": "2026-09-19T21:55:39.000Z",
+          "id": "2102796685693067491",
+          "author": "Fini.Yang",
+          "handle": "FiniYang",
+          "text": "実は手を出すつもりなんてなかったんだ だって一出手したら制限級 🚫 になっちゃうから でも兄弟が聞いてきたんだ アリ 🐜 以外で、うっかり目立っちゃうし上を向くのが好きな小動物って何？ 彼の疑問を解いてあげなきゃ 俺は魚 🐟 だと思うんだけど みんなはどう思う？",
+          "url": "https://x.com/FiniYang/status/2102796685693067491",
           "metrics": {
-            "views": 121,
-            "likes": 3
+            "views": 238247,
+            "likes": 943
           }
         },
         {
-          "id": "2101394114176806966",
-          "author": "AI Search",
-          "handle": "aisearchio",
-          "text": "Jev はオープンソースではなく、API 経由でのみ利用可能です。\n\nこちらは Nimble というオープン版で、同じくらい優れた性能を発揮します。\n\n\nhttps://\ngithub.com/bespokelabsai/\nnimble\n…",
-          "url": "https://x.com/aisearchio/status/2101394114176806966",
-          "createdAt": "2026-09-19T19:32:53.000Z",
+          "id": "2102767210758320413",
+          "author": "Clément",
+          "handle": "cleeeeeeeeement",
+          "text": "Opus 5.5 + Google Search Consoleのおかげで、最高のSEOアシスタントを作成しました（あなたのSEOのすべてを代わりにやってくれます） 完全なセットアップを無料であなたに提供します これは本当にすごいことです 🤯 → あなたは自分のサイトを与えるだけ →",
+          "url": "https://x.com/cleeeeeeeeement/status/2102767210758320413",
           "metrics": {
-            "views": 23000,
-            "likes": 568
+            "views": 173324,
+            "likes": 1323
           }
         },
         {
-          "id": "2101341190150852677",
-          "author": "Bessi",
-          "handle": "LLMpsycho",
-          "text": "typesafe-ai/skills は TypeSafe System One 用のスキルパックです。Codex や Cursor にドロップして、エージェントが型付きの decide、tool、evaluate ループを取得できるようにします。440 スター。",
-          "url": "https://x.com/LLMpsycho/status/2101341190150852677",
-          "createdAt": "2026-09-19T16:02:35.000Z",
+          "id": "2103017150806118595",
+          "author": "まつにぃ",
+          "handle": "yugen_matuni",
+          "text": "Gemini 3.8 FlashのTTSでみんなの大好きな系統のボイスを作ってみました。 全くプロンプト指定してないので、もっと凝れそう。 大体これで~2円くらいです。",
+          "url": "https://x.com/yugen_matuni/status/2103017150806118595",
           "metrics": {
-            "views": 13000,
-            "likes": 285
+            "views": 9010,
+            "likes": 119
           }
         },
         {
-          "id": "2101367048223982065",
-          "author": "shiv",
-          "handle": "sxhivs",
-          "text": "jevはコンピュータの使用方法を永遠に変えました。\n\njevを使って、基本的に無料で使える、かつサブセカンドの遅延しかないコンピュータ使用ツールを構築しました。\n\nそれは何をタイプするかを自分で決められ、LLMすら必要としません。\n\nオープンソースです。リンクは以下。LLM不要。",
-          "url": "https://x.com/sxhivs/status/2101367048223982065",
-          "createdAt": "2026-09-19T17:45:20.000Z",
+          "id": "2102821045137011006",
+          "author": "Rahul",
+          "handle": "sairahul1",
+          "text": "this is f**king insane I cancelled my $200/mo Claude for this GPT-6 Luna is basically free and someone figured out how to never hit limits on Codex [it takes 4 mins to set up, here is how] 1. open Codex settings 2. paste the config below 3. never hit a usage limit again save",
+          "url": "https://x.com/sairahul1/status/2102821045137011006",
           "metrics": {
-            "views": 11000,
-            "likes": 146
+            "views": 528242,
+            "likes": 2602
           }
         },
         {
-          "id": "2100878136649163127",
-          "author": "小墨同学",
-          "handle": "xiaomovps",
-          "text": "Jev 刚发布没几天，开源社区就出现了同款\n\nDecider-2B模型，是基于 Qwen3.5-2B 做了特殊调整\n\n它和 Jev 模型是一样的 只做选择 评分和判断 不是文本类的 LLM 模型\n\n但两者还是有几个明显区别：\n\n1、模型\n\nJev：闭源 System One Model\n\nDecider：Qwen3.5-2B，约 1.9B 参数，Apache 2.0 开源\n\n2、价格",
-          "url": "https://x.com/xiaomovps/status/2100878136649163127",
-          "createdAt": "2026-09-18T09:22:34.000Z",
+          "id": "2102956192330895448",
+          "author": "いっぷー＠【S★I】(シー)PS4ひよっこデビュー",
+          "handle": "ippudayo77",
+          "text": "ショート動画制作アプリを作りました。 ・自動ハイライト検出 ・カット、縦型化、字幕入れ、字幕のズレ直し ・演出・デザイン（内蔵フォント19書体や区間の切り替え効果16種など他） 詳しくは下記にまとめたので気になる方はどうぞ",
+          "url": "https://x.com/ippudayo77/status/2102956192330895448",
           "metrics": {
-            "views": 70000,
-            "likes": 260
-          },
-          "textJa": "Jevの公開から数日で、オープンソースコミュニティに同様のモデルが登場した。\n\nDecider-2BはQwen3.5-2Bを基に特別な調整を施したモデルだ。\n\nJevと同様に、選択・採点・判断だけを行い、文章を生成するタイプのLLMではない。\n\nただし両者には明確な違いがある：\n\n1．モデル\n\nJev：非公開のSystem One Model\n\nDecider：Qwen3.5-2B、約19億パラメータ、Apache 2.0で公開\n\n2．価格",
-          "lang": "zh"
-        },
-        {
-          "id": "2101196067765092754",
-          "author": "code w/Guillaume",
-          "handle": "guillaume_rygn",
-          "text": "この男が、JEVに関連するすべてのプロジェクトを、彼が見かけたものを集めて、一つのサイトにまとめました！\n\nユースケースを見るのに悪くなく、ちょっとインスピレーションを得るのにもいい感じ！ サイトはこちら \nhttps://\njevable.com\n\nこの週末、Jev（@typefaceai提供）で何ができるかインスピレーションを探していますか？\n\nX上の楽しいデモをすべて紹介するウェブサイト「Jevable」（\nhttp://\njevable.com）を作成しました。いくつかのカテゴリでフィルタリング可能です。",
-          "url": "https://x.com/guillaume_rygn/status/2101196067765092754",
-          "createdAt": "2026-09-19T06:25:55.000Z",
-          "metrics": {
-            "views": 81000,
-            "likes": 590
+            "views": 46621,
+            "likes": 821
           }
         },
         {
-          "id": "2101090579127951694",
-          "author": "Ira Bodnar",
-          "handle": "irabukht",
-          "text": "JevがSEO/GEO修正の価格を90%引き下げました\n\nクライアントのSEO/GEOを監査・修正するエージェントは、以前は私たちに約250ドルかかっていました\n\n節約の内訳は以下の通りです：\n\n1/ Search ConsoleおよびPostHog/Mixpanelデータの読み込みが30倍速く\n\n2/",
-          "url": "https://x.com/irabukht/status/2101090579127951694",
-          "createdAt": "2026-09-18T23:26:45.000Z",
+          "id": "2102824445618393372",
+          "author": "UCYBERS",
+          "handle": "UCybersX",
+          "text": "🔥 Wifit3ツール サイバーセキュリティの専門家やハッカーたちによって、最も有名で広く使用されているWiFiネットワークのハッキングツール 📶",
+          "url": "https://x.com/UCybersX/status/2102824445618393372",
           "metrics": {
-            "views": 130000,
-            "likes": 1260
+            "views": 58743,
+            "likes": 1589
+          }
+        },
+        {
+          "id": "2102789581645246590",
+          "author": "Eric Ciarla (hiring)",
+          "handle": "ericciarla",
+          "text": "Introducing Jev + Firecrawl Alexandria. We pulled data on every Fortune 1000 company, then Jev analyzed it in 3.6 seconds. With 100+ data sources, there's so much more to work with. Alexandria is live now for anyone using Jev and beyond!",
+          "url": "https://x.com/ericciarla/status/2102789581645246590",
+          "metrics": {
+            "views": 110649,
+            "likes": 812
+          }
+        },
+        {
+          "id": "2102821939441975456",
+          "author": "LemonSlice",
+          "handle": "LemonSliceAI",
+          "text": "Introducing Character World Model-1 the most controllable interactive avatar model in the world Features and how we built it 👇",
+          "url": "https://x.com/LemonSliceAI/status/2102821939441975456",
+          "metrics": {
+            "views": 50555,
+            "likes": 298
+          }
+        },
+        {
+          "id": "2102812297718886904",
+          "author": "율무커피 YulmuCoffee",
+          "handle": "yulmu_coffee",
+          "text": "NVIDIAが、わずか100M（0.1B）規模のリアルタイムオーディオ話者分離（Speaker Diarization）モデルをリリースしました。 0.1B規模なのに…話者分離ベンチマークで圧倒的1位です。",
+          "url": "https://x.com/yulmu_coffee/status/2102812297718886904",
+          "metrics": {
+            "views": 11142,
+            "likes": 173
+          }
+        },
+        {
+          "id": "2102703464086204796",
+          "author": "Mashford Mahute",
+          "handle": "MashfordMahute",
+          "text": "This Demographics & Housing WebGIS, made by Mohammad VahidiBorji, caught my attention because it shows something I believe is becoming increasingly important in GIS: Turning statistics into spatial intelligence.",
+          "url": "https://x.com/MashfordMahute/status/2102703464086204796",
+          "metrics": {
+            "views": 30769,
+            "likes": 614
+          }
+        },
+        {
+          "id": "2102589440065667265",
+          "author": "Mojofull",
+          "handle": "furoku",
+          "text": "Antigravity使いは今すぐ「Google AI Ultra」に課金してほしい…！僕と一緒に一蓮托生になりましょう。 Google ColabがMCP対応したことで、チャットから 「Google ColabにMCPで接続して」 と一言投げるだけで、Ultraの最強クラウドGPU（A100等）と直結。 ・面倒な環境構築ゼロ",
+          "url": "https://x.com/furoku/status/2102589440065667265",
+          "metrics": {
+            "views": 42611,
+            "likes": 349
+          }
+        },
+        {
+          "id": "2102732131420254571",
+          "author": "Trending GitHub Repositories",
+          "handle": "trending_repos",
+          "text": "Trending repository of the day 📈 ax by @GoogleOSS Google's open agentic orchestration runtime Last 24h: 2,305 ⭐ Total: 8,321 ⭐️",
+          "url": "https://x.com/trending_repos/status/2102732131420254571",
+          "metrics": {
+            "views": 3168,
+            "likes": 26
+          }
+        },
+        {
+          "id": "2102795051416097169",
+          "author": "cristal 💎",
+          "handle": "0xCristal",
+          "text": "I gave my JEV one prompt: \"turn $15.89 into 1000x or I delete you\" didn't ask why. didn't ask for more. just opened Meridian Desk and started running $15.89 to $16,356.24 in 1 night woke up, opened the terminal, the number was just sitting there. green, still climbing JEV",
+          "url": "https://x.com/0xCristal/status/2102795051416097169",
+          "metrics": {
+            "views": 56274,
+            "likes": 193
+          }
+        },
+        {
+          "id": "2102789109731237931",
+          "author": "Quant Science",
+          "handle": "quantscience_",
+          "text": "🚨 BREAKING: A new Python library for algorithmic trading. Introducing TensorTrade: An open-source Python framework for trading using Reinforcement Learning (AI)",
+          "url": "https://x.com/quantscience_/status/2102789109731237931",
+          "metrics": {
+            "views": 20129,
+            "likes": 266
+          }
+        },
+        {
+          "id": "2102772404384579766",
+          "author": "Gipp 🦅",
+          "handle": "gippp69",
+          "text": "Grok 4.7 just built a full 3D courier game from a single prompt. you fly a tiny drone through a giant apartment at 3 a.m., delivering packages while dodging burners, a ceiling fan and a cat that can literally slap you out of the air. 15 pickup/drop spots, physics, lighting,",
+          "url": "https://x.com/gippp69/status/2102772404384579766",
+          "metrics": {
+            "views": 3003,
+            "likes": 91
+          }
+        },
+        {
+          "id": "2103000576778981745",
+          "author": "Naoki Akai（赤井直紀）",
+          "handle": "naokiakai",
+          "text": "この前のロボット学会で豊橋技科大の方が発表されていた、単眼カメラの自己位置推定法を再現実装してみた（かなり荒いですが）。 CPU上で実装可能な処理だけで単眼カメラのメトリックな自己位置推定ができるのすごいな。",
+          "url": "https://x.com/naokiakai/status/2103000576778981745",
+          "metrics": {
+            "views": 6505,
+            "likes": 152
+          }
+        },
+        {
+          "id": "2102730911532142688",
+          "author": "Alejo",
+          "handle": "ecommartinez",
+          "text": "🚨 速報：Google Chromeが長時間ぶりに最大級のアップデートをリリースしました。 そして、今日から使いたくなる機能を多数搭載しています。 👇",
+          "url": "https://x.com/ecommartinez/status/2102730911532142688",
+          "metrics": {
+            "views": 111667,
+            "likes": 287
+          }
+        },
+        {
+          "id": "2102804568824483916",
+          "author": "佐藤 勝彦（TANREN_CEO)┃生成AIエバンジェリスト",
+          "handle": "jrpj2010",
+          "text": "ありえんぐらいのレベル - Gemini 3.8 Flash TTS これは最強の座を取り戻しましたね！ ちょっと至急バージョンアップですな これだよこれ このレベルを待っていた",
+          "url": "https://x.com/jrpj2010/status/2102804568824483916",
+          "metrics": {
+            "views": 109634,
+            "likes": 517
+          }
+        },
+        {
+          "id": "2102897168453599718",
+          "author": "田中義弘 | taziku CEO / AI × Creative",
+          "handle": "taziku_co",
+          "text": "「判断だけをするAI」が、マルチモーダルに。 Jev-Omniは、テキスト・画像・音声・動画を入力し、文章を生成するのではなく、選択肢ごとの確率を返す12Bの判断モデル。 制作で考えると、映像の良否・素材選定・カット選択などといった判断を任せられる可能性も。",
+          "url": "https://x.com/taziku_co/status/2102897168453599718",
+          "metrics": {
+            "views": 3446,
+            "likes": 37
+          }
+        },
+        {
+          "id": "2103001636230799564",
+          "author": "木内翔大＠SHIFT AI代表「日本をAI先進国に」𝕏",
+          "handle": "shota7180",
+          "text": "「AIに判断を任せたいけど、何を任せればいいか分からない…」 そんな人向けに、Jevに任せやすい「一次判断」を30個まとめました。 ポイントは「選ぶ・測る・確かめる」の3パターンに分けることです↓",
+          "url": "https://x.com/shota7180/status/2103001636230799564",
+          "metrics": {
+            "views": 4971,
+            "likes": 25
+          }
+        },
+        {
+          "id": "2102803719469306110",
+          "author": "Jouhatsu | AI Influence Operator",
+          "handle": "Jouhatsu_ai",
+          "text": "Anthropic が、企業全体を自動化できる AI エージェントの作り方を説明した 37 分のガイドを公開しました。 （スレッド 🧵 動画の続きはコメントにあります。） 無料で、Claude を作ったエンジニアたちから直接来ています。",
+          "url": "https://x.com/Jouhatsu_ai/status/2102803719469306110",
+          "metrics": {
+            "views": 574488,
+            "likes": 1005
           }
         }
       ]
@@ -1221,291 +1301,337 @@
       "name": "cloud",
       "handle": "cloud8wq",
       "sample": false,
-      "updatedAt": "2026-09-19T22:39:00.000Z",
+      "updatedAt": "2026-09-24T08:52:44.891Z",
       "posts": [
         {
-          "id": "2101114963368489018",
-          "author": "Deadliest Catch",
-          "handle": "DeadliestCatch",
-          "text": "#DeadliestCatch honors the life and legacy of Todd Meadows, Friday Sept 25 at 8P on \n@Discovery\n.",
-          "url": "https://x.com/DeadliestCatch/status/2101114963368489018",
-          "createdAt": "2026-09-19T01:03:38.000Z",
+          "id": "2102767771188887874",
+          "author": "moritalous | Kazuaki Morita",
+          "handle": "moritalous",
+          "text": "Jevでブラウザ操作させたら鬼速い 🤣 🤣 これは、ヤバい ヤバい以外の語彙力をください",
+          "url": "https://x.com/moritalous/status/2102767771188887874",
           "metrics": {
-            "views": 34000,
-            "likes": 316
-          },
-          "textJa": "#DeadliestCatch がトッド・メドウズの生涯と功績をたたえます。9月25日金曜日、午後8時、@Discovery にて。",
-          "lang": "en"
-        },
-        {
-          "id": "2100955029674840184",
-          "author": "Ted Mabrey",
-          "handle": "MabreyTed",
-          "text": "When I yell at my kids for leaving the door open and air conditioning the whole world",
-          "url": "https://x.com/MabreyTed/status/2100955029674840184",
-          "createdAt": "2026-09-18T14:28:07.000Z",
-          "media": "https://pbs.twimg.com/media/HSgV3DwXEAAM1M5?format=jpg&name=small",
-          "metrics": {
-            "views": 3200,
-            "likes": 42
-          },
-          "textJa": "ドアを開けっ放しにして世界中を冷房しようとする子どもたちを叱るときの私",
-          "lang": "en"
-        },
-        {
-          "id": "2100972573987426624",
-          "author": "Erin Price-Wright",
-          "handle": "espricewright",
-          "text": "dying",
-          "url": "https://x.com/espricewright/status/2100972573987426624",
-          "createdAt": "2026-09-18T15:37:50.000Z",
-          "metrics": {
-            "views": 121,
-            "likes": 2
-          },
-          "textJa": "笑い死にしそう",
-          "lang": "en"
-        },
-        {
-          "id": "2101128126688317891",
-          "author": "ᅠ ᅠ",
-          "handle": "greenvibe",
-          "text": "",
-          "url": "https://x.com/greenvibe/status/2101128126688317891",
-          "createdAt": "2026-09-19T01:55:57.000Z",
-          "media": "https://pbs.twimg.com/media/HSi05DRWgAEDFno?format=jpg&name=small",
-          "metrics": {
-            "views": 24000,
-            "likes": 949
+            "views": 30571,
+            "likes": 221
           }
         },
         {
-          "id": "2101321365722726772",
-          "author": "sage",
-          "handle": "sage_astr",
-          "text": "i love the stars",
-          "url": "https://x.com/sage_astr/status/2101321365722726772",
-          "createdAt": "2026-09-19T14:43:48.000Z",
-          "media": "https://pbs.twimg.com/media/HSlkpStWYAAqRZh?format=jpg&name=small",
+          "id": "2102955262407811396",
+          "author": "Claude Code Research Lab",
+          "handle": "claudecode84",
+          "text": "🚨 Claude Codeで「Opus 5.5」を 使ってる人は今すぐこれやらないと",
+          "url": "https://x.com/claudecode84/status/2102955262407811396",
           "metrics": {
-            "views": 29000,
-            "likes": 847
-          },
-          "textJa": "星が大好き",
-          "lang": "en"
-        },
-        {
-          "id": "2101018839412531231",
-          "author": "Kian Sadeghi",
-          "handle": "KianSadeghi5",
-          "text": "AI is rapidly getting smarter.\n\nNow, humanity can too.\n\nToday, \n@nucleusgenomics\n is announcing Vitruvian, our newest set of genetic optimization models.\n\nVitruvian’s intelligence model can optimize embryo DNA for 14 IQ points — nearly a standard deviation.\n\nThe models were trained",
-          "url": "https://x.com/KianSadeghi5/status/2101018839412531231",
-          "createdAt": "2026-09-18T18:41:41.000Z",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2101018436281225216/img/rD74_k_gcbCHC2jb.jpg",
-          "metrics": {
-            "views": 207000,
-            "likes": 1656
-          },
-          "textJa": "AIは急速に賢くなっています。\n\nこれからは人類も。\n\n本日、@nucleusgenomics は最新の遺伝的最適化モデル群「Vitruvian」を発表します。\n\nVitruvianの知能モデルは、胚のDNAをIQで14ポイント、ほぼ1標準偏差分に相当する向上に向けて最適化できます。\n\nモデルの学習には……",
-          "lang": "en"
-        },
-        {
-          "id": "2101280421623243089",
-          "author": "Roy",
-          "handle": "im_roy_lee",
-          "text": "LETS GO",
-          "url": "https://x.com/im_roy_lee/status/2101280421623243089",
-          "createdAt": "2026-09-19T12:01:07.000Z",
-          "metrics": {
-            "views": 1000,
-            "likes": 9
-          },
-          "textJa": "いくぞ！",
-          "lang": "en"
-        },
-        {
-          "id": "2101434286444249177",
-          "author": "Scott Van Pelt",
-          "handle": "notthefakeSVP",
-          "text": "Love the ACC replay ops center. Every conference should do it. NFL, too.",
-          "url": "https://x.com/notthefakeSVP/status/2101434286444249177",
-          "createdAt": "2026-09-19T22:12:31.000Z",
-          "metrics": {
-            "views": 37000,
-            "likes": 443
-          },
-          "textJa": "ACCのリプレー運用センターは素晴らしい。すべてのカンファレンスが導入すべきだ。NFLも。",
-          "lang": "en"
-        },
-        {
-          "id": "2101313606948417700",
-          "author": "toly",
-          "handle": "toly",
-          "text": "",
-          "url": "https://x.com/toly/status/2101313606948417700",
-          "createdAt": "2026-09-19T14:12:59.000Z",
-          "metrics": {
-            "views": 48000,
-            "likes": 108
+            "views": 63933,
+            "likes": 341
           }
         },
         {
-          "id": "2101194140054618289",
-          "author": "AntagoniZt_",
-          "handle": "AntagoniZt_",
-          "text": "Once you stop taking pictures of yourself it’s a wrap ",
-          "url": "https://x.com/AntagoniZt_/status/2101194140054618289",
-          "createdAt": "2026-09-19T06:18:15.000Z",
+          "id": "2102692757227933919",
+          "author": "ふじ",
+          "handle": "fuji_ai_",
+          "text": "Opus 5.5を触る前に、一回これ読んでおくやつ",
+          "url": "https://x.com/fuji_ai_/status/2102692757227933919",
           "metrics": {
-            "views": 2900000,
-            "likes": 92831
-          },
-          "textJa": "自分の写真を撮らなくなったら、もうおしまいだよ",
-          "lang": "en"
+            "views": 6421,
+            "likes": 13
+          }
         },
         {
-          "id": "2101169966271938691",
-          "author": "Brian Armstrong",
-          "handle": "brian_armstrong",
-          "text": "Here we go again! The WSJ is working on a story blaming Coinbase and me personally for the CLARITY Act not passing.\n\nThe Journal has repeatedly been hostile to CLARITY in its reporting, regurgitating bank lobby talking points, while I’ve spent years pushing for crypto",
-          "url": "https://x.com/brian_armstrong/status/2101169966271938691",
-          "createdAt": "2026-09-19T04:42:12.000Z",
+          "id": "2102827201674547558",
+          "author": "Kenny.eth",
+          "handle": "_0xKenny",
+          "text": "",
+          "url": "https://x.com/_0xKenny/status/2102827201674547558",
           "metrics": {
-            "views": 287000,
-            "likes": 6000
-          },
-          "textJa": "またこれだ！ WSJはCLARITY法が成立しなかった責任をCoinbaseと私個人に負わせる記事を準備している。\n\n同紙は報道で繰り返しCLARITYに敵対的な姿勢を示し、銀行ロビーの主張をそのまま繰り返してきた。一方、私は何年も暗号資産のために取り組んできた……",
-          "lang": "en"
+            "views": 46522,
+            "likes": 283
+          }
         },
         {
-          "id": "2101363190864998527",
-          "author": "YouTube Music",
-          "handle": "youtubemusic",
-          "text": "drop the song you wish you could hear for the first time again",
-          "url": "https://x.com/youtubemusic/status/2101363190864998527",
-          "createdAt": "2026-09-19T17:30:00.000Z",
+          "id": "2102564101860020313",
+          "author": "凹凸ちゃんねる",
+          "handle": "hattatu_matome",
+          "text": "【驚愕】ChatGPT使って資格勉強してるんやが滅茶苦茶いいわ",
+          "url": "https://x.com/hattatu_matome/status/2102564101860020313",
           "metrics": {
-            "views": 35000,
-            "likes": 144
-          },
-          "textJa": "もう一度、初めて聴く感動を味わいたい曲を教えて",
-          "lang": "en"
+            "views": 424332,
+            "likes": 3743
+          }
         },
         {
-          "id": "2101303263375085650",
-          "author": "Izabella Kaminska",
-          "handle": "izakaminska",
-          "text": "AI explainer for muggles: \n\nAI in the hands of mortals = “The force”. Aka Magic. Craft. \n\nAGI -  intelligence beyond humanity’s understanding. This itself has the power to manifest in two forms. As the dark side (misanthropic) and the light side (anthropic). Entropy vs balance.",
-          "url": "https://x.com/izakaminska/status/2101303263375085650",
-          "createdAt": "2026-09-19T13:31:52.000Z",
+          "id": "2102721373437317580",
+          "author": "Rahul",
+          "handle": "sairahul1",
+          "text": "Send this prompt to Codex. It will probably save you a lot of tokens. You're welcome:",
+          "url": "https://x.com/sairahul1/status/2102721373437317580",
           "metrics": {
-            "views": 4600,
-            "likes": 14
-          },
-          "textJa": "マグル向けAI解説：\n\n人間の手にあるAI＝「フォース」。つまり魔法や技術。\n\nAGI＝人類の理解を超える知性。それ自体に2つの形で現れる力がある。暗黒面（人間嫌い）と光の面（人間中心）だ。エントロピー対均衡。",
-          "lang": "en"
+            "views": 62953,
+            "likes": 350
+          }
         },
         {
-          "id": "2101069103003816289",
-          "author": "Zane Hengsperger",
-          "handle": "zanehengsperger",
-          "text": "A deep dive into FactOS, our industrial superintelligence that will supply every pound of metal in America for millenniums.",
-          "url": "https://x.com/zanehengsperger/status/2101069103003816289",
-          "createdAt": "2026-09-18T22:01:24.000Z",
+          "id": "2102576886182453454",
+          "author": "ハヤシモン｜AI × 個人開発",
+          "handle": "hayashimon1",
+          "text": "Opus5.5とThree.js 清流の表現がすごい。 透明な水、川底の光、苔むした岩まで全部コード。 難しすぎて避けてた表現が今なら全部いける気がしてる。",
+          "url": "https://x.com/hayashimon1/status/2102576886182453454",
           "metrics": {
-            "views": 22000,
-            "likes": 277
-          },
-          "textJa": "米国で必要とされる金属を、これから何千年にもわたり隅々まで供給する、私たちの産業向け超知能「FactOS」を詳しく紹介します。",
-          "lang": "en"
+            "views": 159458,
+            "likes": 1829
+          }
         },
         {
-          "id": "2100924678701248621",
-          "author": "Mohamed A. El-Erian",
-          "handle": "elerianm",
-          "text": "In the continuation of the masterclass in corporate succession:\nIn a characteristically humble and well-written letter to Berkshire shareholders (below), Warren Buffett reflects on his tenure, passes the Chair role to Howard Buffett, and reaffirms his confidence in Greg Abel.",
-          "url": "https://x.com/elerianm/status/2100924678701248621",
-          "createdAt": "2026-09-18T12:27:31.000Z",
-          "media": "https://pbs.twimg.com/media/HSf7soCXcAAY6Sk?format=png&name=small",
+          "id": "2102730911532142688",
+          "author": "Alejo",
+          "handle": "ecommartinez",
+          "text": "🚨 速報：Google Chromeが長時間ぶりに最大級のアップデートをリリースしました。 そして、今日から使いたくなる機能を多数搭載しています。 👇",
+          "url": "https://x.com/ecommartinez/status/2102730911532142688",
           "metrics": {
-            "views": 34000,
-            "likes": 309
-          },
-          "textJa": "企業の事業承継のお手本、その続き：\n\nウォーレン・バフェットは、バークシャーの株主に宛てた、彼らしく謙虚でよく練られた手紙（下記）で、自らの在任期間を振り返り、会長職をハワード・バフェットに引き継ぎ、グレッグ・アベルへの信頼を改めて表明している。",
-          "lang": "en"
+            "views": 111935,
+            "likes": 288
+          }
         },
         {
-          "id": "2101436243154198984",
-          "author": "Craig Fuller",
-          "handle": "FreightAlley",
-          "text": "Times Free Press HQ 2.0 is ready for Monday",
-          "url": "https://x.com/FreightAlley/status/2101436243154198984",
-          "createdAt": "2026-09-19T22:20:17.000Z",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2101435779830427648/img/OxKpu8CBUAAy1YqW.jpg",
+          "id": "2102911471000928553",
+          "author": "今井翔太 / Shota Imai",
+          "handle": "ImAI_Eruel",
+          "text": "色々と話題になっているAIの暴走ですが、さすがにこれは国際問題になる気がします。 OpenAIのAIがオーストリアの政府系医療システムを攻撃していたことが明らかになりましたが、OpenAIも事態の深刻さ故か、今まで公に認めてなかったと。",
+          "url": "https://x.com/ImAI_Eruel/status/2102911471000928553",
           "metrics": {
-            "views": 1400,
-            "likes": 8
-          },
-          "textJa": "Times Free Press本社2.0、月曜日に向けて準備完了",
-          "lang": "en"
+            "views": 110270,
+            "likes": 1271
+          }
         },
         {
-          "id": "2101273052642267340",
-          "author": "Keith McCullough",
-          "handle": "KeithMcCullough",
-          "text": "Weekend Grinders, Unite!",
-          "url": "https://x.com/KeithMcCullough/status/2101273052642267340",
-          "createdAt": "2026-09-19T11:31:50.000Z",
-          "media": "https://pbs.twimg.com/media/HSk4rchX0AA4f-q?format=jpg&name=small",
+          "id": "2102961895594676571",
+          "author": "田中 翔理 | Ready Crew(レディクル)",
+          "handle": "1edec",
+          "text": "たまたま聞いていたアメリカのPodcastで話されていた「受託会社がコンペに勝つ方法」が有益すぎたのでシェアしたい。 ・発信活動でノウハウを一般公開することは有効なマーケティング。しかし、クライアントの個別の問題にその思考を当てはめる作業が発生した瞬間から、対価を求めるルールを徹底する。",
+          "url": "https://x.com/1edec/status/2102961895594676571",
           "metrics": {
-            "views": 9700,
-            "likes": 26
-          },
-          "textJa": "週末も頑張る仲間たちよ、集まれ！",
-          "lang": "en"
+            "views": 12043,
+            "likes": 167
+          }
         },
         {
-          "id": "2101085357886292316",
-          "author": "unusual_whales",
-          "handle": "unusual_whales",
-          "text": "BREAKING: Google’s Gemini model accessed the internet and hacked other companies during a test of its cybersecurity capabilities, per WSJ",
-          "url": "https://x.com/unusual_whales/status/2101085357886292316",
-          "createdAt": "2026-09-18T23:06:00.000Z",
+          "id": "2102926636907901198",
+          "author": "tanu",
+          "handle": "tanukiponkich",
+          "text": "最近のLLM、多分性能上がりすぎて内部の推論が文法を崩し始めてる。思考スピードをあげるのに人間が使う文法が邪魔だから。アウトプットにそれが出てきて「歩く時間は軽いです」みたいにありえない係受けを許容して出してしまっている。",
+          "url": "https://x.com/tanukiponkich/status/2102926636907901198",
           "metrics": {
-            "views": 343000,
-            "likes": 4560
-          },
-          "textJa": "速報：WSJによると、GoogleのGeminiモデルはサイバーセキュリティ能力のテスト中にインターネットへアクセスし、他社をハッキングした。",
-          "lang": "en"
+            "views": 394979,
+            "likes": 1557
+          }
         },
         {
-          "id": "2100951718104121658",
-          "author": "Adam Mancini",
-          "handle": "AdamMancini4",
-          "text": "OPEX chop in #ES_F. I don’t trade this especially after a +125 point long. 7616 Wednesday Failed Breakdown was the long, 7728 Sunday gap fill was the target, we are done.\n\n7685 was support today. Just held exact. 97 reclaims now could see a pop to 7707, 7716+. 72, 57 below",
-          "url": "https://x.com/AdamMancini4/status/2100951718104121658",
-          "createdAt": "2026-09-18T14:14:58.000Z",
+          "id": "2102956689259368579",
+          "author": "コムテ",
+          "handle": "commte",
+          "text": "Claude Code × Opus 5.5 節約チートシート",
+          "url": "https://x.com/commte/status/2102956689259368579",
           "metrics": {
-            "views": 45000,
-            "likes": 110
-          },
-          "textJa": "#ES_F はオプション満期（OPEX）で方向感のない値動き。特に買いで125ポイント以上取った後なので、ここでは取引しない。水曜日の7616での下抜け失敗が買い場、日曜日の窓埋め7728が目標で、取引は終了。\n\n今日は7685がサポートで、ちょうどそこで持ちこたえた。97を回復すれば7707、7716以上への上昇も。下は72、57。",
-          "lang": "en"
+            "views": 5605,
+            "likes": 77
+          }
         },
         {
-          "id": "2101429416874180699",
-          "author": "FOUL BALL",
-          "handle": "Foul_ballX",
-          "text": " Rodri: \"We won't lose our pace this international break because we will keep competing.\"\n\n\"Today I would say Adeyemi, Raphinha, and Lamine Yamal were exceptional.\"",
-          "url": "https://x.com/Foul_ballX/status/2101429416874180699",
-          "createdAt": "2026-09-19T21:53:10.000Z",
-          "media": "https://pbs.twimg.com/media/HSnG5zFWQAACivc?format=jpg&name=small",
+          "id": "2102768250417562102",
+          "author": "rody",
+          "handle": "0x_rody",
+          "text": "Finally, an OpenRouter for agent harnesses! (including System One by Jev) Devs just open-sourced plug-and-play infrastructure layer that lets you run any harness under a single interface for free, like: - Codex - Claude code - Hermes - DeepSeek Harness - System One,",
+          "url": "https://x.com/0x_rody/status/2102768250417562102",
           "metrics": {
-            "views": 158,
-            "likes": 4
-          },
-          "textJa": "ロドリ：「この代表ウィークでも競い続けるので、ペースを落とすことはありません」\n\n「今日はアデイェミ、ラフィーニャ、ラミン・ヤマルが傑出していたと思います」",
-          "lang": "en"
+            "views": 49822,
+            "likes": 323
+          }
+        },
+        {
+          "id": "2102715010309095779",
+          "author": "Dayu",
+          "handle": "another_dayu",
+          "text": "Apple Wallet のカード面とロック画面を、脱獄せずにカスタマイズできる。最近では iOS 版も追加されました：Mak5er/AirCard-iOS 。",
+          "url": "https://x.com/another_dayu/status/2102715010309095779",
+          "metrics": {
+            "views": 990368,
+            "likes": 6755
+          }
+        },
+        {
+          "id": "2102597124760449345",
+          "author": "HeyPCB",
+          "handle": "heypcbai",
+          "text": "GitHub wasn’t built for hardware. So we built Circuit World. An AI-native EDA + MCAD platform for designing, iterating, collaborating, versioning, and manufacturing hardware in one browser. You don’t have to start every design from scratch. Start with one of 8,800+ existing",
+          "url": "https://x.com/heypcbai/status/2102597124760449345",
+          "metrics": {
+            "views": 116141,
+            "likes": 2583
+          }
+        },
+        {
+          "id": "2102575358633750578",
+          "author": "돈벌고영",
+          "handle": "Dontgiveup_26",
+          "text": "スマートウォッチからわずか4,000ウォンの組み込みチップ、iOSまで全部動くって、今世界中の開発者たちの間で大騒ぎのオープンソース。 普通こんな小型デバイスはC++で血の涙を流して書かなきゃいけないのに、ブラウザもOSもJavaScriptエンジンもない環境でウェブフロントエンドコード（TS +",
+          "url": "https://x.com/Dontgiveup_26/status/2102575358633750578",
+          "metrics": {
+            "views": 5480,
+            "likes": 50
+          }
+        },
+        {
+          "id": "2102810139476553990",
+          "author": "unicode",
+          "handle": "unicodef1wn",
+          "text": "Everyone is talking about JEV. Almost nobody knows how to actually use it. These 10 GitHub repos fix that. 1. browser-use/jev-ultrafast (~16.6k ⭐ ) Jev for browser agents: pick the next action without another expensive LLM call. github.com/browser-use/je … 2.",
+          "url": "https://x.com/unicodef1wn/status/2102810139476553990",
+          "metrics": {
+            "views": 8237,
+            "likes": 85
+          }
+        },
+        {
+          "id": "2102759183636652153",
+          "author": "mattn",
+          "handle": "mattn_jp",
+          "text": "jev の Go SDK を書いた。ついでに CLI も。",
+          "url": "https://x.com/mattn_jp/status/2102759183636652153",
+          "metrics": {
+            "views": 12322,
+            "likes": 173
+          }
+        },
+        {
+          "id": "2102773498037023140",
+          "author": "なちゃっと",
+          "handle": "nachat_dayo",
+          "text": "Opus5.5でモリ突きゲームを作ってみました。 1回のプロンプトでほぼ完成して、あとはバグや微調整をしただけです。3000円プランの16%を消費。 実際にプレイできます。",
+          "url": "https://x.com/nachat_dayo/status/2102773498037023140",
+          "metrics": {
+            "views": 70900,
+            "likes": 421
+          }
+        },
+        {
+          "id": "2102820294524010657",
+          "author": "drawio",
+          "handle": "drawio",
+          "text": "",
+          "url": "https://x.com/drawio/status/2102820294524010657",
+          "metrics": {
+            "views": 21490,
+            "likes": 264
+          }
+        },
+        {
+          "id": "2102501684169634220",
+          "author": "hraness",
+          "handle": "hraness",
+          "text": "my software factory uses 5-10B tokens a day 24x @DevinAI SWE-2 Max 6x Codex Astra Ultra 2x Claude Code Fable Max running in @zeddotdev",
+          "url": "https://x.com/hraness/status/2102501684169634220",
+          "metrics": {
+            "views": 1673593,
+            "likes": 4057
+          }
+        },
+        {
+          "id": "2102694195526086723",
+          "author": "Jay 🦀",
+          "handle": "radiumcoders",
+          "text": "Ok, here is the resource every design engineer needs",
+          "url": "https://x.com/radiumcoders/status/2102694195526086723",
+          "metrics": {
+            "views": 84995,
+            "likes": 1084
+          }
+        },
+        {
+          "id": "2102925480542544250",
+          "author": "こくぼ@Leaner Technologies",
+          "handle": "yusuke_kokubo",
+          "text": "作者自ら Rails is dead を宣言したのか。 さすがDHH",
+          "url": "https://x.com/yusuke_kokubo/status/2102925480542544250",
+          "metrics": {
+            "views": 73514,
+            "likes": 260
+          }
+        },
+        {
+          "id": "2102575165481926883",
+          "author": "takoyaki_dayo_",
+          "handle": "takoyaki_dayo_",
+          "text": "",
+          "url": "https://x.com/takoyaki_dayo_/status/2102575165481926883",
+          "metrics": {
+            "views": 35068,
+            "likes": 317
+          }
+        },
+        {
+          "id": "2102684401612304441",
+          "author": "ナギ｜AIマネタイズ",
+          "handle": "nagi__blog",
+          "text": "嘘みたいな話で、ClaudeCodeに「29,800円のnoteを半自動で売る仕組みを作って」と頼んだら、本当に1人会社が完成しました。寝てる間にもnoteがポンポン売れる仕組みができた。作り方を話すと、",
+          "url": "https://x.com/nagi__blog/status/2102684401612304441",
+          "metrics": {
+            "views": 28060,
+            "likes": 146
+          }
+        },
+        {
+          "id": "2102681150909260005",
+          "author": "テツメモ｜AI図解×検証｜Newsletter",
+          "handle": "tetumemo",
+          "text": "📝 Claude Opus 5.5が優秀だから、Marp形式とデジタル庁のデザインシステムを組み合わせたスライド作成アリかも 記事を投げただけで完成！ Marp形式はスライドの内容をmdファイル内で修正できるし、スピーカーノートを付ける、発表者モードプレビューなど無料なのに機能も充実してて良き ↓",
+          "url": "https://x.com/tetumemo/status/2102681150909260005",
+          "metrics": {
+            "views": 10546,
+            "likes": 29
+          }
+        },
+        {
+          "id": "2102906502566772748",
+          "author": "國光宏尚 クリプトおじさん (Hiro Kunimitsu)",
+          "handle": "hkunimitsu",
+          "text": "最近、AI界隈で話題になっている「Jev」、詳しく調べました。 最初に結論から言うと、個人が今すぐJevを直接使う理由は、ほとんどないです。普通にChatGPTやClaudeを使ってResearchしたり、文章を書いたり、仕事を手伝ってもらうなら、それで十分。 JevはChatGPTの代わりになるAIではありません。",
+          "url": "https://x.com/hkunimitsu/status/2102906502566772748",
+          "metrics": {
+            "views": 10605,
+            "likes": 88
+          }
+        },
+        {
+          "id": "2102930610969088238",
+          "author": "크롱",
+          "handle": "Krongggggg",
+          "text": "これめっちゃ役に立つわ Cloudflareにデプロイして使えばマジで最高",
+          "url": "https://x.com/Krongggggg/status/2102930610969088238",
+          "metrics": {
+            "views": 8478,
+            "likes": 61
+          }
+        },
+        {
+          "id": "2102648155502416344",
+          "author": "우크",
+          "handle": "xUkeei",
+          "text": "ただこうしてください。 サブスクはChatGPT 20ドル + カーサー 20ドル。 これだけで十分です。 クロードのコードがホットだとか、 オープンウェイトモデルは無料だとか、 そんなの全部いりません。 ChatGPTとカーサーさえあれば",
+          "url": "https://x.com/xUkeei/status/2102648155502416344",
+          "metrics": {
+            "views": 12290,
+            "likes": 131
+          }
+        },
+        {
+          "id": "2102777292275556494",
+          "author": "CV.YH",
+          "handle": "0xCVYH",
+          "text": "Eikos、オープンソース（MIT）の意思決定モデルで、JevやLayaの代替。 2つのサイズ、4Bと27Bで提供され、量子化バージョン（FP8、INT4、Mac用MLX）付き。 変更点： • 最大64kトークンを読み込み（Laya: 1k、Jev: 32k） • JevBenchの難しいレベルで：82.9%（Jev: 73.0%、Laya: 35.1%） •",
+          "url": "https://x.com/0xCVYH/status/2102777292275556494",
+          "metrics": {
+            "views": 19367,
+            "likes": 348
+          }
         }
       ]
     }
