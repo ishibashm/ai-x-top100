@@ -32,7 +32,32 @@ https://github.com/ishibashm/ai-x-top100
 
 ### データ更新
 
-最短手順：`foryou-data.json` の対象アカウントの `posts`・`sample`・`updatedAt` を更新 → `node scripts/build-foryou.mjs` → JSONとHTMLを一緒に反映。
+最短手順：`foryou-data.json` の対象アカウントの `posts`・`sample`・`updatedAt` を更新 → `node scripts/predict-buzz.mjs` → `node scripts/build-foryou.mjs` → `foryou-data.json`・`foryou-buzz.json`・HTMLを一緒に反映。
+
+### バズ予測
+
+`foryou-buzz.json` に投稿IDをキーとした予測を保存し、ビルド時にHTMLの `buzz-data` に埋め込みます。ファイルが無い場合は `{}` を埋め込み、予測なしで動作します。「通常順／バズ予測順」で並び替えられます。
+
+```json
+{ "投稿ID": { "score": 74, "badge": "🔥高", "source": "local", "reasonJa": "1.2万表示・いいね率2.1%・メディアあり" } }
+```
+
+`score` は0〜100の有限数、`badge` は文字列、`source` は `opus` / `jev` / `local` です。`reasonJa` は任意の空でない文字列です。`opus` / `jev` は既存の各モデル由来の予測を表し、優先して保持します。`local` は保存済みのローカル特徴量のみで補完する参考スコアで、バズの確率ではありません。70以上は「🔥高」、45以上は「↗中」、それ未満は「・低」です。
+
+```sh
+node scripts/predict-buzz.mjs --calibrate
+node scripts/predict-buzz.mjs --dry-run
+node scripts/predict-buzz.mjs
+node scripts/build-foryou.mjs
+node --test tests/
+node scripts/build-foryou.mjs --check
+```
+
+スコアラーは外部API・通信・APIキーを使いません。表示数・いいね数の対数、いいね率、本文長、メディア、投稿日時から取得日時までの経過時間を、存在する範囲で使います。素点は `min(40, 8×log10(表示数+1)) + min(25, 6.25×log10(いいね数+1)) + min(15, 300×いいね率) + min(8, 本文字数/25) + メディアありなら7 + 5/(1+経過時間/24)` です。欠損項目は加点しません。素点を四捨五入して12点を引き、0〜100に収めます。保存済みモデル予測50件との平均差（11.90点）に基づく固定補正で、この比較対象の順位を維持します。同じ入力なら常に同じ整数スコアになります。実行時の現在時刻は使わず、日時はタイムゾーン付きのものだけを利用します。
+
+既存の `opus` / `jev` は上書きせず、未登録の投稿を追加し、既存の `local` を再計算します。既存キー順を維持し、新規キーはアカウント順・投稿順で追加します。同じ投稿IDが複数ある場合は対象内の最初の投稿を使います。`--calibrate` でモデル予測がある投稿の件数・モデル/local平均・平均絶対誤差・Spearman順位相関（同順位は平均順位）・バッジ分布を、書き込みなしで確認できます。比較対象なしや相関が定義できない場合は `null` を表示します。`--account HANDLE` で対象を限定、`--dry-run` で保存せず確認、`--prune` で全アカウントから消えた古いキーを削除できます。古いキーは通常のビルドでは警告のみです。オプション一覧は `--help` で表示します。
+
+PRとmainへのpush時に `.github/workflows/check.yml` がNode.js 20でテストと埋め込みの鮮度チェックを実行します。データ更新時は両方のJSONと生成HTMLを揃えてください。
 
 ### 使いやすさの改善
 
