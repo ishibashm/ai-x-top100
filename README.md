@@ -32,6 +32,7 @@ https://github.com/ishibashm/ai-x-top100
 
 ### データ更新
 
+定期更新の取得形式・取り込み・翻訳・PR運用は [docs/REFRESH.md](docs/REFRESH.md) を参照してください。
 最短手順：`foryou-data.json` の対象アカウントの `posts`・`sample`・`updatedAt` を更新 → `node scripts/predict-buzz.mjs` → `node scripts/build-foryou.mjs` → `foryou-data.json`・`foryou-buzz.json`・HTMLを一緒に反映。
 
 ### バズ予測
