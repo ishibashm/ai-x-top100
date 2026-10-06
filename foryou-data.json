@@ -667,336 +667,335 @@
       "name": "鳳翼炎輪祓闇大鎧城",
       "handle": "N8jhSzyQoL35422",
       "sample": false,
-      "updatedAt": "2026-10-05T19:15:00+09:00",
+      "updatedAt": "2026-10-06T12:08:00+09:00",
       "posts": [
         {
-          "id": "2107012168885637168",
-          "author": "宮田 |Cloudflare x ClaudeCode",
-          "handle": "miyataArcHack",
-          "text": "Cloudflareの新機能「Web Search API」。 AIがWebを検索し、最新情報を回答の根拠にできる。Ceramic.ai・Exa・Linkupを選べて、検索ログはAI Gatewayで確認。 学習済みの知識に、いまの情報をつなぐ仕組み。現在は公開ベータで提供中。",
-          "url": "https://x.com/miyataArcHack/status/2107012168885637168",
-          "metrics": {
-            "views": 2301,
-            "likes": 51
-          }
-        },
-        {
-          "id": "2106532943825080472",
-          "author": "東大Obsidianオタク｜仕事で使える第2の脳構築",
-          "handle": "ObsidianOtaku",
-          "text": "まじで全員dot使った方がいい 紹介したい商品を見つけた時にはこれを実行すると、説明しなくても伝わるアニメ広告になる： ① dotに商品の公式情報を渡す ② [引用 @adops_lab: 記事 1本10円で作るアニメ広告の制作方法 ①アニメ広告の制作条件が変わり始めている アニメ広告が密かに進化していることに気がついていますか？...]",
-          "url": "https://x.com/ObsidianOtaku/status/2106532943825080472",
-          "metrics": {
-            "views": 74362,
-            "likes": 712
-          }
-        },
-        {
-          "id": "2106927357173076329",
-          "author": "鈴木@アナログ営業会社を100日後にAIで売上を300％にする人",
-          "handle": "ai_300",
-          "text": "【PCを開く必要がなくなった】 OpenAI dotsの仕事状況をスマホで即確認👇 OpenAI dots×ChatGPTの進捗を一覧表示 止まっている作業までその場で把握できる 実際の仕組みは👇 スマホから画面を開けば OpenAI [引用 @ai_300: 記事 ChatGPTが「AI社員」になった。OpenAI dots完全解説 ChatGPTに質問する時代が、終わり始めた。 これからはAIに電話して、仕事を丸ごと任せる時代になる。 2026年9月29日。 OpenAIがDevDay...]",
-          "url": "https://x.com/ai_300/status/2106927357173076329",
-          "metrics": {
-            "views": 12648,
-            "likes": 65
-          }
-        },
-        {
-          "id": "2106699478505799710",
-          "author": "FHILY 👑",
-          "handle": "Oluwaphilemon1",
-          "text": "Qwen3.8-27B hitting 381 tok/s on a single RTX 3090 sounds amazing But the real thing isn’t the GPU. It’s teaching the inference engine to stop predicting information it already has. The setup uses Qwen3.8-27B with DFlash2 speculative decoding, context lookup, longer",
-          "url": "https://x.com/Oluwaphilemon1/status/2106699478505799710",
-          "metrics": {
-            "views": 16313,
-            "likes": 227
-          }
-        },
-        {
-          "id": "2106818531903832241",
-          "author": "Loofy",
-          "handle": "Loofyb0i",
-          "text": "Nobody is talking about this, but most of your Claude Code bill is yes-or-no questions. \"which file?\" \"which tool?\" \"retry or stop?\" every one of them billed at Opus prices here is the tree that fixed it: > Opus 5.5 on high runs the main session > JEV routes every fork in [引用 @Loofyb0i: 記事 JEV Engineering: Giving Claude a Fast Brain for the Boring Choices The problem nobody notices until the bill arrives Build any agent on top of Claude long enough, and you'll notice a pattern. Most of what the agent does in a loop isn't writing - it's choosing. \"Is...]",
-          "url": "https://x.com/Loofyb0i/status/2106818531903832241",
-          "metrics": {
-            "views": 13002,
-            "likes": 144
-          }
-        },
-        {
-          "id": "2106745140064686331",
-          "author": "silvan",
-          "handle": "silvanrec",
-          "text": "🚨WINDOWSは200以上のサービスをバックグラウンドで実行しており、その大部分は必要ありません リソースを消費し、データを収集し、おそらく一度も使ったことのない機能をアクティブに保っています。 誰かがうんざりして、optimizerDuckを作成しました：Windows",
-          "url": "https://x.com/silvanrec/status/2106745140064686331",
-          "metrics": {
-            "views": 140237,
-            "likes": 4279
-          }
-        },
-        {
-          "id": "2106971979446431840",
-          "author": "Julian Goldie SEO",
-          "handle": "JulianGoldieSEO",
-          "text": "\"AI content doesn't rank\" is the wrong lesson. Google is using AI to write answers at the top of its own results. What Google ignores isn't AI. It's content that adds nothing new to the internet. Here's what actually ranks, based on Julian's setup: ✔ Every fact pulled from",
-          "url": "https://x.com/JulianGoldieSEO/status/2106971979446431840",
-          "metrics": {
-            "views": 1823,
-            "likes": 5
-          }
-        },
-        {
-          "id": "2106920193746420037",
-          "author": "桟よしお@特級𝕏Rエンジニア",
-          "handle": "katapad",
-          "text": "ここ半年の日本の個人情報漏洩をビジュアライズした。 弾幕シューティングでも、もうちょい隙間あるぞ。 27週連続、382事案。",
-          "url": "https://x.com/katapad/status/2106920193746420037",
-          "metrics": {
-            "views": 18774,
-            "likes": 257
-          }
-        },
-        {
-          "id": "2106736773757903354",
-          "author": "劳伦斯",
-          "handle": "LawrenceW_Zen",
-          "text": "Pi コーディングエージェントに Google Antigravity を統合する正規軍プラグインを共有します：pi-antigravity-acp-provider。 以前、多くの Antigravity をサードパーティクライアントに統合する方案は、非公開の Cloud Code Assist のリバースエンジニアリング OAuth",
-          "url": "https://x.com/LawrenceW_Zen/status/2106736773757903354",
-          "metrics": {
-            "views": 18906,
-            "likes": 146
-          }
-        },
-        {
-          "id": "2106965855833895322",
-          "author": "MapleShaw",
-          "handle": "msjiaozhu",
-          "text": "これTikTokに持ってったら、分単位でアカウント爆発するんじゃない？😍 めっちゃ自然～ プロンプトはコメント見て👇",
-          "url": "https://x.com/msjiaozhu/status/2106965855833895322",
-          "metrics": {
-            "views": 153713,
-            "likes": 1186
-          }
-        },
-        {
-          "id": "2106884455663387080",
-          "author": "林 駿甫｜「自分でやった方が早い」を終わらせる",
-          "handle": "The_AGI_WAY",
-          "text": "やべえ。やべえ。やべえ。 dots、これ「便利なCodex」だと思って使うと、たぶん頭パンクする。 Xをずっと見てたら、 「寝てる間に仕事終わった。すごい」 「何やってるか分からない」 「タスクがカオス」 「Grokの方が使いやすい」 「会社ごと任せられそう」 って、評価がめちゃくちゃ割れてる。",
-          "url": "https://x.com/The_AGI_WAY/status/2106884455663387080",
-          "metrics": {
-            "views": 7270,
-            "likes": 79
-          }
-        },
-        {
-          "id": "2107010318161580358",
-          "author": "StudioYebisu",
-          "handle": "studio_yebisu",
-          "text": "これアツスギ!! 一言で言うと、Mac + iPhoneでローカルLLMを高速化するツール。 AIの計算の一部や、会話履歴を処理するための一時データをiPhoneへ分担させる。 イメージ的には、iPhoneをGPUとして使うような感じ。 ■記事に書いてあった効果 [引用 @pc_watch: iPhoneをつないでMacのローカルAIを高速化するツール pc.watch.impress.co.jp/docs/news/2145…]",
-          "url": "https://x.com/studio_yebisu/status/2107010318161580358",
-          "metrics": {
-            "views": 31045,
-            "likes": 353
-          }
-        },
-        {
-          "id": "2106875221001343468",
-          "author": "GitHub AI Projects Community 🇯🇵",
-          "handle": "trendtech33566",
-          "text": "AIで作るUI、どれも同じ見た目になってませんか？👀 Hallmark、⭐️約3万。\"いかにもAI\"なデザインを避けるskill。 何がいいかというと👇 ・21のテーマから、用途に合う構成と見た目を選ぶ ・57項目で\"AIっぽさ\"をチェック ・既存UIの診断・作り直しにも対応 ・Claude Code/Cursor/Codexで使える",
-          "url": "https://x.com/trendtech33566/status/2106875221001343468",
-          "metrics": {
-            "views": 9286,
-            "likes": 159
-          }
-        },
-        {
-          "id": "2106643075905048745",
-          "author": "東大Codex研究所",
-          "handle": "UT_Codex",
-          "text": "Codexを使ってる人は Codexにショート動画のSKILL.mdを持たせたら もう人間と変わらないぞ 特にYouTubeショートの量産で大きく力を発揮する フォルダに「構成」「素材集め」「音声と書き出し」 みたいな担当ごとのSKILL.mdを作って Codexに常駐させる。 あとは人間が 「このテーマでTOP3を作って」 [引用 @jiro_aicompany: 記事 【ド素人でもできる】バズるYouTubeショートを無限生成する方法 YouTubeショートを作りたい。でも、どんな画面にして、何をどの順番で見せればいいのかわからない。 そもそも頑張って作っても伸びるかもわからない。 最初にここで止まる人は多いと思う。...]",
-          "url": "https://x.com/UT_Codex/status/2106643075905048745",
-          "metrics": {
-            "views": 126400,
-            "likes": 1386
-          }
-        },
-        {
-          "id": "2106906040843583658",
-          "author": "あびとらべあー 🍻",
-          "handle": "cryptoo_bear",
-          "text": "全然知らなかったんだけど Claude がすんげぇグレーなサービス教えてくれて笑った。規約でスクレイピング禁止してるサービスのスクレイピングをAPIとして使えるサービスらしい。",
-          "url": "https://x.com/cryptoo_bear/status/2106906040843583658",
-          "metrics": {
-            "views": 39315,
-            "likes": 633
-          }
-        },
-        {
-          "id": "2106752117805629737",
-          "author": "あきらパパ【生成AI活用エンジニア&３児のパパ】",
-          "handle": "akira_papa_IT",
-          "text": "【OpenClaw・Grok Bot・dotsと、自分の代わりに働き続けるAIが出そろったので、「結局どれに任せるか」が見える比較動画を作りました〜！動画もそのまま添付してまーす📢🔥】 寝てる間もメール片づけて、朝には報告置いといてくれるAI、もう3つも選べます笑",
-          "url": "https://x.com/akira_papa_IT/status/2106752117805629737",
-          "metrics": {
-            "views": 2936,
-            "likes": 15
-          }
-        },
-        {
-          "id": "2106953627894272175",
-          "author": "coji 溝口浩二",
-          "handle": "techtalkjp",
-          "text": "dots にお願いしてる状況を可視化するダッシュボードをartifactshare.comで自分専用でシェアして適宜更新してもらうことにしたんだけど、とてもべんりな予感です。",
-          "url": "https://x.com/techtalkjp/status/2106953627894272175",
-          "metrics": {
-            "views": 6825,
-            "likes": 64
-          }
-        },
-        {
-          "id": "2107002854581887212",
-          "author": "鈴木@アナログ営業会社を100日後にAIで売上を300％にする人",
-          "handle": "ai_300",
-          "text": "これはヤバい AIエージェント運用の弱点が見えた dotsはCodex級の仕事まで回せる でもタスクが増えると管理がカオス化 6状態のカンバンで全部見える化できる 次に重要なのはAIより「管理画面」 仕組みは👇 [引用 @ai_300: 記事 ChatGPTが「AI社員」になった。OpenAI dots完全解説 ChatGPTに質問する時代が、終わり始めた。 これからはAIに電話して、仕事を丸ごと任せる時代になる。 2026年9月29日。 OpenAIがDevDay...]",
-          "url": "https://x.com/ai_300/status/2107002854581887212",
-          "metrics": {
-            "views": 6322,
-            "likes": 28
-          }
-        },
-        {
-          "id": "2107043561082654899",
-          "author": "AI駆動経営ラボ",
-          "handle": "yoshio_nocode",
-          "text": "Dotsの最適解は、『秘書・司令塔』として使うことだと思っている Dots単体に実際のタスクを複数任せ始めると、 『どの仕事が、今どこまで進んでいるか』 を把握するのが大変になる。 そのため、Dotsには仕事を振り、進捗を追い、 最後に報告をまとめて、人間に判断を戻すことに集中してもらう",
-          "url": "https://x.com/yoshio_nocode/status/2107043561082654899",
-          "metrics": {
-            "views": 576,
-            "likes": 7
-          }
-        },
-        {
-          "id": "2106879853253599345",
+          "id": "2106597783822311485",
           "author": "うみゆき@AI研究",
           "handle": "umiyuki_ai",
-          "text": "AIにリバースエンジニアリングさせるためのCLIとMCPのツール群だって。すべてのソフトウェアが強制オープン化ですか？ [引用 @_vmlops: Want to know how a feature works in an app, down to the binary level...? Meet REA (Reverse Engineer Anything) an open-source toolkit that brings reverse-engineering capabilities straight to your AI agent via MCP and CLI 🔹 Decompile apps & native binaries 🔹 Trace execution &]",
-          "url": "https://x.com/umiyuki_ai/status/2106879853253599345",
+          "text": "最近のOpusとかAstraはリバースエンジニアリング能力がヤバいらしい。事実上バイナリをソースに戻せちゃうらしい。SRE-BenchをAstraはスコア99.2%…RetroBenchをOpusは98.4%復元でほぼ全クリ。 [引用 @waiting4_asi: I've done a complete U-turn on my opinion on open source AI…]",
+          "url": "https://x.com/umiyuki_ai/status/2106597783822311485",
           "metrics": {
-            "views": 27256,
-            "likes": 382
+            "views": 184500,
+            "likes": 1958
           }
         },
         {
-          "id": "2106730488907936015",
-          "author": "jiangkoumo",
-          "handle": "jiangkoumo_",
-          "text": "システムやアーキテクチャの動図作成のニーズがある方は、live-panel というスキルをお試しください。一つの JSON 設定でターミナル風のパネルを生成でき、独立した HTML や MP4 をサポートしています。とてもおすすめです。 以下は、私がこれを使って作った Pi 1.0.2 のアーキテクチャ図です：",
-          "url": "https://x.com/jiangkoumo_/status/2106730488907936015",
+          "id": "2106904728328405458",
+          "author": "gogotanaka / supa, inc.",
+          "handle": "gogo_tanaka",
+          "text": "JevがCloudflareにボコられてる.....残酷だ。CloudflareのClefがオープンソースかつ特定のベンチマークではJevの2倍の精度で4倍速い。 [引用 @MiaAI_lab: Cloudflare's Clef beat Jev in just two weeks…]",
+          "url": "https://x.com/gogo_tanaka/status/2106904728328405458",
           "metrics": {
-            "views": 12840,
-            "likes": 215
+            "views": 69127,
+            "likes": 819
           }
         },
         {
-          "id": "2107042560695026040",
-          "author": "Oikon | Claude Code深掘りガイド",
-          "handle": "oikon48",
-          "text": "Claude Code に git 操作を任せるか論争で、「Claude Codeが勝手に Co-Authored-By を書く」という話を目にしたけど、attribution設定でオフにしたり細かくコントロールできます 完全にオフにする： \"attribution\": false 細かく設定する： \"attribution\": { \"commit\": \"Generated",
-          "url": "https://x.com/oikon48/status/2107042560695026040",
+          "id": "2107123664332464259",
+          "author": "テツメモ｜AI図解×検証｜Newsletter",
+          "handle": "tetumemo",
+          "text": "dotsって使っていると「あれ、生成した画像どこ？mdファイルは？」って成果物迷子になりませんか？それを解決する最短ルートは「ChatGPT Space」を使うこと [引用 @tetumemo: もう一つ、dotsでオススメの使い方…]",
+          "url": "https://x.com/tetumemo/status/2107123664332464259",
           "metrics": {
-            "views": 1475,
-            "likes": 18
-          }
-        },
-        {
-          "id": "2106678423653679374",
-          "author": "チャエン | デジライズ CEO《重要AIニュースを毎日最速で発信 ⚡️ 》",
-          "handle": "masahirochaen",
-          "text": "AI業界で超有名なカーパシーの新しいTipsが面白い。 生成AIの出力は長くて、読み解くのが大変。それをパッと理解したい時は、このプロンプトがおすすめです。 「ASD-STE100で説明して」 ・航空機の整備マニュアル向けに作られた英語の規格 ・手順は1文20語まで、説明文は25語まで",
-          "url": "https://x.com/masahirochaen/status/2106678423653679374",
-          "metrics": {
-            "views": 24811,
-            "likes": 214
-          }
-        },
-        {
-          "id": "2106750207254032411",
-          "author": "Arindam Majumder 𝕏",
-          "handle": "Arindam_1729",
-          "text": "Jev is getting a lot of attention right now. But after looking through the projects people are actually building with it, I think the more interesting story is not Jev itself. It’s the role it can play inside an agent. A few examples stood out to me: 1. [引用 @Arindam_1729: 記事 10 Projects You Should Build with Jev JEV is getting a lot of attention right now. People are excited about it, and developers are already experimenting with ways to use it inside real applications. But there is a common mistake when...]",
-          "url": "https://x.com/Arindam_1729/status/2106750207254032411",
-          "metrics": {
-            "views": 81911,
-            "likes": 454
-          }
-        },
-        {
-          "id": "2107012397286523112",
-          "author": "StudioYebisu",
-          "handle": "studio_yebisu",
-          "text": "CCleanerは公式に終わりだ。 ……と言いたくなる無料OSS「optimizerDuck」をXのTLにて発見。オープンソース。安全性見てから、インストール。結論「これだよ…これ..」すぎ。 Windowsは200以上のバックグラウンドアプリが動いてて、コイツらがPCを重くしてる。 わけわかんねぇパーソナライズ広告とか",
-          "url": "https://x.com/studio_yebisu/status/2107012397286523112",
-          "metrics": {
-            "views": 6357,
-            "likes": 134
-          }
-        },
-        {
-          "id": "2106731384874151951",
-          "author": "ronix",
-          "handle": "ronixtec",
-          "text": "🚨 アストラをずっと安く使う方法が見つかりました 鍵：アストラに考えさせて、70倍ほど安いモデルにほとんどすべての作業を任せる 以前は一晩でAIエージェントを実行するのに100$使っていました この設定なら、使用量によっては月50$程度に抑えられる 仕組みはこうです： →",
-          "url": "https://x.com/ronixtec/status/2106731384874151951",
-          "metrics": {
-            "views": 8705,
+            "views": 8178,
             "likes": 52
           }
         },
         {
-          "id": "2106803290638057943",
-          "author": "Defileo 🔮",
+          "id": "2106974160962670936",
+          "author": "Codex研究ラボ",
+          "handle": "codexneo4",
+          "text": "GPT-6 Astraセットアップに何時間もかけた 数週間前がアホらしく感じてきた [引用 @codexneo4: 記事 OpenAI DevDay 2026で発表された『dots』完全攻略ガイド]",
+          "url": "https://x.com/codexneo4/status/2106974160962670936",
+          "metrics": {
+            "views": 15358,
+            "likes": 123
+          }
+        },
+        {
+          "id": "2107080438158442535",
+          "author": "チャエン | デジライズ CEO《重要AIニュースを毎日最速で発信》",
+          "handle": "masahirochaen",
+          "text": "正直、これより優れたスライドツールを見たことがありません。毎日2〜3本は資料を作るので、Claude Codeで改良を重ねた結果がこれです。（自作の資料作成ツールです。）",
+          "url": "https://x.com/masahirochaen/status/2107080438158442535",
+          "metrics": {
+            "views": 62954,
+            "likes": 505
+          }
+        },
+        {
+          "id": "2106686059509883050",
+          "author": "NAKAMURA Atsushi",
+          "handle": "nuits_jp",
+          "text": "以前公開した、AIエージェント用メーターの作り方共有します。材料費だいたい8,000円弱。（記事 AI専用ダッシュボードの作り方）",
+          "url": "https://x.com/nuits_jp/status/2106686059509883050",
+          "metrics": {
+            "views": 141732,
+            "likes": 1400
+          }
+        },
+        {
+          "id": "2106888499916079601",
+          "author": "たいしょー",
+          "handle": "N_Taisho",
+          "text": "Cloudflareが次のGitHubを作ろうとしてるみたいで、Git互換ストレージ「Artifacts」をオープンベータ化。代替というより、複数のAIエージェントが同時並行でコードを書く世界を前提に。",
+          "url": "https://x.com/N_Taisho/status/2106888499916079601",
+          "metrics": {
+            "views": 20595,
+            "likes": 297
+          }
+        },
+        {
+          "id": "2107117243251487135",
+          "author": "Maki@Sunwood AI Labs.",
+          "handle": "hAru_mAki_ch",
+          "text": "T3 Code Nightly 2652 → 2676 をMakiがグラレコ解説！この26コミット、かなり重要です。Cross-Project MCP、接続ルート刷新…",
+          "url": "https://x.com/hAru_mAki_ch/status/2107117243251487135",
+          "metrics": {
+            "views": 1245,
+            "likes": 15
+          }
+        },
+        {
+          "id": "2107236927221223930",
+          "author": "Ryu",
+          "handle": "_ryu15_",
+          "text": "特化学習なしでなんでこんなことが可能なんや....Liquid AIの新しい意思決定モデル(jevみたいなやつ)なんやが、6.1SolやOpus5.5と同等の意思決定ができるのに200倍高速とな [引用 @liquidai: Vision lets d1 inspect parts directly from camera images.]",
+          "url": "https://x.com/_ryu15_/status/2107236927221223930",
+          "metrics": {
+            "views": 10953,
+            "likes": 113
+          }
+        },
+        {
+          "id": "2107056979932070383",
+          "author": "うみゆき@AI研究",
+          "handle": "umiyuki_ai",
+          "text": "カルパシー氏いわく、もはやAIが出力する長文なんかイチイチ読んでられへん。それよりも図解出してもらった方が見やすい…そういう時代だという [引用 @karpathy: We'll be spending a lot more time trying to understand the outputs of language models…]",
+          "url": "https://x.com/umiyuki_ai/status/2107056979932070383",
+          "metrics": {
+            "views": 18599,
+            "likes": 318
+          }
+        },
+        {
+          "id": "2107306354759057641",
+          "author": "ハカセ アイ(Ai-Hakase)生成AI・ComfyUI",
+          "handle": "ai_hakase_",
+          "text": "【たった4ステップで動画が作れる！？PDMDの高速生成技術】動画拡散モデルをわずか4NFEで高速に動かしちゃう「PDMD（Projected Distribution Matching Distillation）」というディスティレーション手法をご紹介します！",
+          "url": "https://x.com/ai_hakase_/status/2107306354759057641",
+          "metrics": {
+            "views": 84
+          }
+        },
+        {
+          "id": "2107133903861420448",
+          "author": "Jokker",
+          "handle": "0xJokker",
+          "text": "GOOGLE が AI エージェント向けに KUBERNETES をリリース 名前は AX そして、エージェントをスケールで実行するためのオーケストレーターです…",
+          "url": "https://x.com/0xJokker/status/2107133903861420448",
+          "metrics": {
+            "views": 2607,
+            "likes": 71
+          }
+        },
+        {
+          "id": "2107258340376187371",
+          "author": "Defileo",
           "handle": "defileo",
-          "text": "this must be f*ckn illegal... i pointed a crawler at my own prompt instead of the web, 195 words, every word crawled as a decision instead of text each word gets a typed question: is it relevant, sourced, ambiguous, or needs approval. each answer returns a probability. then [引用 @defileo: 記事 Opus 5.5 Dropped, here's the only setup you need (FULL COURSE) Claude Opus 5.5 came out on September 22. Since then every guide is the same: benchmarks, API breaking changes, how to migrate your agent stack. Great if you run agents. Most people don't. Most...]",
-          "url": "https://x.com/defileo/status/2106803290638057943",
+          "text": "who the f*ck let a spider read my prompt... i am never writing one by hand again… 181 words, and the first score was 37 out of 100 [引用 @defileo: 記事 Opus 5.5 Dr…]",
+          "url": "https://x.com/defileo/status/2107258340376187371",
           "metrics": {
-            "views": 7029,
-            "likes": 88
+            "views": 1735,
+            "likes": 28
           }
         },
         {
-          "id": "2106720933646156141",
-          "author": "chokudai(高橋 直大)@AtCoder",
-          "handle": "chokudai",
-          "text": "Dotsの認知負荷がつらいーって話、もともと使ってた自分の秘書システムが、 ・秘書の全作業が見える ・秘書は自力で作業できず、全てCodex/Claude/Grokの作業席を立ててDESKコマンドでやり取り ・全作業席の状態が管理可能",
-          "url": "https://x.com/chokudai/status/2106720933646156141",
+          "id": "2107108375263867204",
+          "author": "まつにぃ",
+          "handle": "yugen_matuni",
+          "text": "いやマジで普通にローカルモデル規制されるんじゃない？今回使われているのがGLM 5.3クラスの無検閲モデルなら、当然規制対象だろうし… [引用 @yugen_matuni: Hermesがある種優秀であることが示されたサイバーテロ群。ローカルLLM一気に規制されるかもしれませんね。]",
+          "url": "https://x.com/yugen_matuni/status/2107108375263867204",
           "metrics": {
-            "views": 36567,
-            "likes": 310
+            "views": 105604,
+            "likes": 783
           }
         },
         {
-          "id": "2106732320556224870",
-          "author": "rob.",
-          "handle": "robiartec",
-          "text": "CLAUDE が今、私の TRADINGVIEW を単独で操作しています。 マウスに一度も触れませんでした 私は頼みました： 「RSI が 30 未満で、かつボリュームが +200% の BTC 先物をすべて見つけて」 14 秒後： → 6 つの契約が見つかりました → グラフが自動的にロードされました → [引用 @marcusyul: 完全コース：31分でClaude Fable 5を使ったトレーディングボット 中国のトレーダーがゼロからステップバイステップで構築しました。そして完全に無料で共有しました。 英語とスペイン語の字幕付き。 🔖 保存しておいて、後で感謝されるよ]",
-          "url": "https://x.com/robiartec/status/2106732320556224870",
+          "id": "2107237926883172409",
+          "author": "Oikon | Claude Code深掘りガイド",
+          "handle": "oikon48",
+          "text": "Claude Codeの生成するHTMLを改良するスキル「html-plan」: /html-plan <指示> で、HTMLで実装プランの質問・回答ができる claude plugin install html-plan@claude-community [引用 @trq212: I've b…]",
+          "url": "https://x.com/oikon48/status/2107237926883172409",
           "metrics": {
-            "views": 62388,
-            "likes": 676
+            "views": 13839,
+            "likes": 130
           }
         },
         {
-          "id": "2106886863063851070",
-          "author": "木内翔大＠SHIFT AI代表「日本をAI先進国に」𝕏",
-          "handle": "shota7180",
-          "text": "AI録音デバイス「Auday」が話題！ Apple Watchを「1日中使えるAIレコーダー」に変換。 音声だけでなく、健康データやストレス、位置情報なども組み合わせて日常を記録できます。 最短1ヶ月以内で、完全な日本語サポートもリリース予定とのこと。 [引用 @auday_ai: The best AI recording hardware? You may already own it. Introducing Auday—now live on Product Hunt. Turn your Apple Watch into your all-day AI recorder. Beyond voice, Auday combines health, real-time stress, location, and other signals to understand your everyday life—not just]",
-          "url": "https://x.com/shota7180/status/2106886863063851070",
+          "id": "2107002718095343712",
+          "author": "田村一将/TamuraKazumasa/AIマーケティング",
+          "handle": "Tam211",
+          "text": "【本日リリース】Marketing AIをリリースしました。AIが広告運用における、レポーティング、分析、施策提案、入稿まですべて行ってくれます。広告費連動する課金はしません。",
+          "url": "https://x.com/Tam211/status/2107002718095343712",
           "metrics": {
-            "views": 15167,
-            "likes": 96
+            "views": 6929,
+            "likes": 55
+          }
+        },
+        {
+          "id": "2107108554192941493",
+          "author": "joshua",
+          "handle": "joshuagunnn",
+          "text": "I'm open sourcing Leviathan: an indexer that lets AI agents search a database of any size without reading it. At 1M records it hands your agent 436 tokens instead of 107,000, and it finds the answer 99% of the time.",
+          "url": "https://x.com/joshuagunnn/status/2107108554192941493",
+          "metrics": {
+            "views": 59554,
+            "likes": 1449
+          }
+        },
+        {
+          "id": "2107281482385641641",
+          "author": "Sadao Tokuyama",
+          "handle": "tokufxug",
+          "text": "間取り図を4Dシミュレーション空間に変換 2Dの間取り図を3D＋時間の空間に変換 気流・空調・火災・熱・音・人の動きをシミュレーション 開発：Spatialbound",
+          "url": "https://x.com/tokufxug/status/2107281482385641641",
+          "metrics": {
+            "views": 1541,
+            "likes": 39
+          }
+        },
+        {
+          "id": "2107269245033927149",
+          "author": "松丸 彗吾(keigo matsumaru)",
+          "handle": "k_matsumaru",
+          "text": "これめっちゃよさそう！！オープンソースなの太っ腹がすぎる [引用 @yksr_melt: 半角/全角キー、もう押さなくていい。…日本語入力「Meltype」を作りました。]",
+          "url": "https://x.com/k_matsumaru/status/2107269245033927149",
+          "metrics": {
+            "views": 19456,
+            "likes": 129
+          }
+        },
+        {
+          "id": "2107128546204475678",
+          "author": "h100envy",
+          "handle": "h100envy",
+          "text": "I BUILT F*CKING GOLD AND ITS CALLED GEMSEARCH repo: github.com/h100envy/gem-search … spider extension lives in your X feed. scans every post in real time…",
+          "url": "https://x.com/h100envy/status/2107128546204475678",
+          "metrics": {
+            "views": 30732,
+            "likes": 305
+          }
+        },
+        {
+          "id": "2107064746990071986",
+          "author": "Guillermo Casaus",
+          "handle": "_guillecasaus",
+          "text": "ジム好きの誰もが持つべきアプリが作られました。サブスクリプションやアカウントなしで…openGymという名前で、セルフホスト型のトレーニングトラッカーです。",
+          "url": "https://x.com/_guillecasaus/status/2107064746990071986",
+          "metrics": {
+            "views": 23184,
+            "likes": 286
+          }
+        },
+        {
+          "id": "2107199330926899652",
+          "author": "Caleb",
+          "handle": "calebfahlgren",
+          "text": "Pi Durable is awesome! Asked Opus 5.5 to make a deep technical manual on it. It's really good and the diagrams work really well to explain things [引用 @pidotdev: People of Pi: We've shipped Pi 1.0 with Pi D…]",
+          "url": "https://x.com/calebfahlgren/status/2107199330926899652",
+          "metrics": {
+            "views": 45773,
+            "likes": 422
+          }
+        },
+        {
+          "id": "2107004940510175623",
+          "author": "チャエン | デジライズ CEO《重要AIニュースを毎日最速で発信》",
+          "handle": "masahirochaen",
+          "text": "Apple Watchが「終日AIレコーダー」になるAuday、Product Huntでローンチ…Series 11実機テストで12時間半録音してバッテリー残49%",
+          "url": "https://x.com/masahirochaen/status/2107004940510175623",
+          "metrics": {
+            "views": 66368,
+            "likes": 376
+          }
+        },
+        {
+          "id": "2106945294067966090",
+          "author": "砂川伸夫@ショート動画攻略",
+          "handle": "nobuo_sunagawa",
+          "text": "これは有料級の良記事。 [引用 @otake_xmoney: 記事 【アダルトで月収1億円】myfans女王-るるたんの売り方をAI美女で完コピできる全手順]",
+          "url": "https://x.com/nobuo_sunagawa/status/2106945294067966090",
+          "metrics": {
+            "views": 66768,
+            "likes": 380
+          }
+        },
+        {
+          "id": "2107126881942385114",
+          "author": "卡尔的AI沃茨",
+          "handle": "aiwarts",
+          "text": "今日は数ヶ月前に私が映画風暴内部分享したAIワークフローをすべて公開します！00:15 自分に合ったSkillを見つける 09:28 自分の経験をSkillにパッケージ化する…",
+          "url": "https://x.com/aiwarts/status/2107126881942385114",
+          "metrics": {
+            "views": 18225,
+            "likes": 379
+          }
+        },
+        {
+          "id": "2107070027526733943",
+          "author": "大田原正幸｜医療AI/SIガバナンス｜Cursorvers",
+          "handle": "cursorvers",
+          "text": "サイバーセキュリティやAIガバナンスに興味がある人は、フォローしておいた方がいい▽ [引用 @Japan_AISI: Xアカウント開始します！…Claude Opus 4.8とGLM-5.2のサイバー能力を実際に検証し、結果を公表しました。]",
+          "url": "https://x.com/cursorvers/status/2107070027526733943",
+          "metrics": {
+            "views": 255622,
+            "likes": 1180
+          }
+        },
+        {
+          "id": "2106584870717980762",
+          "author": "安野貴博＠チームみらい",
+          "handle": "takahiroanno",
+          "text": "AIで法律をリファクタリングする: Fableで改正候補条文を抽出…Claude Codeのultracodeで法律を全スキャンしてデジタル化を阻む条文を87箇所抽出してみたよ、という話を書きました。",
+          "url": "https://x.com/takahiroanno/status/2106584870717980762",
+          "metrics": {
+            "views": 407141,
+            "likes": 1850
+          }
+        },
+        {
+          "id": "2106606175752225269",
+          "author": "Tomoya Ogawa (小川 智也) | OgaTomo Systems",
+          "handle": "ogatomo21",
+          "text": "Home Assistantにデジタル庁のデザインシステム食わせたらめっちゃ見やすいのが出来た",
+          "url": "https://x.com/ogatomo21/status/2106606175752225269",
+          "metrics": {
+            "views": 227451,
+            "likes": 1979
+          }
+        },
+        {
+          "id": "2107096104810746305",
+          "author": "まにあ@3世",
+          "handle": "mania_3",
+          "text": "Claude Codeも「ローカル環境でガチの開発するなら、DockerかVM使ってローカルOSと完全分離しろ」って言ってる。… [引用 @mania_3: というかOpenAIがCodex,Workつかうなら、これ設定しろって言ってます。]",
+          "url": "https://x.com/mania_3/status/2107096104810746305",
+          "metrics": {
+            "views": 88061,
+            "likes": 968
+          }
+        },
+        {
+          "id": "2107245458246795733",
+          "author": "チャエン | デジライズ CEO《重要AIニュースを毎日最速で発信》",
+          "handle": "masahirochaen",
+          "text": "【Grok Bot、地味に優秀説】基本的にChatGPT・Claudeは真面目すぎて、依頼拒否が多い。Grok Botはいい意味で柔軟で、こちらがOKしたら、承認系も大丈夫。・LayerXの承認待ち5件を丸投げ→全件承認",
+          "url": "https://x.com/masahirochaen/status/2107245458246795733",
+          "metrics": {
+            "views": 11519,
+            "likes": 71
           }
         }
       ]
@@ -1301,325 +1300,358 @@
       "name": "Cloud",
       "handle": "cloud8wq",
       "sample": false,
-      "updatedAt": "2026-10-05T19:12:00+09:00",
+      "updatedAt": "2026-10-06T12:07:00+09:00",
       "posts": [
         {
-          "id": "2106752645981708515",
-          "author": "Torishima / INTP",
-          "handle": "izutorishima",
-          "text": "これ発想の勝利すぎてすごい [引用 @sh1ma: 気づかれてしまったようだな！！！！！！ TwitterのAPIやスクレイピングを使うことなくリアルタイムでツイートをストリーミングできるソフトウェアの存在に！！！！！ github.com/sh1ma/Angelic-]",
-          "url": "https://x.com/izutorishima/status/2106752645981708515",
+          "id": "2106888499916079601",
+          "author": "たいしょー",
+          "handle": "N_Taisho",
+          "text": "Cloudflareが次のGitHubを作ろうとしてるみたいで、Git互換ストレージ「Artifacts」をオープンベータ化。代替というより、複数のAIエージェントが同時並行でコードを書く世界を前提に。",
+          "url": "https://x.com/N_Taisho/status/2106888499916079601",
           "metrics": {
-            "views": 193543,
-            "likes": 905
+            "views": 20494,
+            "likes": 294
           }
         },
         {
-          "id": "2106904728328405458",
-          "author": "gogotanaka / supa, inc.",
-          "handle": "gogo_tanaka",
-          "text": "JevがCloudflareにボコられてる..... 残酷だ。 CloudflareのClefがオープンソースかつ特定のベンチマークではJevの2倍の精度で4倍速い。 [引用 @MiaAI_lab: Cloudflare's Clef beat Jev in just two weeks How: \"frozen\" Qwen does one prefill pass, a tiny schema head scores every answer option in parallel, with no text generated at all. That's why it's 4x faster than Jev at 2x the accuracy on some benchmarks. And it's open source!]",
-          "url": "https://x.com/gogo_tanaka/status/2106904728328405458",
+          "id": "2107133903861420448",
+          "author": "Jokker",
+          "handle": "0xJokker",
+          "text": "GOOGLE が AI エージェント向けに KUBERNETES をリリース 名前は AX そして、エージェントをスケールで実行するためのオーケストレーターです…",
+          "url": "https://x.com/0xJokker/status/2107133903861420448",
           "metrics": {
-            "views": 35137,
-            "likes": 419
+            "views": 2585,
+            "likes": 71
           }
         },
         {
-          "id": "2106906040843583658",
-          "author": "あびとらべあー 🍻",
-          "handle": "cryptoo_bear",
-          "text": "全然知らなかったんだけど Claude がすんげぇグレーなサービス教えてくれて笑った。規約でスクレイピング禁止してるサービスのスクレイピングをAPIとして使えるサービスらしい。 apify.com",
-          "url": "https://x.com/cryptoo_bear/status/2106906040843583658",
-          "metrics": {
-            "views": 38947,
-            "likes": 630
-          }
-        },
-        {
-          "id": "2106758256068902917",
+          "id": "2107239809165185240",
           "author": "StudioYebisu",
           "handle": "studio_yebisu",
-          "text": "これね、色々触ってみたけど。めっちゃ便利やわ。 開発者以外でも、GPT使ってる人はPOSTをAI読ませて活用方法聞いてみて。 Webダッシュボードからセッションを新規で立ち上げたり、ポーリング（AIに待機させて成果を確認させるみたいな処理）をなくしたりするのがまずはおすすめ。 [引用 @studio_yebisu: OpenAIが対応したMCP Events。 これ、もっと驚かれるべきじゃない？ ちょっとわかりにくいんですけど、開発者は知っておくと面白いサービスのアイデアが湧くハズ。 MCP Eventsは要するに、 AI側からMCPを呼ぶ(従来のtools/call等) ↓ MCPがAIを起こす(MCP Events) ってこと。]",
-          "url": "https://x.com/studio_yebisu/status/2106758256068902917",
+          "text": "【Vision付きのJev】みたいなのでとんでもないモデル登場。これは実用面でかなりヤバい。…エージェントが繰り返す「分類・選択・採点」を、安く速く処理できるモデルで。Liquid AIの d1 [引用 @liquidai: Announcing d1 with vision. Our first decision model now supports images, text or both as inputs. We tested d1 against GPT-6.1 Sol and Claude Opus 5.5 on six real applications…]",
+          "url": "https://x.com/studio_yebisu/status/2107239809165185240",
           "metrics": {
-            "views": 14830,
-            "likes": 156
+            "views": 4329,
+            "likes": 70
           }
         },
         {
-          "id": "2106752949368115477",
-          "author": "Rodev",
-          "handle": "romandevz",
-          "text": "🚨 GitHubで92Kのスターがついた、無料で透かしなしのCapCutが作られた CapCutは透かしを入れ、機能をブロックし、しかもサブスクリプションを課金してくる。 開発者のグループがうんざりして、オープンソースで無料の代替品を作った。 その名前はOpenCut。すべて説明するよ：",
-          "url": "https://x.com/romandevz/status/2106752949368115477",
+          "id": "2107059398137032978",
+          "author": "AI駆動塾",
+          "handle": "L_go_mrk",
+          "text": "Claude Mods、やっと触り始めれたけど、これもかなりいいぞ...！！！！！「俺専用のClaudeCode」を作れて楽しすぎる！！…特に②は脳死で全員入れたほうがいいレベルに気が利いてる。 [引用 @L_go_mrk: 記事 Claude Modsが8割わかる教科書]",
+          "url": "https://x.com/L_go_mrk/status/2107059398137032978",
           "metrics": {
-            "views": 111646,
-            "likes": 3442
+            "views": 32873,
+            "likes": 269
           }
         },
         {
-          "id": "2106916272353214881",
-          "author": "角間ある",
-          "handle": "Kakuma_Aru",
-          "text": "とうとうあのギガファイル便より良いのが出る時代になるわけ？ [引用 @gigawatasu: 無料の大容量ファイル転送 まだ広告まみれのアレ使ってる？ ギガワタスは—— ・最大333GBまで送れる ・登録作業は一切不要 ・広告はほぼなし ・暗号化＆ウイルスチェック標準 ・Pマーク企業運営サービス ストレスゼロの大容量転送 👇 giga-watasu.jp]",
-          "url": "https://x.com/Kakuma_Aru/status/2106916272353214881",
+          "id": "2106670710378860964",
+          "author": "ふじ",
+          "handle": "fuji_ai_",
+          "text": "リアルでバズるAIキャラクターを作るのは超簡単 作り方はこの記事にまとめた↓ [引用 @fuji_ai_: 記事 AIで作ったインフルエンサーで1080万円稼いだ3ステップ]",
+          "url": "https://x.com/fuji_ai_/status/2106670710378860964",
           "metrics": {
-            "views": 622823,
-            "likes": 4657
+            "views": 198134,
+            "likes": 842
           }
         },
         {
-          "id": "2106867961197990048",
-          "author": "lumxss",
-          "handle": "bkdgiffug",
-          "text": "以前、逆向解析では、多くのプロセスを自分で手探りで探さなければなりませんでした。今では、誰かがそれを直接AI Skillとして整理してくれています。 reverse-skillは、routing.mdというファイルを通じて、AIがタスクに応じて自動的に適切な処理経路を選択できるようにします。 ① JS",
-          "url": "https://x.com/bkdgiffug/status/2106867961197990048",
+          "id": "2106939081259430147",
+          "author": "のぶゆき",
+          "handle": "mrnobuyuki",
+          "text": "AI型ハッキングに使われたのは、脆弱性を探す「Strix」、侵入作業を進める「Cairn」、全体を管理する「Hermes」という3種類のAIツールで…数百店のEC店を攻撃、 [引用 @weeklyascii: AIでサイバー攻撃のコスト激減 数行の指示だけで27社に侵入、カード情報60万件超が流出]",
+          "url": "https://x.com/mrnobuyuki/status/2106939081259430147",
           "metrics": {
-            "views": 4713,
-            "likes": 86
+            "views": 430177,
+            "likes": 5048
           }
         },
         {
-          "id": "2106732519655969086",
-          "author": "lifcc",
-          "handle": "mylifcc",
-          "text": "Appleの統一メモリがどれだけ高く売られているか、みんな心の中でわかってる。 今日、Redditでめっちゃすごいプロジェクトを見つけて、完全に目が点になった： 誰かが10 Gb/sのUSB-Cケーブル1本を使って、手持ちのiPhoneを24GBのMacBookの「外部GPU」に変身させ、ローカルでQwen",
-          "url": "https://x.com/mylifcc/status/2106732519655969086",
+          "id": "2107019459194155299",
+          "author": "Notomi Y",
+          "handle": "jpmyrmecol",
+          "text": "相互作用にべらぼうに強いトラッキングソフト「AMADEUS」を開発しました。それでいてマーカーレス，アノテーションフリーです。仮想的な相互作用を何万，何百万パターンと自動生成することで，この精度を達成しました。",
+          "url": "https://x.com/jpmyrmecol/status/2107019459194155299",
           "metrics": {
-            "views": 266627,
-            "likes": 2184
+            "views": 449862,
+            "likes": 5191
           }
         },
         {
-          "id": "2106944982104076309",
-          "author": "そう｜Claude CodeのX運用で月800万インプ",
-          "handle": "so_ainsight",
-          "text": "今週GitHubで急上昇したAIリポジトリ10選： 1. Hindsight 過去のやりとりから事実や関係性を学び、AIに記憶を持たせる仕組み。会話が切り替わっても文脈を引き継ぐので、毎回ゼロから説明し直す手間が消える。 github.com/vectorize-io/h 2. paperclip",
-          "url": "https://x.com/so_ainsight/status/2106944982104076309",
+          "id": "2107127924252090786",
+          "author": "kiosa",
+          "handle": "thegreatest_sv",
+          "text": "whoever built this realized we've been using our smartest AI for the dumbest possible jobs… Jev flips that. it's a tiny decision model that sits [引用 @thegreatest_sv: 記事 JEV: YOUR LLM'S SECOND BRAIN (Use Cases)]",
+          "url": "https://x.com/thegreatest_sv/status/2107127924252090786",
           "metrics": {
-            "views": 14100,
+            "views": 13163,
+            "likes": 203
+          }
+        },
+        {
+          "id": "2107125378586198426",
+          "author": "Miguel Ángel Durán",
+          "handle": "midudev",
+          "text": "ウェブおよびモバイルアプリ向けの新しい世代のテスト！フレームワークは「e2e」と呼ばれ、オープンソースです ✓ AIを決定論的テストと組み合わせ ✓ OpenAI、Claude、および任意のAIに対応 ✓ ウェブ、iOS、Androidで同じAPI → github.com/tester-army/e2e",
+          "url": "https://x.com/midudev/status/2107125378586198426",
+          "metrics": {
+            "views": 39228,
+            "likes": 1034
+          }
+        },
+        {
+          "id": "2107136700728119562",
+          "author": "Eloi | UGC IA",
+          "handle": "EloiLJF",
+          "text": "今まさにClaudeのユーザーたち [引用 @Deep_GeniusAi: Claude Codeを構築したエンジニアが、実際に機能するプロンプトの書き方についての28分間のビデオを公開しました。]",
+          "url": "https://x.com/EloiLJF/status/2107136700728119562",
+          "metrics": {
+            "views": 925519,
+            "likes": 4690
+          }
+        },
+        {
+          "id": "2107213745839829354",
+          "author": "くろねこ | AIで脱サラ",
+          "handle": "kuro_affi",
+          "text": "何度も言いますが、「Googleアドアフィ」は本当に今フィーバータイムです。何も知らない僕でも少し勉強しただけで月259万超えましたw 合計売上 2,599,200円",
+          "url": "https://x.com/kuro_affi/status/2107213745839829354",
+          "metrics": {
+            "views": 12289,
+            "likes": 205
+          }
+        },
+        {
+          "id": "2106684994781655258",
+          "author": "影山湧亮｜NeoLogic CEO",
+          "handle": "yusuke_neologic",
+          "text": "すぐに行った人間です 商工会議所でだいたい何とかなります [引用 @yukarin_spi: 記事 集客できないなら商工会議所へ行け]",
+          "url": "https://x.com/yusuke_neologic/status/2106684994781655258",
+          "metrics": {
+            "views": 331163,
+            "likes": 1567
+          }
+        },
+        {
+          "id": "2107153066134790406",
+          "author": "Gipp",
+          "handle": "gippp69",
+          "text": "grok bot crews are f**king insane. i gave 6 bots one overnight job and woke up to 612 finished tasks, 47 blocked actions, 89 rejected handoffs… [引用 @gippp69: 記事 Stopline Engineering: How to Build Your Own Agent Crew on Grok Bot + Kimi K3 (Full Guide)]",
+          "url": "https://x.com/gippp69/status/2107153066134790406",
+          "metrics": {
+            "views": 4620,
+            "likes": 139
+          }
+        },
+        {
+          "id": "2107123553883898212",
+          "author": "そら AgentSwarm 自動化オタク",
+          "handle": "sora19ai",
+          "text": "このUIライブラリすご。AIっぽいUIになってしまう人はぜひこれを入れてみるべき。 [引用 @cr1sta_dev: Introducing shadcn-m3e Material 3 Expressive, rebuilt for shadcn/ui. 79 components. Open source.]",
+          "url": "https://x.com/sora19ai/status/2107123553883898212",
+          "metrics": {
+            "views": 13028,
+            "likes": 124
+          }
+        },
+        {
+          "id": "2107298027677650983",
+          "author": "目立ってナンボ伊藤",
+          "handle": "chiba_village",
+          "text": "https://forbes.com/lists/worlds-best-employers/ … https://amazon.jobs/content/en/our-workplace/leadership-principles …",
+          "url": "https://x.com/chiba_village/status/2107298027677650983",
+          "metrics": {
+            "views": 50,
+            "likes": 2
+          }
+        },
+        {
+          "id": "2107094905512427863",
+          "author": "生成AIに人生捧げた人｜大束良明",
+          "handle": "otsukaroom",
+          "text": "天才か [引用 @yksr_melt: 半角/全角キー、もう押さなくていい。日本語と英語をまぜて打つと、勝手に打ち分けてくれる日本語入力「Meltype」を作りました。無料・オープンソース]",
+          "url": "https://x.com/otsukaroom/status/2107094905512427863",
+          "metrics": {
+            "views": 129145,
+            "likes": 776
+          }
+        },
+        {
+          "id": "2106996306946498606",
+          "author": "Mr. Buzzoni",
+          "handle": "polydao",
+          "text": "this is free f*cking gold for anyone building a second brain. his second brain article pulled 8 million views, so he packed the whole system into one repo… [引用 @polydao: 記事 Karpathy-Style Knowledge Stack: Why I Put Hermes, MiniMax M3 and Obsidian at the Core]",
+          "url": "https://x.com/polydao/status/2106996306946498606",
+          "metrics": {
+            "views": 33931,
+            "likes": 514
+          }
+        },
+        {
+          "id": "2107046764897333499",
+          "author": "savip.",
+          "handle": "savipww",
+          "text": "WTF, I TAUGHT MY CRAWLER TO KILL SCAM COINS, WENT TO SLEEP, AND JEV + MY GROK BOTS GOT MY $100 TO $17,608 BY NIGHT 4… [引用 @savipww: 記事 Megabrain (Jev) & Six Grok Bots That Already Made Me Six Figures (Setup Guide)]",
+          "url": "https://x.com/savipww/status/2107046764897333499",
+          "metrics": {
+            "views": 60689,
+            "likes": 379
+          }
+        },
+        {
+          "id": "2107138967644541129",
+          "author": "Robert",
+          "handle": "skull8888888888",
+          "text": "Introducing flow-1, our new model trained with RL to find errors in agent traces. It matches GPT-6-sol in trace intelligence while being 23x cheaper. It also costs 25% less to run than GPT-6-luna.",
+          "url": "https://x.com/skull8888888888/status/2107138967644541129",
+          "metrics": {
+            "views": 114309,
+            "likes": 1882
+          }
+        },
+        {
+          "id": "2106903692083630588",
+          "author": "癒色えも(イシキ•エモ)",
+          "handle": "ishiki_emo",
+          "text": "あぁ～やっぱこういう時代きちゃいましたか [引用 @colisscom: 何これ、すごすぎる！！PhotoshopやIllustratorなど、Adobeのアプリ7種類をオープンソースで再構築、しかもWin、Mac、Linux、Web対応で無料]",
+          "url": "https://x.com/ishiki_emo/status/2106903692083630588",
+          "metrics": {
+            "views": 1007362,
+            "likes": 4258
+          }
+        },
+        {
+          "id": "2107162560214548994",
+          "author": "broke boy",
+          "handle": "0xfuckpoverty",
+          "text": "ELON MUSK PUT A SALARY ON BOTS - AND HIS OWN ENGINEER JUST SHOWED HER 14. SpaceXAI pays creators every two weeks for bots people actually use… [引用 @0xfuckpoverty: 記事 Everyone is building a company inside Grok Bot. Almost nobody is building the part that stops]",
+          "url": "https://x.com/0xfuckpoverty/status/2107162560214548994",
+          "metrics": {
+            "views": 20444,
             "likes": 189
           }
         },
         {
-          "id": "2106978557222334833",
-          "author": "K2S",
-          "handle": "k2sbhai",
-          "text": "ChatGPT Plus is FREE for 1 month 😳 claim it here: chatgpt.com/?promo_campaig if the offer doesn't show on your account, try creating a new ChatGPT account and check again",
-          "url": "https://x.com/k2sbhai/status/2106978557222334833",
+          "id": "2107083405296795724",
+          "author": "夙愿学长",
+          "handle": "suyuan1711",
+          "text": "ネットで誰かが Claude のサブスクをチームの数十人にシェアして使えてるって成功例見つけた…会社に Mac mini 一台置いて、Claude Max x20 にログインして、skill 使って Claude Code（GitHub zarazhangrui/lark-coding-agent-bridge）",
+          "url": "https://x.com/suyuan1711/status/2107083405296795724",
           "metrics": {
-            "views": 366630,
-            "likes": 1790
+            "views": 49133,
+            "likes": 240
           }
         },
         {
-          "id": "2106859404528132595",
-          "author": "Gk",
-          "handle": "0xGky",
-          "text": "Claude Code と Codex のクォータをまだ自分で金出して買ってるの？ もしかしたら君は会場で最後まで気づかない人かもしれないよ。 GitHub",
-          "url": "https://x.com/0xGky/status/2106859404528132595",
+          "id": "2107158163145576902",
+          "author": "lauren",
+          "handle": "poteto",
+          "text": "new pstack skill: /poteto-help in v0.15.13! … if you're ever wondering how pstack can help you, you can now ask /poteto-help! (pstack for Grok Bot)",
+          "url": "https://x.com/poteto/status/2107158163145576902",
           "metrics": {
-            "views": 4134,
-            "likes": 43
+            "views": 68706,
+            "likes": 2009
           }
         },
         {
-          "id": "2106775535787323649",
-          "author": "Yarchi",
-          "handle": "undefinedKi",
-          "text": "Andrej Karpathy built an agent that runs AI research autonomously. The whole setup is just 3 files It's called autoresearch. You give Claude or Codex a small LLM training setup and walk away. The loop: > try one idea in train.py > commit > train for exactly 5 [引用 @undefinedKi: 記事 The 5 levels of AI agents. From a single prompt to a production agent (Complete course)]",
-          "url": "https://x.com/undefinedKi/status/2106775535787323649",
+          "id": "2107093781807775896",
+          "author": "rari",
+          "handle": "0xwhrrari",
+          "text": "Grok Bot can learn from your whole team. One bad memory can mislead everyone. What to save, what to keep private, and when to check the source. A practical guide to Grok Bot memory engineering (記事 Grok Bot Memory Engineering: How One Agent Learns With a Team)",
+          "url": "https://x.com/0xwhrrari/status/2107093781807775896",
           "metrics": {
-            "views": 53774,
-            "likes": 685
+            "views": 179947,
+            "likes": 174
           }
         },
         {
-          "id": "2106703506795295198",
-          "author": "SuSu_酥酥 👅",
-          "handle": "NFT_Chen",
-          "text": "😧 何？！無検閲版 Qwen-Image 2.1 GGUF がすでにローカルで動作可能！ 7B 統一生成画像+編集、ネイティブ透明チャネル、最大 10 枚の参照画像、選択/マスク編集でも顔を保持。Q4_K_M 約 4.6GB、6G カードでも試せ、ローカルにビルトイン検閲なし、プロンプトに何を与えてもそのまま出力。 [引用 @NFT_Chen: 💥 我靠！让 Qwen-Image-2.1 只需 6 步，比 40 步原版还快约 5 倍，画质几乎打平！ DMD 蒸馏 LoRA，文生图 + 1～3 张参考图编辑都能跑，无 CFG。]",
-          "url": "https://x.com/NFT_Chen/status/2106703506795295198",
+          "id": "2107250964432593344",
+          "author": "휴직중 AI개발자",
+          "handle": "Shoonee27",
+          "text": "AIにゲーム開発させるとき、3Dアセットを探すのに時間を使わず、勝手に探させるようにすべきだよ。このGitHubは、複数のアセットサイトを統合検索してダウンロードまでしてくれる。MCPも含まれてる（arielshad/3d-asset-server）",
+          "url": "https://x.com/Shoonee27/status/2107250964432593344",
           "metrics": {
-            "views": 22953,
-            "likes": 350
+            "views": 6545,
+            "likes": 143
           }
         },
         {
-          "id": "2106767806712963144",
-          "author": "𝑽𝒂𝒍𝒆𝒓𝑰𝑨",
-          "handle": "ValeriA_Tech",
-          "text": "どんなブランドでも使えるプレミアムなビジュアルアイデンティティの私のスーパープロンプトを、無料であなたに差し上げます。",
-          "url": "https://x.com/ValeriA_Tech/status/2106767806712963144",
+          "id": "2107113690818584608",
+          "author": "Hux",
+          "handle": "huxlab",
+          "text": "あのClaude Codeを作ったエンジニアが、28分間の動画を公開したんだが…この兄ちゃんが、Claudeから300%の価値を絞り出す方法を教えてくれるぜ",
+          "url": "https://x.com/huxlab/status/2107113690818584608",
           "metrics": {
-            "views": 81520,
-            "likes": 1461
+            "views": 25918,
+            "likes": 204
           }
         },
         {
-          "id": "2106858887945289765",
-          "author": "돈벌고영",
-          "handle": "Dontgiveup_26",
-          "text": "MacBook または Mac mini を使いながら Apple Intelligence を使わない人なら、絶対に保存しておくべきオープンソース。 最新の macOS では、Apple Intelligence を「一括でオフにする単一スイッチ」もなく、設定をオフにしても数ギガバイトのオンデバイスモデルが SSD",
-          "url": "https://x.com/Dontgiveup_26/status/2106858887945289765",
+          "id": "2106920193746420037",
+          "author": "桟よしお@特級𝕏Rエンジニア",
+          "handle": "katapad",
+          "text": "ここ半年の日本の個人情報漏洩をビジュアライズした。弾幕シューティングでも、もうちょい隙間あるぞ。27週連続、382事案。",
+          "url": "https://x.com/katapad/status/2106920193746420037",
           "metrics": {
-            "views": 18327,
-            "likes": 211
+            "views": 147334,
+            "likes": 2209
           }
         },
         {
-          "id": "2106846518988661056",
-          "author": "Mnimiy",
-          "handle": "Mnilax",
-          "text": "China f*cked the world again DeepSeek just dropped a killer library that saves up to 98% on tokens ur GPT Astra and Opus 5.5 it's DeepGEMM, the engine DeepSeek trains and runs its own models on faster GPU math -> more tokens per GPU -> cheaper tokens > plug the engine",
-          "url": "https://x.com/Mnilax/status/2106846518988661056",
+          "id": "2107148754633507237",
+          "author": "Genex",
+          "handle": "genex_games",
+          "text": "Introducing Genex. The desktop app to build games with AI → Open source, MIT → Local models, or Claude Code / ChatGPT sub → Self-improving harness for game dev → Three.js + Blender, Meshy → Unity & Unreal plugins soon",
+          "url": "https://x.com/genex_games/status/2107148754633507237",
           "metrics": {
-            "views": 219613,
-            "likes": 2530
+            "views": 103033,
+            "likes": 2318
           }
         },
         {
-          "id": "2106842292086820996",
-          "author": "Gk",
-          "handle": "0xGky",
-          "text": "Anthropic 这回可真舍得，22 门 Claude 课程直接全部免费开放，一分钱都不用掏。 我耐着性子一门门看完了，讲真，里面有些挺敷衍，也有些确实值得一看。省得你毫无头绪地乱翻，我按照从零起步到逐步进阶的路子替你理了一遍，按这个顺序学就对了。 一、先把底子打好，别一上来就碰硬骨头 01 Claude",
-          "url": "https://x.com/0xGky/status/2106842292086820996",
+          "id": "2107177204220309719",
+          "author": "野田隼人 Atty. NODA Hayato J.D.",
+          "handle": "nodahayato",
+          "text": "焼肉きんぐのアプリ等開発について。エンジニアとしてはドキドキすることが書いてあるな。（shiftasia.com: 仕様書がなくても問題なくソフトウェアテストを実施…アプリストアの評価が1点台から平均4.6点に）",
+          "url": "https://x.com/nodahayato/status/2107177204220309719",
           "metrics": {
-            "views": 44463,
-            "likes": 685
+            "views": 95774,
+            "likes": 481
           }
         },
         {
-          "id": "2106542360079548840",
-          "author": "Swarm｜東大AIエージェントラボ",
-          "handle": "swarm_japan",
-          "text": "dotえぐい。 撮影も編集もなしで、16秒の縦型広告ができる方法見つけた 😱 1：Codexに商品ページのURLと「縦型の広告を作って」の一言を渡す [引用 @adops_lab: 記事 広告代理店がAIに食われる ~累計数億円運用の広告屋がAI動画広告を徹底検証~]",
-          "url": "https://x.com/swarm_japan/status/2106542360079548840",
+          "id": "2106584870717980762",
+          "author": "安野貴博＠チームみらい",
+          "handle": "takahiroanno",
+          "text": "AIで法律をリファクタリングする: Fableで改正候補条文を抽出 / 立法における\"Mythos Moment\"を考える…Claude Codeのultracodeで法律を全スキャンしてデジタル化を阻む条文を87箇所抽出してみたよ、という話を書きました。",
+          "url": "https://x.com/takahiroanno/status/2106584870717980762",
           "metrics": {
-            "views": 113045,
-            "likes": 1141
+            "views": 406978,
+            "likes": 1850
           }
         },
         {
-          "id": "2106745564410867933",
-          "author": "Alex",
-          "handle": "de1lymoon",
-          "text": "openai engineer shows the exact setup he uses to run agents without building the agent loop himself here's how the setup works: 1. pick the model. GPT-6.1 Sol (gpt-6.1-sol) launched at DevDay on Sep 29. OpenAI says it gets close to GPT-6 Astra on agentic coding, computer use [引用 @0xMorlex: 記事 OpenAI Agent Stack: Build With Sol, Agents API, Subagents, Tools and Memory [in 10 Steps]]",
-          "url": "https://x.com/de1lymoon/status/2106745564410867933",
+          "id": "2107223571953221865",
+          "author": "ダイチ｜AIレスキュー隊【AIR】",
+          "handle": "LxGtUGtlRSh8yXW",
+          "text": "【Dotsのダッシュボードが想像以上に良かった！】Dotsくんが今何をやっていているのか？テツメモさんが言っていたダッシュボードを作ったら、一目で理解できるようになった！ [引用 @tetumemo: dotsってセッションの概念が無いからタスクがカオスになりがち…dots用のダッシュボードを作ると良いですよ]",
+          "url": "https://x.com/LxGtUGtlRSh8yXW/status/2107223571953221865",
           "metrics": {
-            "views": 5596,
-            "likes": 89
+            "views": 11222,
+            "likes": 54
           }
         },
         {
-          "id": "2107009029658816693",
-          "author": "Kenn Ejima",
-          "handle": "kenn",
-          "text": "ドメインはnamecheap DNSはCloudflare が今のところベストですね〜 [引用 @nanasi_rasi: Cloudflareはabuseフォームが悪用されてよくサスペンドを食らうから、ドメイン取るのはやめましょうと僕はいつも言ってる 虚偽通報食らってサスペンドされたあと、何度メールを送っても対応されなかったので信用できない ドメインは別のレジストラで取って、NSをCloudflareに向けるだけが一番安心]",
-          "url": "https://x.com/kenn/status/2107009029658816693",
+          "id": "2106949614104715459",
+          "author": "0xprince",
+          "handle": "waseema85756651",
+          "text": "中国開発者が2分間のClaude Codeチュートリアルを録画…誰かが0:47で一時停止し、右側の2番目のディスプレイにPolymarketウォレットが開いているのを発見 868,862ドルの利益…",
+          "url": "https://x.com/waseema85756651/status/2106949614104715459",
           "metrics": {
-            "views": 14619,
-            "likes": 206
-          }
-        },
-        {
-          "id": "2106683851032744397",
-          "author": "あいろぐ",
-          "handle": "AILogDev",
-          "text": "Irodori TTS v4.1 Small MFのCore ML高速化版を公開しました！ iPhone / Apple Silicon Macで、端末内の音声合成・Voice Cloningに対応しています！ 動画はiPhone 17 Proで実行しており、2本目はつくよみちゃんの約5秒のサンプル音声を参照しています！ github.com/Corvelis/irodo",
-          "url": "https://x.com/AILogDev/status/2106683851032744397",
-          "metrics": {
-            "views": 35141,
-            "likes": 338
-          }
-        },
-        {
-          "id": "2106942476628193658",
-          "author": "PC Watch",
-          "handle": "pc_watch",
-          "text": "Qwen3.8-Flash-Nextローカル実行環境「Strata」更新。旧世代GeForceやArcに一筋の光 pc.watch.impress.co.jp/docs/news/2145",
-          "url": "https://x.com/pc_watch/status/2106942476628193658",
-          "metrics": {
-            "views": 17506,
-            "likes": 169
-          }
-        },
-        {
-          "id": "2106736773757903354",
-          "author": "劳伦斯",
-          "handle": "LawrenceW_Zen",
-          "text": "Pi コーディングエージェントに Google Antigravity を統合する正規軍プラグインを共有します：pi-antigravity-acp-provider。 以前、多くの Antigravity をサードパーティクライアントに統合する方案は、非公開の Cloud Code Assist のリバースエンジニアリング OAuth",
-          "url": "https://x.com/LawrenceW_Zen/status/2106736773757903354",
-          "metrics": {
-            "views": 18871,
-            "likes": 146
-          }
-        },
-        {
-          "id": "2106365372106764367",
-          "author": "Aarav Garg",
-          "handle": "aaravgarg",
-          "text": "These unsexy problems are goldmines [引用 @tokufxug: YOLO26＋ByteTrackでリンゴの品質判定と個体カウント 🍎 🏭 🔹 リンゴを個別に検出・追跡し、正常品と損傷品を分類 🔹 進行方向を考慮したライン通過判定で重複カウントを防止 🔹 フレーム間の多数決で判定を安定化し、品質別の個数・割合を表示 開発：Muhammad Rahman Shahid氏 情報元はリプ欄。]",
-          "url": "https://x.com/aaravgarg/status/2106365372106764367",
-          "metrics": {
-            "views": 509218,
-            "likes": 8221
-          }
-        },
-        {
-          "id": "2106920809188995510",
-          "author": "Gk",
-          "handle": "0xGky",
-          "text": "各位、短劇この業界のテーブルは、本当に誰かにひっくり返されちゃったよ。 今日、刷ったらオープンソースプロジェクトを見つけた、huobao-drama。これ、PPTで適当に吹くだけじゃなくて、本当に仕事を出せるんだ：1️⃣ 分鏡、ビデオ、配音、編集、字幕、全部のチェーンを一人でこなす 2️⃣",
-          "url": "https://x.com/0xGky/status/2106920809188995510",
-          "metrics": {
-            "views": 11354,
-            "likes": 132
-          }
-        },
-        {
-          "id": "2106856447254646955",
-          "author": "うちた",
-          "handle": "uchita_success",
-          "text": "動くAIスライド、フロー図と相性が良い。 全体の流れを見せつつ、クリックで深掘り。 別ページに飛ばないから、読み手が迷わない。 商談、研修、社内会議でも使えそう。 作り方もプロンプトも記事に置いてます↓ [引用 @uchita_success: 記事 AIスライドを「クリックで深掘りできる資料」にしてみた。動かし方は6つの構造で決まる【保存版】]",
-          "url": "https://x.com/uchita_success/status/2106856447254646955",
-          "metrics": {
-            "views": 66992,
-            "likes": 635
-          }
-        },
-        {
-          "id": "2106742177879732629",
-          "author": "sundyme",
-          "handle": "sundyme",
-          "text": "今回は本当にOpus 5.5に衝撃を受けました、椅子にぐったり座り込むような感じ 🤯 最近、vibe codingでプロキシ管理パネルを作っていて、何セットかのテーマを用意したんだけど、ドットマトリクスフォントが足りなくて、ついでにOpus 5.5に一つデザインしてもらったんです。",
-          "url": "https://x.com/sundyme/status/2106742177879732629",
-          "metrics": {
-            "views": 29784,
-            "likes": 464
-          }
-        },
-        {
-          "id": "2106783576612385235",
-          "author": "まにあ@3世",
-          "handle": "mania_3",
-          "text": "そうなると思います。 多分、GPTでBan祭りされた連中は、ローカルアプリいれてConfig設定なしで使ってBANされてます。 GPTアプリは設定変えないと、ローカルファイル全ての読み取り権限持ってます。 初期設定のままworkつかったら即BANされて当然なのですが、技術職以外こんなの分かりませんよ。 [引用 @momiji_manjyuu: やはりローカルLLMで主権なんだよな。BANの恐怖に怯えて何も出来ないなんて本末転倒]",
-          "url": "https://x.com/mania_3/status/2106783576612385235",
-          "metrics": {
-            "views": 316595,
-            "likes": 2127
-          }
-        },
-        {
-          "id": "2106468325920305295",
-          "author": "GREG ISENBERG",
-          "handle": "gregisenberg",
-          "text": "The limit on software used to be engineering and now it's mostly imagination. I'd spend a lot more time on the version of my idea that makes people say \"wait, what is that?\" Most software looks the same, so anything that looks different gets noticed, shared and remembered. [引用 @DilumSanjaya: Industrial software doesn’t have to feel like industrial software Manage warehouses like you’re playing a strategy game Built with Opus 5.5]",
-          "url": "https://x.com/gregisenberg/status/2106468325920305295",
-          "metrics": {
-            "views": 302159,
-            "likes": 4278
+            "views": 334312,
+            "likes": 663
           }
         }
       ]
