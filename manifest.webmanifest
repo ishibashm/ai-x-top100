@@ -1,0 +1,13 @@
+{
+  "name": "AI情報 Top 100",
+  "short_name": "AI Top100",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0b0d12",
+  "theme_color": "#0b0d12",
+  "lang": "ja",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }],
+  "shortcuts": [{ "name": "おすすめ / For You", "url": "./foryou.html" }]
+}

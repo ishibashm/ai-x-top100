@@ -4,6 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#0b0d12">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<meta name="color-scheme" content="dark light">
+<script>try{var t=localStorage.getItem('ai-x-theme');if(t!=='light'&&t!=='dark')t=matchMedia('(prefers-color-scheme: light)').matches?'light':'dark';document.documentElement.dataset.theme=t;}catch(e){}</script>
 <title>おすすめ | For You</title>
 <style>
 :root{color-scheme:dark;--bg:#0b0d12;--card:#151a22;--line:#2a3140;--text:#eef2fa;--muted:#8b93a7;--accent:#7dd3a8}
@@ -47,6 +51,25 @@ dialog::backdrop{background:#000b}.detail-head,.detail-actions{display:flex;alig
 .buzz.mid{background:#c9a227}.buzz.low{background:#3a4458;color:#c8d0e2}
 #board.roomy .buzz{font-size:11px;padding:1px 7px}
 #sort{max-width:150px}
+
+/* ライトテーマ（OS設定に追従、手動切替はlocalStorageに保存）。 */
+:root[data-theme="light"]{color-scheme:light;--bg:#f5f7fb;--card:#ffffff;--card-h:#eef2f8;--line:#d5dbe6;--text:#141a26;--muted:#5b6478;--rank:#3d5a8a;--accent:#1f8a5b}
+:root[data-theme="light"] header{background:linear-gradient(180deg,#ffffff,#f0f3f8)}
+:root[data-theme="light"] .seg,:root[data-theme="light"] button,:root[data-theme="light"] select,:root[data-theme="light"] input{background:#fff;color:var(--text)}
+:root[data-theme="light"] .seg button{background:transparent;color:var(--muted)}
+:root[data-theme="light"] .seg button.active,:root[data-theme="light"] button.active{background:var(--accent);color:#fff}
+:root[data-theme="light"] .snippet{color:#2c3446}:root[data-theme="light"] .pill{background:#e8edf5;color:var(--text)}
+:root[data-theme="light"] .card:hover{background:var(--card-h,#eef2f8);border-color:#b8c2d4}
+:root[data-theme="light"] .fallback,:root[data-theme="light"] .avatar{background:#dde3ee}
+:root[data-theme="light"] #account{background:#e7f5ee}
+:root[data-theme="light"] .buzz.low{background:#dfe4ee;color:#344}
+.icon-btn{appearance:none;font:inherit;font-size:15px;line-height:1;min-width:44px;min-height:44px;border:1px solid var(--line);border-radius:999px;background:transparent;color:var(--text);cursor:pointer}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+#q{font:inherit;font-size:12px;min-height:44px;width:150px;max-width:40vw;padding:0 12px;border:1px solid var(--line);border-radius:20px;background:#121722;color:var(--text)}
+:root[data-theme="light"] #q{background:#fff;color:var(--text)}
+#q::placeholder{color:var(--muted)}
+@media(max-width:600px){#q{width:110px}}
 </style>
 </head>
 <body>
@@ -55,8 +78,10 @@ dialog::backdrop{background:#000b}.detail-head,.detail-actions{display:flex;alig
  <div class="controls">
   <select id="account" aria-label="アカウント切替"></select>
   <div class="pages" role="group" aria-label="ページ切替"><button id="prev" aria-label="前の50件">‹</button><select id="page" aria-label="表示する50件"></select><button id="next" aria-label="次の50件">›</button></div>
+  <input id="q" type="search" enterkeyhint="search" autocomplete="off" placeholder="検索（/）" aria-label="投稿を検索 / Search posts" aria-keyshortcuts="/">
   <select id="sort" aria-label="並び順"><option value="default">通常順</option><option value="buzz">バズ予測順</option></select>
   <div class="seg" role="group" aria-label="表示言語"><button id="ja" type="button">日本語</button><button id="original" type="button">原文</button></div>
+  <button type="button" id="theme" class="icon-btn"></button>
   <a class="home" href="index.html">Top100へ ↗</a>
  </div>
 </header>
@@ -88,15 +113,21 @@ dialog::backdrop{background:#000b}.detail-head,.detail-actions{display:flex;alig
  const hasBuzz=Object.keys(buzz).length>0;
  const accounts=data.accounts;
  accounts.forEach(a=>$('account').add(new Option(a.name+' / @'+a.handle,a.handle)));
- let current=accounts.find(a=>a.handle===read('account'))||accounts[0];
- let lang=read('lang')==='original'?'original':'ja',page=1;
+ const params=new URLSearchParams(location.search);
+ let query=(params.get('q')||'').trim();$('q').value=query;
+ let current=accounts.find(a=>a.handle===String(params.get('account')||'').replace(/^@/,''))||accounts.find(a=>a.handle===read('account'))||accounts[0];
+ let lang=(params.get('lang')||read('lang'))==='original'?'original':'ja',page=1;
  let sort=read('sort')==='buzz'?'buzz':'default';
  $('sort').value=sort;$('sort').disabled=!hasBuzz;$('sort').title=hasBuzz?'バズ予測スコアの高い順に並べ替えます':'バズ予測データがありません（node scripts/predict-buzz.mjs で生成）';
  // 通常順は取得順そのまま。バズ予測順は安定ソートなので、同点は取得順を保つ。
- const posts=()=>{const list=Array.isArray(current.posts)?current.posts:[];return sort==='buzz'&&hasBuzz?[...list].sort((a,b)=>((buzzOf(b)?.score??-1)-(buzzOf(a)?.score??-1))):list;};
+ const norm=v=>String(v||'').normalize('NFKC').toLowerCase();
+ const matches=p=>{if(!query)return true;const hay=norm([p.text,p.textJa,p.snippet,p.snippet_ja,p.author,p.name,p.handle].join(' '));return norm(query).split(/\s+/).filter(Boolean).every(w=>hay.includes(w));};
+ const posts=()=>{const list=(Array.isArray(current.posts)?current.posts:[]).filter(matches);return sort==='buzz'&&hasBuzz?[...list].sort((a,b)=>((buzzOf(b)?.score??-1)-(buzzOf(a)?.score??-1))):list;};
  const count=()=>Math.max(1,Math.ceil(posts().length/50));
  function restorePage(){const n=Number(read('page-'+current.handle));page=Number.isInteger(n)&&n>0?Math.min(count(),n):1;}
  restorePage();
+ {const n=Number(params.get('page'));if(Number.isInteger(n)&&n>0)page=Math.min(count(),n);}
+ function syncUrl(){try{const u=new URL(location.href);u.searchParams.set('account',current.handle);u.searchParams.set('page',String(page));u.searchParams.set('lang',lang);if(query)u.searchParams.set('q',query);else u.searchParams.delete('q');history.replaceState(null,'',u);}catch{}}
  function sourceLanguage(p){
   if(p.lang)return p.lang.split('-')[0];
   const text=p.text||'';
@@ -140,17 +171,18 @@ dialog::backdrop{background:#000b}.detail-head,.detail-actions{display:flex;alig
  const compact=n=>new Intl.NumberFormat('en',{notation:'compact',maximumFractionDigits:1}).format(n);
  function render(){
   const ja=lang==='ja',list=posts(),start=(page-1)*50;layout();
-  $('account').value=current.handle;
+  $('account').value=current.handle;syncUrl();
   $('title').textContent=(ja?'おすすめ':'For You')+' · '+current.name;
   document.title=$('title').textContent;
   document.documentElement.lang=ja?'ja':'en';
   $('status').textContent='@'+current.handle+' · '+(current.sample?(ja?'サンプル投稿（実際のおすすめではありません）':'Sample posts · Not a live For You feed'):(ja?'おすすめデータ':'For You data'))+' · '+list.length+(ja?'件':' posts')+(current.updatedAt?' · '+current.updatedAt:'');
   $('status').textContent='@'+current.handle+' · '+(current.sample?(ja?'サンプル（実際のおすすめではありません）':'Sample · Not a live feed'):(ja?'おすすめ':'For You'))+' · '+(list.length?(start+1)+'–'+Math.min(start+50,list.length)+' / '+list.length:'0')+(ja?'件':' posts')+' · '+(ja?'最終更新：':'Updated: ')+(relativeDate(current.updatedAt)||(ja?'未取得':'Not fetched'));$('status').title=dateLabel(current.updatedAt)||'';
-  let hint=$('hint');if(!hint){hint=el('p','reading-hint');hint.id='hint';document.querySelector('.heading').append(hint);}hint.textContent=(ja?(list.length<50?'取得済み'+list.length+'件を見やすく表示 · ':'')+'タップで本文・翻訳／Xへ · スワイプでページ切替':'Tap to read / translate / open X · Swipe for pages')+(sort==='buzz'&&hasBuzz?(ja?' · バズ予測スコア順':' · Sorted by buzz score'):'');
+  const total=Array.isArray(current.posts)?current.posts.length:0;let hint=$('hint');if(!hint){hint=el('p','reading-hint');hint.id='hint';document.querySelector('.heading').append(hint);}hint.textContent=(ja?(query?'「'+query+'」'+list.length+'件ヒット（全'+total+'件中） · ':total<50?'取得済み'+total+'件を見やすく表示 · ':'')+'タップで本文・翻訳／Xへ · スワイプでページ切替':(query?list.length+' of '+total+' posts match · ':'')+'Tap to read / translate / open X · Swipe for pages')+(sort==='buzz'&&hasBuzz?(ja?' · バズ予測スコア順':' · Sorted by buzz score'):'');
   for(const key of ['ja','original']){$(key).classList.toggle('active',lang===key);$(key).setAttribute('aria-pressed',String(lang===key));}
   $('page').replaceChildren();for(let i=1;i<=count();i++)$('page').add(new Option(list.length?((i-1)*50+1)+'–'+Math.min(i*50,list.length):(ja?'0件':'0 posts'),String(i)));
   $('page').value=String(page);$('page').disabled=!list.length;$('prev').disabled=page===1;$('next').disabled=page===count();
   board.setAttribute('aria-label',current.name+' / @'+current.handle+' '+(ja?'おすすめ':'For You')+' '+$('page').selectedOptions[0].text);
+  if(!list.length&&query){message(ja?"「"+query+"」に一致する投稿はありません":"No posts match “"+query+"”",ja?"別のキーワードを試すか、Escで検索をクリアしてください。":"Try another keyword, or press Esc to clear.");return;}
   if(!list.length){message(ja?'おすすめ投稿がまだありません':'No For You posts yet', '@'+current.handle+(ja?' のデータはまだありません。下のボタンから別のアカウントを選べます。':' has no data yet. Choose another account below.'));for(const a of accounts.filter(a=>a!==current)){const b=el('button','',a.name+' / @'+a.handle);b.onclick=()=>{$('account').value=a.handle;$('account').dispatchEvent(new Event('change'));};board.firstChild.append(b);}return;}
   board.replaceChildren();
   list.slice(start,start+50).forEach((p,i)=>{
@@ -172,6 +204,9 @@ dialog::backdrop{background:#000b}.detail-head,.detail-actions{display:flex;alig
  $('account').onchange=()=>{current=accounts.find(a=>a.handle===$('account').value);restorePage();save('account',current.handle);render();};
  // 並び順を変えるとページ内の投稿が入れ替わるため、1ページ目に戻す。
  $('sort').onchange=()=>{sort=$('sort').value==='buzz'?'buzz':'default';save('sort',sort);setPage(1);};
+ let qTimer;$('q').addEventListener('input',()=>{clearTimeout(qTimer);qTimer=setTimeout(()=>{query=$('q').value.trim();setPage(1);},150);});
+ $('q').addEventListener('keydown',e=>{if(e.key==='Escape'&&$('q').value){e.preventDefault();$('q').value='';query='';setPage(1);}else if(e.key==='Enter'){board.querySelector('.card')?.focus();}});
+ document.addEventListener('keydown',e=>{if(e.key==='/'&&!e.ctrlKey&&!e.metaKey&&!e.altKey&&!$('detail').open&&!e.target.closest?.('select,input,textarea,[contenteditable]')){e.preventDefault();$('q').focus();$('q').select();}});
  for(const key of ['ja','original'])$(key).onclick=()=>{lang=key;save('lang',lang);render();};
  $('prev').onclick=()=>setPage(page-1);$('next').onclick=()=>setPage(page+1);$('page').onchange=()=>setPage(Number($('page').value));
  let touch=null,suppressUntil=0;
@@ -181,6 +216,15 @@ dialog::backdrop{background:#000b}.detail-head,.detail-actions{display:flex;alig
  board.addEventListener('click',e=>{if(Date.now()<suppressUntil){e.preventDefault();e.stopPropagation();}},true);
  document.addEventListener('keydown',e=>{if(e.altKey||e.ctrlKey||e.metaKey||e.shiftKey||e.target.closest?.('select,input,textarea,[contenteditable]'))return;if(!['ArrowLeft','ArrowRight'].includes(e.key))return;e.preventDefault();if($('detail').open){const b=$(e.key==='ArrowLeft'?'text-prev':'text-next');if(!b.disabled)b.click();}else{const focusCard=document.activeElement.classList.contains('card');setPage(page+(e.key==='ArrowLeft'?-1:1));if(focusCard)board.querySelector('.card')?.focus();}});
  render();
+})();
+</script>
+<script>
+(function(){
+  var root=document.documentElement,btn=document.getElementById('theme');
+  function apply(t){root.dataset.theme=t;var m=document.querySelector('meta[name=theme-color]');if(m)m.content=t==='light'?'#f5f7fb':'#0b0d12';if(btn){btn.textContent=t==='light'?'☾':'☀';btn.setAttribute('aria-label',t==='light'?'ダークモードに切替 / Dark mode':'ライトモードに切替 / Light mode');btn.setAttribute('aria-pressed',String(t==='light'));}}
+  apply(root.dataset.theme==='light'?'light':'dark');
+  if(btn)btn.onclick=function(){var t=root.dataset.theme==='light'?'dark':'light';try{localStorage.setItem('ai-x-theme',t);}catch(e){}apply(t);};
+  try{matchMedia('(prefers-color-scheme: light)').addEventListener('change',function(e){if(!localStorage.getItem('ai-x-theme'))apply(e.matches?'light':'dark');});}catch(e){}
 })();
 </script>
 </body>
