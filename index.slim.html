@@ -5,6 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="theme-color" content="#0b0d12" />
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<meta name="color-scheme" content="dark light">
+<script>try{var t=localStorage.getItem('ai-x-theme');if(t!=='light'&&t!=='dark')t=matchMedia('(prefers-color-scheme: light)').matches?'light':'dark';document.documentElement.dataset.theme=t;}catch(e){}</script>
 <title>AI情報 Top 100</title>
 <style>
 :root {
@@ -80,11 +84,28 @@ h1{font-size:15px;font-weight:800;white-space:nowrap}
   .avatar,.fallback{width:24px;height:24px}
   .thumb{width:34px;height:34px}
 }
+
+/* ライトテーマ（OS設定に追従、手動切替はlocalStorageに保存）。 */
+:root[data-theme="light"]{color-scheme:light;--bg:#f5f7fb;--card:#ffffff;--card-h:#eef2f8;--line:#d5dbe6;--text:#141a26;--muted:#5b6478;--rank:#3d5a8a;--accent:#1f8a5b}
+:root[data-theme="light"] header{background:linear-gradient(180deg,#ffffff,#f0f3f8)}
+:root[data-theme="light"] .seg,:root[data-theme="light"] button,:root[data-theme="light"] select,:root[data-theme="light"] input{background:#fff;color:var(--text)}
+:root[data-theme="light"] .seg button{background:transparent;color:var(--muted)}
+:root[data-theme="light"] .seg button.active,:root[data-theme="light"] button.active{background:var(--accent);color:#fff}
+:root[data-theme="light"] .snippet{color:#2c3446}:root[data-theme="light"] .pill{background:#e8edf5;color:var(--text)}
+:root[data-theme="light"] .card:hover{background:var(--card-h,#eef2f8);border-color:#b8c2d4}
+:root[data-theme="light"] .fallback,:root[data-theme="light"] .avatar{background:#dde3ee}
+:root[data-theme="light"] #account{background:#e7f5ee}
+:root[data-theme="light"] .buzz.low{background:#dfe4ee;color:#344}
+.icon-btn{appearance:none;font:inherit;font-size:15px;line-height:1;min-width:44px;min-height:44px;border:1px solid var(--line);border-radius:999px;background:transparent;color:var(--text);cursor:pointer}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+.seg button,.seg.pages button{min-height:40px}
+.foryou-link{color:var(--accent);font-size:11px;white-space:nowrap;display:inline-flex;align-items:center;min-height:44px;padding:0 6px}
 </style>
 </head>
 <body>
 <header>
-  <div class="left"><h1 id="title">AI情報 Top 100</h1><span class="date" id="date"></span><a href="foryou.html" style="color:var(--accent);font-size:11px;white-space:nowrap;padding:12px 4px">おすすめ ↗</a></div>
+  <div class="left"><h1 id="title">AI情報 Top 100</h1><span class="date" id="date"></span><a class="foryou-link" href="foryou.html">おすすめ ↗</a></div>
   <div class="right">
     <div class="seg pages" role="group" aria-label="ページ">
       <button type="button" id="btn-p1" class="active">1–50</button>
@@ -94,7 +115,8 @@ h1{font-size:15px;font-weight:800;white-space:nowrap}
       <button type="button" id="btn-ja" class="active">日本語</button>
       <button type="button" id="btn-en">原文</button>
     </div>
-    <span class="pill" id="pill">1–50</span>
+    <span class="pill" id="pill" role="status" aria-live="polite">1–50</span>
+    <button type="button" id="theme" class="icon-btn"></button>
   </div>
 </header>
 <main id="board" aria-label="AI情報 Top 100"></main>
@@ -114,6 +136,23 @@ h1{font-size:15px;font-weight:800;white-space:nowrap}
   window.__lang = localStorage.getItem('ai-x-top50-lang') || 'ja';
   window.__page = parseInt(localStorage.getItem('ai-x-top50-page') || '1', 10);
   if (window.__page !== 1 && window.__page !== 2) window.__page = 1;
+  try {
+    var qs = new URLSearchParams(location.search);
+    if (qs.get('lang') === 'ja' || qs.get('lang') === 'en') window.__lang = qs.get('lang');
+    if (qs.get('page') === '1' || qs.get('page') === '2') window.__page = Number(qs.get('page'));
+  } catch (e) {}
+  function syncUrl(){
+    try { var u = new URL(location.href); u.searchParams.set('page', String(window.__page)); u.searchParams.set('lang', window.__lang); history.replaceState(null, '', u); } catch (e) {}
+  }
+  document.addEventListener('keydown', function(e){
+    if (e.altKey || e.ctrlKey || e.metaKey || e.shiftKey) return;
+    if (e.key === 'ArrowLeft' || e.key === 'ArrowRight') {
+      e.preventDefault();
+      var wasCard = document.activeElement && document.activeElement.classList.contains('card');
+      setPage(e.key === 'ArrowLeft' ? 1 : 2);
+      if (wasCard) { var c = document.querySelector('#board .card'); if (c) c.focus(); }
+    }
+  });
 
   function setLang(lang){
     window.__lang = (lang === 'en') ? 'en' : 'ja';
@@ -167,6 +206,8 @@ h1{font-size:15px;font-weight:800;white-space:nowrap}
     document.getElementById('btn-en').classList.toggle('active', !ja);
     document.getElementById('btn-p1').classList.toggle('active', page === 1);
     document.getElementById('btn-p2').classList.toggle('active', page === 2);
+    ['btn-ja','btn-en','btn-p1','btn-p2'].forEach(function(id){ var b = document.getElementById(id); b.setAttribute('aria-pressed', String(b.classList.contains('active'))); });
+    syncUrl();
     document.documentElement.lang = ja ? 'ja' : 'en';
     board.setAttribute('aria-label', (ja ? 'AI情報 Top 100' : 'AI News Top 100') + ' ' + rangeLabel);
     board.innerHTML = '';
@@ -179,6 +220,7 @@ h1{font-size:15px;font-weight:800;white-space:nowrap}
       a.href = p.url || '#';
       a.target = '_blank';
       a.rel = 'noopener noreferrer';
+      a.setAttribute('aria-label', '#' + p.rank + ' ' + (p.name || p.handle || '') + (ja ? '（Xで開く・新しいタブ）' : ' (opens X in a new tab)'));
       var handle = String(p.handle || '').replace(/^@/,'');
       var name = p.name || handle;
       var snip = ja ? (p.snippet_ja || p.snippet || p.text || '') : (p.snippet || p.text || '');
@@ -196,6 +238,15 @@ h1{font-size:15px;font-weight:800;white-space:nowrap}
   }
   window.__bootBoard = boot;
   boot();
+})();
+</script>
+<script>
+(function(){
+  var root=document.documentElement,btn=document.getElementById('theme');
+  function apply(t){root.dataset.theme=t;var m=document.querySelector('meta[name=theme-color]');if(m)m.content=t==='light'?'#f5f7fb':'#0b0d12';if(btn){btn.textContent=t==='light'?'☾':'☀';btn.setAttribute('aria-label',t==='light'?'ダークモードに切替 / Dark mode':'ライトモードに切替 / Light mode');btn.setAttribute('aria-pressed',String(t==='light'));}}
+  apply(root.dataset.theme==='light'?'light':'dark');
+  if(btn)btn.onclick=function(){var t=root.dataset.theme==='light'?'dark':'light';try{localStorage.setItem('ai-x-theme',t);}catch(e){}apply(t);};
+  try{matchMedia('(prefers-color-scheme: light)').addEventListener('change',function(e){if(!localStorage.getItem('ai-x-theme'))apply(e.matches?'light':'dark');});}catch(e){}
 })();
 </script>
 </body>
