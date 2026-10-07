@@ -3,8 +3,15 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-<meta name="apple-mobile-web-app-capable" content="yes" />
-<meta name="theme-color" content="#0b0d12" />
+<meta name="theme-color" content="#0b0d12" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f5f7fb" media="(prefers-color-scheme: light)">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="AI Top100">
+<meta name="app-build" content="__BUILD_ID__">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<script src="pwa.js" defer></script>
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icon.svg" type="image/svg+xml">
 <meta name="color-scheme" content="dark light">
@@ -243,7 +250,7 @@ h1{font-size:15px;font-weight:800;white-space:nowrap}
 <script>
 (function(){
   var root=document.documentElement,btn=document.getElementById('theme');
-  function apply(t){root.dataset.theme=t;var m=document.querySelector('meta[name=theme-color]');if(m)m.content=t==='light'?'#f5f7fb':'#0b0d12';if(btn){btn.textContent=t==='light'?'☾':'☀';btn.setAttribute('aria-label',t==='light'?'ダークモードに切替 / Dark mode':'ライトモードに切替 / Light mode');btn.setAttribute('aria-pressed',String(t==='light'));}}
+  function apply(t){root.dataset.theme=t;document.querySelectorAll('meta[name=theme-color]').forEach(function(m){m.content=t==='light'?'#f5f7fb':'#0b0d12';});if(btn){btn.textContent=t==='light'?'☾':'☀';btn.setAttribute('aria-label',t==='light'?'ダークモードに切替 / Dark mode':'ライトモードに切替 / Light mode');btn.setAttribute('aria-pressed',String(t==='light'));}}
   apply(root.dataset.theme==='light'?'light':'dark');
   if(btn)btn.onclick=function(){var t=root.dataset.theme==='light'?'dark':'light';try{localStorage.setItem('ai-x-theme',t);}catch(e){}apply(t);};
   try{matchMedia('(prefers-color-scheme: light)').addEventListener('change',function(e){if(!localStorage.getItem('ai-x-theme'))apply(e.matches?'light':'dark');});}catch(e){}
