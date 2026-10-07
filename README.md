@@ -12,6 +12,13 @@ https://ishibashm.github.io/ai-x-top100/
 
 （初回は Settings → Pages で Source を **GitHub Actions** にすると有効になります。このリポジトリ専用の URL なので、別リポジトリの日次デプロイには影響しません。）
 
+## アプリとして使う（PWA・オフライン）
+
+- **インストール**: Android / PC の Chrome・Edge は画面下の「インストール」から、iPhone / iPad は Safari の共有ボタン →「ホーム画面に追加」から。
+- **オフライン**: 一度開いたページ・データ・表示した画像は端末に保存され、通信できないときは最後に見たボードを「オフライン表示中（最終更新: …）」付きで表示します。オンライン時は常に最新を取りに行きます。
+- **更新通知**: デプロイごとに `scripts/stamp-pwa.mjs` が `sw.js` と各HTMLの `__BUILD_ID__` をコミットSHAに置き換え、`version.json` を生成します（Pagesワークフロー内で実行、コミットはしない）。開いているページはタブ復帰・フォーカス時に `version.json` を確認し、新しいデータがあれば「新しい投稿があります ［更新］」を表示します。
+- リポジトリ内の `__BUILD_ID__` はそのまま残してください（テストで確認しています）。プッシュ通知はサーバーがないため対象外です。
+
 ## プレビュー（バックアップ）
 
 https://htmlpreview.github.io/?https://github.com/ishibashm/ai-x-top100/blob/main/index.html

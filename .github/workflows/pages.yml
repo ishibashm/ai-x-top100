@@ -24,6 +24,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      # sw.js / HTML にビルドIDを埋め込み、version.json を生成（更新通知用。コミットはしない）
+      - name: Stamp PWA build
+        run: node scripts/stamp-pwa.mjs "${GITHUB_SHA::12}"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
