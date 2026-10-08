@@ -1301,337 +1301,521 @@
       "name": "Cloud",
       "handle": "cloud8wq",
       "sample": false,
-      "updatedAt": "2026-10-08T19:10:00+09:00",
+      "updatedAt": "2026-10-08T20:35:00+09:00",
       "posts": [
         {
-          "id": "2108082472928026657",
+          "id": "2107797115657134119",
+          "author": "Okazaki Kota | FAKE",
+          "handle": "okazakityo",
+          "text": "Cloudflareが1週間で怒涛の46件の新機能を発表。個別に見るより、全部並べると狙いがかなり面白い。\n\n・AIも人も使えるCLI\n・AIがWebを操作するブラウザ\n・AI向けWeb Search\n・AIと人が共同編集できるCMS\n・エージェントを動かす実行環境\n・データ分析、ストレージ、監視\n・AI時代のセキュリティ\n\nCloudflareは従来のWebサイトを速く安全にする会社から、AIエージェントがWeb上で仕事をするための基盤を丸ごと持つ会社へ広がっているのが目に見えてるけど、賢いなぁ〜。\n\nCloudflare Everything we launched during Birthday Week 2026\nhttps://blog.cloudflare.com/birthday-week-2026-wrap-up/ #FDE",
+          "url": "https://x.com/okazakityo/status/2107797115657134119",
+          "createdAt": "2026-10-07T20:36:08+09:00",
+          "avatar": "https://pbs.twimg.com/profile_images/1262005286207799300/QNghxf8x_200x200.jpg",
+          "metrics": {
+            "views": 9420,
+            "likes": 138,
+            "reposts": 14,
+            "replies": 2
+          },
+          "lang": "ja"
+        },
+        {
+          "id": "2108042755096379618",
+          "author": "크롱",
+          "handle": "Krongggggg",
+          "text": "은행 털었다던 AI도구 아르텍스\n원래 중국보안대회 우승작인데 누군가\n한국어판 오픈소스로 공개함\n\nhttps://github.com/jiwoochris/artex-ko",
+          "url": "https://x.com/Krongggggg/status/2108042755096379618",
+          "createdAt": "2026-10-08T12:52:13+09:00",
+          "avatar": "https://pbs.twimg.com/profile_images/2101532244259307520/xT4uSLnu_200x200.jpg",
+          "metrics": {
+            "views": 8142,
+            "likes": 132,
+            "reposts": 18,
+            "replies": 4
+          },
+          "lang": "ko",
+          "textJa": "銀行をハッキングしたと話題のAIツール「Artex」。\nもともとは中国のセキュリティ大会の優勝作品だが、誰かが韓国語版をオープンソースで公開した。\n\nhttps://github.com/jiwoochris/artex-ko"
+        },
+        {
+          "id": "2108127798477115636",
+          "author": "Taitai3070,",
+          "handle": "Taitai3070",
+          "text": "無料版のclaudeで軽いwebアプリ作ってる人へ\nhttps://arena.ai/agent/\n使ってみなさい\nずっとこれ",
+          "url": "https://x.com/Taitai3070/status/2108127798477115636",
+          "createdAt": "2026-10-08T18:30:08+09:00",
+          "avatar": "https://pbs.twimg.com/profile_images/2092135354434461696/1OUOJx4K_200x200.jpg",
+          "metrics": {
+            "views": 86252,
+            "likes": 711,
+            "reposts": 17,
+            "replies": 7
+          },
+          "lang": "ja"
+        },
+        {
+          "id": "2107803136928760196",
+          "author": "Halu @アプリ開発",
+          "handle": "haluxel",
+          "text": "【AIアプリ、APIキー流出が怖くて一旦ストアから削除しました】\n\n夢をAIで分析するアプリを個人開発してリリースしたものの、セキュリティ面での不安が拭えず非公開にしました。\n\n「GitHubに .env を上げなければ大丈夫」と思っていたのですが、Xでの高額請求事例を見て調べてみると…\n\n🚨 アプリ開発における流出リスク ・コードへの直接記述（解析されて抜かれる） ・アプリから直接APIを叩く（通信を傍受されて丸見えになる）\nスマホアプリから直接AIのAPIを叩く設計は危険だと痛感。\n個人開発で生成AIを組み込んでいる皆さん、バックエンド（中継サーバー）は何を使って構築していますか？知見を教えてもらえると嬉しいです🙇‍♂️",
+          "url": "https://x.com/haluxel/status/2107803136928760196",
+          "createdAt": "2026-10-07T21:00:03+09:00",
+          "avatar": "https://pbs.twimg.com/profile_images/2059257329997193216/jDJYJxpy_200x200.jpg",
+          "metrics": {
+            "views": 230395,
+            "likes": 410,
+            "reposts": 35,
+            "replies": 22
+          },
+          "lang": "ja"
+        },
+        {
+          "id": "2107961674993107380",
           "author": "オープンソース研究所",
           "handle": "opensourcelab9",
-          "text": "【公式】\nNVIDIAが、AIエージェントに本物の鍵を見せずに働かせる実行環境を丸ごと公開\n★14,918の OpenShell。ファイルも通信も、決めた範囲の外には出られません。\n\n① 導入の1行で、CLIと手元の管理役が入る\n② openshell sandbox create --name demo で隔離した部屋を作る\n③ npx skills add",
-          "url": "https://x.com/opensourcelab9/status/2108082472928026657",
+          "text": "PDFもWordもExcelも、AIに渡す前にコマンド1つで Markdown に。\nMicrosoft の MarkItDown なら、形式ごとに道具を探さずに済みます。\n\n画像や音声、HTML まで同じ入口で受け付けます。\n6月に15.2万だった★は、いま★188,509まで伸びています。\n\n資料をAIに読ませる前のひと手間が1行で済むので、要約を頼む回数が多い人ほど効いてきます。\n\nただ、PDF の見出しの読み取りは弱く、日本語の PDF では文字化けも起きるので、そこは気をつけてください。\nどの形式なら任せられるかは、この下の記事で確かめてから使うのがおすすめです👇\n\nオープンソースはこちら👇\n\nhttps://github.com/microsoft/markitdown",
+          "url": "https://x.com/opensourcelab9/status/2107961674993107380",
+          "createdAt": "2026-10-08T07:30:02+09:00",
+          "avatar": "https://pbs.twimg.com/profile_images/2043709040921059328/1qDRmMiX_200x200.jpg",
           "metrics": {
-            "views": 1707,
-            "likes": 28
-          }
+            "views": 1223,
+            "likes": 15,
+            "reposts": 4,
+            "replies": 0
+          },
+          "lang": "ja"
         },
         {
-          "id": "2108068606215074146",
-          "author": "StudioYebisu",
-          "handle": "studio_yebisu",
-          "text": "Hark .こいつ、、ヤバいかも。\nスマートエージェント、っていうべき、AIソリューションなんだが、、、\nなんか、完璧な秘書を雇える感がすごいぞこれは。\n\nGrokBot、Dots、Museの上位互換というか、あらゆる権限※をAIエージェントに差し出す勇気がある方は触ってみるのを薦めます。 [引用 @adcock_brett: Hark launches this week. The first 100,000 sign-ups get a paid plan for free\n\nI don't do anything without Hark anymore. The team has obsessed over every detail, and it shows.  Can't wait to see how you all use it\n\nJoin the waitlist: https://hark.com]",
-          "url": "https://x.com/studio_yebisu/status/2108068606215074146",
+          "id": "2107974863550091302",
+          "author": "金のニワトリ",
+          "handle": "gosrum",
+          "text": "気づいたら画像入力も可能な意思決定モデル d1 がオープンウェイトで公開されていた...！これも試さなくては\n\nDecisions API は日本からだと通信の影響でレイテンシが大きくかつ安定性に課題があったけど、ローカル運用ならこのあたりの問題が解決できる\n\nhttps://huggingface.co/LiquidAI/d1-3B",
+          "url": "https://x.com/gosrum/status/2107974863550091302",
+          "createdAt": "2026-10-08T08:22:26+09:00",
+          "avatar": "https://pbs.twimg.com/profile_images/1809483060859240448/gzCO85RH_200x200.jpg",
           "metrics": {
-            "views": 16544,
-            "likes": 166
-          }
+            "views": 14016,
+            "likes": 198,
+            "reposts": 33,
+            "replies": 1
+          },
+          "lang": "ja"
         },
         {
-          "id": "2107996899554758801",
+          "id": "2108054277612814615",
           "author": "たか田",
           "handle": "daifukujinji",
-          "text": "マジか。Dotsでも一人会社できるのか... [引用 @Sou_AIDriven: 記事 海外の天才が19万回表示のX記事で公開した｜ChatGPT dotsで一人会社を作る6つの役割 ChatGPTのdotsで一人会社を運営する手順を書いた海外のX記事が、10月1日の公開から19万回以上表示されています。元記事の中身を日本語で読むと、設計図の中心は1つです。...]",
-          "url": "https://x.com/daifukujinji/status/2107996899554758801",
+          "text": "これ、もうdotsの教科書じゃん...",
+          "url": "https://x.com/daifukujinji/status/2108054277612814615",
+          "createdAt": "2026-10-08T13:38:00+09:00",
+          "avatar": "https://pbs.twimg.com/profile_images/1925886647725375488/A2Y6510O_200x200.jpg",
           "metrics": {
-            "views": 15101,
-            "likes": 85
-          }
+            "views": 48995,
+            "likes": 272,
+            "reposts": 19,
+            "replies": 0
+          },
+          "lang": "ja"
         },
         {
-          "id": "2108011900613390718",
-          "author": "Noa",
-          "handle": "_Akanoa_",
-          "text": "これがこんなに良く見えるなんて、ショックだよ :D",
-          "url": "https://x.com/_Akanoa_/status/2108011900613390718",
+          "id": "2107954199136751893",
+          "author": "GIGAZINE(ギガジン)",
+          "handle": "gigazine",
+          "text": "意思決定モデル「d1」が画像入力に対応、同一タスクでGPT-6.1 Solより高精度・高速・低コスト",
+          "url": "https://x.com/gigazine/status/2107954199136751893",
+          "createdAt": "2026-10-08T07:00:19+09:00",
+          "media": "https://pbs.twimg.com/media/HUD1LHxWcAA1noX.jpg?name=orig",
+          "avatar": "https://pbs.twimg.com/profile_images/876998955627827204/IuoxMaM2_200x200.jpg",
           "metrics": {
-            "views": 61607,
-            "likes": 566
-          }
+            "views": 15730,
+            "likes": 132,
+            "reposts": 16,
+            "replies": 1
+          },
+          "lang": "ja"
         },
         {
-          "id": "2107992172905771190",
-          "author": "にらまよ",
-          "handle": "niramayo2096",
-          "text": "うぉぉぉーーまじか！！ClaudeCodeガチ変態設定きたぁぁぁ！！！\nこれは保存！！そのまま自分のClaudeCode魔改造します！！！ [引用 @29meat_ai: 記事 日本一やさしい Claude Code 変態ハーネス入門【無料コピペOK】 Claude CodeでOpus 5.5に長めの仕事を頼んでみたら、こんなことが起きませんでしたか？ 途中で止まって、「続けますか？」と聞いてくる 次の日に続きを頼んだら、昨日の話を全部忘れている...]",
-          "url": "https://x.com/niramayo2096/status/2107992172905771190",
+          "id": "2107926727242416245",
+          "author": "RazeDen",
+          "handle": "razeden0",
+          "text": "who the f*ck let a spider into my ai setup... it read 1,860 pages last night and cut my bill by $81\n\ni just put a web crawler inside Claude + Grok 4.7 + Jev. the crawler reads. jev decides. grok 4.7 explains. claude writes the fix\n\ncrawler → jev asks 8 questions → grok 4.7 reads only what changed → claude writes the fix → i approve\n\nevery night it crawls 1,860 pages: docs, changelogs and pricing of the 37 tools i use. jev doesn't write anything. it only answers simple questions about each page: did it change, yes or no. does it touch my setup, pick one. how urgent, score 1 to 10\n\n8 questions each is 14,880 decisions, done in 11.2 seconds for $0.29\n\nthen the routing is cold. 1,791 pages get dropped by code, no model call at all. 55 go to grok 4.7. 11 reach claude. 3 come to me\n\nreading those pages by hand at 45 seconds each is 23h 15m. people would say 1,000x faster. i did the math and it's 7,473x\n\nthat's $0.00016 per page, and the smart models only see 66 of them\n\nlast night it caught a price cut 6 hours after it shipped. claude changed one line in my router and my bill went from $212 to $131\n\nthe big mistake: letting the smart model browse the web. you pay it to read 1,860 pages and say \"nothing new\" 1,791 times\n\nsetup took me 14 minutes: list of 37 urls, crawler skill on the agent computer, one schema with 8 questions, test mode first\n\njev decides, grok 4.7 reads, claude fixes, and i still press the button on anything that touches my keys or my money\n\neveryone gives their agent the whole web. mine reads 37 sites and gets cheaper every night",
+          "url": "https://x.com/razeden0/status/2107926727242416245",
+          "createdAt": "2026-10-08T05:11:09+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2107926678538207232/img/tGNHLlwqmdDJMDRF.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/2099911726237941760/uSgT1Q8x_200x200.jpg",
           "metrics": {
-            "views": 16713,
-            "likes": 116
-          }
+            "views": 4655,
+            "likes": 53,
+            "reposts": 7,
+            "replies": 7
+          },
+          "lang": "en",
+          "textJa": "AI環境にクモ（クローラー）を入れたのは誰だ…昨夜1,860ページを読んで、請求額を81ドル減らしてくれた。\n\nClaude＋Grok 4.7＋Jevの中にWebクローラーを組み込んだ。クローラーが読み、Jevが判断し、Grok 4.7が説明し、Claudeが修正を書く。\n\nクローラー → Jevが8つの質問をする → Grok 4.7は変わった部分だけ読む → Claudeが修正を書く → 自分が承認\n\n毎晩、使っている37ツールのドキュメント・変更履歴・料金ページ計1,860ページを巡回する。Jevは何も書かない。各ページについて「変わったか（はい/いいえ）」「自分の環境に関係するか（選択）」「緊急度（1〜10）」といった単純な質問に答えるだけ。\n\n1ページ8問で14,880件の判断を、11.2秒・0.29ドルで終える。\n\nその後の振り分けは機械的。1,791ページはモデルを呼ばずにコードで除外。55ページがGrok 4.7へ、11ページがClaudeへ、3ページだけが自分のところに来る。\n\n手作業で1ページ45秒かけて読むと23時間15分。「1,000倍速い」と言われそうだが、計算したら7,473倍だった。\n\n1ページあたり0.00016ドルで、賢いモデルが見るのは66ページだけ。\n\n昨夜は値下げを公開から6時間後に検知。Claudeがルーターを1行変え、請求額が212ドルから131ドルになった。\n\n大きな失敗は、賢いモデルにWebを巡回させること。1,860ページを読ませて1,791回「新しいことなし」と言わせるのにお金を払うことになる。\n\nセットアップは14分：37個のURLリスト、エージェント用コンピューターにクローラースキル、8問のスキーマ1つ、まずテストモードで。\n\nJevが判断し、Grok 4.7が読み、Claudeが直す。鍵やお金に関わるものは、今でも自分がボタンを押す。\n\nみんなエージェントにWeb全体を与えている。自分のは37サイトだけを読み、毎晩安くなっていく。"
         },
         {
-          "id": "2108017978432508358",
-          "author": "わどAI界のマスコット",
-          "handle": "wad0427",
-          "text": "Grok Bot はもう X を検索するために API クレジットが必要ない！！\n\nこれマジでヤバい [引用 @bot: Grok Bot can now search, read, and monitor X.]",
-          "url": "https://x.com/wad0427/status/2108017978432508358",
+          "id": "2107817703256023511",
+          "author": "石橋秀仁",
+          "handle": "zerobase",
+          "text": "自宅J:COM、携帯IIJmio、DNS 1.1.1.1のワイ涙目\nDNS乗っ取りの脆弱性が判明\n実際PoCにアクセスしたら攻撃成立してるのを確認😭\nCloudflare Public DNS(1.1.1.1)をやめて、Google Public DNS (8.8.8.8と8.8.4.4)に移行しました。 https://x.com/debiru_r/status/2107478993779999152?s",
+          "url": "https://x.com/zerobase/status/2107817703256023511",
+          "createdAt": "2026-10-07T21:57:56+09:00",
+          "avatar": "https://pbs.twimg.com/profile_images/1754743591958966272/tI3w1Nrt_200x200.jpg",
           "metrics": {
-            "views": 16690,
-            "likes": 124
-          }
+            "views": 217307,
+            "likes": 1315,
+            "reposts": 360,
+            "replies": 3
+          },
+          "lang": "ja"
         },
         {
-          "id": "2108111375704695191",
-          "author": "AI駆動経営ラボ",
-          "handle": "yoshio_nocode",
-          "text": "【簡単】Dots × MCP EventsでAI並列タスク実行基盤を作る方法を解説します\nDotsがタスク管理ボードでChatGPT WorkやClaude Codeを指揮する。\nカードに仕事を書いて「実行」を押すと、Dotsが作業を別セッションへ振り分け、進捗と成果物が戻ってく\n \n昨日紹介した「AI Driven...",
-          "url": "https://x.com/yoshio_nocode/status/2108111375704695191",
+          "id": "2107957732557086820",
+          "author": "やぐちはるお@LangCore VPoE",
+          "handle": "haruo2177",
+          "text": "Chromeでやばめの脆弱性（CVE-2026-102322）。\n\n悪意あるWebページを開くだけで任意コード実行につながる可能性があるHigh級の欠陥。古いChromeやPlaywright環境は早急に更新推奨です。\n\nhttps://github.com/advisories/GHSA-8pm8-72rp-hgvp",
+          "url": "https://x.com/haruo2177/status/2107957732557086820",
+          "createdAt": "2026-10-08T07:14:22+09:00",
+          "avatar": "https://pbs.twimg.com/profile_images/2024807605609361408/D3fteETp_200x200.jpg",
           "metrics": {
-            "views": 2669,
-            "likes": 19
-          }
+            "views": 247640,
+            "likes": 1529,
+            "reposts": 563,
+            "replies": 3
+          },
+          "lang": "ja"
         },
         {
-          "id": "2107832622214750340",
-          "author": "Solty",
-          "handle": "0xSolty",
-          "text": "This is f*cking insane. Type /handoff before you switch to Opus 5.5 and it stops re-reading your whole session\n\nthe whole switch:\n\n/handoff → /clear → /model opus\n\n$0.10 instead of $1.50\n\nhere's what each step does:\n\n/handoff\nSonnet writes HANDOFF.md under 20K tokens: the goal, [引用 @gippp69: 記事 Opus 5.5 Is 2x the Price on Paper. In a Long Agent Loop It's 1.26x (Full Guide) Handing a Sonnet 5.5 session to Opus 5.5 at 300K tokens of context costs $1.50. Opus hasn't read a file or written a line yet. That's just rebuilding the cache for the new model. Meanwhile the thing...]",
-          "url": "https://x.com/0xSolty/status/2107832622214750340",
+          "id": "2107876974538461605",
+          "author": "Dan Kondratyuk",
+          "handle": "hyperparticle",
+          "text": "Experts doubted a small neural net could beat Craftax without an LLM's knowledge.\n​\nOur agent meta-harness built one in 3 weeks. The 15M-param agent beats the final boss 44% of the time, costing a cent, and 10 seconds.\n​\nGPT-6 Astra won 1%, taking 24 hours and $83. 🧵",
+          "url": "https://x.com/hyperparticle/status/2107876974538461605",
+          "createdAt": "2026-10-08T01:53:27+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2107876421091610624/img/pazJkDAdSNq0i_Ga.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/795662668480684032/oqsl3ET-_200x200.jpg",
           "metrics": {
-            "views": 17046,
-            "likes": 175
-          }
+            "views": 153140,
+            "likes": 591,
+            "reposts": 63,
+            "replies": 24
+          },
+          "lang": "en",
+          "textJa": "LLMの知識なしに小さなニューラルネットでCraftaxを攻略できるのか、専門家は疑っていた。\n\n私たちのエージェント用メタハーネスは3週間でそれを作った。1,500万パラメータのエージェントが44%の確率でラスボスを倒し、コストは1セント、時間は10秒。\n\nGPT-6 Astraの勝率は1%で、24時間と83ドルかかった。🧵"
         },
         {
-          "id": "2108065874511077598",
-          "author": "しょうへい｜デイトラ代表",
-          "handle": "showheyohtaki",
-          "text": "AIへの指示用に、\"よく使うおしゃれなアニメーション名\" をまとめました！\n\nClaudeやCodexでLPを作るとき、「この辺をおしゃれに動かして」では狙った動きはまず出せない。\n\n「パララックス」「スティッキー」「スクロールスナップ」と名前で頼めば、思い通りの動きが実装できます。\n\n保存推奨です",
-          "url": "https://x.com/showheyohtaki/status/2108065874511077598",
+          "id": "2107898724286361928",
+          "author": "wast3",
+          "handle": "0xWast3",
+          "text": "Anthropic built a model that turns any object into a 3D schematic and then runs experiments on it before anyone touches the real thing.\n\nThe geometry was never the hard part. The hard part is a model that knows which parts of the object are allowed to move.\n\n> SHAPE - the object rebuilt as parts with real dimensions, nothing smoothed over\n> JOINT - every connection marked with what it permits and what it forbids\n> LOAD - forces applied the way the object actually meets them in use\n> BREAK - the weakest path traced until something gives, over and over\n> SWAP - a single part changed and the whole run repeated from scratch\n> RANK - failure modes sorted by how little force it takes to trigger them\n\nA render shows what something looks like. A schematic with constraints shows what it cannot survive.\n\nSimulation tools already do this, and they need weeks of setup by someone who knows the software cold.\n\nHere the setup is the description. The constraints come from what the object is, not from a form someone fills in.\n\nThe swap step is where it earns its place. You change one part and get the new failure order in minutes, not days.\n\nMost prototypes exist to find the first thing that breaks. This finds it, then the next four behind it.\n\nEvery failure path and the force that caused it sits in the breakdown below.",
+          "url": "https://x.com/0xWast3/status/2107898724286361928",
+          "createdAt": "2026-10-08T03:19:53+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2107897427214598144/img/u4Cd1hmiMkHbdXir.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/1978452473338880000/_lIVCi0x_200x200.jpg",
           "metrics": {
-            "views": 26482,
-            "likes": 487
-          }
+            "views": 57550,
+            "likes": 556,
+            "reposts": 66,
+            "replies": 19
+          },
+          "lang": "en",
+          "textJa": "Anthropicが、どんな物体でも3D図面に変換し、実物に触れる前にその上で実験を回すモデルを作った。\n\n難しいのは形状ではない。物体のどの部分が動いてよいかを理解するモデルこそが難しい。\n\n> SHAPE：実寸の部品として物体を再構築し、何もならさない\n> JOINT：各接合部に、許す動きと禁じる動きを記す\n> LOAD：実際の使われ方どおりに力をかける\n> BREAK：何かが壊れるまで最も弱い経路をたどり、繰り返す\n> SWAP：部品を1つ替えて最初からやり直す\n> RANK：壊れ方を、必要な力が小さい順に並べる\n\nレンダリングは見た目を示す。制約付きの図面は、何に耐えられないかを示す。\n\nシミュレーションツールは既にこれをやっているが、ソフトを熟知した人が何週間もかけて準備する必要がある。\n\nここでは説明文そのものが準備になる。制約は誰かが入力するフォームではなく、物体が何であるかから導かれる。\n\n真価を発揮するのはSWAPの段階。部品を1つ替えるだけで、新しい壊れる順番が数日ではなく数分で分かる。\n\n試作品の多くは、最初に壊れる箇所を見つけるためにある。これはそれを見つけ、その後に続く4つも見つける。\n\nすべての破壊経路とその原因となった力は、下の詳細にまとめてある。"
         },
         {
-          "id": "2108054131273535742",
-          "author": "돈벌고영",
-          "handle": "Dontgiveup_26",
-          "text": "遅すぎる `brew install` にうんざりした世界中の Mac 開発者たちから GitHub で 7,600 スターを獲得して大騒ぎのオープンソース。\n\nPython に `uv` が登場して pip をぶっ壊したように、Homebrew を最大 100 倍高速化した Rust ベースの代替ツール「zerobrew」が登場した。\n\n• Node.js インストール:",
-          "url": "https://x.com/Dontgiveup_26/status/2108054131273535742",
+          "id": "2108150438864339282",
+          "author": "Seozilla",
+          "handle": "Seozilla_ai",
+          "text": "When choosing SEO tools, pick for consistency over complexity.\n\nThe best keyword strategy is the one you actually run every week.\nThe best content system is the one that ships without you.\nThe best SEO tool is the one your team never has to think about.",
+          "url": "https://x.com/Seozilla_ai/status/2108150438864339282",
+          "createdAt": "2026-10-08T20:00:06+09:00",
+          "avatar": "https://pbs.twimg.com/profile_images/2026991834719830016/JN8eocEL_200x200.jpg",
           "metrics": {
-            "views": 8713,
-            "likes": 82
-          }
+            "views": 42,
+            "likes": 3,
+            "reposts": 0,
+            "replies": 3
+          },
+          "lang": "en",
+          "textJa": "SEOツールを選ぶなら、複雑さより継続性を重視しよう。\n\n最良のキーワード戦略は、毎週実際に回せるもの。\n最良のコンテンツ体制は、自分がいなくても公開が進むもの。\n最良のSEOツールは、チームが意識せずに使えるもの。"
         },
         {
-          "id": "2108060782302990699",
-          "author": "浮世绘",
-          "handle": "shmily7",
-          "text": "最新进展：\n\n- Cloudflareの請求書を全額支払いました（US$10,811.41）。これは人生で2番目に高価な教訓を買ったようなものです。\n\n- 減免申請のチケットは、ずっとロボットがループで返信し続けています（ちなみに、Moonshotのモデルを使っていますよ。なぜClaudeを使わないんですか？）\n\n- [引用 @shmily7: Cloudflareの請求書アサシンに遭遇し、1万ドルの請求書が爆発。原因は一つのプロジェクトのDurable Objectアラームがデッドループになって、6兆回の読み書きが発生したこと。Viber Codeingが私を誤導した。]",
-          "url": "https://x.com/shmily7/status/2108060782302990699",
+          "id": "2108148556058046944",
+          "author": "Lummox",
+          "handle": "Lummox_eth",
+          "text": "holy sh*t, GPT 6 Astra is getting f...cking treasure \n\nstop wasting the best model in the stack on work another layer can handle\n\nput Astra in charge of decisions\n\nlet everything else do the mechanical work\n\nSerena maps the repo before Astra plans anything\n\nContext7 pulls the exact docs before Astra touches an API\n\nBrowser Use handles the web when the answer is outside the codebase\n\nE2B runs the code in a clean sandbox\n\npytest decides if the patch actually survives\n\nLangfuse keeps the trace when something goes wrong\n\nAstra thinks\n\nthe stack executes\n\nand the model only wakes up when the path actually needs reasoning\n\n→ before a multi file change, Astra decides what should move and what should stay untouched\n\n→ after a failed run, Astra gets the error and chooses whether to change the code, the environment, or the plan\n\n→ before the PR, Astra checks the final diff instead of blindly trusting a green test\n\nthe full setup\n\n> GPT 6 Astra handles planning, code decisions and final review\n\n> Serena handles symbols, references and repo structure\n\n> Context7 handles current docs and library examples\n\n> Browser Use handles missing external context\n\n> E2B handles execution and dependency installs\n\n> pytest handles the hard pass or fail gate\n\n> Langfuse keeps every model call and tool action visible\n\nthe loop becomes\n\nissue\n→ map repo\n→ load docs\n→ plan\n→ edit\n→ run\n→ test\n→ inspect failure\n→ fix\n→ review diff\n→ PR\n\npaste this into your coding agent\n\n\"Build this repository workflow around GPT 6 Astra\n\nUse Serena before planning any code change so the model sees the relevant symbols, references and affected files\n\nUse Context7 before touching external libraries or APIs\n\nUse Browser Use only when required information is outside the repository or documentation context\n\nRun all code, installs and commands inside E2B\n\nUse pytest as the final verification gate\n\nSend failed execution output back to GPT 6 Astra for replanning\n\nTrace the entire run with Langfuse\n\nGPT 6 Astra should handle reasoning, architecture decisions, difficult debugging and final diff review\n\nDo not spend model calls on mechanical file lookup, documentation retrieval, command execution or test running\n\nFollow this order every time\n\ninspect\n→ research\n→ plan\n→ edit\n→ execute\n→ test\n→ repair\n→ review\n→ PR\"",
+          "url": "https://x.com/Lummox_eth/status/2108148556058046944",
+          "createdAt": "2026-10-08T19:52:37+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2108148527750680576/img/9PSbrPJCW97OErrL.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/2103476501010059265/nk1l2Y-q_200x200.jpg",
           "metrics": {
-            "views": 108502,
-            "likes": 517
-          }
+            "views": 552,
+            "likes": 19,
+            "reposts": 2,
+            "replies": 5
+          },
+          "lang": "en",
+          "textJa": "GPT 6 Astraはとんでもないお宝だ。\n\n最高のモデルを、別の層でこなせる作業に浪費するのはやめよう。\n\nAstraには判断を任せ、機械的な作業は他に任せる。\n\nSerenaが、Astraが計画する前にリポジトリを把握する\nContext7が、AstraがAPIに触る前に正確なドキュメントを取ってくる\nBrowser Useが、コードベースの外に答えがあるときにWebを扱う\nE2Bがクリーンなサンドボックスでコードを実行する\npytestが、パッチが本当に通るかを判定する\nLangfuseが、問題が起きたときのトレースを残す\n\nAstraが考え、スタックが実行する。\nモデルは、本当に推論が必要なときだけ起動する。\n\n→ 複数ファイルの変更前に、Astraが何を動かし何を残すか決める\n→ 実行失敗後、Astraがエラーを受け取り、コード・環境・計画のどれを変えるか選ぶ\n→ PR前に、テストが緑でも鵜呑みにせずAstraが最終差分を確認する\n\n全体構成\n> GPT 6 Astra：計画、コード上の判断、最終レビュー\n> Serena：シンボル、参照、リポジトリ構造\n> Context7：最新ドキュメントとライブラリの例\n> Browser Use：不足している外部情報\n> E2B：実行と依存関係のインストール\n> pytest：合否の厳格な判定\n> Langfuse：すべてのモデル呼び出しとツール操作の可視化\n\nループは次のようになる\nissue → リポジトリ把握 → ドキュメント読込 → 計画 → 編集 → 実行 → テスト → 失敗の調査 → 修正 → 差分レビュー → PR\n\nコーディングエージェントにこれを貼り付けよう\n\n「GPT 6 Astraを中心にこのリポジトリのワークフローを構築して。\nコード変更を計画する前にSerenaを使い、関連するシンボル・参照・影響ファイルをモデルに見せる。\n外部ライブラリやAPIに触る前にContext7を使う。\n必要な情報がリポジトリやドキュメントの外にあるときだけBrowser Useを使う。\nコード・インストール・コマンドはすべてE2B内で実行する。\n最終確認にはpytestを使う。\n実行に失敗した出力はGPT 6 Astraに戻して再計画させる。\n実行全体をLangfuseでトレースする。\nGPT 6 Astraは推論、設計判断、難しいデバッグ、最終差分レビューを担当する。\n機械的なファイル検索、ドキュメント取得、コマンド実行、テスト実行にモデル呼び出しを使わない。\n毎回この順番に従う：調査 → リサーチ → 計画 → 編集 → 実行 → テスト → 修復 → レビュー → PR」"
         },
         {
-          "id": "2107973327256215748",
-          "author": "sounisi5011/*",
-          "handle": "sounisi5011",
-          "text": "無検閲版GLM-5.3マジでありがたい……\n野良の無検閲版モデルは安全性に不安があるけど、こういうガチ日本勢からのリリースは信用できる寄りだと思う。\n\n無検閲版を自炊できなかったらこういう方々からのお恵みに頼ろう。なんまんだぶ [引用 @Hikari_07_jp: I love the atmosphere of the morning after pulling an all-nighter. If you use AI agents, you probably know the feeling, right?\nI'm currently optimizing a GLM 5.3 Arbitrated model using an RTX PRO 6000 with TP=4.]",
-          "url": "https://x.com/sounisi5011/status/2107973327256215748",
+          "id": "2108017417670860900",
+          "author": "M.",
+          "handle": "wlzh",
+          "text": "Claude 防封分流的完整域名配置（完整版）\n\n[General]\nbypass-system = true\nskip-proxy = 127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,localhost,*.local\n\n[Proxy]\nCLAUDE0409 = direct\n\n[Rule]\n# 核心域名（ DOMAIN-SUFFIX 已覆盖所有 *.anthropic.com 子域名）\nDOMAIN-SUFFIX,http://anthropic.com,CLAUDE0409\nDOMAIN-SUFFIX,http://claude.ai,CLAUDE0409\nDOMAIN-SUFFIX,http://claude.com,CLAUDE0409\nDOMAIN-SUFFIX,http://clau.de,CLAUDE0409\nDOMAIN-SUFFIX,http://claudemcpclient.com,CLAUDE0409\nDOMAIN-SUFFIX,http://claudeusercontent.com,CLAUDE0409\n\n# CDN 和静态资源\nDOMAIN,http://servd-anthropic-website.b-cdn.net,CLAUDE0409\nDOMAIN,http://anthropic.com.cdn.cloudflare.net,CLAUDE0409\n\n# 认证 / 内容\nDOMAIN,http://anthropic.auth0.com,CLAUDE0409\nDOMAIN,http://anthropic-com.ghost.io,CLAUDE0409\n\n# 监控和遥测\nDOMAIN-SUFFIX,http://sentry.io,CLAUDE0409\nDOMAIN-SUFFIX,http://statsigapi.net,CLAUDE0409\nDOMAIN,http://browser-intake-us5-datadoghq.com,CLAUDE0409\nDOMAIN-KEYWORD,datadog,CLAUDE0409\nDOMAIN-KEYWORD,sift,CLAUDE0409\n\n# 客服 / 第三方 widget\nDOMAIN-SUFFIX,http://intercom.io,CLAUDE0409\nDOMAIN-SUFFIX,http://intercomcdn.com,CLAUDE0409\nDOMAIN,http://cdn.usefathom.com,CLAUDE0409\n\n# IP 段 / ASN 兜底\nIP-CIDR,160.79.104.0/21,CLAUDE0409,no-resolve\nIP-CIDR6,2607:6bc0::/32,CLAUDE0409,no-resolve\nIP-ASN,399358,CLAUDE0409,no-resolve\n\nFINAL,DIRECT",
+          "url": "https://x.com/wlzh/status/2108017417670860900",
+          "createdAt": "2026-10-08T11:11:32+09:00",
+          "avatar": "https://pbs.twimg.com/profile_images/1971564093330100224/LUdVXeKz_200x200.jpg",
           "metrics": {
-            "views": 11797,
-            "likes": 250
-          }
+            "views": 21441,
+            "likes": 235,
+            "reposts": 25,
+            "replies": 5
+          },
+          "lang": "ja",
+          "textJa": "Claudeのアカウント停止を避けるための分流ドメイン設定（完全版）\n\n[General]\nbypass-system = true\nskip-proxy = 127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12,100.64.0.0/10,localhost,*.local\n\n[Proxy]\nCLAUDE0409 = direct\n\n[Rule]\n# 主要ドメイン（DOMAIN-SUFFIXで *.anthropic.com のサブドメインをすべてカバー）\nDOMAIN-SUFFIX,http://anthropic.com,CLAUDE0409\nDOMAIN-SUFFIX,http://claude.ai,CLAUDE0409\nDOMAIN-SUFFIX,http://claude.com,CLAUDE0409\nDOMAIN-SUFFIX,http://clau.de,CLAUDE0409\nDOMAIN-SUFFIX,http://claudemcpclient.com,CLAUDE0409\nDOMAIN-SUFFIX,http://claudeusercontent.com,CLAUDE0409\n\n# CDNと静的リソース\nDOMAIN,http://servd-anthropic-website.b-cdn.net,CLAUDE0409\nDOMAIN,http://anthropic.com.cdn.cloudflare.net,CLAUDE0409\n\n# 認証／コンテンツ\nDOMAIN,http://anthropic.auth0.com,CLAUDE0409\nDOMAIN,http://anthropic-com.ghost.io,CLAUDE0409\n\n# 監視とテレメトリ\nDOMAIN-SUFFIX,http://sentry.io,CLAUDE0409\nDOMAIN-SUFFIX,http://statsigapi.net,CLAUDE0409\nDOMAIN,http://browser-intake-us5-datadoghq.com,CLAUDE0409\nDOMAIN-KEYWORD,datadog,CLAUDE0409\nDOMAIN-KEYWORD,sift,CLAUDE0409\n\n# サポート／サードパーティのウィジェット\nDOMAIN-SUFFIX,http://intercom.io,CLAUDE0409\nDOMAIN-SUFFIX,http://intercomcdn.com,CLAUDE0409\nDOMAIN,http://cdn.usefathom.com,CLAUDE0409\n\n# IPレンジ／ASNによる最終手段\nIP-CIDR,160.79.104.0/21,CLAUDE0409,no-resolve\nIP-CIDR6,2607:6bc0::/32,CLAUDE0409,no-resolve\nIP-ASN,399358,CLAUDE0409,no-resolve\n\nFINAL,DIRECT"
         },
         {
-          "id": "2108059299675337092",
-          "author": "SuSu_酥酥",
-          "handle": "NFT_Chen",
-          "text": "天呐！3B 本地决策模型把 OpenAI Decision 给彻底干报废了！\n\nAtomic Chat 实测（单卡 RTX 3090 vs 云端 API）：\n Liquid d1-3B（本地）\n· 决策 8–20 ms\n· 约 82 步/秒\n· 吃下 86 个苹果\n· 零输出 token，一次前向出概率\n\n OpenAI Decision（云端）\n· 单次调用 ~345 ms（视频里冲到 1.8 秒）\n· [引用 @NFT_Chen: 我靠！Liquid AI 把决策从大模型里单独拆出来了，本地开源能做到毫秒级延迟！在 4090 上 8 ms，Jetson 上也能实时跑，还带视觉！\n\nOpen d1 不写字，一次前向直接吐概率。分类、路由、打分、护栏，不用再让 LLM 生成 JSON 再解析。\n\n性能亮点：\n d1-3B 在 Decision Index v0.2.1 拿下 48.57，10B#LiquidAI#OpenD1#EdgeAI#HuggingFace#Jetson#DecisionModel#决策模型#Jev https://huggingface.co/LiquidAI/d1-3B https://huggingface.co/LiquidAI/d1-omni-600M … https://liquid.ai/blog/d1-open]",
-          "url": "https://x.com/NFT_Chen/status/2108059299675337092",
+          "id": "2108120216270151863",
+          "author": "とら🐯AI副業",
+          "handle": "3Imzdo3",
+          "text": "日本人で海外アフィやってる人少ないし、Claudeのおかげで革命おきました...👀",
+          "url": "https://x.com/3Imzdo3/status/2108120216270151863",
+          "createdAt": "2026-10-08T18:00:01+09:00",
+          "media": "https://pbs.twimg.com/media/HUB7HqUacAANNBk.png?name=orig",
+          "avatar": "https://pbs.twimg.com/profile_images/1893661706477535232/eH44MC_b_200x200.jpg",
           "metrics": {
-            "views": 4860,
-            "likes": 53
-          }
+            "views": 1994,
+            "likes": 23,
+            "reposts": 7,
+            "replies": 1
+          },
+          "lang": "ja"
         },
         {
-          "id": "2107999613957636381",
-          "author": "旺旺",
-          "handle": "TiagerBao",
-          "text": "今、多くの Agent が「長期記憶」と呼んでいるものは、実は過去のチャット履歴を保存して再検索するだけにすぎません。\n\nHindsight はもっと深いところを目指しています：\n\nAgent に単に記憶させるだけでなく、過去の経験から新しい判断を形成させる。\n\n核心は 3 つの動作です：",
-          "url": "https://x.com/TiagerBao/status/2107999613957636381",
+          "id": "2107857883446604153",
+          "author": "Beaver",
+          "handle": "Beaver_0x",
+          "text": "whoever built this realized we’ve been using our smartest AI for the dumbest possible jobs\n\nyour $25-$250/mo frontier model is researching, writing code, planning…\n\nand then you’re paying the same brain to decide YES / NO.\n\nJev flips that.\n\nit’s a tiny decision model that sits in front of the expensive stuff and handles the boring forks:\n\n-> which agent goes next?\n-> is this worth researching?\n-> reply or ignore?\n-> publish, wait or escalate?\n-> BUY / SELL / HOLD?\n-> click this or keep looking?\n\nthen I saw the numbers people are reporting and the whole architecture started making a lot more sense.\n\n~2,000 papers classified for around $0.05\n~800 emails sorted for around $0.028\n\nbrowser-agent loops demonstrated around 6 seconds for ~$0.0029\n\nand at the quoted pricing, roughly 20,000 ~2K-token decisions comes out around $0.62.\n\nthat’s not because Jev became smarter than Claude.\n\nit’s because nobody asked it to be Claude.\n\nthe setup is stupidly simple:\n\n-> big LLM gets the hard thinking, research and writing\n-> Jev gets the thousands of tiny decisions between those steps\n-> code actually clicks, saves, sends and executes\n\nand suddenly you start noticing these little decisions everywhere.\n\n> your inbox.\n> X feed.\n> support queue.\n> meetings.\n> leads.\n> video clips.\n> browser agents.\n> even paper-trading loops.\n\nthat’s the part I think most agent builders are missing.\n\nthe expensive model doesn’t need to touch every step just because it’s capable of touching every step.\n\n> let Claude think.\n> let Jev decide what deserves Claude.\n> let code do the actual work.\n\nI broke down 12 places you can wire this into an agent today + the exact router setup in the article below",
+          "url": "https://x.com/Beaver_0x/status/2107857883446604153",
+          "createdAt": "2026-10-08T00:37:36+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2107857168871415808/img/7pdlmLLgDxD0QSdF.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/2106031399278952448/6vEUTdT8_200x200.jpg",
           "metrics": {
-            "views": 3325,
-            "likes": 37
-          }
+            "views": 13334,
+            "likes": 250,
+            "reposts": 29,
+            "replies": 28
+          },
+          "lang": "en",
+          "textJa": "これを作った人は、私たちが一番賢いAIを一番つまらない仕事に使っていたことに気づいたんだ。\n\n月25〜250ドルの最先端モデルが、調査し、コードを書き、計画を立てる…\n\nそしてYES/NOを決めるだけのことにも同じ頭脳にお金を払っている。\n\nJevはそれを逆転させる。\n\n高価なモデルの手前に置く小さな判断モデルで、退屈な分岐を処理する。\n\n-> 次はどのエージェント？\n-> これは調べる価値がある？\n-> 返信する？無視する？\n-> 公開・待機・エスカレーション？\n-> 買い／売り／保有？\n-> これをクリックする？探し続ける？\n\nみんなが報告している数字を見て、この構成がずっと腑に落ちた。\n\n論文約2,000本の分類で約0.05ドル\nメール約800通の仕分けで約0.028ドル\nブラウザエージェントのループは約6秒・約0.0029ドルで実演\n公表価格だと、約2Kトークンの判断を約2万回しても約0.62ドル。\n\nJevがClaudeより賢くなったからではない。\n誰もJevにClaudeになれと頼んでいないからだ。\n\n構成は驚くほどシンプル。\n-> 大きなLLMは難しい思考・調査・執筆を担当\n-> Jevはその間にある何千もの小さな判断を担当\n-> 実際のクリック・保存・送信・実行はコードが行う\n\nすると、こうした小さな判断があちこちにあることに気づく。\n> 受信トレイ\n> Xのフィード\n> サポートキュー\n> 会議\n> 見込み客\n> 動画クリップ\n> ブラウザエージェント\n> 仮想トレードのループまで\n\n多くのエージェント開発者が見落としているのはここだと思う。\n\n高価なモデルは、すべての工程に触れられるからといって、すべてに触れる必要はない。\n> Claudeに考えさせる\n> 何をClaudeに回すかはJevに決めさせる\n> 実際の作業はコードにやらせる\n\nエージェントに今日から組み込める12の場面と、具体的なルーター設定を下の記事で解説した。"
         },
         {
-          "id": "2107996937387467010",
-          "author": "Chorch",
-          "handle": "chorch_md",
-          "text": "もしClaudeのサブスクリプションをお持ちで、Claude Codeで使っているなら、これ以上時間を無駄にせず、ompを試してみてください。\n\nその解決能力がどれほど驚異的なか、信じられません。警告しておきますよ。",
-          "url": "https://x.com/chorch_md/status/2107996937387467010",
+          "id": "2108079443650441568",
+          "author": "Mr. Buzzoni",
+          "handle": "polydao",
+          "text": "Jev + Claude Opus 5.5 is a f*cking goldmine... i can't understand why everyone isn't wiring this up yet\n\nthe forks alone drop from about $110 a day to $4 once Jev takes them over. right now it's the best way i know to run Opus\n\nwhere Jev steps in:\n-> ranks which project notes matter before the context loads\n-> passes the easy steps to a faster worker\n-> chooses a recovery path when a tool fails, so nothing retries blind\n-> runs the targeted checks before the full test suite\n\nOpus does the hard reasoning. Jev chooses between options the harness already built and checked\n\nevery choice comes back with a probability, so the harness can set a confidence floor and push anything below it back up to Opus\n\nJev engineering fits in one line: the expensive model reasons, the cheap one decides\n\n$106 a day saved on the same work ends up in your performance review\n\nstart with the paper, then the full Jev guide below",
+          "url": "https://x.com/polydao/status/2108079443650441568",
+          "createdAt": "2026-10-08T15:18:00+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2108064420626575360/img/LSqvZTvoUMtL2JvK.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/2022077728359682048/UWClPPZX_200x200.jpg",
           "metrics": {
-            "views": 130764,
-            "likes": 1013
-          }
+            "views": 3459,
+            "likes": 67,
+            "reposts": 1,
+            "replies": 8
+          },
+          "lang": "en",
+          "textJa": "Jev＋Claude Opus 5.5はとんでもない金脈だ…なぜみんなまだ組み合わせていないのか分からない。\n\nJevに分岐判断を任せるだけで、1日約110ドルが4ドルに下がる。今のところOpusを回す最良の方法だと思う。\n\nJevが入る場面：\n-> コンテキストを読み込む前に、どのプロジェクトメモが重要か順位付け\n-> 簡単な工程は速いワーカーに回す\n-> ツールが失敗したら回復手段を選び、闇雲に再試行しない\n-> フルテストの前に対象を絞ったチェックを走らせる\n\nOpusは難しい推論を担当。Jevは、ハーネスが用意して検証済みの選択肢から選ぶ。\n\nすべての選択に確率が付くので、ハーネス側で信頼度の下限を設定し、それを下回るものはOpusに差し戻せる。\n\nJevエンジニアリングを一言で言うと「高いモデルが推論し、安いモデルが判断する」。\n\n同じ仕事で1日106ドル節約できれば、人事評価にも効いてくる。\n\nまずは論文、それから下のJev完全ガイドを。"
         },
         {
-          "id": "2107982414526263505",
-          "author": "テツメモ｜AI図解×検証｜Newsletter",
-          "handle": "tetumemo",
-          "text": "このスマホでも動く美しいカンバン方式のダッシュボードが GitHubで無料公開されてる！\n\n dotsのダッシュボード化にも相性が良い気がするぞ、これは、、、\n\n※画面はImmersive Translateで英語を翻訳 [引用 @marcelkargul: most beautiful kanban dashboard you’ll ever see.\n\n\nhttps://kanban-blue-beta.vercel.app]",
-          "url": "https://x.com/tetumemo/status/2107982414526263505",
+          "id": "2108091790582596071",
+          "author": "Kostya | AI",
+          "handle": "KostyaAI",
+          "text": "The interesting part isn’t the spider interface. It’s the refusal to guess.\n\nEach instruction is mapped to claims, owners, files and approvals. Missing context is flagged instead of invented.\n\nBetter agents may come from better context graphs, not longer prompts.\n\nVideo: @defileo https://x.com/defileo/status/2107258340376187371/video/1",
+          "url": "https://x.com/KostyaAI/status/2108091790582596071",
+          "createdAt": "2026-10-08T16:07:03+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2107258286651351040/img/cowVEx_Tzb-zK31w.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/2088952971149074432/5AbRs6bW_200x200.jpg",
           "metrics": {
-            "views": 9006,
-            "likes": 63
-          }
+            "views": 1719,
+            "likes": 29,
+            "reposts": 11,
+            "replies": 4
+          },
+          "lang": "en",
+          "textJa": "面白いのはクモのようなインターフェースではない。推測を拒む点だ。\n\n各指示が、主張・担当者・ファイル・承認に対応付けられる。足りない文脈は作り出さずにフラグを立てる。\n\nより良いエージェントは、長いプロンプトではなく、より良いコンテキストグラフから生まれるのかもしれない。\n\n動画：@defileo https://x.com/defileo/status/2107258340376187371/video/1"
         },
         {
-          "id": "2107809422424866894",
-          "author": "西野",
-          "handle": "nishino_hiroki",
-          "text": "Mythosもらえた",
-          "url": "https://x.com/nishino_hiroki/status/2107809422424866894",
+          "id": "2108043029290320311",
+          "author": "Mo Elgaraihy",
+          "handle": "EngMoElgaraihy",
+          "text": "🚨 ثورة غير مسبوقة من Unsloth: \n​أطلقت Unsloth تحديثاً جديداً يتيح لك تحويل أي نموذج لغوي مجاني ومفتوح (مثل Qwen أو Gemma) إلى Decision Model خارق لاتخاذ القرارات وإدارة الـ Agents بدقة عالية!\n\n​تخيل رفع دقة نموذج Qwen من 20.7% إلى 74.3% عبر 3 مقاييس أساسية لاتخاذ القرار.. وكل هذا باستخدام كارت شاشة ضئيل جداً!\n\n​📌 أبرز التفاصيل التقنية والإنجازات: 👇",
+          "url": "https://x.com/EngMoElgaraihy/status/2108043029290320311",
+          "createdAt": "2026-10-08T12:53:18+09:00",
+          "avatar": "https://pbs.twimg.com/profile_images/1892203225454903296/ONZqfOJK_200x200.jpg",
           "metrics": {
-            "views": 369846,
-            "likes": 1413
-          }
+            "views": 3437,
+            "likes": 59,
+            "reposts": 5,
+            "replies": 1
+          },
+          "lang": "ar",
+          "textJa": "🚨 Unslothから前例のない革新：\nUnslothが新しいアップデートを公開し、QwenやGemmaのような無料のオープンな言語モデルを、意思決定やエージェント管理を高精度でこなす強力な「判断モデル」に変換できるようになった！\n\n判断に関する3つの主要ベンチマークで、Qwenの精度を20.7%から74.3%に引き上げられる。しかもごく小さなGPUで！\n\n📌 主な技術的詳細と成果：👇"
         },
         {
-          "id": "2107794785188864070",
-          "author": "aicreataro",
-          "handle": "aicreataro",
-          "text": "Opus 5.5にHTML/Three.jsを書かせた、ナレーションとモーションのテスト。\n\n「凍った手記」\n\n■素材\n・物語と文字の動き：Opus 5.5\n・声：Gemini TTS\n・風とノックの音：ffmpegで合成\n・動画生成AI：使っていません\n\n■やらせたこと\n・物語を書く\n・文字の組みと動きを、HTML/Three.jsで作る",
-          "url": "https://x.com/aicreataro/status/2107794785188864070",
+          "id": "2108136819040878706",
+          "author": "Avi Chawla",
+          "handle": "_avichawla",
+          "text": "Turn any PDF, image, DOCX, or PPTX into clean Markdown!\n\nProduction workloads contain millions of pages, mixed formats, inconsistent layouts, low-quality scans, and documents written in dozens of languages.\n\nDatalab Marker v2 (open-source with 40k stars) handles that workload at scale through one open-source document parsing pipeline.\n\nIt recovers:\n\n- Reading order\n- Complex equations\n- Images and captions\n- Tables and nested tables\n- Text from scanned pages\n- Headings and page structure\n\nIt can return Markdown, JSON, or HTML for RAG pipelines, search indexes, data extraction systems, document agents, and archive migrations.\n\nMarker v2 runs at up to 23.7 pages per second on a single B200 GPU and supports more than 90 languages.\n\nGitHub repo: https://github.com/datalab-to/marker\n\n(don’t forget to star it ⭐)\n\nI recently used Datalab to build an agent that scans an identity document, extracts the required fields, and fills a tax form automatically.\n\nThe article covers the full workflow, including document parsing, structured extraction, field mapping, and form completion.\n\nRead it below.",
+          "url": "https://x.com/_avichawla/status/2108136819040878706",
+          "createdAt": "2026-10-08T19:05:59+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2108136795707998208/img/7s800YUuOQSlqO3d.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/1868297128801390593/Ovl677JQ_200x200.jpg",
           "metrics": {
-            "views": 47919,
-            "likes": 657
-          }
+            "views": 1500,
+            "likes": 11,
+            "reposts": 5,
+            "replies": 7
+          },
+          "lang": "en",
+          "textJa": "PDF・画像・DOCX・PPTXを、きれいなMarkdownに変換！\n\n本番の業務では、何百万ページもの文書、さまざまな形式、ばらばらのレイアウト、低品質なスキャン、何十もの言語が混在する。\n\nDatalab Marker v2（スター4万のオープンソース）は、1つのオープンソースの文書解析パイプラインで、その量を大規模に処理する。\n\n復元できるもの：\n- 読む順序\n- 複雑な数式\n- 画像とキャプション\n- 表と入れ子の表\n- スキャンページの文字\n- 見出しとページ構造\n\nRAGパイプライン、検索インデックス、データ抽出、文書エージェント、アーカイブ移行向けに、Markdown・JSON・HTMLで出力できる。\n\nMarker v2はB200 GPU 1枚で最大毎秒23.7ページを処理し、90以上の言語に対応する。\n\nGitHubリポジトリ：https://github.com/datalab-to/marker\n\n（スターをお忘れなく⭐）\n\n最近Datalabを使って、身分証をスキャンし、必要な項目を抽出して税務書類に自動入力するエージェントを作った。\n\n記事では、文書解析、構造化抽出、項目の対応付け、書類の記入までの全工程を解説している。\n\n下からどうぞ。"
         },
         {
-          "id": "2107939024883098015",
-          "author": "Touma Hoshino（とうまろ）",
-          "handle": "heytoumaro",
-          "text": "【本日15:59まで】Claude Codeのクラウドセッション用に、100ドル分のクレジットがもらえます！\n\n対象：個人のProとMax（Proは100ドル、Maxは250ドル）\n受け取り期限：10月8日15:59（日本時間）\n\n手順\n1. https://claude.ai/code/claim-credit … を開く（Claude Codeで /claim-credit でも開けます）\n2.",
-          "url": "https://x.com/heytoumaro/status/2107939024883098015",
+          "id": "2108116438200549872",
+          "author": "0xMarioNawfal",
+          "handle": "RoundtableSpace",
+          "text": "the NSA’s own reverse-engineering toolkit is free on GitHub.\n\n5 open-source security repos to understand what your apps do and what you’ve left exposed:\n\n1.⁠ ⁠Sherlock  \nfind public profiles that match your username across platforms.\n\n⁠ https://github.com/sherlock-project/sherlock ⁠\n\n2.⁠ ⁠Ghidra  \nthe NSA’s reverse-engineering framework for taking compiled software apart and inspecting how it works.\n\n⁠ https://github.com/NationalSecurityAgency/ghidra ⁠\n\n3.⁠ ⁠mitmproxy  \ninspect web traffic from your apps and devices.\n\n⁠ https://github.com/mitmproxy/mitmproxy ⁠\n\n4.⁠ ⁠TruffleHog  \nscan your Git history for exposed API keys, passwords and other secrets.\n\n⁠ https://github.com/trufflesecurity/trufflehog ⁠\n\n5.⁠ ⁠ESP32 Marauder  \nWi-Fi and Bluetooth auditing tools that run on ESP32 hardware.\n\n⁠ https://github.com/justcallmekoko/ESP32Marauder ⁠\n\nuse them on your own systems or with explicit permission.\n\nbetter to find your weak spots before someone else does.",
+          "url": "https://x.com/RoundtableSpace/status/2108116438200549872",
+          "createdAt": "2026-10-08T17:45:00+09:00",
+          "avatar": "https://pbs.twimg.com/profile_images/2012162102283407360/U-fPj6wg_200x200.jpg",
           "metrics": {
-            "views": 35996,
-            "likes": 114
-          }
+            "views": 39559,
+            "likes": 39,
+            "reposts": 6,
+            "replies": 3
+          },
+          "lang": "en",
+          "textJa": "NSA自身のリバースエンジニアリング用ツールキットが、GitHubで無料公開されている。\n\nアプリが何をしているか、何が露出しているかを把握するためのオープンソースのセキュリティリポジトリ5選：\n\n1. Sherlock\nあなたのユーザー名と一致する公開プロフィールを各サービスから探す。\nhttps://github.com/sherlock-project/sherlock\n\n2. Ghidra\nコンパイル済みソフトを分解して仕組みを調べる、NSAのリバースエンジニアリング用フレームワーク。\nhttps://github.com/NationalSecurityAgency/ghidra\n\n3. mitmproxy\nアプリや端末のWeb通信を調べる。\nhttps://github.com/mitmproxy/mitmproxy\n\n4. TruffleHog\nGitの履歴から、漏れたAPIキーやパスワードなどの秘密情報をスキャンする。\nhttps://github.com/trufflesecurity/trufflehog\n\n5. ESP32 Marauder\nESP32ハードウェアで動くWi-Fi・Bluetoothの監査ツール。\nhttps://github.com/justcallmekoko/ESP32Marauder\n\n使うのは自分のシステムか、明確な許可がある場合だけに。\n\n他人に見つかる前に、自分の弱点を見つけておこう。"
         },
         {
-          "id": "2107882647766859917",
-          "author": "AI Edge",
-          "handle": "aiedge_",
-          "text": "Opus 5.5 + Jev is the most powerful AI model setup available.\n\nIt's literally 200x faster and 400x cheaper than running Opus alone.\n\nThe secret sauce for how to run this setup is below: [引用 @aiedge_: 記事 Opus 5.5 + Jev: The Complete Setup (10x Your Output) TL;DR: How to set up, connect, and run Opus 5.5 + Jev for cheaper, faster, and more productive AI workflows. I haven't seen anybody else on the timeline talk about this. You can combine Opus 5.5 +...]",
-          "url": "https://x.com/aiedge_/status/2107882647766859917",
+          "id": "2107791288385130752",
+          "author": "ben.",
+          "handle": "benyuls",
+          "text": "Claude Opus está loco.\n\neste tutorial de 12 minutos te muestra cómo construir sitios web 3D sin saber diseño ni programación.\n\n🔖 guárdalo, te servirá.",
+          "url": "https://x.com/benyuls/status/2107791288385130752",
+          "createdAt": "2026-10-07T20:12:58+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2067518255028187137/img/0Q8sONSKSrXX7hW6.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/2101240275184361472/RiDrutgt_200x200.jpg",
           "metrics": {
-            "views": 17183,
-            "likes": 101
-          }
+            "views": 87318,
+            "likes": 1343,
+            "reposts": 157,
+            "replies": 28
+          },
+          "lang": "es",
+          "textJa": "Claude Opusがすごすぎる。\n\nこの12分のチュートリアルでは、デザインやプログラミングの知識がなくても3DのWebサイトを作る方法を紹介している。\n\n🔖 保存しておこう、役に立つよ。"
         },
         {
-          "id": "2108006966974972326",
-          "author": "Gk",
-          "handle": "0xGky",
-          "text": "GitHub で直接ランキングを席巻したオープンソースプロジェクト、OpenMontage が、star 数を一気に 6.5 万超えまで伸ばし、AI 動画編集を主軸に攻めまくってる。\n\n使い方がちょっとぶっ飛んでる：Claude Code や Cursor みたいな AI",
-          "url": "https://x.com/0xGky/status/2108006966974972326",
+          "id": "2108050065847889984",
+          "author": "ウラロット",
+          "handle": "gagarotai200",
+          "text": "短期間で500万円を作る\n超現実的TikTok運用ロードマップ\n全部公開するわ　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　\n↓\n先ずは\n圧倒的美女に衣類を身につけさせる\n\nその衣類はTikTokshopに掲載されてる\n商品のみしか使わない。\n\nこれだけでちょろちょろ\n収益は発生する。\n\n重要なのはここからで\n本業レベルに稼ぐってなると\n別サイトへファン化させる必要がある\n\nこれって顔出しとか声出しとかが\n必要って思う人多いけど\n\nAIで人物を生成させれば\n顔とか声なんて出さなくて良い。\n\n普通顔出しで投稿できない様な内容を\nあえてAIで作り投稿する。\n\nこれだけで差別化になる。\n\nさらに詳しいワークフローを\n気になる方は引用⇩\n\n https://x.com/Neuroviar/status/2107911432960372951/video/1",
+          "url": "https://x.com/gagarotai200/status/2108050065847889984",
+          "createdAt": "2026-10-08T13:21:16+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2107911402413293568/img/6St5gMBEJnLQzNlq.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/2091772811169955840/xoN5W6-G_200x200.jpg",
           "metrics": {
-            "views": 6065,
-            "likes": 56
-          }
+            "views": 6198,
+            "likes": 66,
+            "reposts": 9,
+            "replies": 2
+          },
+          "lang": "ja"
         },
         {
-          "id": "2108012053776703855",
-          "author": "メダル | AI個人開発",
-          "handle": "medal_kuro",
-          "text": "あの...Cloudflareってどうやって儲けてるんですか？？\nなんでこんなとこまで無料なの、慈善団体なの？",
-          "url": "https://x.com/medal_kuro/status/2108012053776703855",
+          "id": "2108108959395787080",
+          "author": "黒神(kokushin)",
+          "handle": "kokushing",
+          "text": "こちらの件、結構反響があったのでどういう仕組みでショート動画を制作したのか解説動画をつくってみました！\nJSONの台本 → 検査 → 書き出し → 全コマ見直し をエージェントが回し、足りない機能は頼めばその場で足す設計です。\n※運用中のチャンネルは新規で検証中のため、題材は伏せています",
+          "url": "https://x.com/kokushing/status/2108108959395787080",
+          "createdAt": "2026-10-08T17:15:17+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2108108629438251008/img/uznIAmXVzW5mX_B4.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/1920897142874341376/ya_CCg1k_200x200.jpg",
           "metrics": {
-            "views": 242501,
-            "likes": 980
-          }
+            "views": 12766,
+            "likes": 249,
+            "reposts": 22,
+            "replies": 3
+          },
+          "lang": "ja"
         },
         {
-          "id": "2107864991839748543",
-          "author": "Volkan KORKMAZ",
-          "handle": "vkorkmaz10",
-          "text": "今日、私もAnthropicのClaude Startupsプログラムに申し込みました。数時間以内に承認が来ました！ [引用 @erhanmeydan: AnthropicがClaude Startupsプログラムを立ち上げました。会社のメールアドレスで申し込んで、Claudeを使ってやりたいプロジェクトを説明すると、承認されればサポートしてくれます。\n\n私にもやりたいプロジェクトがあったんです。書いて申し込んだら、すぐに承認されました。 x.com/claudeai/statu…]",
-          "url": "https://x.com/vkorkmaz10/status/2107864991839748543",
+          "id": "2107854282854707517",
+          "author": "‏عادل | مبرمج",
+          "handle": "AdelDeveloperX",
+          "text": "🚨 بتدفع فلوس كل شهر مقابل استخدام نماذج الذكاء الاصطناعي؟\n\nاستنى… ممكن تكون بتدفع على حاجة تقدر تستخدمها مجانًا.\n\nفي طريقة تقدر من خلالها تستخدم نماذج قوية داخل Codex وClaude Code بدون:\n\n❌ بطاقة بنكية\n❌ اشتراك\n❌ إنشاء حساب\n\nوتقدر تختار من أكثر من 200 مزوّد على الشبكة.\n\nومن ضمن النماذج:\n\n- DeepSeek V4 Flash\n- GLM 5.3 Flash\n- وتشغيل نماذج فرعية مع Claude Code وCodex\n\nوالإعداد؟\n\n⏱️ حوالي 3 دقائق فقط.\n\nالخطوات:\n\nحمّل Antseed\nاربطه بـ Codex أو Claude Code\nاختار مزوّد الخدمة\nوابدأ الاستخدام\n\nلو بتستخدم الذكاء الاصطناعي في البرمجة بشكل يومي، الطريقة دي ممكن توفر عليك فلوس كتير.\n\nبطل تدفع على الـTokens وأنت ممكن تستخدمها مجانًا. 🚨 https://x.com/painn_x/status/2107463260903489601/video/1?s=46",
+          "url": "https://x.com/AdelDeveloperX/status/2107854282854707517",
+          "createdAt": "2026-10-08T00:23:17+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2107463085661343744/img/wmGkRah3XK2q35BV.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/2061203513019920386/aTRFi9oa_200x200.jpg",
           "metrics": {
-            "views": 57914,
-            "likes": 241
-          }
+            "views": 23079,
+            "likes": 360,
+            "reposts": 64,
+            "replies": 7
+          },
+          "lang": "ar",
+          "textJa": "🚨 AIモデルを使うために毎月お金を払ってる？\n\nちょっと待って…無料で使えるものにお金を払っているかもしれない。\n\nCodexやClaude Codeの中で、強力なモデルを次のものなしで使う方法がある：\n❌ クレジットカード\n❌ サブスク\n❌ アカウント作成\n\nネットワーク上の200以上のプロバイダーから選べる。\n\n使えるモデルの例：\n- DeepSeek V4 Flash\n- GLM 5.3 Flash\n- Claude CodeやCodexでのサブモデル実行\n\n設定は？\n⏱️ 約3分だけ。\n\n手順：\nAntseedをダウンロード\nCodexかClaude Codeにつなぐ\nプロバイダーを選ぶ\n使い始める\n\n毎日AIでプログラミングしているなら、この方法でかなり節約できるかもしれない。\n\n無料で使えるのにトークンにお金を払うのはやめよう。🚨 https://x.com/painn_x/status/2107463260903489601/video/1?s=46"
         },
         {
-          "id": "2107920482401980428",
-          "author": "qwinsi",
-          "handle": "qwinsi0x",
-          "text": "The company behind DeepSeek makes more money from trading than from AI. Their weapon isn't a secret model, it's one principle that's now available to everyone\n\nFew people know this, but DeepSeek didn't grow out of an AI lab. It grew out of a quant fund that spent years making [引用 @qwinsi0x: 記事 The entire hedge fund is six steps. AI just ate four of them Strip away the marble lobby, the Bloomberg terminals, and the $650,000 salaries, and any hedge fund comes down to one thing it does better than you: it tests ideas. It doesn't guess the market. It has...]",
-          "url": "https://x.com/qwinsi0x/status/2107920482401980428",
+          "id": "2108112484624425023",
+          "author": "cxuan",
+          "handle": "criscxuan",
+          "text": "今日推荐一个炸裂的开源项目：https://github.com/morluto/rea\n\n这个项目它可以把你想要的任何软件、页面解析出来，二进制反编译然后通过MCP的方式告诉AI，你只需要自然语言告诉AI你想要复刻的功能，它就会自动剖析然后帮你复刻功能出来。\n\n通过MCP 协议连接AI Agent和Hopper、Ghidra、IDA Pro 等逆向分析工具，支持分析原生二进制程序、桌面应用、JavaScript、Electron、.NET、Android APK 以及网页行为。\n\n核心价值：让 AI 不仅能够阅读源代码，还能够理解没有源代码的软件是如何工作的。",
+          "url": "https://x.com/criscxuan/status/2108112484624425023",
+          "createdAt": "2026-10-08T17:29:17+09:00",
+          "avatar": "https://pbs.twimg.com/profile_images/2067148433576677376/FzL42cRj_200x200.jpg",
           "metrics": {
-            "views": 21203,
-            "likes": 222
-          }
+            "views": 2771,
+            "likes": 26,
+            "reposts": 3,
+            "replies": 2
+          },
+          "lang": "zh",
+          "textJa": "今日はとんでもないオープンソースプロジェクトを紹介：https://github.com/morluto/rea\n\nこのプロジェクトは、欲しいソフトやページを解析し、バイナリを逆コンパイルして、その内容をMCPでAIに伝える。複製したい機能を自然言語でAIに伝えるだけで、自動で分析して機能を再現してくれる。\n\nMCPプロトコルでAIエージェントとHopper・Ghidra・IDA Proなどの逆解析ツールをつなぎ、ネイティブバイナリ、デスクトップアプリ、JavaScript、Electron、.NET、Android APK、Webページの挙動の解析に対応する。\n\n核心となる価値：AIがソースコードを読めるだけでなく、ソースコードのないソフトがどう動いているかも理解できるようにすること。"
         },
         {
-          "id": "2107956794320355681",
-          "author": "codila",
-          "handle": "0xCodila",
-          "text": "Anthropic engineer (14 years at Google) just released prompts that turns Opus 5.5 & Fable 5.5 into a team of agents for motion design studio\n\nF*ck, this is f*cking unreal...\n\nGive this prompt any task. I applied it to motion design - Claude became AI agents agency, where each [引用 @0xCodila: It's probably the easiest way to make money with ONLY AI in 2026...\n\nCompanies are already offering ~$500 for 15-sec videos made with Opus 5.5 & Fable 5.5\n\nIn this article, I'll walk you through building a motion studio and share offers from scratch:]",
-          "url": "https://x.com/0xCodila/status/2107956794320355681",
+          "id": "2107878924831379676",
+          "author": "Liquid AI",
+          "handle": "liquidai",
+          "text": "Today we release Open d1: two open-weight multimodal models in our d1 decision model family.\n\n> d1-3B: text + vision\n> d1-omni-600M: text + image or text + audio\n> Real-time decision making anywhere, from data centers such as @nvidia DGX to RTX workstations to Jetson at the edge.\n\n1/",
+          "url": "https://x.com/liquidai/status/2107878924831379676",
+          "createdAt": "2026-10-08T02:01:12+09:00",
+          "media": "https://pbs.twimg.com/media/HUCokhZbMAATqqi.jpg?name=orig",
+          "avatar": "https://pbs.twimg.com/profile_images/1702611993327251456/PUUuOA4W_200x200.jpg",
           "metrics": {
-            "views": 4483,
-            "likes": 65
-          }
+            "views": 275014,
+            "likes": 1772,
+            "reposts": 234,
+            "replies": 81
+          },
+          "lang": "en",
+          "textJa": "本日、Open d1を公開します。d1判断モデルファミリーの、オープンウェイトのマルチモーダルモデル2つです。\n\n> d1-3B：テキスト＋画像\n> d1-omni-600M：テキスト＋画像、またはテキスト＋音声\n> @nvidia DGXのようなデータセンターからRTXワークステーション、エッジのJetsonまで、どこでもリアルタイムに判断できます。\n\n1/"
         },
         {
-          "id": "2107877027340800186",
-          "author": "るいす",
-          "handle": "rarirureluis",
-          "text": "Artex やばすぎる。サイバーモデル（+無検閲）で動かすと3500万トークン使って security-review スキルなんて比にならないぐらい攻撃しまくって PoC 付きでレポートが出来上がる。",
-          "url": "https://x.com/rarirureluis/status/2107877027340800186",
+          "id": "2108154933065257417",
+          "author": "Avid",
+          "handle": "Av1dlive",
+          "text": "i'm deeply convinced @bot can now replace a institutional trading desk's real-time news feed for free...  \n\nit used to take a $30k/yr terminal and a desk of 100 analysts watching 50 feeds.  \n\nnow it's one bot with a curated X watchlist: \n\n→ official accounts first (exchanges, SEC, Fed, company IR) \n→ reporters second \n→ traders only as leads, verified before anything moves",
+          "url": "https://x.com/Av1dlive/status/2108154933065257417",
+          "createdAt": "2026-10-08T20:17:58+09:00",
+          "media": "https://pbs.twimg.com/media/HUGrtodacAALEWu.jpg?name=orig",
+          "avatar": "https://pbs.twimg.com/profile_images/2010392290590912512/x7vtAe5W_200x200.jpg",
           "metrics": {
-            "views": 20159,
-            "likes": 228
-          }
-        },
-        {
-          "id": "2107915833200824399",
-          "author": "carpe",
-          "handle": "ftcarpe",
-          "text": "誰かがプロフェッショナルな音声スタジオを作成しました。あなたのコンピューターにインストールできるものです。VoiceStudioをご紹介します。オープンソースです！\n\n✓ 声をクローンして動画を吹き替え\n✓ 文字起こしをしてオーディオブックを作成\n✓ 100% ローカルで動作\n✓",
-          "url": "https://x.com/ftcarpe/status/2107915833200824399",
-          "metrics": {
-            "views": 20853,
-            "likes": 541
-          }
-        },
-        {
-          "id": "2108052282424344718",
-          "author": "Vikas gupta",
-          "handle": "vicky_grok",
-          "text": "MCP IS TURNING AI FROM A CHATBOT INTO A CONNECTED WORKER.\n\nAn LLM can generate text.\n\nBut what if it could also access:\n\n→ Your files\n→ Your database\n→ GitHub\n→ Slack\n→ APIs\n→ Internal tools\n\nThat’s where MCP comes in.\n\nThink of MCP like a universal adapter.\n\nWithout it: [引用 @vicky_grok: 記事 The Jev Ecosystem, Hands-On: 5 Builds You Can Run This Weekend The companion post mapped the 9 layers of the ecosystem. This one gives you commands. Five builds, each under two hours, each teaching a different property of the decision layer: what the wire looks...]",
-          "url": "https://x.com/vicky_grok/status/2108052282424344718",
-          "metrics": {
-            "views": 4896,
-            "likes": 85
-          }
-        },
-        {
-          "id": "2107944267562074281",
-          "author": "Deborah Folloni → epic.new",
-          "handle": "dfolloni",
-          "text": "このサイトには、Opus 5.5で生成されたほぼ500本のビデオのライブラリがあり、それぞれの背後にあるプロンプトも含まれています。\n\n\nhttps://skillry.dev/ai-videos/opus-5-5…\n\nどういたしまして ",
-          "url": "https://x.com/dfolloni/status/2107944267562074281",
-          "metrics": {
-            "views": 26702,
-            "likes": 677
-          }
-        },
-        {
-          "id": "2108103680902008899",
-          "author": "Crypto老鹰",
-          "handle": "laoyingkhq",
-          "text": "兄弟たち、3つのいいものを教えるよ、全部無料だ。\n\nPolymarketの3つの取引ロボットを解析した。課金版は五六千ドルかかるけど、この3つはGitHubで全部オープンソースだ。\n\nClaude Codeで設定をいじって、シミュレーションで問題なく動くのを確認してから実運用に載せた。実測でも全部使えるよ。",
-          "url": "https://x.com/laoyingkhq/status/2108103680902008899",
-          "metrics": {
-            "views": 1496,
-            "likes": 9
-          }
+            "views": 376,
+            "likes": 11,
+            "reposts": 5,
+            "replies": 5
+          },
+          "lang": "en",
+          "textJa": "@bot は今や、機関投資家のトレーディングデスクのリアルタイムニュースフィードを無料で置き換えられると本気で思っている…\n\nかつては年3万ドルの端末と、50のフィードを見張る100人のアナリストが必要だった。\n\n今は、厳選したXのウォッチリストを持つボット1つ：\n→ まず公式アカウント（取引所、SEC、FRB、企業のIR）\n→ 次に記者\n→ トレーダーは手がかり扱いで、何かを動かす前に必ず裏取り"
         }
       ]
     }
