@@ -67,6 +67,16 @@ node scripts/build-foryou.mjs --check
 
 PRとmainへのpush時に `.github/workflows/check.yml` がNode.js 20でテストと埋め込みの鮮度チェックを実行します。データ更新時は両方のJSONと生成HTMLを揃えてください。
 
+### digest 下書き生成
+
+For You の既存 JSON から、日本語の digest 下書きをローカル生成できます。公開や X 投稿は行いません。
+
+```sh
+node scripts/foryou-jev-digest.mjs --dry-run
+```
+
+詳細は [`docs/foryou-jev-digest.md`](docs/foryou-jev-digest.md) を参照してください。
+
 ### 使いやすさの改善
 
 - アカウント選択を44px以上の高さとアクセント色で強調。ページ移動ボタンも44px四方以上にし、タップしやすくしました。
