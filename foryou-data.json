@@ -667,390 +667,380 @@
       "name": "鳳翼炎輪祓闇大鎧城",
       "handle": "N8jhSzyQoL35422",
       "sample": false,
-      "updatedAt": "2026-10-10T12:10:00+09:00",
+      "updatedAt": "2026-10-10T19:10:00+09:00",
       "posts": [
-        {
-          "id": "2108319598735130977",
-          "author": "こうめい | AI副業",
-          "handle": "koumei_ai5566",
-          "text": "Claudeの新機能Motion来たぁぁぁ！！！\n\nついにClaudeだけで、解説動画がMP4まで書き出せるようになった。\n\n僕はこれまで、Claude Codeに無料の動画ツールHyperFramesを組み合わせて動画を作ってた。\n同じnote記事で比べるとこうなる。",
-          "url": "https://x.com/koumei_ai5566/status/2108319598735130977",
-          "metrics": {
-            "views": 75831,
-            "likes": 745
-          }
-        },
-        {
-          "id": "2095073524625088942",
-          "author": "Qiita（キータ）公式",
-          "handle": "Qiita",
-          "text": "【10/27-10/29開催】Qiita Conference 2026 Autumn\n\n「AI」をテーマに技術的な知見や最新トレンドなどをお届け！\n\n『良いコード／悪いコードで学ぶ設計入門』著者 / ミノ駆動 氏 登壇！\n\n▼参加申し込みはこちら",
-          "url": "https://x.com/Qiita/status/2095073524625088942",
-          "metrics": {
-            "views": 980851,
-            "likes": 269
-          }
-        },
-        {
-          "id": "2108650151883719102",
-          "author": "大田原正幸｜医療AI/SIガバナンス｜Cursorvers",
-          "handle": "cursorvers",
-          "text": "Claude Codeの新機能「Projects」公開\n\nこれまでAIにプログラミングを頼むときは、作業ごとにチャットを分けて、毎回「今ここまで終わってる」と自分で説明し直す必要があった。Projectsはそれをなくす仕組み\n\nイメージは「部長と部下」\n\n-",
-          "url": "https://x.com/cursorvers/status/2108650151883719102",
-          "metrics": {
-            "views": 6855,
-            "likes": 38
-          }
-        },
-        {
-          "id": "2108525415971352923",
-          "author": "チャエン | デジライズ CEO《重要AIニュースを毎日最速で発信》",
-          "handle": "masahirochaen",
-          "text": "Claude Codeから一撃でこのレベルのセミナー資料が作れる時代になったので、圧倒的に仕事が楽になった。\n\n100ページ以上でも問題なく作れます。アニメーション付きでパワーポイントみたいに編集もできます。",
-          "url": "https://x.com/masahirochaen/status/2108525415971352923",
-          "metrics": {
-            "views": 33899,
-            "likes": 219
-          }
-        },
-        {
-          "id": "2108119798383350154",
-          "author": "takano_masanori",
-          "handle": "iototaku",
-          "text": "はいはい、みなさん落ち着いてください！\nある製品やサービスを内製すべきか外製すべきかについては、ほぼ確立された理論があります。\n\n重要なのは、\n市場での取引コスト（コースの企業理論）、 \n特殊性と不確実性（ウィリアムソンの取引費用理論）、\n所有権と意思決定権（ハートの不完備契約理論）、",
-          "url": "https://x.com/iototaku/status/2108119798383350154",
-          "metrics": {
-            "views": 58339,
-            "likes": 688
-          }
-        },
-        {
-          "id": "2108054277612814615",
-          "author": "たか田",
-          "handle": "daifukujinji",
-          "text": "これ、もうdotsの教科書じゃん...",
-          "url": "https://x.com/daifukujinji/status/2108054277612814615",
-          "metrics": {
-            "views": 149436,
-            "likes": 994
-          }
-        },
-        {
-          "id": "2105262038687920527",
-          "author": "Lステップ@公式",
-          "handle": "lstep_jp",
-          "text": "【LステップのAPIがついに開放！】\nLINE×AI連携の基礎から事例まで実際の画面をお見せしながら徹底解説！\n\n・LINEでの問い合わせを自動対応\n・送られてきた画像をもとに自動査定\n・スプレッドシートに自動集計\n\nビジネスを効率化できます！\n\n参加費は無料。\n\n参加者にセミナー資料をプレゼントします！",
-          "url": "https://x.com/lstep_jp/status/2105262038687920527",
-          "metrics": {
-            "views": 250937,
-            "likes": 36
-          }
-        },
-        {
-          "id": "2108739727344165186",
-          "author": "mana｜株式会社MakeAI CEO",
-          "handle": "MakeAI_CEO",
-          "text": "",
-          "url": "https://x.com/MakeAI_CEO/status/2108739727344165186",
-          "metrics": {
-            "views": 2235,
-            "likes": 17
-          }
-        },
-        {
-          "id": "2108599796441501882",
-          "author": "まじん",
-          "handle": "Majin_AppSheet",
-          "text": "dots（名前：ひまじん）とGrok bot、\nどっちメインにするか迷って、\nもうぜんぶ繋いでみることにした。（実験的に）\n\nGrok botはX関連の用途（定期実行）に絞り、\n自律行動ができるdotsが色々検知して動く。\n\nBotにツールを渡しても消える？ことがあるので\nプラグイン以外は持たせず、必要な場面では",
-          "url": "https://x.com/Majin_AppSheet/status/2108599796441501882",
-          "metrics": {
-            "views": 6327,
-            "likes": 55
-          }
-        },
-        {
-          "id": "2108502389695320120",
-          "author": "大賀 愛一郎 (oga_aiichiro)",
-          "handle": "oga_aiichiro",
-          "text": "AIの日本語を推敲するスキル『yomiyasu (よみやす) 』\nv1.1.1 をリリースしました！\n\nアルゴリズムの最適化を行い、v1.1.0と比べて計算処理時間を最大99.0%短縮できました。\n\nあなたとyomiyasu、\n今すぐダウンロー\nド",
-          "url": "https://x.com/oga_aiichiro/status/2108502389695320120",
-          "metrics": {
-            "views": 18041,
-            "likes": 465
-          }
-        },
-        {
-          "id": "2108347142301745302",
-          "author": "AGIラボ",
-          "handle": "ctgptlb",
-          "text": "【速報】Anthropic、「Claude Dashboards」と「Claude Motion」をベータ公開\n\n・BigQueryなどと連携し、質問でダッシュボードを作成。元クエリも確認可\n・レポートをアニメ動画に。編集でき、MP4で出力可\n・Dashboardsは有料プラン、MotionはTeam・Enterpriseでベータ\n\n詳細はリプで↓",
-          "url": "https://x.com/ctgptlb/status/2108347142301745302",
-          "metrics": {
-            "views": 25908,
-            "likes": 180
-          }
-        },
         {
           "id": "2085612936144515218",
           "author": "マウスコンピューター ゲーミング",
           "handle": "GTUNE_NEXTGEAR",
-          "text": "【はじめてにおすすめ！】コスパ重視のゲーミングPC\n\nマウスコンピューターから好評販売中\nどれにしようか悩んでいたら、NEXTGEAR一択\n\n万全のサポート＆長期保証で購入後も安心してご利用頂けます\nゲームを楽しむ、すべての人に。",
+          "text": "GPT-6 ASTRAの利用枠を実質「100倍」に‼️GitHubで無料公開されてるwww",
           "url": "https://x.com/GTUNE_NEXTGEAR/status/2085612936144515218",
           "metrics": {
-            "views": 3157573,
-            "likes": 1003
+            "views": 3215759,
+            "likes": 1037
           }
         },
         {
-          "id": "2108497812669505986",
-          "author": "GitHub AI Projects Community",
-          "handle": "trendtech33566",
-          "text": "AIの実装プラン、「ここ直して」をもっと楽に伝えたい人へ\n\nplannotator、約9.2千。AIの計画やコード差分に、ブラウザで赤入れできるOSS。\n\n何ができるかというと\n・実装前の計画や仕様書にコメント\n・コード差分やPRを見ながらレビュー\n・修正指示をワンクリックでAIに返す\n・Claude",
-          "url": "https://x.com/trendtech33566/status/2108497812669505986",
+          "id": "2108782974552408410",
+          "author": "しまぶー",
+          "handle": "shimabu_it",
+          "text": "",
+          "url": "https://x.com/shimabu_it/status/2108782974552408410",
           "metrics": {
-            "views": 1679,
-            "likes": 26
+            "views": 34643,
+            "likes": 277
           }
         },
         {
-          "id": "2108749597489426920",
-          "author": "KGNINJA",
-          "handle": "FuwaCocoOwnerKG",
-          "text": "いつもAI agentでやってたMATLAB onlineの制御をOpenAI dotでもやってみる。",
-          "url": "https://x.com/FuwaCocoOwnerKG/status/2108749597489426920",
+          "id": "2108530824027271335",
+          "author": "まさお@AI駆動開発",
+          "handle": "AI_masaou",
+          "text": "Grok BOT 大好きすぎて Grok Bot 勉強会の資料、88 枚から特に初めての人向けに 21 枚を選んで無料で配ります！！ ・PC を閉じても働き続ける「AI 社員チーム」の作り方 ・5 体で開発を回したら、人の仕事は 4 か所だけになった ・実際に動かして引っかかった 6 つと対策の話 資料はこちらから👇",
+          "url": "https://x.com/AI_masaou/status/2108530824027271335",
           "metrics": {
-            "views": 40,
-            "likes": 1
+            "views": 14829,
+            "likes": 159
           }
         },
         {
-          "id": "2108479587126817153",
-          "author": "Claude Code Studio",
-          "handle": "ClaudeCode_love",
-          "text": "あ、これClaude Codeの節約テクで今いちばん効くやつだわ。。。。。\n\n1つの作業をモデル4つで分担するだけ\n→計画と最後のレビューはOpus 5.5\n→ファイル編集とテストはSonnet 5.5\n→コードを探して読むのはHaiku 5.5\n\n高いOpusに「このファイルある？」まで確かめさせる無駄が消えるのエグい！",
-          "url": "https://x.com/ClaudeCode_love/status/2108479587126817153",
+          "id": "2108029629390881225",
+          "author": "SMBCモビット【公式】",
+          "handle": "smbcmobit",
+          "text": "",
+          "url": "https://x.com/smbcmobit/status/2108029629390881225",
           "metrics": {
-            "views": 51283,
-            "likes": 415
+            "views": 2132015,
+            "likes": 2223
           }
         },
         {
-          "id": "2108638141829841388",
-          "author": "StudioYebisu",
-          "handle": "studio_yebisu",
-          "text": "Qwen-Image-2.1-Turbo のGGUF(量子化版)が早速出たようや。これによって、安いグラボでも生成が可能に。\n\nほぼどんなグラボでも数秒～十数秒でローカル生成できる。Claude + Qwen-Imageで実はだいたいのものは作れる。\n\nGPT解約したいけど画像生成したい人にはオススメ。",
-          "url": "https://x.com/studio_yebisu/status/2108638141829841388",
+          "id": "2108677946286416363",
+          "author": "masahirochaen",
+          "handle": "masahirochaen",
+          "text": "",
+          "url": "https://x.com/masahirochaen/status/2108677946286416363",
           "metrics": {
-            "views": 16948,
-            "likes": 326
+            "views": 15600,
+            "likes": 94
           }
         },
         {
-          "id": "2099336758353973692",
-          "author": "Salesforce Japan",
-          "handle": "SalesforceJapan",
-          "text": "いまSlackとつなぐべきアプリ3選",
-          "url": "https://x.com/SalesforceJapan/status/2099336758353973692",
+          "id": "2108524607762501845",
+          "author": "marcus",
+          "handle": "marcusyul",
+          "text": "",
+          "url": "https://x.com/marcusyul/status/2108524607762501845",
           "metrics": {
-            "views": 149114,
-            "likes": 17
-          }
-        },
-        {
-          "id": "2108712985665622363",
-          "author": "Hiroya Iizuka",
-          "handle": "0317_hiroya",
-          "text": "Obsidianのダッシュボード、、  \n\nついに、 \n\n・個人タスク(TaskChute for Obsidian) \n・会社のチームタスク(Linear)  \n・カレンダー\n・雑記メモ  \n\nこれらが、1つの画面で見えるように、、、 \n\nObsidianを立ち上げると\n最初にこれが見えるのは、最強です、、",
-          "url": "https://x.com/0317_hiroya/status/2108712985665622363",
-          "metrics": {
-            "views": 2765,
-            "likes": 36
-          }
-        },
-        {
-          "id": "2108376906064187402",
-          "author": "コキチーズ",
-          "handle": "k2wanko",
-          "text": "面接官「それで、AIが書いたコードの品質はどうやって担保・保証するの？」\n\n月3万円使ってない学生\n「えっ……ちゃんと動くか手動で操作して確認します！」\n\n月3万円使ってる学生",
-          "url": "https://x.com/k2wanko/status/2108376906064187402",
-          "metrics": {
-            "views": 844961,
-            "likes": 2880
-          }
-        },
-        {
-          "id": "2108669330539835776",
-          "author": "uudon",
-          "handle": "uudonX",
-          "text": "「中英双語字幕」これは私がこれまでに見た中で、最も明確で、ChatGPTとClaudeがどのように構築されているのかを徹底的に解説したコースです。スタンフォード大学、無料LLMコース\n\n見終わると、多くの「なるほど！」という設計が見えてきます。",
-          "url": "https://x.com/uudonX/status/2108669330539835776",
-          "metrics": {
-            "views": 25013,
-            "likes": 434
-          }
-        },
-        {
-          "id": "2108509024941482338",
-          "author": "nerea",
-          "handle": "nereasolenne",
-          "text": "SPACEXAIのエンジニアが、ほとんど誰もやっていないことをやっている。\n\n20以上のGrokBotエージェントを動かしている：Chief of Staff、PM、そして完全なワーカー群。",
-          "url": "https://x.com/nereasolenne/status/2108509024941482338",
-          "metrics": {
-            "views": 6129,
-            "likes": 368
+            "views": 10440,
+            "likes": 142
           }
         },
         {
           "id": "2062430403198406828",
           "author": "楽天モバイル",
           "handle": "Rakuten_Mobile",
-          "text": "スマホ大特価セール開催中！\nおトクな乗り換えキャンペーン実施中。新しい スマホを手に入れるチャンス。",
+          "text": "",
           "url": "https://x.com/Rakuten_Mobile/status/2062430403198406828",
           "metrics": {
-            "views": 207199003,
-            "likes": 6528
+            "views": 207446500,
+            "likes": 6533
           }
         },
         {
-          "id": "2108580996761493865",
-          "author": "Hirokazu Yokohara",
-          "handle": "Yokohara_h",
-          "text": "Blenderを自分では一度も触らずにAIのみでBlenderシーンを作るテスト途中\nモデリングも含めてAIのみという縛り\nなるべくクオリティ出るようにやり方組み合わせた",
-          "url": "https://x.com/Yokohara_h/status/2108580996761493865",
-          "metrics": {
-            "views": 177942,
-            "likes": 2583
-          }
-        },
-        {
-          "id": "2108620848076918863",
-          "author": "AYi",
-          "handle": "AYi_AInotes",
-          "text": "くそ、Grok Bot がまさに今、今年一番ぶっ飛んだシステムレベルの機能を正式ローンチした：公式がすべての Grok Bot に専用の独立したメールアドレスを割り当てたんだよ、マジでこれで俺たちの Claude アカウント登録を手伝ってくれるんじゃないの？\n\n独立したメールアドレスを持つってことは、AI",
-          "url": "https://x.com/AYi_AInotes/status/2108620848076918863",
-          "metrics": {
-            "views": 21409,
-            "likes": 118
-          }
-        },
-        {
-          "id": "2108742867405701393",
-          "author": "Sadao Tokuyama",
-          "handle": "tokufxug",
-          "text": "openpilotで単眼カメラ映像をBEV変換\n\n前方カメラ1台から俯瞰図を生成\n車線予測や周辺車両を平面上に可視化\nVisionIPC経由でリアルタイム処理\n\n課題は座標の揺れや深度推定。車線外での利用も精度に限界。\n\n開発：Zawawi Mohamed氏\n情報元はリプ欄。",
-          "url": "https://x.com/tokufxug/status/2108742867405701393",
-          "metrics": {
-            "views": 231
-          }
-        },
-        {
-          "id": "2097988777235124242",
-          "author": "AI駆動塾",
-          "handle": "L_go_mrk",
+          "id": "2108559859377422366",
+          "author": "にも｜AIによって爆誕",
+          "handle": "ai_ai_ailover",
           "text": "",
-          "url": "https://x.com/L_go_mrk/status/2097988777235124242",
+          "url": "https://x.com/ai_ai_ailover/status/2108559859377422366",
           "metrics": {
-            "views": 299456,
-            "likes": 183
+            "views": 1326,
+            "likes": 13
           }
         },
         {
-          "id": "2108740330568986748",
-          "author": "Fado",
-          "handle": "fado_dev",
-          "text": "きょうは中学生の前での特別授業。\n\nClaude CodeでWebアプリを作成し、Cloudflare Tunnelつかってローカルアプリを一時的に公開して使ってもらって大好評。Ngrok使わなくてもいいのは超ラクだった。",
-          "url": "https://x.com/fado_dev/status/2108740330568986748",
+          "id": "2107699373333430679",
+          "author": "アルパラ",
+          "handle": "alparajp",
+          "text": "",
+          "url": "https://x.com/alparajp/status/2107699373333430679",
           "metrics": {
-            "views": 798,
-            "likes": 9
+            "views": 4121806,
+            "likes": 2419
           }
         },
         {
-          "id": "2108403327662768495",
-          "author": "0xMarioNawfal",
-          "handle": "RoundtableSpace",
-          "text": "This Claude Code setup combines Haiku’s speed with Opus-level oversight\n\nSet Haiku 5.5 as your main model and Opus 5.5 as the advisor to keep coding fast and cost-efficient while adding a stronger review layer.",
-          "url": "https://x.com/RoundtableSpace/status/2108403327662768495",
+          "id": "2108707336001126644",
+          "author": "Codex Studio",
+          "handle": "Codestudiopjbk",
+          "text": "【速報｜Codex が大幅アップデート】 ついに来ました！ Windows版Codexに、新しいサンドボックス「MXC」が来ました！ Microsoftの実行コンテナを使う、Windows 11向けの新しい隔離方式です。 これ、地味に見えて Windowsでの始め方がぐっと楽になるアップデートです😳",
+          "url": "https://x.com/Codestudiopjbk/status/2108707336001126644",
           "metrics": {
-            "views": 47230,
-            "likes": 109
+            "views": 27966,
+            "likes": 194
           }
         },
         {
-          "id": "2108212235894157732",
-          "author": "钟二信",
-          "handle": "zhongerxin",
-          "text": "iPhone Use\n\nhttps://github.com/zhongerxin/iPhone-use…",
-          "url": "https://x.com/zhongerxin/status/2108212235894157732",
+          "id": "2108510824738308370",
+          "author": "爱吃折耳根的Ace",
+          "handle": "_zheergen",
+          "text": "",
+          "url": "https://x.com/_zheergen/status/2108510824738308370",
           "metrics": {
-            "views": 317161,
-            "likes": 2144
+            "views": 17359,
+            "likes": 95
           }
         },
         {
-          "id": "2108301428049723800",
-          "author": "ける",
-          "handle": "keru_career",
-          "text": "孫正義がスカウトした27歳ソフトバンク本部長。とりあえず「すげぇ…」としか言えない…",
-          "url": "https://x.com/keru_career/status/2108301428049723800",
+          "id": "2108700273334157620",
+          "author": "PixelAIGC",
+          "handle": "PixelAigc",
+          "text": "huggingface.co akatz-ai/MiniMax-H3-Character-Swap-LoRA · Hugging Face We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+          "url": "https://x.com/PixelAigc/status/2108700273334157620",
           "metrics": {
-            "views": 2546178,
-            "likes": 8218
+            "views": 13094,
+            "likes": 273
           }
         },
         {
-          "id": "2108188937240084674",
-          "author": "ten",
-          "handle": "tenhkspark",
-          "text": "常にヤバいの最先端走ってる気がする。この人の投稿みてDGX Spark知って買ったんだよね。おかげでいまめっちゃ楽しい。",
-          "url": "https://x.com/tenhkspark/status/2108188937240084674",
+          "id": "2108837162317689047",
+          "author": "Yalcinweb",
+          "handle": "yalcinwebb",
+          "text": "",
+          "url": "https://x.com/yalcinwebb/status/2108837162317689047",
           "metrics": {
-            "views": 130771,
-            "likes": 1147
+            "views": 156,
+            "likes": 5
           }
         },
         {
-          "id": "2107128265072906721",
-          "author": "UNIVERS for GAMER",
-          "handle": "UNIV_GAME",
-          "text": "「ゲームで転職する時代」が来た。\n\nプロeスポーツチームFENNEL主催\nESPORTS CAREER CHALLENGE\n\n日程：\n▶︎  10/10（土）– 10/11（日）\n▶︎  10/17（土）– 10/18（日）\n形式：オンライン\n対象：U30向け\n参加費：無料\n\n・一人参加OK／準備不要",
-          "url": "https://x.com/UNIV_GAME/status/2107128265072906721",
+          "id": "2108765518438236472",
+          "author": "［HOTDZero］HIGH SCHOOL OF THE DEAD DAY 0_developerA",
+          "handle": "HOTD_ads",
+          "text": "",
+          "url": "https://x.com/HOTD_ads/status/2108765518438236472",
           "metrics": {
-            "views": 1576627,
-            "likes": 502
+            "views": 215601,
+            "likes": 31
           }
         },
         {
-          "id": "2108695694005649863",
-          "author": "el.cine",
-          "handle": "EHuanglu",
-          "text": "AI now knows physics very well",
-          "url": "https://x.com/EHuanglu/status/2108695694005649863",
+          "id": "2108719019062931575",
+          "author": "实践哥 Li",
+          "handle": "MinLiBuilds",
+          "text": "わかってる人はわかってる、一键フォーク、遅れたらもうない！🔥全ソフトウェアの逆向：REA（Reverse Engineer Anything）、すでに GitHub で 4.2 万 Star に到達。 Ghidra、Hopper などの逆向ツールを Claude Code、Codex に接続し、AI がソースコードのないソフトウェアを研究できるようにする。",
+          "url": "https://x.com/MinLiBuilds/status/2108719019062931575",
           "metrics": {
-            "views": 247561,
-            "likes": 509
+            "views": 75692,
+            "likes": 444
           }
         },
         {
-          "id": "2108621038141546616",
-          "author": "codila",
-          "handle": "0xCodila",
-          "text": "Finally... I made sound design prompt that fixes music for Opus 5.5 & Fable 5.5 motion design\n\nThe difference is f*cking unreal...\n\nNo more cheap synth beeps: SFX → music → timing → in one prompt\n\nSend it to Opus 5.5 & Fable 5.5 and thank me later. Then read how to get paid",
-          "url": "https://x.com/0xCodila/status/2108621038141546616",
+          "id": "2108759364744134880",
+          "author": "miyatti | 生成AIエバンジェリスト / CPO",
+          "handle": "paji_a",
+          "text": "",
+          "url": "https://x.com/paji_a/status/2108759364744134880",
           "metrics": {
-            "views": 48458,
-            "likes": 1006
+            "views": 434824,
+            "likes": 3538
           }
         },
         {
-          "id": "2108675620695908694",
-          "author": "ゆーき丸",
-          "handle": "Yuki0_0Maru",
-          "text": "Claude Code Projects、待機リストから全員招待\n\n待機リストに登録していたPro・Maxプランの人は、全員使えるようになったようです！\n\n▼始め方\n① \nhttps://claude.ai/codeか、デスクトップアプリのCodeタブを開く② 左のサイドバーの「Projects」を押す\n③「New project」から作る\n\n▼注意点",
-          "url": "https://x.com/Yuki0_0Maru/status/2108675620695908694",
+          "id": "2108768551368835106",
+          "author": "TechVerser",
+          "handle": "realfxw",
+          "text": "",
+          "url": "https://x.com/realfxw/status/2108768551368835106",
           "metrics": {
-            "views": 1037,
-            "likes": 9
+            "views": 3172,
+            "likes": 4
+          }
+        },
+        {
+          "id": "2103153105273848201",
+          "author": "ミライ＠役立つAI情報",
+          "handle": "aistep_pr_361",
+          "text": "",
+          "url": "https://x.com/aistep_pr_361/status/2103153105273848201",
+          "metrics": {
+            "views": 2315332,
+            "likes": 2082
+          }
+        },
+        {
+          "id": "2108572746280231017",
+          "author": "LOOPY",
+          "handle": "VibeEverything",
+          "text": "",
+          "url": "https://x.com/VibeEverything/status/2108572746280231017",
+          "metrics": {
+            "views": 10874,
+            "likes": 228
+          }
+        },
+        {
+          "id": "2108514516531085744",
+          "author": "Snow Brave",
+          "handle": "Sn0wbrave",
+          "text": "",
+          "url": "https://x.com/Sn0wbrave/status/2108514516531085744",
+          "metrics": {
+            "views": 1598,
+            "likes": 1
+          }
+        },
+        {
+          "id": "2108795734703353924",
+          "author": "Kinopee",
+          "handle": "kinopee_ai",
+          "text": "",
+          "url": "https://x.com/kinopee_ai/status/2108795734703353924",
+          "metrics": {
+            "views": 10582,
+            "likes": 504
+          }
+        },
+        {
+          "id": "2108129245902020717",
+          "author": "ahamo(アハモ)",
+          "handle": "ahamo_official",
+          "text": "",
+          "url": "https://x.com/ahamo_official/status/2108129245902020717",
+          "metrics": {
+            "views": 2555226,
+            "likes": 0
+          }
+        },
+        {
+          "id": "2108796501484794128",
+          "author": "M.",
+          "handle": "wlzh",
+          "text": "VPS 只有 IP 没有域名，怎么免费上 HTTPS？给你说全了。 先说个冷知識：Let's Encrypt 不給純 IP 發證書，它只認域名。所以得繞一下，三條路： 1. 最省事：ZeroSSL。免費版可以直接給公網 IP 發證書（90 天有效，一個賬號能拿 3 張）。去zerossl.com註冊，填你的 IP，選 HTTP",
+          "url": "https://x.com/wlzh/status/2108796501484794128",
+          "metrics": {
+            "views": 5458,
+            "likes": 27
+          }
+        },
+        {
+          "id": "2108786099778724108",
+          "author": "Codex研究ラボ",
+          "handle": "codexneo4",
+          "text": "Codexアプリを最大「100個」同時起動できる ツールが登場してるのヤバすぎる‼️全部別アカウントで管理できる。 その名も「Multi Codex App」 これまで面倒だったアカウントの切り替えが 不要になり複数のCodexを並列で動かせる！ 何ができるのか解説する👇",
+          "url": "https://x.com/codexneo4/status/2108786099778724108",
+          "metrics": {
+            "views": 3914,
+            "likes": 30
+          }
+        },
+        {
+          "id": "2107484393220776073",
+          "author": "aiongaku_pr",
+          "handle": "aiongaku_pr",
+          "text": "",
+          "url": "https://x.com/aiongaku_pr/status/2107484393220776073",
+          "metrics": {
+            "views": 521029,
+            "likes": 1244
+          }
+        },
+        {
+          "id": "2108852275095748762",
+          "author": "masahirochaen",
+          "handle": "masahirochaen",
+          "text": "",
+          "url": "https://x.com/masahirochaen/status/2108852275095748762",
+          "metrics": {
+            "views": 3810,
+            "likes": 25
+          }
+        },
+        {
+          "id": "2108441494407586157",
+          "author": "木内翔大＠SHIFT AI代表「日本をAI先進国に」𝕏",
+          "handle": "shota7180",
+          "text": "",
+          "url": "https://x.com/shota7180/status/2108441494407586157",
+          "metrics": {
+            "views": 18034,
+            "likes": 129
+          }
+        },
+        {
+          "id": "2107383378773520810",
+          "author": "ありふれた職業で世界最強 リベリオンソウル_デベロッパー",
+          "handle": "arifure_ads",
+          "text": "",
+          "url": "https://x.com/arifure_ads/status/2107383378773520810",
+          "metrics": {
+            "views": 2129395,
+            "likes": 751
+          }
+        },
+        {
+          "id": "2108509652547723367",
+          "author": "alex",
+          "handle": "aialecs",
+          "text": "",
+          "url": "https://x.com/aialecs/status/2108509652547723367",
+          "metrics": {
+            "views": 33803,
+            "likes": 410
+          }
+        },
+        {
+          "id": "2108723749910712330",
+          "author": "爱吃折耳根的Ace",
+          "handle": "_zheergen",
+          "text": "",
+          "url": "https://x.com/_zheergen/status/2108723749910712330",
+          "metrics": {
+            "views": 9103,
+            "likes": 83
+          }
+        },
+        {
+          "id": "2108535983750943062",
+          "author": "Fayaz Ahmed",
+          "handle": "fayazara",
+          "text": "",
+          "url": "https://x.com/fayazara/status/2108535983750943062",
+          "metrics": {
+            "views": 45454,
+            "likes": 682
+          }
+        },
+        {
+          "id": "2105262038687920527",
+          "author": "Lステップ@公式",
+          "handle": "lstep_jp",
+          "text": "",
+          "url": "https://x.com/lstep_jp/status/2105262038687920527",
+          "metrics": {
+            "views": 289589,
+            "likes": 49
+          }
+        },
+        {
+          "id": "2108767013720170849",
+          "author": "雪踏乌云",
+          "handle": "Pluvio9yte",
+          "text": "",
+          "url": "https://x.com/Pluvio9yte/status/2108767013720170849",
+          "metrics": {
+            "views": 4291,
+            "likes": 12
+          }
+        },
+        {
+          "id": "2108526902319399081",
+          "author": "Hux",
+          "handle": "xiaoying_eth",
+          "text": "オープンソーススキルライブランキングが登場 この10個だけをブックマークするなよ、あとの67個でAIが開発フローを全部自分でこなせる。mp.weixin.qq.com/s/GtBZZAmxjJc_mp.weixin.qq.com/s/GtBZZAmxjJc_ …1. Superpowers -github.com/obra/superpowegithub.com/obra/superpowe …2. Ponytail -github.com/DietrichGebertgithub.com/DietrichGebert …3. UI/UX Pro Max -github.com/nextlevelbuildgithub.com/nextlevelbuild …4.",
+          "url": "https://x.com/xiaoying_eth/status/2108526902319399081",
+          "metrics": {
+            "views": 9052,
+            "likes": 154
           }
         }
       ]
@@ -1355,391 +1345,391 @@
       "name": "Cloud",
       "handle": "cloud8wq",
       "sample": false,
-      "updatedAt": "2026-10-10T12:10:00+09:00",
+      "updatedAt": "2026-10-10T19:10:00+09:00",
       "posts": [
         {
-          "id": "2108686946424029603",
-          "author": "GitHub AI Projects Community",
-          "handle": "trendtech33566",
-          "text": "AIが書いたコード、自分でも全体像がわからなくなってませんか？\n\noh-my-mermaid、約2.6千。コードを解析して「構成図＋説明」を作るOSS。\n\n何ができるかというと\n・構造やデータの流れをMermaid図に\n・複雑な部分は階層を掘って確認\n・図と一緒に制約や懸念点も整理\n・Claude",
-          "url": "https://x.com/trendtech33566/status/2108686946424029603",
+          "id": "2108600356410212370",
+          "author": "LiveSquawk",
+          "handle": "LiveSquawk",
+          "text": "US NY Fed GDP Nowcast Q3: 2.65% (prev 2.46%) - GDP Nowcast Q4: 2.83% (prev 2.55%)newyorkfed.org/research/policnewyorkfed.org/research/polic …",
+          "url": "https://x.com/LiveSquawk/status/2108600356410212370",
           "metrics": {
-            "views": 8554,
-            "likes": 165
+            "views": 11608,
+            "likes": 11
           }
         },
         {
-          "id": "2108591328732856655",
-          "author": "ClaudeDevs",
-          "handle": "ClaudeDevs",
-          "text": "Claude Managed Agents dynamic workflows are now available in public beta. It's a new type of multiagent orchestration, built for your most ambitious workloads.\n\nA lead agent writes a plan that runs across many agents in phases, combining the results at the end.",
-          "url": "https://x.com/ClaudeDevs/status/2108591328732856655",
+          "id": "2108818289229238648",
+          "author": "masahirochaen",
+          "handle": "masahirochaen",
+          "text": "",
+          "url": "https://x.com/masahirochaen/status/2108818289229238648",
           "metrics": {
-            "views": 571184,
-            "likes": 9436
+            "views": 9795,
+            "likes": 34
           }
         },
         {
-          "id": "2108609764766908772",
-          "author": "Grok Bot",
-          "handle": "bot",
-          "text": "Grok Bot now has its own email.\n\nBot can use it to sign up for services, contact businesses for you, or schedule time with someone.",
-          "url": "https://x.com/bot/status/2108609764766908772",
+          "id": "2108635591063790049",
+          "author": "Keith McCullough",
+          "handle": "KeithMcCullough",
+          "text": "",
+          "url": "https://x.com/KeithMcCullough/status/2108635591063790049",
           "metrics": {
-            "views": 1580486,
-            "likes": 12135
+            "views": 10308,
+            "likes": 28
           }
         },
         {
-          "id": "2108664060132929903",
-          "author": "ケム",
-          "handle": "kemu_aii",
-          "text": "Claude code使ってるのに/advisorを設定してない人トークン無駄にしすぎ。\n\nOpus5.5に最初から最後までやらせるとトークンが一瞬で飛ぶので、実際の作業はSonnet5.5に任せて、迷った時だけOpusに相談させます。\n\n単純作業はSonnet 5.5\nリサーチはHaiku 5.5\n壁打ちの相談役はOpus 5.5",
-          "url": "https://x.com/kemu_aii/status/2108664060132929903",
+          "id": "2108612939842511217",
+          "author": "Elon Musk",
+          "handle": "elonmusk",
+          "text": "Grokcan now set up its own email",
+          "url": "https://x.com/elonmusk/status/2108612939842511217",
           "metrics": {
-            "views": 10112,
-            "likes": 113
+            "views": 3478797,
+            "likes": 5414
           }
         },
         {
-          "id": "2108544691612635552",
-          "author": "叫我阿杭",
-          "handle": "Astronaut_1216",
-          "text": "マジかよ、こんなヤバいもん初めて見たわ。今まで見た中で、AI中継ステーション以外で一番儲かりそうなビジネスだぜ。データそのものを直接売るんじゃなくて、データインターフェースを直接売ってるんだ。グローバルデータが直接取得できて、tikhubなんてその数千のインターフェースの一つに過ぎない。",
-          "url": "https://x.com/Astronaut_1216/status/2108544691612635552",
+          "id": "2108706434544443396",
+          "author": "まじん",
+          "handle": "Majin_AppSheet",
+          "text": "",
+          "url": "https://x.com/Majin_AppSheet/status/2108706434544443396",
           "metrics": {
-            "views": 55624,
-            "likes": 777
+            "views": 29048,
+            "likes": 141
           }
         },
         {
-          "id": "2108600084640518223",
-          "author": "雪踏乌云",
-          "handle": "Pluvio9yte",
-          "text": "すげえ、AIがiPhoneを操作するオープンソースプロジェクトが登場した\n\n前からCodexがMacのiPhoneエミュレータを操作するのが遅すぎると感じてたけど、これで問題が一気に解決だ\n\nオープンソースの場所：\nhttps://github.com/zhongerxin/iPhone-use…",
-          "url": "https://x.com/Pluvio9yte/status/2108600084640518223",
+          "id": "2108599889781244413",
+          "author": "LiveSquawk",
+          "handle": "LiveSquawk",
+          "text": "| Gulf Of America Oil And Gas Activities In Response To Hurricane Isaiasbsee.gov/newsroom/latesbsee.gov/newsroom/lates …",
+          "url": "https://x.com/LiveSquawk/status/2108599889781244413",
           "metrics": {
-            "views": 30406,
-            "likes": 284
+            "views": 12355,
+            "likes": 2
           }
         },
         {
-          "id": "2108607109869019512",
-          "author": "maestro",
-          "handle": "maestrooth",
-          "text": "Jev is truly the \"Internet\" moment for the AI industry  \n\nIt tells your agents and LLMs what to do next, in milliseconds and at almost zero cost  \n\nIf you set it up correctly, you will have the AI engineer’s stack for 2028\n\nHere's how to add it to your Grok Bot:\n\nstep 1 → create",
-          "url": "https://x.com/maestrooth/status/2108607109869019512",
+          "id": "2108659060115411180",
+          "author": "Big Tech Alert",
+          "handle": "BigTechAlert",
+          "text": "🆕has started followingPreviously followed by:,,,,& 22 more",
+          "url": "https://x.com/BigTechAlert/status/2108659060115411180",
           "metrics": {
-            "views": 5215,
-            "likes": 70
+            "views": 2660,
+            "likes": 2
           }
         },
         {
-          "id": "2108495964675952640",
-          "author": "Hux",
-          "handle": "huxlab",
-          "text": "Anthropicで研究開発をしている友達がいます。年収150万ドルです。\n\n彼女に、Claudeを極限まで調整した方法を尋ねました。\n\n彼女は、元々社外に公開されていない30分間の内部録画をそのまま渡してくれました。",
-          "url": "https://x.com/huxlab/status/2108495964675952640",
+          "id": "2108835532310712536",
+          "author": "呉縞 慶一 @ Modelist CEO",
+          "handle": "K_Kureshima",
+          "text": "☝️Notionボタン触ってたら 「スキルDBのレコード指定」ができるようになってた！ スキルの文字列覚えられなくて呼び出せない問題 がこれで解決される！！",
+          "url": "https://x.com/K_Kureshima/status/2108835532310712536",
           "metrics": {
-            "views": 96867,
-            "likes": 1190
+            "views": 683,
+            "likes": 8
           }
         },
         {
-          "id": "2108621038141546616",
-          "author": "codila",
-          "handle": "0xCodila",
-          "text": "Finally... I made sound design prompt that fixes music for Opus 5.5 & Fable 5.5 motion design\n\nThe difference is f*cking unreal...\n\nNo more cheap synth beeps: SFX → music → timing → in one prompt\n\nSend it to Opus 5.5 & Fable 5.5 and thank me later. Then read how to get paid",
-          "url": "https://x.com/0xCodila/status/2108621038141546616",
+          "id": "2108858146454200666",
+          "author": "aleyda",
+          "handle": "aleyda",
+          "text": "How does Finchling compare with Google Alerts for Digital PR? Many have asked this question lately, so here you have a comprehensive comparison: Google Alerts monitors keywords. Finchling gives you campaign ideas.👇* Google Alerts pings you after your brand or competitors are",
+          "url": "https://x.com/aleyda/status/2108858146454200666",
           "metrics": {
-            "views": 48246,
-            "likes": 1004
+            "views": 420,
+            "likes": 5
           }
         },
         {
-          "id": "2108459281095987534",
-          "author": "Denzii",
-          "handle": "denziideng",
-          "text": "AI が「私は答えられません」と言うのは、答えられないからではなく、ロックされているからです。このオープンソースツールは、1行のコマンドでそのロックを外します。\n\nHeretic は、オープンソースモデルがあなたを完全に拒否しなくなるようにし、元の知能をほとんど損なうことなく実現します。\n\n",
-          "url": "https://x.com/denziideng/status/2108459281095987534",
+          "id": "2108617898751045649",
+          "author": "GitHub",
+          "handle": "github",
+          "text": "Ever been to a hackathon? Follow participants throughout their day, from badge to the final demo. What you can learn from attending a hackathon⬇️github.blog/developer-skilgithub.blog/developer-skil …",
+          "url": "https://x.com/github/status/2108617898751045649",
           "metrics": {
-            "views": 23028,
-            "likes": 468
+            "views": 35882,
+            "likes": 112
           }
         },
         {
-          "id": "2108687079110779087",
-          "author": "しまぶー",
-          "handle": "shimabu_it",
-          "text": "遂にきたーーーーー\nClaude Projects！！！！！\n\nこれはもう紛れもない神機能ですよ！\nGrok BotやCursorが優れている理由の1つでもあるProjects機能がついにClaudeにも！\n\nβで申請していた甲斐があったぜ\n1カ月以上待たされたがようやく！！",
-          "url": "https://x.com/shimabu_it/status/2108687079110779087",
+          "id": "2108843144221478936",
+          "author": "Tribunnews.com",
+          "handle": "tribunnews",
+          "text": "tribunnews.com Seskab Teddy Ajak Warga Buktikan Indonesia Mampu Jadi Tuan Rumah MotoGP Mandalika 2026 - Tribunne...tribunnews.comから",
+          "url": "https://x.com/tribunnews/status/2108843144221478936",
           "metrics": {
-            "views": 39639,
-            "likes": 349
+            "views": 491,
+            "likes": 1
           }
         },
         {
-          "id": "2108588306485194821",
-          "author": "Paul Vengeons",
-          "handle": "VengeonsP",
-          "text": "今月、Opus 5.5についてたった一つのものだけを読むなら\n\nこれだよ\n\nこれをあなたのClaudeにコピー＆ペーストして\n\n1ヶ月後に私に感謝してね",
-          "url": "https://x.com/VengeonsP/status/2108588306485194821",
+          "id": "2108685927660888551",
+          "author": "CNN",
+          "handle": "CNN",
+          "text": "Conditions are deteriorating quickly along the Gulf Coast with Hurricane Isaias only hours from making landfall. Thousands of residents are without power and the storm surge is already being felt. Follow live updates:cnn.it/4jUqWRc",
+          "url": "https://x.com/CNN/status/2108685927660888551",
           "metrics": {
-            "views": 11551,
-            "likes": 60
+            "views": 1028509,
+            "likes": 167
           }
         },
         {
-          "id": "2108707336001126644",
-          "author": "Codex Studio",
-          "handle": "Codestudiopjbk",
-          "text": "【速報｜Codex が大幅アップデート】\n\nついに来ました！\nWindows版Codexに、新しいサンドボックス「MXC」が来ました！\nMicrosoftの実行コンテナを使う、Windows 11向けの新しい隔離方式です。\n\nこれ、地味に見えて\nWindowsでの始め方がぐっと楽になるアップデートです",
-          "url": "https://x.com/Codestudiopjbk/status/2108707336001126644",
+          "id": "2108667346248503459",
+          "author": "Mojofull",
+          "handle": "furoku",
+          "text": "",
+          "url": "https://x.com/furoku/status/2108667346248503459",
           "metrics": {
-            "views": 10963,
-            "likes": 88
+            "views": 332,
+            "likes": 0
           }
         },
         {
-          "id": "2108652628590944540",
-          "author": "Google Gemma",
-          "handle": "googlegemma",
-          "text": "Google AI Pro plans now package premium Colab benefits, landing you A100s with 80GB VRAM (Ultra subs even unlock H100s ).\n\nHere’s what that 80GB headroom unlocks directly in your browser:\n\n Run Gemma 4 31B in bf16\n Full fine-tune up to Gemma 4 E4B in bf16\n LoRA tune up to",
-          "url": "https://x.com/googlegemma/status/2108652628590944540",
+          "id": "2108618048999473379",
+          "author": "Big Tech Alert",
+          "handle": "BigTechAlert",
+          "text": "🆕began followingPreviously followed by:,,,,& 18 more (🤖🔍: can someone explain it?)",
+          "url": "https://x.com/BigTechAlert/status/2108618048999473379",
           "metrics": {
-            "views": 188935,
-            "likes": 3822
+            "views": 2368,
+            "likes": 4
           }
         },
         {
-          "id": "2108753606178676901",
-          "author": "Danh Tran",
-          "handle": "danhtran68",
-          "text": "Top gainers trên Binance sáng nay toàn những cái tên vàng 1 thời :((\n\nNào là $PIXEL \n$ZK\n \n$STRK\n \n$GMT\n \n$OP\n $C98 $MAGIC :(((\n\nList này sớm muộn cũng có 1-2 cái tên bị Binance delist thôi, anh em nghĩ cái tên đầu tiên sẽ được gọi là ai?",
-          "url": "https://x.com/danhtran68/status/2108753606178676901",
+          "id": "2108610540750704975",
+          "author": "LiveSquawk",
+          "handle": "LiveSquawk",
+          "text": "US Envoys Kushner, Witkoff To Discuss New Peace Plan With Ukrainian Delegation -nbcnews.com Kushner and Witkoff to discuss ‘new’ peace plan with Ukrainian delegation, sources saynbcnews.comから",
+          "url": "https://x.com/LiveSquawk/status/2108610540750704975",
           "metrics": {
-            "views": 436,
+            "views": 11200,
+            "likes": 2
+          }
+        },
+        {
+          "id": "2108650402795155762",
+          "author": "LiveSquawk",
+          "handle": "LiveSquawk",
+          "text": "",
+          "url": "https://x.com/LiveSquawk/status/2108650402795155762",
+          "metrics": {
+            "views": 12096,
+            "likes": 12
+          }
+        },
+        {
+          "id": "2108553290166526182",
+          "author": "LiveSquawk",
+          "handle": "LiveSquawk",
+          "text": "| Military source: Houthi militias have planted mines with immense density in the Bab al-Mandab area",
+          "url": "https://x.com/LiveSquawk/status/2108553290166526182",
+          "metrics": {
+            "views": 7600,
             "likes": 7
           }
         },
         {
-          "id": "2108673427590590971",
-          "author": "0xRafy",
-          "handle": "0xRafy",
-          "text": "GrokBot + Opus 5.5 is crazy for motion design..\n\nI connected Opus 5.5 to my GrokBot and turned it to motion design studio\n\nsave now, then connect Opus 5.5 to your GrokBot",
-          "url": "https://x.com/0xRafy/status/2108673427590590971",
+          "id": "2108611405830074419",
+          "author": "LiveSquawk",
+          "handle": "LiveSquawk",
+          "text": "Trump Pressures Mexico For Energy Deals In Crunch Trade Talks –ft.com Donald Trump pressures Mexico for energy deals in crunch trade talksft.comから",
+          "url": "https://x.com/LiveSquawk/status/2108611405830074419",
           "metrics": {
-            "views": 8804,
-            "likes": 75
+            "views": 11240,
+            "likes": 2
           }
         },
         {
-          "id": "2108451781982466339",
-          "author": "StudioYebisu",
-          "handle": "studio_yebisu",
-          "text": "このお方、技術、創作センス、情報透明性、ギブの精神、全てにおいて超一線級なのに、フォロワー数の桁が1個足りなくねえか。もっと知られるべきだろ。\nポスト全部クソおもろいし、めっちゃ参考になるんだが。\n一方的にフォローしてたつもりだったのに、いつの間にかFFになってて熱い。",
-          "url": "https://x.com/studio_yebisu/status/2108451781982466339",
+          "id": "2108634227638165845",
+          "author": "Python Coding",
+          "handle": "clcoding",
+          "text": "🧵1/6 6 beginner mistakes in Python that almost every new programmer makes! Learning Python isn't just about writing code. It's about writing code the right way. If you're starting your Python journey, avoid these common mistakes👇",
+          "url": "https://x.com/clcoding/status/2108634227638165845",
           "metrics": {
-            "views": 22423,
-            "likes": 391
+            "views": 8669,
+            "likes": 53
           }
         },
         {
-          "id": "2108528223135178861",
-          "author": "Nico Garcia | Ingeniero de IA",
-          "handle": "NicoGarcia_IA",
-          "text": " ほぼどんなウェブからでもデータを抽出できる方法\n\n有料APIなし。手作業でのコピーなし。\n\n3つの無料リポジトリ。欲しいものを指定するだけで、持ってきてくれる。\n\n下で詳しく説明するよ ",
-          "url": "https://x.com/NicoGarcia_IA/status/2108528223135178861",
+          "id": "2108734273662669046",
+          "author": "BUGI",
+          "handle": "Bugi952",
+          "text": "",
+          "url": "https://x.com/Bugi952/status/2108734273662669046",
           "metrics": {
-            "views": 53812,
-            "likes": 596
+            "views": 8792,
+            "likes": 191
           }
         },
         {
-          "id": "2108570299717586969",
-          "author": "珠音こころ(Tamaneko)",
-          "handle": "tamanekokoro",
-          "text": "Hermes Agentに有価証券報告書5万件をセコセコダウンロードさせてStrata Qwen FN with Hermesで\nNTTデ〇タの内情を分析させた話",
-          "url": "https://x.com/tamanekokoro/status/2108570299717586969",
+          "id": "2108723990961209610",
+          "author": "Ray Dalio",
+          "handle": "RayDalio",
+          "text": "What an honor to present “Her Deepness” Dr. Sylvia Earle with thelifetime achievement award at the OceanX Summit in Singapore. No one alive today has done more for the ocean, and without her help and inspiration, OceanX would have never even gotten started.",
+          "url": "https://x.com/RayDalio/status/2108723990961209610",
           "metrics": {
-            "views": 12807,
-            "likes": 207
+            "views": 44627,
+            "likes": 168
           }
         },
         {
-          "id": "2108188937240084674",
-          "author": "ten",
-          "handle": "tenhkspark",
-          "text": "常にヤバいの最先端走ってる気がする。この人の投稿みてDGX Spark知って買ったんだよね。おかげでいまめっちゃ楽しい。",
-          "url": "https://x.com/tenhkspark/status/2108188937240084674",
+          "id": "2108583637797175314",
+          "author": "Izabella Kaminska",
+          "handle": "izakaminska",
+          "text": "Oh my. I feel some sort of joint watching event with live reactions would be appropriate for this. The ALTRUISTS is out on Netflix on Nov 19🍿youtube.com The Altruists | Official Trailer | Netflixyoutube.comから",
+          "url": "https://x.com/izakaminska/status/2108583637797175314",
           "metrics": {
-            "views": 130753,
-            "likes": 1147
+            "views": 6358,
+            "likes": 13
           }
         },
         {
-          "id": "2108502511502196916",
-          "author": "Avid",
-          "handle": "Av1dlive",
-          "text": "these 40 lines in claude code cut the price of my opus 5.5 workflow by 20%...\n\n----------------------------\n\nMerge this into ~/.claude/settings.json without touching my existing hooks, permissions, or plugins. Then create the two agent files exactly as written. Show me the",
-          "url": "https://x.com/Av1dlive/status/2108502511502196916",
+          "id": "2108863989996573039",
+          "author": "mizorewww",
+          "handle": "mizorewww",
+          "text": "",
+          "url": "https://x.com/mizorewww/status/2108863989996573039",
           "metrics": {
-            "views": 5338,
-            "likes": 122
+            "views": 63,
+            "likes": 6
           }
         },
         {
-          "id": "2108481918669033850",
-          "author": "StudioYebisu",
-          "handle": "studio_yebisu",
-          "text": "おいおい、とんでもない本質レビューやってくれてるやないか。まあ、あの演技の自然さとかではなく、漢字の読み間違いとかのなさという性能ではあるが、マジで性能上がったなあ。もはや私よりも漢字の読み間違い少ない可能性が高いな。読めへん漢字いっぱいあるから。",
-          "url": "https://x.com/studio_yebisu/status/2108481918669033850",
+          "id": "2108605839980540153",
+          "author": "ben.",
+          "handle": "benyuls",
+          "text": "",
+          "url": "https://x.com/benyuls/status/2108605839980540153",
           "metrics": {
-            "views": 8258,
-            "likes": 156
+            "views": 22816,
+            "likes": 225
           }
         },
         {
-          "id": "2108627923888754862",
-          "author": "Satya Nadella",
-          "handle": "satyanadella",
-          "text": "Introducing Microsoft-Decision-1, our new model for fast decision-making.\n\nIt delivers top performance on structured decision tasks, outperforming both LLMs and other decision models in latency and quality.\n\nWe’re already testing it across Microsoft for everything from incident",
-          "url": "https://x.com/satyanadella/status/2108627923888754862",
+          "id": "2108625847561462116",
+          "author": "Moonlit Sea",
+          "handle": "kiyowave216",
+          "text": "",
+          "url": "https://x.com/kiyowave216/status/2108625847561462116",
           "metrics": {
-            "views": 666033,
-            "likes": 6467
+            "views": 2,
+            "likes": 0
           }
         },
         {
-          "id": "2108512547410489437",
-          "author": "Csaba Kissi",
-          "handle": "csaba_kissi",
-          "text": "Tools I’d recommend to someone building their first SaaS\n\n Figma → design\n shadcn/ui → UI\n Next.js → framework\n Sevalla → hosting\n Supabase → database\n Clerk → authentication\n Stripe → payments\n Resend → email\n Plausible → analytics\n Sentry → errors",
-          "url": "https://x.com/csaba_kissi/status/2108512547410489437",
+          "id": "2108633588203683878",
+          "author": "Keith McCullough",
+          "handle": "KeithMcCullough",
+          "text": "",
+          "url": "https://x.com/KeithMcCullough/status/2108633588203683878",
           "metrics": {
-            "views": 6850,
-            "likes": 78
+            "views": 8958,
+            "likes": 15
           }
         },
         {
-          "id": "2108568667449618930",
-          "author": "Unsloth AI",
-          "handle": "UnslothAI",
-          "text": "You can now train your own Decision model with our free notebook! \n\nQwen3.5-4B will generate decisions instead of text on just 8GB VRAM locally.\n\nLearn to data prep (state, questions, gold answers), train, serve.\n\nNotebook: \nhttps://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Qwen3_5_(4B)-Decision.ipynb…Guide: \nhttps://unsloth.ai/docs/basics/train-your-own-decision-model-with-unsloth…",
-          "url": "https://x.com/UnslothAI/status/2108568667449618930",
+          "id": "2108632290884571268",
+          "author": "Keith McCullough",
+          "handle": "KeithMcCullough",
+          "text": "",
+          "url": "https://x.com/KeithMcCullough/status/2108632290884571268",
           "metrics": {
-            "views": 129147,
-            "likes": 2015
+            "views": 6701,
+            "likes": 4
           }
         },
         {
-          "id": "2108672479007047952",
-          "author": "Prime Intellect",
-          "handle": "PrimeIntellect",
-          "text": "Over two weeks, Prime Agent orchestrated a swarm of over 2,000 agents to rewrite itself in Rust.\n\nWith 10,000+ sandboxes, 200B+ GLM-5.3 tokens, and 16,000 agent-to-agent messages, this was our largest test yet of Prime Agent’s multi-agent capabilities and our infrastructure",
-          "url": "https://x.com/PrimeIntellect/status/2108672479007047952",
+          "id": "2108612135605473512",
+          "author": "LiveSquawk",
+          "handle": "LiveSquawk",
+          "text": "US President Trump To Issue Directive To Officials That Seeks To Control Cost Of Diesel – RTRS Sources - Directive Will Push Department Heads To Find Ways To Bypass Local, State Regulations Blocking Energy Production",
+          "url": "https://x.com/LiveSquawk/status/2108612135605473512",
           "metrics": {
-            "views": 119158,
-            "likes": 1085
+            "views": 12901,
+            "likes": 8
           }
         },
         {
-          "id": "2108700147169570932",
-          "author": "고딩경제맨",
-          "handle": "winneravgwin",
-          "text": "皆さん、アントロピック・クロードのスタートアップ支援  \nチームプラン1年サブスクリプションの申請リディームページが再開されました\n\n+$1,000の無料APIクレジット\n\nClaude Startupsの特典、今回は絶対に逃さないようにしましょう..!\n\nメールで拒否された方、昨日特典がキャンセルされた方は",
-          "url": "https://x.com/winneravgwin/status/2108700147169570932",
+          "id": "2108546155634434194",
+          "author": "Sac",
+          "handle": "Saccc_c",
+          "text": "この回転可能でインタラクティブな3Dの小島は、国産の新モデルに参考図を照らし合わせて作らせたもので、効果はopus 5.5と本当に遜色ない！！！しかも価格はopus 5.5より安くて、コストパフォーマンスはまさにマックス！ それがまさに階躍星辰の Step 5",
+          "url": "https://x.com/Saccc_c/status/2108546155634434194",
           "metrics": {
-            "views": 5365,
-            "likes": 64
+            "views": 22868,
+            "likes": 136
           }
         },
         {
-          "id": "2108624138369929725",
-          "author": "OpenAI Developers",
-          "handle": "OpenAIDevs",
-          "text": "Now in beta: composer predictions in Codex for Pro users.\n\nCodex can now suggest your next message based on your conversation and how you talk to it.\n\nOne of the most loved new features we've ever tested internally.",
-          "url": "https://x.com/OpenAIDevs/status/2108624138369929725",
+          "id": "2108859583989207456",
+          "author": "忍者CODE｜挫折させない無期限サポートのオンラインプログラミングスクール【公式】",
+          "handle": "ninjacodeee",
+          "text": "Dockerの仕組みを理解するなら保存必須！🐳「コンテナとイメージって何が違う？」をはじめ、Dockerの基本を1枚にまとめました。 Dockerfile・Docker Hubの役割から、コンテナが動く仕組み・よく使うコマンドまで完全図解！ 開発環境の構築で迷ったらすぐ見返せます📌",
+          "url": "https://x.com/ninjacodeee/status/2108859583989207456",
           "metrics": {
-            "views": 907063,
-            "likes": 5131
+            "views": 118,
+            "likes": 5
           }
         },
         {
-          "id": "2108416307552997434",
-          "author": "X Freeze",
-          "handle": "XFreeze",
-          "text": "Things you can do with Grok \n@bot\n\n\nHire Grok Bot to...\n\n• Manage your Gmail and Outlook inbox\n• Draft, format and send emails\n• Organize your calendar and schedule meetings\n• Manage your Google Drive and OneDrive\n• Create and update Google Docs and Word documents\n• Edit",
-          "url": "https://x.com/XFreeze/status/2108416307552997434",
+          "id": "2108639440465735703",
+          "author": "Big Tech Alert",
+          "handle": "BigTechAlert",
+          "text": "🆕has started followingPreviously followed by:,,,,& 7 more",
+          "url": "https://x.com/BigTechAlert/status/2108639440465735703",
           "metrics": {
-            "views": 49439,
-            "likes": 1274
+            "views": 2493,
+            "likes": 2
           }
         },
         {
-          "id": "2108456177029845346",
-          "author": "0xMarioNawfal",
-          "handle": "RoundtableSpace",
-          "text": "Give Opus 5.5 a motion design stack, not just a prompt.\n\n20 GitHub repos covering animation skills, sound, video rendering and interactive motion:\n\n*Skills + workflows*\n\n 1.⁠ ⁠claude-motion  \nMotion direction, frame checks and sound generated in code.  \n⁠",
-          "url": "https://x.com/RoundtableSpace/status/2108456177029845346",
+          "id": "2108762895236669884",
+          "author": "Mojofull",
+          "handle": "furoku",
+          "text": "",
+          "url": "https://x.com/furoku/status/2108762895236669884",
           "metrics": {
-            "views": 111203,
-            "likes": 878
-          }
-        },
-        {
-          "id": "2108532425475097069",
-          "author": "DeepTechTR",
-          "handle": "DeepTechTR",
-          "text": "フィルターなしで完全に無料のAIモデルが公開されました：Qwen3.8 Flash Next！\n\nサイバーセキュリティテスト、ペネトレーション分析、無制限のコーディングのために開発されたこのモデルは、あらゆる検閲の壁を打ち砕いています。\n\nフィルターなしのAIモデルをプロジェクトで試してみますか？",
-          "url": "https://x.com/DeepTechTR/status/2108532425475097069",
-          "metrics": {
-            "views": 8504,
-            "likes": 134
-          }
-        },
-        {
-          "id": "2108550567329239179",
-          "author": "Francesco Ciulla",
-          "handle": "FrancescoCiull4",
-          "text": "Why Axum is this fast.\nBuilt and tested in \n@rustrover\n.\n\nEndpoints, jump to source, HTTP client.\n\noha on /health, 10k, c50:\ndebug ~47.5k req/s, ~1.02 ms\nrelease ~70k req/s, ~0.68 ms, 100%\n\nFull video below.",
-          "url": "https://x.com/FrancescoCiull4/status/2108550567329239179",
-          "metrics": {
-            "views": 2494,
-            "likes": 20
-          }
-        },
-        {
-          "id": "2108470589946253799",
-          "author": "Hux",
-          "handle": "huxlab",
-          "text": "マスク氏が警告する：普通人に残された時間はそう長くない：\n\nせいぜいあと3年、作品を売って稼ぐことで食いつなぐ時間だ。\n\n3年後には、ほとんどのルーチンタスクがAIに完全に取って代わられ、1人の人間の時間を支払う意味がなくなってしまう。",
-          "url": "https://x.com/huxlab/status/2108470589946253799",
-          "metrics": {
-            "views": 781047,
-            "likes": 2678
-          }
-        },
-        {
-          "id": "2108752089619026214",
-          "author": "akifumi@こけこけ9/5リリース | アプリの届け方",
-          "handle": "akifumi_ai",
-          "text": "App Storeアカウント削除されそうになってるニキ、App Store全体でのバージョンのリジェクト回数で削除対象になってたっぽい\n無事復活してほしい",
-          "url": "https://x.com/akifumi_ai/status/2108752089619026214",
-          "metrics": {
-            "views": 50,
+            "views": 241,
             "likes": 3
           }
         },
         {
-          "id": "2108508834117632150",
-          "author": "ben.",
-          "handle": "benyuls",
-          "text": "この男が、2026年にYouTube Shortsで継続的にバズる方法を8分で説明してくれます。\n\nおそらく、アルゴリズムがどう機能するかの最も明確な説明でしょう。\n\n 失くさないうちに保存しておいて。",
-          "url": "https://x.com/benyuls/status/2108508834117632150",
+          "id": "2108545241951388063",
+          "author": "vincent",
+          "handle": "SPCX100T",
+          "text": "Every morning 30 mins before market opens, Grok Bot already automatically generated all the info and reports ready for me to read while I am making my morning coffee☕️It saves hours of works for me, life is much more easier!",
+          "url": "https://x.com/SPCX100T/status/2108545241951388063",
           "metrics": {
-            "views": 10919,
-            "likes": 296
+            "views": 7102,
+            "likes": 73
+          }
+        },
+        {
+          "id": "2108620058322690310",
+          "author": "LiveSquawk",
+          "handle": "LiveSquawk",
+          "text": "",
+          "url": "https://x.com/LiveSquawk/status/2108620058322690310",
+          "metrics": {
+            "views": 13378,
+            "likes": 6
+          }
+        },
+        {
+          "id": "2108783153896693872",
+          "author": "Kirk Borne",
+          "handle": "KirkDBorne",
+          "text": "AI in UX Design — How UX Designers are Using AI in the Age of Artificial Intelligence:link.amazon/B02qtkLg8fromAmazon Summary: “Move beyond AI hype and learn how modern UX designers use ChatGPT, Claude, Figma, Lovable, Replit, and no-code tools to turn",
+          "url": "https://x.com/KirkDBorne/status/2108783153896693872",
+          "metrics": {
+            "views": 1773,
+            "likes": 10
           }
         }
       ]
