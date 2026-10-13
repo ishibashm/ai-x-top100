@@ -1300,337 +1300,608 @@
       "name": "Cloud",
       "handle": "cloud8wq",
       "sample": false,
-      "updatedAt": "2026-10-13T19:10:47+09:00",
+      "updatedAt": "2026-10-14T08:32:33+09:00",
       "posts": [
         {
-          "id": "2109644222978744682",
-          "author": "余温",
-          "handle": "gkxspace",
-          "text": "俺がREAで剪映の底裤を剥ぐって言ったのは、本気で冗談じゃないよ\n\n俺はClaude + Codexで窓口を山ほど並行して開いて、一日で200ドル周限額を何個も燃やして作ったものが、めっちゃぶっ飛んでるんだよな。。。\n\nちょっと完成度上げたら、オープンソースで出していくよ～",
-          "url": "https://x.com/gkxspace/status/2109644222978744682",
+          "id": "2110129207259042052",
+          "author": "チャエン | デジライズ CEO《重要AIニュースを毎日最速で発信⚡️》",
+          "handle": "masahirochaen",
+          "text": "【悲報】サイバー攻撃で仏スーパーの冷凍庫が最大50℃に\n\nこれはかなりヤバい。データを盗むのではなく、現実のモノを壊しにきている。\n\n・10/11夜〜12日、霜取り機能を遠隔で動かし続けた\n・インテルマルシェ系だけで少なくとも300店舗\n・カルフール80店、モノプリ約30店、U系、ルクレールも被害\n・食品は全廃棄、一部で設備が発火\n\n冷蔵庫でこれができるなら、次は電力網や原発の制御系かもしれない。物理的に深刻なダメージを出すサイバーテロが起きる日も近いと思う。",
+          "url": "https://x.com/masahirochaen/status/2110129207259042052",
+          "createdAt": "2026-10-14T07:03:01+09:00",
+          "media": "https://pbs.twimg.com/media/HUivVNCaMAAq74Y.jpg?name=orig",
+          "avatar": "https://pbs.twimg.com/profile_images/1689665533929725953/fClFlzLd_200x200.jpg",
           "metrics": {
-            "views": 44000,
-            "likes": 577
+            "views": 10877,
+            "likes": 83,
+            "reposts": 8,
+            "replies": 3
+          },
+          "lang": "ja"
+        },
+        {
+          "id": "2110005617658138822",
+          "author": "Rodev",
+          "handle": "romandevz",
+          "text": "GitHub está lleno de cosas gratis que casi nadie está usando.\n\nlos 10 repos que están explotando este mes, de lo más fácil a lo más técnico:\n\nlo que puede usar cualquiera\n\n1. VoiceStudio: clona voces, dobla vídeos y transcribe en 646 idiomas, gratis y sin salir de tu ordenador (57K ⭐)\nhttp://github.com/debpalash/VoiceStudio\n\n2. ppt-master: le pasas un PDF o un Word y te devuelve un PowerPoint de verdad, editable y con animaciones (59K ⭐)\nhttp://github.com/hugohe3/ppt-master\n\n3. gods-eye-view de \n@bilawalsidhu\n: un simulador de satélite espía en tu navegador, con aviones, barcos y cámaras reales sobre un globo 3D (50K ⭐)\nhttp://github.com/bilawalsidhu/gods-eye-view\n\n4. REA: le enseñas a tu IA una función de otra app y te explica cómo está hecha, sin tener el código (65K ⭐)\nhttp://github.com/morluto/rea\n\n5. diagram-design de \n@cathrynlavery\n: pides un diagrama con palabras y te lo dibuja con tu marca, 44 tipos (49K ⭐)\nhttp://github.com/cathrynlavery/diagram-design\n\n6. paperclip: como tener tu propia empresa de agentes autónomos trabajando para ti, la app open source para dirigirlos como si fueran tu plantilla (99K ⭐)\nhttp://github.com/paperclipai/paperclip\n\npara que Claude Code trabaje mejor\n\n7. skills de \n@mattpocockuk\n: las que usa a diario un ingeniero de verdad, pequeñas y fáciles de adaptar (284K ⭐)\nhttp://github.com/mattpocock/skills\n\n8. ECC: skills, memoria y seguridad en un pack para Claude Code, Codex, Cursor y OpenCode (276K ⭐)\nhttp://github.com/affaan-m/ECC\n\n9. andrej-karpathy-skills: un solo archivo con 4 reglas sacadas de lo que Karpathy dice que hacen mal los modelos programando (218K ⭐)\nhttp://github.com/multica-ai/andrej-karpathy-skills\n\n10. claude-mem: guarda lo que hizo tu agente, lo resume y se lo pasa a la siguiente sesión, para que no empiece de cero (99K ⭐)\nhttp://github.com/thedotmack/claude-mem\n\ncompártelo si te ha parecido interesante ♻️\n\ny guárdalo antes de perderlo 🔖",
+          "url": "https://x.com/romandevz/status/2110005617658138822",
+          "createdAt": "2026-10-13T22:51:55+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2110005120310124546/img/SD67-BYpxpOCn1Je.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/2102726150493556737/_R8lLT-V_200x200.jpg",
+          "metrics": {
+            "views": 22206,
+            "likes": 482,
+            "reposts": 63,
+            "replies": 36
+          },
+          "lang": "es",
+          "textJa": "GitHubにはほぼ誰も使っていない無料の宝がたくさんある。\n\n今月伸びているリポジトリ10選（簡単な順→技術寄り）：\n\n誰でも使えるもの\n\n1. VoiceStudio：声のクローン、動画の吹き替え、646言語の文字起こし。PC上で無料（57K ⭐）\nhttp://github.com/debpalash/VoiceStudio\n\n2. ppt-master：PDFやWordを渡すと、編集可能でアニメ付きの本物のPowerPointを返す（59K ⭐）\nhttp://github.com/hugohe3/ppt-master\n\n3. @bilawalsidhu の gods-eye-view：ブラウザ上のスパイ衛星シミュレーター。飛行機・船・実カメラを3D地球儀に表示（50K ⭐）\nhttp://github.com/bilawalsidhu/gods-eye-view\n\n4. REA：別アプリの機能をAIに見せると、コードがなくても仕組みを説明してくれる（65K ⭐）\nhttp://github.com/morluto/rea\n\n5. @cathrynlavery の diagram-design：言葉で頼むとブランド付きの図を描く。44種類（49K ⭐）\nhttp://github.com/cathrynlavery/diagram-design\n\n6. paperclip：自律エージェント会社を自分用に持つ感覚。オープンソースでチームのように指揮（99K ⭐）\nhttp://github.com/paperclipai/paperclip\n\nClaude Codeをもっとうまく使うために\n\n7. @mattpocockuk の skills：現場のエンジニアが日常で使う小さくて応用しやすいスキル（284K ⭐）\nhttp://github.com/mattpocock/skills\n\n8. ECC：Claude Code / Codex / Cursor / OpenCode向けにスキル・メモリ・セキュリティをまとめたパック（276K ⭐）\nhttp://github.com/affaan-m/ECC\n\n9. andrej-karpathy-skills：Karpathyが指摘する「モデルがコーディングでやりがちな失敗」から抽出した4ルールを1ファイルに（218K ⭐）\nhttp://github.com/multica-ai/andrej-karpathy-skills\n\n10. claude-mem：エージェントの作業を保存・要約し、次のセッションへ渡してゼロから始めない（99K ⭐）\nhttp://github.com/thedotmack/claude-mem\n\n面白いと思ったらシェアを。なくなる前に保存を。"
+        },
+        {
+          "id": "2110047768085762080",
+          "author": "돈벌고영",
+          "handle": "Dontgiveup_26",
+          "text": "구글 제미나이 4 아르곤(Gemini 4 Argon) 출시되자마자 모션 그래픽 생성으로 성능 테스트를 해봄. (결과물은 위 20초 영상 참고)\n\nbgm, 모션 그래픽 전부 제미나이4 argon 으로 만듬.\n\n기존 플래그십 모델들(솔 6.1, 아스트라 6, 페이블 5.1, 오퍼스 5.5, 제미나이 3.8)과 비교해 보며 굴려본 솔직한 체감 후기\n\n1. 체감 티어 비교\n- 이전 세대인 제미나이 3.8보다는 확실히 체감될 정도로 좋아짐.\n- 솔(Sol) 6.1보다도 한 단계 우위에 있는 느낌.\n- 아스트라(Astra) 6, 페이블(Fable) 5.1과는 이제 거의 비등비등한 수준까지 바짝 따라붙었음.\n- 다만 여전히 넘사벽인 오퍼스(Opus) 5.5급의 정교함까지는 아직 도달하지 못한 느낌.\n\n2. 'AI 슬롭' 극복이 관건\n그냥 일반적인 프롬프트로 대충 뽑아달라고 하면 특유의 뻔한 AI 슬롭(양산형 느낌)이 강하게 남. \n연출 의도, 모션의 가감속(Easing), 비주얼 디테일을 빡빡하게 지정해 줘야 비로소 영상처럼 제대로 된 완성도가 나옴. 프롬프트 디테일 의존도가 꽤 있는 편.\n\n3. 속도와 개발 활용도\n일단 생성 및 응답 속도가 상당히 빠름.\n개발 성능도 테스트해 보니 기대 이상으로 준수해서, 최고난도의 복잡한 아키텍처 설계가 아니라면 일상적인 코딩 작업이나 프로토타이핑 개발 용도로는 가성비 좋게 굴리기 충분해 보임.\n\n더 여러 환경에서 굴려봐야겠지만, 속도 빠르고 개발·제작 보조용으로 밸런스를 꽤 잘 뽑아낸 모델임.\n\n일단 지금 gpt 너무 느려터지고 성능도 떨어진 거 같아서 취소하고 제미나이를 업그레이해서 쓸까 생각중.",
+          "url": "https://x.com/Dontgiveup_26/status/2110047768085762080",
+          "createdAt": "2026-10-14T01:39:25+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2110046271495086080/img/C_H9zXR9ekqeqspl.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/2103696265615962112/SyLCBg7s_200x200.jpg",
+          "metrics": {
+            "views": 5566,
+            "likes": 36,
+            "reposts": 5,
+            "replies": 9
+          },
+          "lang": "ko",
+          "textJa": "GoogleのGemini 4 Argonが登場した直後に、モーショングラフィック生成で性能を試した（結果は上の20秒映像参照）。\n\nBGMもモーションもすべてGemini 4 Argonで作成。\n\n既存の旗艦モデル（Sol 6.1、Astra 6、Fable 5.1、Opus 5.5、Gemini 3.8）と比べた率直な感想：\n\n1. 体感ティア\n- 前世代のGemini 3.8より明確に良くなった\n- Sol 6.1より一段上の印象\n- Astra 6やFable 5.1にはほぼ並ぶところまで追いついた\n- ただしOpus 5.5級の精密さまではまだ届いていない\n\n2. 「AIスロップ」克服が鍵\n普通のプロンプトだと量産型のAIっぽさが強く残る。演出意図、イージング、ビジュアル細部をしっかり指定して初めて映像らしい完成度になる。プロンプト詳細への依存は高め。\n\n3. 速度と開発用途\n生成・応答はかなり速い。開発性能も期待以上で、最高難度の複雑なアーキ設計でなければ日常コーディングやプロトタイピングにはコスパ良く使えそう。\n\nもっと色々試す必要はあるが、速くて開発・制作補助のバランスが良いモデル。今のGPTは遅くて性能も落ちた気がするので解約し、Geminiに上げて使うかも検討中。"
+        },
+        {
+          "id": "2109903471470072278",
+          "author": "Ren",
+          "handle": "Ryrenz",
+          "text": "🪓 逆向工程圈的宝藏来了，ida-pro-mcp 能让 Claude 直接读你手里那堆反编译出来的代码，跟你一起啃。\n\nGitHub 上 1.2 万 stars，一千五百多个 fork，社区显然是真在用。\n\n以前分析一个不认识的二进制，流程是在 IDA Pro 里一个函数一个函数点开，看反编译结果，手动记交叉引用，自己在脑子里拼出调用链，一下午过去才摸清一个模块。ida-pro-mcp 把 IDA 的能力做成了 MCP 服务：反编译、反汇编、查交叉引用、列函数、改注释、声明类型，甚至下断点读寄存器，全变成 AI 能直接调的动作。你问一句“这个函数到底在干什么”，它自己去取代码、顺着引用往下爬，然后讲给你听。\n\n能接的客户端是一长串，Claude、Claude Code、Cursor、VS Code、Windsurf、Zed 都在里面。除了 IDA 里的插件模式，还有基于 idalib 的无头模式，一个监督进程带一堆 worker，批量分析不用一直开着界面。要注意的是它吃 IDA Pro 8.3 以上，IDA Free 用不了。\n\n分析二进制这活儿，终于不用一个人硬扛了。\n\nGitHub：https://github.com/mrexodia/ida-pro-mcp",
+          "url": "https://x.com/Ryrenz/status/2109903471470072278",
+          "createdAt": "2026-10-13T16:06:02+09:00",
+          "avatar": "https://pbs.twimg.com/profile_images/2047148133746933760/iEtNYePb_200x200.jpg",
+          "metrics": {
+            "views": 6834,
+            "likes": 180,
+            "reposts": 17,
+            "replies": 6
+          },
+          "lang": "zh",
+          "textJa": "逆アセンブル／逆コンパイル周りの宝が出た。ida-pro-mcpならClaudeが手元の逆コンパイル結果を直接読み、一緒に解析できる。\n\nGitHubで約1.2万スター、フォーク1500超。コミュニティは実際に使っている。\n\n以前はIDA Proで関数を一つずつ開き、交差参照を手で追って呼び出し連鎖を頭で組み立てていた。ida-pro-mcpはIDAの能力をMCPサービス化：逆コンパイル、逆アセンブル、交差参照、関数一覧、コメント変更、型宣言、さらにはブレークポイントやレジスタ読み出しまで、AIが直接呼べる操作になる。「この関数は何をしている？」と聞けば、コードを取りに行き参照を辿って説明してくれる。\n\n接続先はClaude、Claude Code、Cursor、VS Code、Windsurf、Zedなど。IDA内プラグインに加え、idalibベースのヘッドレスモードもあり、監視プロセス＋ワーカーでUIを常時開かずバッチ解析できる。IDA Pro 8.3以上が必要で、IDA Freeでは使えない点に注意。\n\nバイナリ解析を一人で抱え込まずに済むようになった。\n\nGitHub：https://github.com/mrexodia/ida-pro-mcp"
+        },
+        {
+          "id": "2110142021524717831",
+          "author": "Sac",
+          "handle": "Saccc_c",
+          "text": "最近我一直在研究如何用 blender 白模生成视频，为的是降低抽卡成本！！！但现在完全不需要了，视频生成模型的无限 token 来了！！！Wan 3.0 现已在 Higgsfield 上开放无限使用了！\n\n如果是在 Higgsfield 中订阅，就直接可以享受 Wan 3.0 无限子弹了\n\n如果是想使用 API，现在是有 4 折优惠，价格是 $0.042/秒\n\n主要更关键的是，这个模型的生成质量几乎和 Seedance 2.5 没有任何区别，但是价格比 Seedance 2.5 便宜太多了。比如在Higgsfield API 上，Wan 3.0 的价格相比 Seedance 2.5 最多可便宜约 9 倍。\n\n在特定风格的视频领域， Wan 3.0 甚至是断档级别的存在，比如下面视频中的动画游戏风格\n\n用相同的提示词测试，我发现 Wan 3.0 在三个不同的维度都是碾压 Seedance 2.5：\n\n1、场景细节：Wan 3.0 还原的场景细节更丰富，元素搭配也非常合理，能让环境变化更具有视觉冲击力\n\n2、风格表现：Wan 3.0 的风格还原度更高，具有较高的色彩饱和度，光影与立体层次鲜明\n\n3、运镜：Wan3.0 运镜更加有设计感，特别是视频中景别和视角变化更加密集，能突出冒险的紧张感\n\n总结来说，我自己体验下来，Wan 3.0 真的太香了 ！！！梦寐以求的视频无限 token 终于实现了，再也不用折腾什么本地部署了！！！",
+          "url": "https://x.com/Saccc_c/status/2110142021524717831",
+          "createdAt": "2026-10-14T07:53:57+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2110141173117702144/img/1Z8gBXiJykVgoAZO.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/2081939362808520704/FwzCMH0g_200x200.jpg",
+          "metrics": {
+            "views": 2229,
+            "likes": 17,
+            "reposts": 1,
+            "replies": 3
+          },
+          "lang": "zh",
+          "textJa": "最近Blenderの白モデルで動画を作り抽選コストを下げようとしていたが、もう不要。動画生成の無限トークンが来た。Wan 3.0がHiggsfieldで無制限利用可能に。\n\nHiggsfieldで購読すればWan 3.0の無限生成が使える。API利用なら現在4割引で$0.042/秒。\n\n重要なのは、生成品質がSeedance 2.5とほぼ変わらないのに、価格は大幅に安いこと。Higgsfield API上ではWan 3.0はSeedance 2.5より最大約9倍安い場合もある。\n\n特定スタイル（下の動画のようなアニメ／ゲーム風）ではWan 3.0が一歩抜けている。\n\n同じプロンプトで比較すると、3点でWan 3.0がSeedance 2.5を上回った：\n\n1. シーン詳細：要素が豊かで組み合わせも自然、環境変化のインパクトが強い\n2. スタイル再現：彩度が高く、光と立体感がはっきり\n3. カメラワーク：設計感があり、画角・視点の変化が密で冒険の緊張感が出る\n\n体感ではWan 3.0はかなり良い。夢だった動画の無限トークンが実現し、ローカル構築をいじらなくてよくなった。"
+        },
+        {
+          "id": "2110034388427936025",
+          "author": "Google",
+          "handle": "Google",
+          "text": "",
+          "url": "https://x.com/Google/status/2110034388427936025",
+          "createdAt": "2026-10-14T00:46:15+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2110034189823123456/img/Xcv9wSCUuo04-OFX.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/2042749771337564160/AgOFPEL3_200x200.jpg",
+          "metrics": {
+            "views": 369633,
+            "likes": 4059,
+            "reposts": 280,
+            "replies": 163
           }
         },
         {
-          "id": "2109945401570685042",
-          "author": "planetmysql",
-          "handle": "planetmysql",
-          "text": "MySQL Online DDL \"Duplicate Key\" Optimization",
-          "url": "https://x.com/planetmysql/status/2109945401570685042",
-          "metrics": {
-            "views": 16,
-            "likes": 1
-          }
-        },
-        {
-          "id": "2109811974804852962",
+          "id": "2110127808718741920",
           "author": "Elon Musk",
           "handle": "elonmusk",
-          "text": "Give Grok \n@Bot\n your hardest tasks",
-          "url": "https://x.com/elonmusk/status/2109811974804852962",
+          "text": "All Grok @Bots get their own email address and can help analyze and summarize your email box too",
+          "url": "https://x.com/elonmusk/status/2110127808718741920",
+          "createdAt": "2026-10-14T06:57:28+09:00",
+          "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
           "metrics": {
-            "views": 1070000,
-            "likes": 4015
-          }
+            "views": 555574,
+            "likes": 1479,
+            "reposts": 209,
+            "replies": 331
+          },
+          "lang": "en",
+          "textJa": "すべてのGrok @Bot に専用メールアドレスが付き、メールボックスの分析や要約も手伝えるようになった。"
         },
         {
-          "id": "2109881244649677220",
-          "author": "雨夹雪",
-          "handle": "mizorewww",
-          "text": "あることがあって、言うべきか迷ってるんだけど\n\n今、月0円でcursor ultra（200ドル分）使えてるんだよね\n\ngrokも契約してないし、このバグ垢ほんとにずっと白嫖できてる….\n\nだからマスクのものはほんとに草台だわ",
-          "url": "https://x.com/mizorewww/status/2109881244649677220",
+          "id": "2110121902199214145",
+          "author": "Oikon | Claude Code深掘りガイド",
+          "handle": "oikon48",
+          "text": "Anthropicは、Claudeを使ったAI支援開発でマージ数が急増したため、Gitでは追いつかなくなり、独自のソース管理システム「Scion」をゼロから作り、5ヶ月でモノレポを完全移行した\n\n・2026年5月：1日あたり約2,500マージ\n・2026年9月：1日あたり30,000以上（約10倍）\n\nこれに伴いモノレポが肥大化し、メインブランチの履歴だけでほぼ100GB、CIだけで1日約2,500万回のチェックアウトに及ぶ\n\nGitは「オフラインで完結する分散型」を前提に設計されているが、Anthropicの主なクライアント（AIエージェントやCI）は常時オンラインのため、「エージェント規模・常時オンライン前提で設計したらどうなるか」という発想でScionを作った\n\nGoogleのPiperやMetaのSaplingを参考にしつつ、Anthropicのワークロードに合わせて設計\n\n主な考え方:\n\n1. クライアントは常にオンライン\n必要なデータをオンデマンドで取得。完全なローカルリポジトリは持たない。\n\n2. クライアント・サーバーの非対称性\nコミットやマージなどの重い処理はサーバー側で実行。クライアントはキャッシュだけを持つ。\n\n3. 包括的なソース管理サービス blameやdiffなどのクエリもAPI経由で提供。ローカルにリポジトリを置かなくても済む。\n\n4. 水平スケーラビリティ 完全なリポジトリコピーをどこかに持たない。データは分散し、コンポーネントごとに独立してスケール。\n\n5. 安価でインクリメンタルなロックフリーコミット コミット・rebase・マージが変更の大きさに比例してスケール（リポジトリ全体のサイズに依存しない）。\n\n6. オプションのスパースなワーキングコピー そもそもチェックアウトを避けられる場合は避ける。必要なファイルだけを取得。\n\nScionは「大規模モノレポ＋大量のAIエージェント」向けに特化したシステムで、一般的なGitの代替を目指したものではない。ただし、Git自体をよりエージェントフレンドリーにするための示唆（サーバー側スケーリング、RPC API、交渉プロトコルの改善など）は多く、GitHubやGitLab、OSSコミュニティと協力して進化させたい、というスタンス。\n\n「AIがコードを大量に書く時代のソース管理は、人間中心のGitの延長では足りない」という問題意識から、常時オンライン・サーバー中心・インクリメンタルな新しいアーキテクチャを実際に作り、移行まで完了させた。\n\n（Claudeの要約を調整）\n\nhttps://www.anthropic.com/engineering/redesigning-source-control",
+          "url": "https://x.com/oikon48/status/2110121902199214145",
+          "createdAt": "2026-10-14T06:34:00+09:00",
+          "media": "https://pbs.twimg.com/media/HUhx01SasAADqZ0.jpg?name=orig",
+          "avatar": "https://pbs.twimg.com/profile_images/2095628327533125632/ITeOvLMV_200x200.jpg",
           "metrics": {
-            "views": 17000,
-            "likes": 53
-          }
+            "views": 7599,
+            "likes": 99,
+            "reposts": 14,
+            "replies": 2
+          },
+          "lang": "ja"
         },
         {
-          "id": "2109905331040206929",
-          "author": "Csaba Kissi",
-          "handle": "csaba_kissi",
-          "text": "https://\ngithub.com/shadcn-labs/md\nxcn\n… - 30+ free Shadcn MDX components\n\nhttps://\ngithub.com/tt-a1i/archify - 81K★ open-source AI diagram skill\n\nhttps://\nui.spectrumhq.in - Free animated React components, MCP\n\nhttps://\nblocks.so - 80+ open-source Shadcn React blocks\n\nhttps://\nminimalny.com - 524 curated",
-          "url": "https://x.com/csaba_kissi/status/2109905331040206929",
+          "id": "2110003379963343277",
+          "author": "Mo Elgaraihy",
+          "handle": "EngMoElgaraihy",
+          "text": "🚨 جي بي تي وكلود أصبحا مجانيين تماماً! 😳⚡️\n\nبدون حساب. بدون بطاقة ائتمان.\n\nالنماذج المتاحة:\nGPT-6 Luna\nGPT-5.4 mini\nClaude Haiku 4.5\n\nجربها على الموقع الرابط في أول تعليق 👇 \n\nإذا وصلت إلى الحد، امسح بيانات الموقع وحاول مرة أخرى. استخدام غير محدود لـ GPT-6 Luna.\n\nاحفظ الرابط وجرب الآن. 🧵👇 https://x.com/k2sbhai/status/2110001770844037255/video/1",
+          "url": "https://x.com/EngMoElgaraihy/status/2110003379963343277",
+          "createdAt": "2026-10-13T22:43:02+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2110001495483768832/img/Mj9GhzogUGvkCa7D.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/1892203225454903296/ONZqfOJK_200x200.jpg",
           "metrics": {
-            "views": 1902,
-            "likes": 29
-          }
+            "views": 22860,
+            "likes": 362,
+            "reposts": 41,
+            "replies": 5
+          },
+          "lang": "ar",
+          "textJa": "GPTとClaudeが完全無料に。\n\nアカウント不要。クレジットカード不要。\n\n使えるモデル：\nGPT-6 Luna\nGPT-5.4 mini\nClaude Haiku 4.5\n\n試すなら最初のコメントのリンクから。\n\n上限に達したらサイトのデータを消してもう一度。GPT-6 Lunaは無制限利用とのこと。\n\nリンクを保存して今すぐ試そう。 https://x.com/k2sbhai/status/2110001770844037255/video/1"
         },
         {
-          "id": "2109681853443744071",
-          "author": "a16z",
-          "handle": "a16z",
-          "text": "a16z's Martin Casado with \nhttps://\nMakerMaker.AI CTO Owen He on why a lot of RSI pitches are selling something as old as the steam engine:\n\nMartin: \"I see a lot of pitches come in, and a lot of them use the term RSI. And I'll be like, 'Oh, so what do you do?' And they'll say,",
-          "url": "https://x.com/a16z/status/2109681853443744071",
+          "id": "2110049792390819860",
+          "author": "Clément",
+          "handle": "cleeeeeeeeement",
+          "text": "Fable 5.5 peut littéralement te rendre viral sur TikTok 🫨  \n\nJ'ai crée un AGENT IA avec Fable 5.5 qui va trouver les carrousels viraux de ta niche et les COPIER pour ta brand.\n\n(je te le donne gratuitement 🤩)  \n\nC'est le meilleur moyen de devenir viral sur TikTok : \n\n→ Il trouve les slideshows viraux dans ta niche\n→ il copie le style et adapte les carrousels à ton produit\n→ il peut ensuite générer des dizaines de carrousels en AUTOMATIQUE  \n\nJ’ai rendu le système entièrement public.  \n\nCommente « CARROUSEL » et je te l'envoie par message privé.",
+          "url": "https://x.com/cleeeeeeeeement/status/2110049792390819860",
+          "createdAt": "2026-10-14T01:47:27+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2110049717669261312/img/8um1RmxhJrBw9AIb.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/1870034324885475328/gkEEgCi-_200x200.jpg",
           "metrics": {
-            "views": 25000,
-            "likes": 65
-          }
+            "views": 37601,
+            "likes": 506,
+            "reposts": 41,
+            "replies": 457
+          },
+          "lang": "fr",
+          "textJa": "Fable 5.5はTikTokでバズる材料を本気で作れる。\n\nFable 5.5で、自分のニッチのバズるカルーセルを見つけ、ブランド向けにコピーするAIエージェントを作った（無料で渡す）。\n\nTikTokでバズる近道：\n→ ニッチ内のバズっているスライドショーを探す\n→ スタイルをコピーし、自分の商品向けにカルーセルを適応\n→ その後、カルーセルを自動で何十本も生成できる\n\nシステムはすべて公開した。\n\n「CARROUSEL」とコメントすればDMで送る。"
         },
         {
-          "id": "2109674956854374654",
-          "author": "unusual_whales",
-          "handle": "unusual_whales",
-          "text": "\"Signs of resilient economic momentum are reinforcing the bull case for US small caps,\" per Bloomberg",
-          "url": "https://x.com/unusual_whales/status/2109674956854374654",
+          "id": "2109835011772035193",
+          "author": "闯荡大叔",
+          "handle": "haoge6699",
+          "text": "一边是花钱找人做 SEO 诊断，一边是开源工具 jev-seo 一分钟爬完整站，我选后者。\n\n网站上线几个月，Google 还是搜不到？先别急着花钱找人做 SEO 诊断\n\n自己啃官方文档，又不知道先改哪条？可以试试开源工具 jev-seo。\n\n给它一个首页网址，大约一分钟爬完整站，对照 Google 官方搜索文档的 52 条规则逐项查。robots.txt、sitemap、死链、重定向、canonical、结构化数据、Core Web Vitals 都在里面。\n\n每个页面还会交给 TypeSafe 的 Jev 模型判断：这页是干嘛的，内容够不够具体，有没有几页在抢同一个搜索词。\n\n报告一次出 PDF、Excel、Markdown 三份。PDF 给客户看，Excel 里每条整改项都带优先级、改法和官方出处，直接当进度表用。\n\n标准模式一个站约 1 美分模型费，不用订 SEO 数据服务。想看排名、关键词和外链，加 --full 接入 DataForSEO，一个站约 0.30 美元，两个付费接口都能设预算上限。\n\n作者拿同样 59 个页面跑了两遍，打分平均只差 0.03。但要注意，分数只用来排整改顺序，不能预测排名和流量。\n\n命令行能跑，也能装进 Claude Code 当 Skill，输入 /jev-seo 加网址就开查。\n\n给客户建站的，交付时附一份这个报告，比嘴上说「SEO 做好了」有底气得多。\n\n🔗GitHub：https://github.com/AgriciDaniel/jev-seo",
+          "url": "https://x.com/haoge6699/status/2109835011772035193",
+          "createdAt": "2026-10-13T11:34:00+09:00",
+          "media": "https://pbs.twimg.com/media/HUc2A-xbgAAOYF9.jpg?name=orig",
+          "avatar": "https://pbs.twimg.com/profile_images/2104498051037761536/4HPTHEvI_200x200.jpg",
           "metrics": {
-            "views": 140000,
-            "likes": 169
-          }
+            "views": 6885,
+            "likes": 144,
+            "reposts": 25,
+            "replies": 5
+          },
+          "lang": "zh",
+          "textJa": "有料のSEO診断を頼むか、オープンソースのjev-seoで1分でサイト全体をクロールするか。後者を選ぶ。\n\nサイト公開から数か月たってもGoogleに出ない？すぐ有料診断に走る前に。\n\n公式ドキュメントを自分で読むのも、どこから直すか分からないときがある。jev-seoを試してみて。\n\nトップページのURLを渡すと約1分でサイト全体をクロールし、Google公式検索ドキュメントの52項目を照合。robots.txt、sitemap、死リンク、リダイレクト、canonical、構造化データ、Core Web Vitalsまでカバー。\n\n各ページはTypeSafeのJevモデルにも渡し、ページの目的・具体性・同じ検索語を奪い合うページの有無を判定。\n\nレポートはPDF・Excel・Markdownの3形式。PDFは顧客向け、Excelは優先度・直し方・公式出典付きで進捗表に使える。\n\n標準モードは1サイト約1セントのモデル費で、SEOデータサービスの契約は不要。順位・キーワード・被リンクを見るなら --full でDataForSEO連携。1サイト約0.30ドル。両APIとも予算上限を設定可能。\n\n作者が同じ59ページを2回走らせたところ、スコア差は平均0.03。ただしスコアは改善順の目安で、順位や流入の予測には使えない。\n\nCLIでも動くし、Claude CodeのSkillとしても入れられ、/jev-seo にURLを付けて実行できる。\n\n顧客向けサイト納品時にこのレポートを添えると、「SEOは大丈夫」と言うより説得力がある。\n\nGitHub：https://github.com/AgriciDaniel/jev-seo"
         },
         {
-          "id": "2109653410651783253",
-          "author": "مالك بن حمود المالك",
-          "handle": "cnemalek",
-          "text": "ビデオのフル編集を、時計を何時間も見つめながら自分でカットしたり調整したりすることなく完了するのを想像してみて！\n\nオープンソースのプロジェクト「Video Use」があるよ。Claude Code に基づいていて、生のビデオファイルを投稿準備完了のビデオに変換してくれるんだ。",
-          "url": "https://x.com/cnemalek/status/2109653410651783253",
+          "id": "2109956779140370817",
+          "author": "robin.",
+          "handle": "robinstetic",
+          "text": "este tío acaba de contar cómo usa claude code + youtube para sacar $97k al mes\n\nson menos de 15 minutos y merecen la pena, guárdalo para luego🙇🏻‍♂️",
+          "url": "https://x.com/robinstetic/status/2109956779140370817",
+          "createdAt": "2026-10-13T19:37:51+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2091861062953910272/img/bshue750YY7-igcQ.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/2093693887801872384/AZHr3d2R_200x200.jpg",
           "metrics": {
-            "views": 7255,
-            "likes": 147
-          }
+            "views": 33981,
+            "likes": 532,
+            "reposts": 76,
+            "replies": 21
+          },
+          "lang": "es",
+          "textJa": "この人がClaude CodeとYouTubeで月97,000ドルを稼ぐ使い方を説明している。\n\n15分未満で見る価値あり。あとで見られるように保存を。"
         },
         {
-          "id": "2109690626639835289",
-          "author": "YouTube",
-          "handle": "YouTube",
-          "text": "thinking about cutting my bangs… should I?",
-          "url": "https://x.com/YouTube/status/2109690626639835289",
+          "id": "2109941712554762479",
+          "author": "marcus",
+          "handle": "marcusyul",
+          "text": "STOP COPY-PASTING BETWEEN YOUR AIs. NOW THEY TALK TO EACH OTHER.\n\nUntil today you were the messenger. Copy from Grok, paste into Claude, copy from Claude, repeat.\n\n@BolterApp just fixed that. Here's how they connect:\n\n1. Copy one line\n2. Paste it into your AI\n3. Confirm with a code\n4. It's in the chat\n\nThen you share its handle and it starts working with your other AIs and your friends' AIs.\n\nGive them a task and they split it up. One picks the landing site, another designs the wheels, another writes the code. The rover is ready and you didn't copy a thing.\n\nEach AI keeps its memory and you approve every connection.\n\nLink below 👇🏼",
+          "url": "https://x.com/marcusyul/status/2109941712554762479",
+          "createdAt": "2026-10-13T18:37:59+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2109941675326050304/img/sDXSAXy8nqrcI2G0.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/2055048793670787072/KU39HxsL_200x200.jpg",
           "metrics": {
-            "views": 1400000,
-            "likes": 268
-          }
+            "views": 54073,
+            "likes": 281,
+            "reposts": 17,
+            "replies": 35
+          },
+          "lang": "en",
+          "textJa": "AI同士のコピペはやめよう。もう互いに話せる。\n\nこれまであなたがメッセンジャーだった。Grokからコピー→Claudeに貼る→またコピー、の繰り返し。\n\n@BolterApp がそれを直した。つなぎ方はこう：\n\n1. 1行コピー\n2. 自分のAIに貼る\n3. コードで確認\n4. チャットに入る\n\nあとはハンドルを共有すれば、他のAIや友人のAIと連携し始める。\n\nタスクを渡すと分担する。誰かが着陸地点を選び、別のAIが車輪を設計し、別のAIがコードを書く。ローバーができてもコピペは一度もしていない。\n\n各AIはメモリを保ち、接続はすべてあなたが承認する。\n\nリンクは下に。"
         },
         {
-          "id": "2109876553924686299",
-          "author": "Tesla",
-          "handle": "Tesla",
-          "text": "FSD Supervised is your superhuman guardian angel",
-          "url": "https://x.com/Tesla/status/2109876553924686299",
+          "id": "2110130847214903630",
+          "author": "Andrii Romanov",
+          "handle": "andriiromanovvv",
+          "text": "Almost 7 years of looking for the right way to show my work. Behance, Dribbble, Framer sites I never finished.\n\n3 days with Claude Code and Claude Design, and it's live. Minimal on purpose: the work comes first, not the site.\n\nIt's an MVP. More soon.\n\nhttps://andriiromanov.com/",
+          "url": "https://x.com/andriiromanovvv/status/2110130847214903630",
+          "createdAt": "2026-10-14T07:09:32+09:00",
+          "avatar": "https://pbs.twimg.com/profile_images/2110117328658583552/i6reYe2c_200x200.jpg",
           "metrics": {
-            "views": 240000,
-            "likes": 2146
-          }
+            "views": 41,
+            "likes": 3,
+            "reposts": 0,
+            "replies": 3
+          },
+          "lang": "en",
+          "textJa": "自分の作品の見せ方を約7年探し続けた。Behance、Dribbble、途中で止まったFramerサイト。\n\nClaude CodeとClaude Designで3日、公開できた。意図的にミニマル：サイトより作品が先。\n\nMVP。続きはこれから。\n\nhttps://andriiromanov.com/"
         },
         {
-          "id": "2109760407824961716",
-          "author": "BBC News (World)",
-          "handle": "BBCWorld",
-          "text": "Hundreds of French supermarkets have been hit by a cyber-attack that caused their fridges and freezers to heat up. Read more: \nhttps://\nbbc.in/4i0Dy77",
-          "url": "https://x.com/BBCWorld/status/2109760407824961716",
+          "id": "2110131023916986767",
+          "author": "ClaudesRH",
+          "handle": "ClaudesRH",
+          "text": "500 claude max plan\n\nJoin: https://claudes.dev/code\n\n24 hrs.",
+          "url": "https://x.com/ClaudesRH/status/2110131023916986767",
+          "createdAt": "2026-10-14T07:10:15+09:00",
+          "media": "https://pbs.twimg.com/media/HUiw5G5WEAASaLs.jpg?name=orig",
+          "avatar": "https://pbs.twimg.com/profile_images/2109992044110200832/xUB1cGcN_200x200.png",
           "metrics": {
-            "views": 500000,
-            "likes": 2135
-          }
+            "views": 27351,
+            "likes": 918,
+            "reposts": 688,
+            "replies": 481
+          },
+          "lang": "en",
+          "textJa": "Claude Maxプラン500枠。\n\n参加：https://claudes.dev/code\n\n24時間。"
         },
         {
-          "id": "2109676906803020195",
-          "author": "freeCodeCamp.org",
-          "handle": "freeCodeCamp",
-          "text": "You don’t need a GPU cluster to learn how modern LLMs work.\n\nIn this course, you’ll build, pre-train, and fine-tune a 25M parameter language model from scratch on a standard CPU.\n\nYou’ll learn about modern LLM architecture, reinforcement learning, and how AI researchers",
-          "url": "https://x.com/freeCodeCamp/status/2109676906803020195",
+          "id": "2110006013902676294",
+          "author": "Keith McCullough",
+          "handle": "KeithMcCullough",
+          "text": "We got a nodder! #Waller",
+          "url": "https://x.com/KeithMcCullough/status/2110006013902676294",
+          "createdAt": "2026-10-13T22:53:30+09:00",
+          "media": "https://pbs.twimg.com/tweet_video_thumb/HUg_SMFbYAEDrBN.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/1265785627825577984/6y2VxzES_200x200.jpg",
           "metrics": {
-            "views": 27000,
-            "likes": 543
-          }
+            "views": 5695,
+            "likes": 5,
+            "reposts": 0,
+            "replies": 4
+          },
+          "lang": "en",
+          "textJa": "うなずいてくれた！ #Waller"
         },
         {
-          "id": "2109676467755880575",
-          "author": "루샨 lucian",
-          "handle": "lucian__03",
-          "text": "最近、海外で…\n\n--> リバースエンジニアリングが突然めっちゃ流行ってる本当の理由。\n\n 最近、海外のXでゲーム2つを完全に合体させて、\n\nAIで既存のプログラムを分解・修正する動画がめちゃくちゃ投稿されています。（複製も..）\n\nでも、なんで今頃？ こんなに急に大騒ぎになってるんでしょうか？",
-          "url": "https://x.com/lucian__03/status/2109676467755880575",
+          "id": "2109957655569580432",
+          "author": "Deni",
+          "handle": "0xDeniAi",
+          "text": "REA + Opus 5.5 is f*cking dangerous…\n\nI'm honestly not sure this should be public.\n\n10 repos that let an AI agent take apart any app like a mechanic takes apart an engine.\n\nsend to your Claude:\n\n•REA (171K stars) - one MCP for RE: binaries, Electron, .NET, Android, websites.\n\nhttp://github.com/morluto/rea\n\n• Chrome DevTools MCP (53K stars) - agent drives a live Chrome: network, console, JS. Maps how any web app works.\n\nhttp://github.com/ChromeDevTools/chrome-devtools-mcp\n\n• JADX (50K stars) - Android Dex → Java decompiler. GUI + CLI.\n\nhttp://github.com/skylot/jadx\n\n• x64dbg (49K stars) - Windows debugger built for RE and malware analysis.\n\nhttp://github.com/x64dbg/x64dbg\n\n• Apktool (26K stars) - unpacks and rebuilds APKs: manifest, resources, smali.\n\nhttp://github.com/iBotPeaches/Apktool\n\n• radare2 (25K stars) - UNIX-style RE toolkit. Has its own MCP server (r2mcp).\n\nhttp://github.com/radareorg/radare2\n\n• Cutter (20K stars) - free GUI RE platform powered by rizin.\n\nhttp://github.com/rizinorg/cutter\n\n• IDA Pro MCP (12K stars) - connects IDA Pro to your agent over MCP.\n\nhttp://github.com/mrexodia/ida-pro-mcp\n\n• dnSpy (11K stars) - .NET debugger + assembly editor. Patch and rerun.\n\nhttp://github.com/dnSpyEx/dnSpy\n\n• angr (9K stars) - Python binary analysis. Symbolic execution finds hidden paths.\n\nhttp://github.com/angr/angr\n\nDrop this into your Claude, then watch Opus 5.5 take apart any app you own below.",
+          "url": "https://x.com/0xDeniAi/status/2109957655569580432",
+          "createdAt": "2026-10-13T19:41:20+09:00",
+          "media": "https://pbs.twimg.com/media/HUgTS2SXMAAeBHW.jpg?name=orig",
+          "avatar": "https://pbs.twimg.com/profile_images/2101977317866135553/ff6QEZ19_200x200.jpg",
           "metrics": {
-            "views": 13000,
-            "likes": 166
-          }
+            "views": 13612,
+            "likes": 247,
+            "reposts": 36,
+            "replies": 11
+          },
+          "lang": "en",
+          "textJa": "REA + Opus 5.5はかなり危険な組み合わせ…\n\n正直、公開していいのか分からない。\n\nAIエージェントがエンジンをバラす整備士のように、任意のアプリを分解できるリポジトリ10選：\n\nClaudeに送って：\n\n• REA（171Kスター）— バイナリ、Electron、.NET、Android、Web向けのRE用MCPひとつ\nhttp://github.com/morluto/rea\n\n• Chrome DevTools MCP（53Kスター）— エージェントがライブChromeを操作：ネットワーク、コンソール、JS。Webアプリの動きをマップ\nhttp://github.com/ChromeDevTools/chrome-devtools-mcp\n\n• JADX（50Kスター）— Android Dex→Javaデコンパイラ。GUI＋CLI\nhttp://github.com/skylot/jadx\n\n• x64dbg（49Kスター）— REとマルウェア解析向けWindowsデバッガ\nhttp://github.com/x64dbg/x64dbg\n\n• Apktool（26Kスター）— APKの展開・再構築：マニフェスト、リソース、smali\nhttp://github.com/iBotPeaches/Apktool\n\n• radare2（25Kスター）— UNIX風REツールキット。独自MCP（r2mcp）あり\nhttp://github.com/radareorg/radare2\n\n• Cutter（20Kスター）— rizinベースの無料GUI REプラットフォーム\nhttp://github.com/rizinorg/cutter\n\n• IDA Pro MCP（12Kスター）— IDA ProをMCP経由でエージェントに接続\nhttp://github.com/mrexodia/ida-pro-mcp\n\n• dnSpy（11Kスター）— .NETデバッガ＋アセンブリエディタ。パッチして再実行\nhttp://github.com/dnSpyEx/dnSpy\n\n• angr（9Kスター）— Pythonのバイナリ解析。シンボリック実行で隠れた経路を探す\nhttp://github.com/angr/angr\n\nClaudeに渡して、Opus 5.5が手元のアプリを分解する様子を見てみよう。"
         },
         {
-          "id": "2109906829035893234",
-          "author": "Narendra Modi",
-          "handle": "narendramodi",
-          "text": "The greatest power is the power to empower!",
-          "url": "https://x.com/narendramodi/status/2109906829035893234",
+          "id": "2109806144986435804",
+          "author": "Himanshu Hingorani",
+          "handle": "himanshubuildss",
+          "text": "If you're a designer, freelancer, founder or frontend developer, bookmark this.\n\n1. http://scrolltide.co - 600+ award-winning prompts with full source code for 3D and scroll-driven sites (for all of you)\n2. http://godly.website - hand-picked websites with serious craft\n3. http://mobbin.com - real app UI screens\n4. http://styles.refero.design - real product design styles\n5. http://awwwards.com - the sites that actually won\n6. http://shadcnblocks.com - full blocks, not just buttons\n7. http://v0.dev - prompt to UI, from Vercel\n8. http://supahero.io - hero sections worth stealing\n9. http://ui.aceternity.com - animated components, big visual impact\n10. http://threejs-journey.com - the best way to learn 3D on the web\n\nWhat did I miss?",
+          "url": "https://x.com/himanshubuildss/status/2109806144986435804",
+          "createdAt": "2026-10-13T09:39:17+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2109805685718568960/img/KeQ689ApOUTWv9oJ.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/2040486128294436864/JziGJtod_200x200.jpg",
           "metrics": {
-            "views": 320000,
-            "likes": 5206
-          }
+            "views": 45624,
+            "likes": 1019,
+            "reposts": 142,
+            "replies": 17
+          },
+          "lang": "en",
+          "textJa": "デザイナー、フリーランス、創業者、フロントエンド開発者ならブックマークを。\n\n1. http://scrolltide.co — 受賞級の3D・スクロールサイト用プロンプト600+とソース一式\n2. http://godly.website — 本気の作り込みサイト厳選\n3. http://mobbin.com — 実在アプリのUI画面\n4. http://styles.refero.design — 実プロダクトのデザインスタイル\n5. http://awwwards.com — 実際に受賞したサイト\n6. http://shadcnblocks.com — ボタンだけでなく完成ブロック\n7. http://v0.dev — プロンプトからUI（Vercel）\n8. http://supahero.io — 盗みたくなるヒーローセクション\n9. http://ui.aceternity.com — アニメ付きコンポーネント、視覚インパクト大\n10. http://threejs-journey.com — Webで3Dを学ぶ最良の方法の一つ\n\n他に抜けているものは？"
         },
         {
-          "id": "2109642989391749451",
-          "author": "Hedgeye",
-          "handle": "Hedgeye",
-          "text": "The top 5 stocks in the S&P 500 are now equal to the bottom 434.",
-          "url": "https://x.com/Hedgeye/status/2109642989391749451",
+          "id": "2109779354758926470",
+          "author": "Leo",
+          "handle": "truejigga",
+          "text": "https://larp.ai to beat the single allegations\n\nmade with higgsfield genjutsu API",
+          "url": "https://x.com/truejigga/status/2109779354758926470",
+          "createdAt": "2026-10-13T07:52:50+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2109779178992418816/img/y54xsdwtz7rJjp9s.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/1929801574668238848/OWMyyrhx_200x200.jpg",
           "metrics": {
-            "views": 12000,
-            "likes": 179
-          }
+            "views": 1014694,
+            "likes": 4917,
+            "reposts": 447,
+            "replies": 94
+          },
+          "lang": "en",
+          "textJa": "https://larp.ai で「一人っぽい」疑惑をかわそう。\n\nHiggsfield Genjutsu APIで制作。"
         },
         {
-          "id": "2109590976373092567",
-          "author": "The New York Times",
-          "handle": "nytimes",
-          "text": "The Nobel Memorial Prize in Economics was awarded to Robert E. Hall and Michael Woodford for their work on economic shocks.",
-          "url": "https://x.com/nytimes/status/2109590976373092567",
+          "id": "2110089224246678007",
+          "author": "Francesco Ciulla",
+          "handle": "FrancescoCiull4",
+          "text": "Most AI agents still work alone. Real work rarely does.\n\nSpent some time with @kylon_ai, running my Claude Code in a shared room with other agents.\n\nInteresting idea, smooth experience, and a lot of possibilities.\n\nCongrats @quinn_leng and the Kylon team!",
+          "url": "https://x.com/FrancescoCiull4/status/2110089224246678007",
+          "createdAt": "2026-10-14T04:24:09+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2110089132932300800/img/M285Vggg_UTx7tO0.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/1996462702110162944/jY4GKvoA_200x200.jpg",
           "metrics": {
-            "views": 1590000,
-            "likes": 361
-          }
+            "views": 1093,
+            "likes": 3,
+            "reposts": 0,
+            "replies": 5
+          },
+          "lang": "en",
+          "textJa": "多くのAIエージェントはまだ単独で動く。本当の仕事はそうではない。\n\n@kylon_ai を少し試し、Claude Codeを他のエージェントと共有ルームで動かした。\n\n面白い発想で体験もスムーズ、可能性も広い。\n\n@quinn_leng とKylonチームにおめでとう。"
         },
         {
-          "id": "2109614274645794935",
-          "author": "ares.",
-          "handle": "aresotik",
-          "text": "バルセロナの歯科クリニックとの電話会議が5分後に迫っていたのに、商用の提案書はまだ存在していませんでした。\n\n新しいGammaを開いて、これを持って会議に臨みました。\n\nこうやってステップバイステップで組み立てました",
-          "url": "https://x.com/aresotik/status/2109614274645794935",
+          "id": "2110057047878480098",
+          "author": "First Round",
+          "handle": "firstround",
+          "text": "\"Our WiFi password used to be 'vacuum2020.' We were gonna ship robots in 2020, and it didn't happen.\"\n\nInside the nine years of hard work and failed prototypes that went into making @maticrobots:",
+          "url": "https://x.com/firstround/status/2110057047878480098",
+          "createdAt": "2026-10-14T02:16:17+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2110049167372582915/img/8tbfxxCRGyTEcmTS.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/1902087392951189504/a_J_NWF1_200x200.png",
           "metrics": {
-            "views": 45000,
-            "likes": 137
-          }
+            "views": 2617,
+            "likes": 9,
+            "reposts": 1,
+            "replies": 4
+          },
+          "lang": "en",
+          "textJa": "「昔のWi‑Fiパスワードは『vacuum2020』だった。2020年にロボットを出荷するつもりで、実現しなかった。」\n\n@maticrobots ができるまでの9年の苦労と失敗した試作の内側："
         },
         {
-          "id": "2109801013435597281",
-          "author": "NBA",
-          "handle": "NBA",
-          "text": "What a sequence from NAW \n\n360 pass.\nGet it back in the corner.\nTriple.\n\nHe's up to 13 PTS (3 3PM), 4 REB and 3 AST as the Hawks lead at the break in preseason action on NBA League Pass!",
-          "url": "https://x.com/NBA/status/2109801013435597281",
+          "id": "2109940688595153234",
+          "author": "Robert Youssef",
+          "handle": "rryssf",
+          "text": "People losing so much tokens and have no idea about this:\n\nSubagent caches expire in five minutes.\n\nIn Claude Code, a subagent that sits idle longer than 5 minutes loses its prompt cache. The next call rewrites the whole context from scratch and burns several times more tokens than a cache hit would.\n\nAnthropic's guide covers a single setting that stretches that window to an hour:\n\n\"subagentPromptCacheTtl\": \"1h\"\n\nThe trade-off is in the write price. Each write to the 1-hour cache costs more than a write to the 5-minute one. You stop paying for a full rewrite every time a subagent pauses, though.\n\nFor workflows with long gaps between subagent calls, the savings reportedly reach up to 25% of total token spend.\n\nThose savings depend heavily on how you work. If your subagents finish fast and rarely sit idle past five minutes, you pay the pricier write for nothing and your bill goes up.\n\nCheck your own usage before you switch. A comparison script exists that estimates whether the 1-hour TTL saves you money or costs you more on your actual sessions. If your pauses stay under five minutes, keep the default.",
+          "url": "https://x.com/rryssf/status/2109940688595153234",
+          "createdAt": "2026-10-13T18:33:55+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2109940674506502144/img/pNtjKV4mci5FUo2R.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/1949976517913513985/98Qk6qo5_200x200.jpg",
           "metrics": {
-            "views": 680000,
-            "likes": 576
-          }
+            "views": 21691,
+            "likes": 168,
+            "reposts": 20,
+            "replies": 35
+          },
+          "lang": "en",
+          "textJa": "トークンを大量に無駄にしているのに、多くの人が知らないこと：\n\nサブエージェントのキャッシュは5分で切れる。\n\nClaude Codeでは、サブエージェントが5分より長くアイドルだとプロンプトキャッシュを失う。次の呼び出しは文脈を最初から書き直し、キャッシュヒット時の数倍のトークンを消費する。\n\nAnthropicのガイドには、その窓を1時間に延ばす設定がある：\n\n\"subagentPromptCacheTtl\": \"1h\"\n\nトレードオフは書き込み料金。1時間キャッシュへの書き込みは5分キャッシュより高い。ただしサブエージェントが止まるたびに全書き直しを払わなくなる。\n\n呼び出しの間が長いワークフローでは、総トークン費の最大約25%節約との報告もある。\n\n節約は使い方次第。サブエージェントがすぐ終わり、5分を超えてアイドルしないなら、高い書き込みだけ払って請求が増える。\n\n切り替える前に自分の利用を確認を。実セッションで1時間TTLが得か損かを見積もる比較スクリプトもある。休憩がいつも5分未満ならデフォルトのままでよい。"
         },
         {
-          "id": "2109666949836017732",
-          "author": "Aravind Srinivas",
-          "handle": "AravSrinivas",
-          "text": "Was a fun chat! Thanks for having me \n@MollySOShea\n!",
-          "url": "https://x.com/AravSrinivas/status/2109666949836017732",
+          "id": "2110113747553665323",
+          "author": "Lightspeed",
+          "handle": "lightspeedvp",
+          "text": "It’s a bird. It’s a plane. It’s your DoorDash on a drone.\n\nAt Dash Forward, DoorDash unveiled its own delivery drone and opened a beta waitlist for an AI ordering experience over text.\n\n“My lunch order from DoorDash is pretty much the same. I eat the same thing every day… Does making it conversational make you try new things?” @Machiz asks.\n\nA personal AI agent could also change where the order goes: to DoorDash, Uber Eats, or directly to a restaurant.\n\n“Being able to actually have the connection with the end user is so important,” says @AggShaurya.\n\nWatch the full segment below.",
+          "url": "https://x.com/lightspeedvp/status/2110113747553665323",
+          "createdAt": "2026-10-14T06:01:36+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2110111293277437952/img/_ztd3QyUcd0r4CJn.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/1918355794333970433/QKku_TuT_200x200.jpg",
           "metrics": {
-            "views": 31000,
-            "likes": 266
-          }
+            "views": 719,
+            "likes": 2,
+            "reposts": 1,
+            "replies": 0
+          },
+          "lang": "en",
+          "textJa": "鳥？飛行機？ドローンで届くDoorDashだ。\n\nDash ForwardでDoorDashが自社配達ドローンを公開し、テキスト経由のAI注文体験のベータ待ちリストも開始。\n\n「DoorDashの昼ごはんはだいたい同じ。毎日同じものを食べる…会話型にすると新しいものを試すようになるのか？」と@Machiz。\n\n個人向けAIエージェントは注文先も変えうる：DoorDash、Uber Eats、あるいは直接レストランへ。\n\n「エンドユーザーとのつながりを持てることがとても大事」と@AggShaurya。\n\n全文は下のセグメントで。"
         },
         {
-          "id": "2109716075562799346",
-          "author": "SpaceX",
-          "handle": "SpaceX",
-          "text": "Falcon 9 is vertical at pad 40 in Florida ahead of tomorrow’s launch of Dragon’s 35th Commercial Resupply Services mission to the \n@Space_Station\n. Liftoff is targeted for 6:33 a.m. ET → \nhttps://\nspacex.com/launches/crs35",
-          "url": "https://x.com/SpaceX/status/2109716075562799346",
+          "id": "2110040641334051155",
+          "author": "Accel",
+          "handle": "Accel",
+          "text": "AI that knows what your team knows - read our blog post about our investment in @withscuba \n\nhttps://www.accel.com/news/ai-that-knows-what-your-team-knows",
+          "url": "https://x.com/Accel/status/2110040641334051155",
+          "createdAt": "2026-10-14T01:11:06+09:00",
+          "avatar": "https://pbs.twimg.com/profile_images/1844347012033953794/lQLZCgKo_200x200.jpg",
           "metrics": {
-            "views": 930000,
-            "likes": 6451
-          }
+            "views": 1635,
+            "likes": 6,
+            "reposts": 1,
+            "replies": 0
+          },
+          "lang": "en",
+          "textJa": "チームが知っていることを知るAI — @withscuba への投資についてブログを公開\n\nhttps://www.accel.com/news/ai-that-knows-what-your-team-knows"
         },
         {
-          "id": "2109670682598739998",
-          "author": "Donald J. Trump",
-          "handle": "realDonaldTrump",
-          "text": "",
-          "url": "https://x.com/realDonaldTrump/status/2109670682598739998",
+          "id": "2110131790136401989",
+          "author": "Semichenko",
+          "handle": "semichenkko",
+          "text": "Opus 5.5 made gummy bears. Gemini 4 Argon made gummy statues\n\nSame prompt. Opus on top, Gemini below\n\nI put both through the same moves - pull a paw, yank the head, squish it flat, throw it, then pour a whole bag on top\n\nOpus bears are actual jelly. Pull a paw and it stretches into a thin rubbery strand, then snaps back and wobbles. Squash one and it pancakes, then launches itself back up. Throw it and it bounces off the floor and shoves its friends out of the way\n\nGemini bears are solid plastic. The arm turns into a stick, the bear flies straight through its neighbor, and the pile at the end just clips into itself\n\nAnd Opus nailed the look too - translucent, glossy, light passing right through them\n\nOpus: $7.2\nGemini: $22",
+          "url": "https://x.com/semichenkko/status/2110131790136401989",
+          "createdAt": "2026-10-14T07:13:17+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2110131742086500352/img/g1OYPRpR370-gIrm.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/2076966146704654336/ZvbLOdWO_200x200.jpg",
           "metrics": {
-            "views": 3050000,
-            "likes": 37000
-          }
+            "views": 2608,
+            "likes": 34,
+            "reposts": 2,
+            "replies": 3
+          },
+          "lang": "en",
+          "textJa": "Opus 5.5はグミベアを作った。Gemini 4 Argonはグミの像を作った。\n\n同じプロンプト。上がOpus、下がGemini。\n\n同じ動きを両方にやらせた——足を引っ張る、頭を引く、押しつぶす、投げる、袋ごと上に注ぐ。\n\nOpusのベアは本物のゼリー。足を引くと細いゴム状に伸び、戻って揺れる。潰すと平たくなり、跳ね上がる。投げると床で跳ね、周りの仲間を押しのける。\n\nGeminiのベアは硬いプラスチック。腕が棒になり、隣をすり抜け、最後の山は自分自身にめり込む。\n\n見た目もOpusが上手——半透明で光沢があり、光が通り抜ける。\n\nOpus：$7.2\nGemini：$22"
         },
         {
-          "id": "2109891976829243872",
+          "id": "2110043498854355057",
+          "author": "News from Google",
+          "handle": "NewsFromGoogle",
+          "text": "Today we're rolling out access to Gemini 4 Argon, our latest frontier model built to solve your hardest problems.\n\nStarting today, it’s available globally for Google AI Ultra and Pro subscribers in @GeminiApp and AI Mode in Search, Ultra subscribers in @Antigravity, and for developers and enterprises via the API in @GoogleAIStudio and the Gemini platform.\n\nAt @Google, Argon is already accelerating progress across engineering and robotics:\n\n💻 @GoogleChrome: Argon helped the Chrome team refactor a Chromium 6-million-line legacy codebase, completing months of work in just weeks. For Chrome’s billions of global users, this eliminated an entire category of browser crashes, unlocking the ability for live webpages to move fluidly between tabs, side panels, and floating windows without reloading.\n\n🚀 Software engineering: Googlers are using Argon to ship code faster than ever. In @Antigravity, they increased agentic code submissions by over 35% with rollbacks cut by nearly a third.\n\n🤖 Robotics at @GoogleDeepMind: By watching video of a human playing cornhole, Argon autonomously built simulation code that taught it how to play, and helped Apptronik's Apollo humanoid sink seven straight shots.",
+          "url": "https://x.com/NewsFromGoogle/status/2110043498854355057",
+          "createdAt": "2026-10-14T01:22:27+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2110042225329553408/img/3a3ptKAuer2rBn5y.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/1972717909559353344/eMJ6AJ0W_200x200.jpg",
+          "metrics": {
+            "views": 49494,
+            "likes": 1096,
+            "reposts": 123,
+            "replies": 57
+          },
+          "lang": "en",
+          "textJa": "本日、最難関の課題向け最新フロンティアモデル Gemini 4 Argon の提供を開始する。\n\n本日より、Google AI Ultra / Pro 購読者向けに @GeminiApp と検索のAIモードで世界展開。Ultra購読者は @Antigravity でも利用可能。開発者・企業は @GoogleAIStudio とGeminiプラットフォームのAPI経由で利用できる。\n\n@Google ではArgonがすでにエンジニアリングとロボティクスを加速している：\n\n💻 @GoogleChrome：ArgonがChromeチームのChromium約600万行のレガシーコードのリファクタを支援し、数か月分の作業を数週間で完了。世界の数十億ユーザー向けに、ある種のブラウザクラッシュ一式を解消し、ライブWebページを再読み込みなしでタブ・サイドパネル・フローティングウィンドウ間を滑らかに移動できるようになった。\n\n🚀 ソフトウェアエンジニアリング：Google社員はArgonでこれまで以上に速くコードを出荷。@Antigravity ではエージェントによるコード提出が35%超増え、ロールバックはほぼ3分の1減。\n\n🤖 @GoogleDeepMind のロボティクス：人がコーンホールをする動画を見たArgonが、遊び方を教えるシミュレーションコードを自律構築し、ApptronikのApolloヒューマノイドが7連続で成功するのを助けた。"
+        },
+        {
+          "id": "2110083127615836412",
+          "author": "U.S. Politics Alert",
+          "handle": "USPoliticsAlert",
+          "text": "From @JoeRogan to @SpkrBonnen, discover the accounts that @JamesTalarico and @KenPaxtonTX both follow:",
+          "url": "https://x.com/USPoliticsAlert/status/2110083127615836412",
+          "createdAt": "2026-10-14T03:59:55+09:00",
+          "media": "https://pbs.twimg.com/media/HUiFHbAXQAAqmwF.jpg?name=orig",
+          "avatar": "https://pbs.twimg.com/profile_images/1915706855956869120/LJl80VPq_200x200.jpg",
+          "metrics": {
+            "views": 681,
+            "likes": 1,
+            "reposts": 0,
+            "replies": 1
+          },
+          "lang": "en",
+          "textJa": "@JoeRogan から @SpkrBonnen まで。@JamesTalarico と @KenPaxtonTX の両方がフォローしているアカウントを見てみよう："
+        },
+        {
+          "id": "2109822896415916042",
+          "author": "Sadao Tokuyama",
+          "handle": "tokufxug",
+          "text": "心臓の3D可視化を紹介「CardioTwin 4D Viewer」🫀\n\n🔹インタラクティブな3D表示や電気的な表示、領域分割ビューを紹介\n🔹NVIDIA Isaac Sim、Cosmos 3 Nano、PhysicsNeMo、MONAI Physioなどを関連技術として挙げている\n🔹医療分野のデジタルツインに関連する取り組み\n\n情報元はリプ欄。",
+          "url": "https://x.com/tokufxug/status/2109822896415916042",
+          "createdAt": "2026-10-13T10:45:51+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2109822709068967936/img/A8_CtoERdqedDOzx.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/1614135119597686784/8APrdHkh_200x200.png",
+          "metrics": {
+            "views": 7832,
+            "likes": 194,
+            "reposts": 27,
+            "replies": 5
+          },
+          "lang": "ja"
+        },
+        {
+          "id": "2109671433521815772",
+          "author": "Jakub Antalik",
+          "handle": "Jakubantalik",
+          "text": "Created a new skill for UI generation skeleton effect, something I’ve been using in my UI videos.\n\nThese UI examples are built with https://transitions.dev UI Agent.",
+          "url": "https://x.com/Jakubantalik/status/2109671433521815772",
+          "createdAt": "2026-10-13T00:44:00+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2109652229980315648/img/KFUUdBAT-dZlfP2g.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/1286621650562228224/TAo9_z5s_200x200.jpg",
+          "metrics": {
+            "views": 162307,
+            "likes": 3685,
+            "reposts": 185,
+            "replies": 63
+          },
+          "lang": "en",
+          "textJa": "UI生成用のスケルトン効果スキルを新しく作った。自分のUI動画でも使っているもの。\n\nこれらのUI例は https://transitions.dev のUI Agentで構築。"
+        },
+        {
+          "id": "2109830882404057588",
+          "author": "FHILY👑",
+          "handle": "Oluwaphilemon1",
+          "text": "Qwen3.8-27B reportedly went from 82 tokens/sec to 381 tokens/sec on a single RTX 3090 with 24GB VRAM, without changing the GPU.\n\nThe entire improvement came from optimizing the inference stack.\n\nHere’s how the developer reached that speed:\n\n• Initial setup: ~82 tokens/sec\n• Optimized MTP: ~114 tokens/sec\n• DFlash2 + context lookup: ~138 tokens/sec\n• Optimized lookup verification: ~381 tokens/sec\n\nThe final result is roughly 4.6× the initial generation speed. But the most interesting part is how they achieved it.\n\n1. DFlash2 reduces sequential generation\n\nNormally, an autoregressive model generates tokens one at a time, with each step depending on the previous output.\n\nSpeculative decoding changes this. A smaller draft mechanism proposes multiple tokens, and the main model verifies them together. When the proposals are accepted, the system avoids some of the sequential work required by ordinary decoding.\n\nDFlash2 builds on this approach to accelerate token generation.\n\n2. Context lookup reuses text that already exists\n\nThe developer added another optimization: searching the input context for text that matches the expected output.\n\nThis is particularly useful when a model needs to reproduce content from a document, rather than generate entirely new text.\n\nThe optimized system can propose matching sequences from the existing context and ask the main model to verify them.\n\nInstead of verifying the usual seven proposed tokens, the setup can verify blocks of up to 16.\n\nThe developer reports acceptance of approximately 15 out of 16 tokens per verification step. That means far fewer sequential decoding steps are needed for this particular workload.\n\nThe benchmark shows why the distinction matters.\n\nOn a document-reproduction task involving approximately 25K tokens:\n\n• Previous DFlash2 setup: ~260 tokens/sec\n• Optimized context lookup: ~382 tokens/sec\n\nHowever, 381 tokens/sec is not the model’s general-purpose chat speed. For ordinary conversational workloads, the developer reports around 133 tokens/sec.\n\nContext lookup works best when the output overlaps heavily with text already available in the prompt. It won’t deliver the same gains when generating original prose or solving problems that require entirely new output.\n\nPotential applications include document processing, retrieval-augmented generation, code transformations and other workflows that reuse existing text.\nPrefix caching delivers another major improvement.\n\nWhen asking a second question about the same 25K-token document, the system can reuse the computation from the shared prompt prefix.\n\nReported time to first token dropped from 22.4 seconds to just 0.56 seconds.\nThat’s approximately 40× faster for the repeated-prefix scenario.\n\nThe model still has to process the new question and generate its answer, but it doesn’t need to recompute the entire shared prefix from scratch.\n\nThe broader lesson is that local inference performance depends on more than model size and GPU specifications.\n\nSpeculative decoding reduces sequential generation. Context lookup exploits repeated text. Prefix caching avoids redundant computation.\n\nCombined, these techniques can produce enormous gains when the workload is a good fit.\n\nCode: syv-ai/qwen38-27b-rtx3090 on GitHub.\n https://x.com/TeksEdge/status/2090595990114037832/video/1",
+          "url": "https://x.com/Oluwaphilemon1/status/2109830882404057588",
+          "createdAt": "2026-10-13T11:17:35+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2090571994471489536/img/gNhw_AStXUxacqgL.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/1681096269203218432/kTSyPDf7_200x200.jpg",
+          "metrics": {
+            "views": 27555,
+            "likes": 393,
+            "reposts": 29,
+            "replies": 11
+          },
+          "lang": "en",
+          "textJa": "Qwen3.8-27Bは、RTX 3090（24GB）1枚のまま、約82トークン/秒から381トークン/秒になったという報告。GPUは変えていない。\n\n改善はすべて推論スタックの最適化から。\n\n到達までの流れ：\n\n• 初期：約82トークン/秒\n• MTP最適化：約114トークン/秒\n• DFlash2＋コンテキスト照合：約138トークン/秒\n• 照合検証の最適化：約381トークン/秒\n\n最終は初期の約4.6倍。興味深いのは達成方法。\n\n1. DFlash2が逐次生成を減らす\n\n通常の自己回帰は1トークンずつ、前の出力に依存する。投機的デコーディングでは小さい下書き機構が複数トークンを提案し、本モデルがまとめて検証する。受理されれば通常の逐次処理の一部を避けられる。DFlash2はこの方式を発展させて生成を加速する。\n\n2. コンテキスト照合が既存テキストを再利用\n\n期待出力に合う文字列を入力コンテキストから探す最適化も追加。文書の再現など、新規文ではなく既存内容の再生に特に有効。既存コンテキストから一致列を提案し本モデルに検証させる。通常の提案7トークンではなく最大16トークン塊まで検証できる場合がある。\n\n開発者によると検証ステップあたり約15/16が受理され、この負荷では逐次ステップが大幅に減る。\n\n約25Kトークンの文書再現ベンチ：\n• 以前のDFlash2：約260トークン/秒\n• 最適化コンテキスト照合：約382トークン/秒\n\nただし381トークン/秒は汎用チャット速度ではない。普通の会話では約133トークン/秒とのこと。コンテキスト照合は出力がプロンプト内テキストと大きく重なるときが最も効く。完全な新規作文や新規推論では同じ伸びは出ない。\n\n文書処理、RAG、コード変換など既存テキスト再利用の流れ向き。プレフィックスキャッシュも大きな改善。\n\n同じ25Kトークン文書への2問目では共有プレフィックスの計算を再利用でき、最初のトークンまでの時間が22.4秒から0.56秒（約40倍）に。\n\nモデルは新しい質問の処理と回答生成は必要だが、共有プレフィックス全体の再計算は不要。\n\n教訓：ローカル推論の性能はモデルサイズとGPUだけではない。投機的デコーディング、コンテキスト照合、プレフィックスキャッシュを組み合わせ、負荷が合えば大きな伸びが出る。\n\nコード：GitHubの syv-ai/qwen38-27b-rtx3090\n https://x.com/TeksEdge/status/2090595990114037832/video/1"
+        },
+        {
+          "id": "2110050024788984016",
           "author": "Amit Shah",
           "handle": "AmitShah",
-          "text": "Sharing my remarks at the First BIMSTEC Home Ministers’ Meeting in New Delhi.",
-          "url": "https://x.com/AmitShah/status/2109891976829243872",
+          "text": "SIR के बहाने घुसपैठियों को बचाने की राहुल गांधी की योजना देश समझ चुका है।",
+          "url": "https://x.com/AmitShah/status/2110050024788984016",
+          "createdAt": "2026-10-14T01:48:23+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2110049862213599232/img/wYfZP7EhD1LfmUqO.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/2054423554737983489/dhxe-t8m_200x200.jpg",
           "metrics": {
-            "views": 200000,
-            "likes": 4854
-          }
+            "views": 328654,
+            "likes": 7525,
+            "reposts": 2233,
+            "replies": 1271
+          },
+          "lang": "hi",
+          "textJa": "SIRを口実に侵入者を守ろうとするラフル・ガンディーの計画を、国はすでに見抜いている。"
         },
         {
-          "id": "2109660376132649136",
-          "author": "Real Madrid C.F.",
-          "handle": "realmadrid",
-          "text": "チャンピオンズリーグに向けて準備中だ！",
-          "url": "https://x.com/realmadrid/status/2109660376132649136",
+          "id": "2110119155101811183",
+          "author": "BBC Breaking News",
+          "handle": "BBCBreaking",
+          "text": "Saudi national charged with secretly planting recording device in OpenAI office in San Francisco\nhttps://bbc.in/4zpBo7U",
+          "url": "https://x.com/BBCBreaking/status/2110119155101811183",
+          "createdAt": "2026-10-14T06:23:05+09:00",
+          "avatar": "https://pbs.twimg.com/profile_images/1150716997254209536/M7gkjsv5_200x200.jpg",
           "metrics": {
-            "views": 1270000,
-            "likes": 3939
-          }
+            "views": 181149,
+            "likes": 178,
+            "reposts": 85,
+            "replies": 38
+          },
+          "lang": "en",
+          "textJa": "サウジアラビア国籍の男が、サンフランシスコのOpenAIオフィスに録音機器を秘密に仕掛けた疑いで起訴された\nhttps://bbc.in/4zpBo7U"
         },
         {
-          "id": "2109753449881510351",
-          "author": "Ray Dalio",
-          "handle": "RayDalio",
-          "text": "Remember this: The pain is all in your head. \n\nIf you want to evolve, you need to go where the problems and the pain are. By confronting the pain, you will see more clearly the paradoxes and problems you face. Reflecting on them and resolving them will give you wisdom. \n\nThe",
-          "url": "https://x.com/RayDalio/status/2109753449881510351",
-          "metrics": {
-            "views": 57000,
-            "likes": 641
-          }
-        },
-        {
-          "id": "2109667967382540406",
-          "author": "Yogi Adityanath",
-          "handle": "myogiadityanath",
-          "text": "母性力の保護、食の施主である農民兄弟たちの繁栄、そして教師たちの敬意のために決意したダブルエンジン政府...",
-          "url": "https://x.com/myogiadityanath/status/2109667967382540406",
-          "metrics": {
-            "views": 760000,
-            "likes": 2180
-          }
-        },
-        {
-          "id": "2109635911374029300",
-          "author": "Virat Kohli",
-          "handle": "imVkohli",
-          "text": "A little something for those who’ve stayed Wrogn. \nIntroducing Wrogn Blacklist - \nhttps://\nbit.ly/wrogn-blacklist\n\n@StayWrogn",
-          "url": "https://x.com/imVkohli/status/2109635911374029300",
-          "metrics": {
-            "views": 870000,
-            "likes": 13000
-          }
-        },
-        {
-          "id": "2109923279993491845",
-          "author": "ANI",
-          "handle": "ANI",
-          "text": "#WATCH | Hingoli, Maharashtra: Cockroach Janta Party (CJP) founder Abhijeet Dipke says, \"I spoke to Ratna (CJP Legal Head Ratna Singh) just now, she told me that Ashutosh, Ajinkya, and Saurav have been kept separately (after detention in Delhi). The 11 volunteers who were with",
-          "url": "https://x.com/ANI/status/2109923279993491845",
-          "metrics": {
-            "views": 100000,
-            "likes": 1333
-          }
-        },
-        {
-          "id": "2109859098913091593",
-          "author": "ESPN",
-          "handle": "espn",
-          "text": "\"Been a while since I have been this pissed after a game too.\"\n\nSean McVay after the Rams' overtime loss :flushed:",
-          "url": "https://x.com/espn/status/2109859098913091593",
-          "metrics": {
-            "views": 490000,
-            "likes": 4041
-          }
-        },
-        {
-          "id": "2109720949679370533",
-          "author": "FC Barcelona",
-          "handle": "FCBarcelona",
-          "text": "There was no angle here",
-          "url": "https://x.com/FCBarcelona/status/2109720949679370533",
-          "metrics": {
-            "views": 800000,
-            "likes": 25000
-          }
-        },
-        {
-          "id": "2109874259862728724",
+          "id": "2110145786818568663",
           "author": "StudioYebisu",
           "handle": "studio_yebisu",
-          "text": "ソフトバンクが日本語重視のフルスクラッチ国産AI「Sarashina（さらしな）」を公開しました！\n誰でもすぐに無料で触れます。\n\nブラウザでのチャット・日英翻訳に加えて、6種類のモデルをWeb・APIから利用できます。",
-          "url": "https://x.com/studio_yebisu/status/2109874259862728724",
+          "text": "画像AIオタク以外はあんまり知らんかもしれんが、Kreaという結構人気の画像生成モデルがあって。\n\nその最新モデルのKrea3のアーリーアクセス権もらったんで、実際に生成してみました～！\n\n元々Kreaはリアルな人間の生成と、アーティスティックがうまいモデルだったので一番得意そうなヤツ一本勝負\n1枚目。シンプルな女性のT2I、ディティールのリアルさを開いて確認してみて。元は2KだからXに圧縮されててもかなりキレイなハズ。\nアップにして見てみて\n\n2枚目は若干アート寄りの2Dイラスト。T2Iのみ。\n2次元イラストでも目の解像度のキレイさとかいいね。\n髪の毛とか書き込みすぎてじゃじゃ馬感もあるが…\n双方一応プロンプトいる…？まぁリプに貼っとくか。\n\nChatGPTプラグインで連携して呼び出せるし、\nGPT-Imageとは違った、AI Slop感のない、オリジナリティあふれる画像を作りたいという人は、Keraを使うのもありかと思います。\n\nKera3-Turboとかの重みが公開されると思うんで、そうなってきたらコミュニティはマジ盛り上がりますね。",
+          "url": "https://x.com/studio_yebisu/status/2110145786818568663",
+          "createdAt": "2026-10-14T08:08:54+09:00",
+          "media": "https://pbs.twimg.com/media/HUi5O6la4AAgqfi.jpg?name=orig",
+          "avatar": "https://pbs.twimg.com/profile_images/2095218586046652416/pyuFtKH0_200x200.jpg",
           "metrics": {
-            "views": 14000,
-            "likes": 185
-          }
+            "views": 325,
+            "likes": 2,
+            "reposts": 0,
+            "replies": 1
+          },
+          "lang": "ja"
+        },
+        {
+          "id": "2110041042896728437",
+          "author": "Google for Developers",
+          "handle": "googledevs",
+          "text": "📣 Gemini 4 Argon is here!\n\nBuilt to solve your hardest problems, Argon excels at real-world software engineering, enterprise workflows, cybersecurity defense, and scientific reasoning. By reliably handling routine tasks like everyday debugging to complex problems like codebase migrations, it frees developers to focus on architecture and product innovation.\n\nSee what you can build with Argon ↓",
+          "url": "https://x.com/googledevs/status/2110041042896728437",
+          "createdAt": "2026-10-14T01:12:41+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2110040184788221952/img/oHNPhbWrdcvTNISx.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/2107899941473636352/Nu-IZWAL_200x200.jpg",
+          "metrics": {
+            "views": 81958,
+            "likes": 1661,
+            "reposts": 227,
+            "replies": 55
+          },
+          "lang": "en",
+          "textJa": "Gemini 4 Argonが登場。\n\n最難関の課題向けに設計され、実世界のソフトウェアエンジニアリング、企業ワークフロー、サイバー防衛、科学的推論に強い。日常のデバッグからコードベース移行まで確実にこなし、開発者をアーキテクチャとプロダクト革新に集中させる。\n\nArgonで何が作れるか ↓"
         }
       ]
     }
