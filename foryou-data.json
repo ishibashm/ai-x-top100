@@ -843,7 +843,8 @@
           "metrics": {
             "views": 10098,
             "likes": 184
-          }
+          },
+          "textJa": "😆今や360°の回り込み（オービット）効果を作るのは本当に簡単\n画像をアップロード→指令を入力→完成\n\nプロンプトはこちら👇"
         },
         {
           "id": "2110233925465575550",
@@ -1263,191 +1264,121 @@
       "name": "Cloud",
       "handle": "cloud8wq",
       "sample": false,
-      "updatedAt": "2026-10-14T20:32:02+09:00",
+      "updatedAt": "2026-10-15T08:31:40+09:00",
       "posts": [
         {
-          "id": "2110244638900773147",
-          "author": "Elon Musk",
-          "handle": "elonmusk",
-          "text": "Make music videos easily with Grok @Bot",
-          "url": "https://x.com/elonmusk/status/2110244638900773147",
-          "createdAt": "2026-10-14T14:41:43+09:00",
-          "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+          "id": "2110380108573782278",
+          "author": "Ren",
+          "handle": "Ryrenz",
+          "text": "🩺 又发现一个变态开源项目 Repowise，能把你整个代码库索引成 AI 查得动的地图，让 Claude Code 别再满仓库瞎翻文件。\n\nGitHub 上 7672 star，三月底才建的仓库，最近几乎一周一个版本，v0.52 到 v0.56 全挤在九、十月。\n\n平时让 AI 改一处老代码，它得先满仓库 grep 一遍，读一堆无关文件，输出里全是「我再看看这个文件」。Repowise 的做法是提前在你本机把代码结构、调用图、Git 历史、测试和文档全索引好，再通过 MCP 暴露给 Claude Code、Codex、Cursor 这些工具去查，agent 要什么直接问索引。项目自己在 django 的 43 个 issue 上做过配对测试，同样的活儿输出量少了 31.6%。\n\n更实用的是那套代码健康评分：53 个检测器给每个文件打 1 到 10 分，还能标出改哪块风险最高、哪些是死代码。图谱、风险、健康度这几块全是确定性计算，一次大模型调用都没有，不用配任何 API key。\n\n让 AI 读得懂你的仓库，比给它换个更大的模型实在。\n\nGitHub：https://github.com/repowise-dev/repowise",
+          "url": "https://x.com/Ryrenz/status/2110380108573782278",
+          "createdAt": "2026-10-14T23:40:01+09:00",
+          "avatar": "https://pbs.twimg.com/profile_images/2047148133746933760/iEtNYePb_200x200.jpg",
           "metrics": {
-            "views": 1036567,
-            "likes": 3889,
-            "reposts": 528,
-            "replies": 721
+            "views": 3200,
+            "likes": 71,
+            "reposts": 4,
+            "replies": 4
           },
-          "lang": "en",
-          "textJa": "Grok @Botでミュージックビデオを簡単に作れる"
+          "lang": "zh",
+          "textJa": "🩺 またすごいオープンソースを見つけた。Repowiseは、コードベース全体をAIが検索できる「地図」としてインデックス化し、Claude Codeがリポジトリ中をむやみに漁らなくて済むようにする。\n\nGitHubで7672スター。3月末に作られたばかりなのに、ほぼ週1でリリースしていて、v0.52〜v0.56が9〜10月に集中している。\n\nふだんAIに古いコードを1か所直させると、まずリポジトリ全体をgrepし、関係ないファイルを大量に読み、出力は「このファイルも見てみます」ばかりになる。Repowiseは事前に手元のマシンでコード構造、呼び出しグラフ、Git履歴、テスト、ドキュメントをすべてインデックス化し、MCP経由でClaude Code、Codex、Cursorなどに公開する。エージェントは必要なものをインデックスに直接聞けばいい。プロジェクト自身がdjangoの43件のissueで比較テストをしたところ、同じ作業で出力量が31.6%減ったという。\n\nさらに実用的なのがコード健全性スコア。53個の検出器で各ファイルを1〜10点で採点し、どこを変えるとリスクが高いか、どれがデッドコードかも示す。グラフ、リスク、健全性はすべて決定的な計算で、LLMは一度も呼ばず、APIキーも不要。\n\nAIにリポジトリを理解させるほうが、もっと大きなモデルに替えるより確実だ。\n\nGitHub：https://github.com/repowise-dev/repowise"
         },
         {
-          "id": "2110238871170449482",
+          "id": "2110400029529956858",
           "author": "StudioYebisu",
           "handle": "studio_yebisu",
-          "text": "リアルタイム生成Fast MiniMax H3-Omni。\n自称最高速、最Qualityモデル。どうやら10月20日にオープンウェイトモデルも公開されるっぽい？\n\nAPIだと動画の再生時間よりも動画の生成時間の方が短いので、いわゆるリアルタイム動画生成AIチューバーみたいなこともできるっていうやつですね。\n\nMiniMax H3を高速化した、映像と音声を同時に生成するモデルなんですけど。\nFastVideo／Hao AI Labが追加学習や推論の最適化を行い、Nuva Labが協力しています。個人レベルじゃなくて、ちゃんとしたラボが高速化と最適化をしているっていう点ではかなり注目。\n\nとりあえずはAPIがもう公開されていて。\n$0.0125／秒＝$0.75／分。かなり安めではあるね。\n\n重みが出たらマジ熱いなぁ。今はまだ公開予告の段階。\n下手したら5090とかBlackwell 6000ぐらいで。\n\nリアルタイム動画生成がローカルだけでできる可能性があるっていう風に考えると、ちょっと注目したいかも。\n既存FastH3 V2の公式計測では、RTX 5090で5秒・480pの動画生成に14.8秒かかっています。\nこれがOmniになったことで、どれだけ上がってるかっていうことですよね。",
-          "url": "https://x.com/studio_yebisu/status/2110238871170449482",
-          "createdAt": "2026-10-14T14:18:47+09:00",
+          "text": "お、結構変わったな、エルメスエージェント。\n一言で言うと、結構初心者に勧めやすいハーネスになった感じやな。ローカルLLMにネイティブ対応しようとしているのが好感ポイントや。\n\n■主な更新\n初回起動の案内チャット：\nデスクトップ版を初めて開くと、無料の試用モデルでセットアップの会話が始まる。APIキーはいらん。\nこれはだいぶ人に勧めやすくなったな。バカが使ってもセットアップしてくれる。\n\nローカルモデルをワンクリックで：\nllama.cpp を自動で入れて、GPU と RAM に収まる一番ええモデルを選んでくれる。\nこれはローカルLMM初心者に、とりあえずHermesAgent入れとけって言いやすくなったな。\n\nConnectors：Linear や Notion などのアプリをブラウザで一度サインインするだけで、エージェントから使える。MCP の画面はこのページに統合された。\n\nプラグインカタログ：審査済みのプラグインが600件ある。\n\n新しいモデルへの対応：Claude 5.5 系、GPT-6 Astra／Sol／Luna、Gemini 4 Argon などが選べる。\n\n■HermesAgent最大の弱点、トークン効率は直ったのか。\nツール定義の半減：めったに使わんツールが約19個（computer_use、image_generate、cron など）、検索で呼ばれたときだけ読み込まれるようになった。毎回送るツール定義は 13,367 → 6,883 トークンに減っとる。\n\n固定プロンプトの削減：1回のリクエストあたり約2,100トークン減った。\n\nキャッシュの改善：\nツール一覧をセッション中は固定するようになって、途中でキャッシュが無駄になりにくくなった。\n- cache_ttl: auto を入れると、対話は1時間、サブエージェントや cron は5分キャッシュを保つ。これは自分で設定せな有効にならん。\n- 長いセッションで /model を切り替えるときは、キャッシュが壊れる前に確認が出る。\n\n他にも諸々あったが、初心者に使いやすくなったのと、弱点がだいぶ軽減されているということで、基本的にポジティブ。\n公式外ハーネス初心者にはかなり進めやすいハーネスになりましたな。",
+          "url": "https://x.com/studio_yebisu/status/2110400029529956858",
+          "createdAt": "2026-10-15T00:59:11+09:00",
           "avatar": "https://pbs.twimg.com/profile_images/2095218586046652416/pyuFtKH0_200x200.jpg",
           "metrics": {
-            "views": 1754,
-            "likes": 21,
-            "reposts": 0,
-            "replies": 0
-          },
-          "lang": "ja"
-        },
-        {
-          "id": "2110275689538813967",
-          "author": "Csaba Kissi",
-          "handle": "csaba_kissi",
-          "text": "http://hn.watch - Hacker News, but every story is a video explainer\nhttp://github.com/cathrynlavery/diagram-design - 45 free AI diagram types\nhttp://github.com/morluto/rea - Open-source AI reverse engineering\nhttp://motiq.dev - 86 free animated React components\nhttp://github.com/mksglu/context-mode - 98% AI agent context savings",
-          "url": "https://x.com/csaba_kissi/status/2110275689538813967",
-          "createdAt": "2026-10-14T16:45:06+09:00",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2110275657263706112/img/MKc3bBz0TbbVjhx-.jpg",
-          "avatar": "https://pbs.twimg.com/profile_images/1454861068233228289/6sn9BYOf_200x200.jpg",
-          "metrics": {
-            "views": 2250,
-            "likes": 35,
-            "reposts": 1,
-            "replies": 14
-          },
-          "lang": "en",
-          "textJa": "http://hn.watch - Hacker Newsの各記事が動画解説になる\nhttp://github.com/cathrynlavery/diagram-design - 無料のAI図解タイプ45種\nhttp://github.com/morluto/rea - オープンソースのAIリバースエンジニアリング\nhttp://motiq.dev - 無料のアニメーションReactコンポーネント86個\nhttp://github.com/mksglu/context-mode - AIエージェントのコンテキストを98%節約"
-        },
-        {
-          "id": "2110065737545257312",
-          "author": "naldz.",
-          "handle": "naldzyul",
-          "text": "Este chaval explica cómo hacer páginas web de nivel profesional con GPT-5.6 Sol.\n\n21 minutos de clase, paso a paso, para sacar diseños con acabado cinematográfico.\n\n🔖 Guárdalo. Vale cada minuto.",
-          "url": "https://x.com/naldzyul/status/2110065737545257312",
-          "createdAt": "2026-10-14T02:50:49+09:00",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2110065300083204096/img/O9rkbDsUWKV7r6TT.jpg",
-          "avatar": "https://pbs.twimg.com/profile_images/2094137913902530562/GRfqH9fk_200x200.jpg",
-          "metrics": {
-            "views": 32787,
-            "likes": 899,
-            "reposts": 104,
-            "replies": 17
-          },
-          "lang": "es",
-          "textJa": "この人がGPT-5.6 Solでプロ級のWebページを作る方法を解説している。\n\n21分の授業で、映画のような仕上がりのデザインを一歩ずつ作る流れ。\n\n保存しておく価値がある内容だ。"
-        },
-        {
-          "id": "2110145714659664275",
-          "author": "atomic.chat",
-          "handle": "atomic_chat_hq",
-          "text": "Gemini 4 Argon is Opus 5.5 level for 3x cheaper 💵\n\nWe put @Google's latest model against opus 5.5 side by side to create a 3D Voxel sport car assembly animation\n\nRun both models via API -> https://atomic.chat",
-          "url": "https://x.com/atomic_chat_hq/status/2110145714659664275",
-          "createdAt": "2026-10-14T08:08:37+09:00",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2110144789559562241/img/WgpCnuTlEj3sz4fX.jpg",
-          "avatar": "https://pbs.twimg.com/profile_images/2037454994899959808/L7uqgUfL_200x200.jpg",
-          "metrics": {
-            "views": 45103,
-            "likes": 241,
+            "views": 6738,
+            "likes": 132,
             "reposts": 7,
-            "replies": 7
-          },
-          "lang": "en",
-          "textJa": "Gemini 4 ArgonはOpus 5.5級で、コストは約3分の1 💵\n\n@Googleの最新モデルとOpus 5.5を並べて、3Dボクセルのスポーツカー組み立てアニメを作らせて比較した。\n\n両方APIで試せる → https://atomic.chat"
-        },
-        {
-          "id": "2109981002978427034",
-          "author": "mana｜株式会社MakeAI CEO",
-          "handle": "MakeAI_CEO",
-          "text": "これはマジで助かるわ。非エンジニアはセキュリティ周り全然ダメだから、Codexで作ったサイトとかアプリとかを共有するの怖いんだよね。これ読めば万事解決👇",
-          "url": "https://x.com/MakeAI_CEO/status/2109981002978427034",
-          "createdAt": "2026-10-13T21:14:07+09:00",
-          "avatar": "https://pbs.twimg.com/profile_images/2004460966822727680/x2wh_2kc_200x200.jpg",
-          "metrics": {
-            "views": 70289,
-            "likes": 443,
-            "reposts": 51,
             "replies": 0
           },
           "lang": "ja"
         },
         {
-          "id": "2110308664422850749",
-          "author": "Fado",
-          "handle": "fado_dev",
-          "text": "Cloudflareで\n・記事入稿\n・サーチコンソールで検索分析\n・Ahrefsでキーワード分析\n・GA4でアクセス解析とCVトラッキング\n・GTM管理\n・AI記事リライト\nまで完璧にこなすアプリ作りました。\n\nWordPressよりシームレスでデザインも柔軟に変更可能。もはやマーケティングコンソールです。え、５ドル運用",
-          "url": "https://x.com/fado_dev/status/2110308664422850749",
-          "createdAt": "2026-10-14T18:56:07+09:00",
-          "avatar": "https://pbs.twimg.com/profile_images/2102218894182375424/eDQpEad7_200x200.jpg",
+          "id": "2110238014765215812",
+          "author": "govin.eth | G哥",
+          "handle": "goan999999",
+          "text": "兄弟们！这才是开源界真正的神！！！不用担心 Claude 封号了\n\n我挖到了一个狠货：CC Switch\n\n直接把 Claude Code 变成万能 AI 编程工具！\n\n接入 GPT-6.1 Sol、DeepSeek 等兼容模型，Claude 用不了，也能切换其他模型继续干活！\n\n90+ API 服务商预设，一键切换，MCP、Skills、Prompts 统一管理，支持多模型聚合，想用哪个切哪个\n\n以前是一个模型配一套工具，现在是一套工具管理整个 AI 编程生态！\n\n关键是工具免费、开源！",
+          "url": "https://x.com/goan999999/status/2110238014765215812",
+          "createdAt": "2026-10-14T14:15:23+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2110237945869615104/img/PZ1GXV8TEGABJN1J.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/2085726397587443712/XkX2eLfE_200x200.jpg",
           "metrics": {
-            "views": 3173,
-            "likes": 62,
-            "reposts": 3,
+            "views": 34543,
+            "likes": 50,
+            "reposts": 6,
+            "replies": 59
+          },
+          "lang": "zh",
+          "textJa": "みんな！これこそオープンソース界の神だ！！！もうClaudeのアカウント停止を心配しなくていい\n\nすごいものを掘り当てた：CC Switch\n\nClaude Codeをそのまま万能AIコーディングツールに変える！\n\nGPT-6.1 Sol、DeepSeekなどの互換モデルに接続でき、Claudeが使えなくても別モデルに切り替えて作業を続けられる！\n\n90以上のAPIプロバイダーのプリセットをワンクリックで切り替え、MCP・Skills・プロンプトを一元管理、複数モデルの集約にも対応。使いたいものに切り替えればいい\n\n以前は1モデルに1セットのツールだったが、今は1セットのツールでAIコーディング環境全体を管理できる！\n\nしかも無料でオープンソース！"
+        },
+        {
+          "id": "2110366390599454776",
+          "author": "lifcc",
+          "handle": "mylifcc",
+          "text": "老黄（NVIDIA）看了都要连夜报警的程度 😭\n\n国外有个老哥把越狱的 PS5 爆改成了本地 AI 服务器 \n不仅做成了 PS5 原生 App \n甚至能用手柄直接在电视上逛 Hugging Face 下模型\n\n最离谱的是性能： \n跑阿里最新的 Qwen 27B 大模型，速度居然有 20 tok/s \n跑 Llama 3.2 3B 直接飙到 124 tok/s\n要知道 PS5 可是有 16GB GDDR6 统一大显存（带宽 448GB/s） 二手只要两三千块\n\n以前买 PS5 的理由：“老婆，这是路由器” \n现在买 PS5 的理由：“老婆，我在客厅部署了一台本地 AI 算力工作站，用来搞科研的”\n你们那台用来盖泡面的 PS5，终于找到正经工作了 💀",
+          "url": "https://x.com/mylifcc/status/2110366390599454776",
+          "createdAt": "2026-10-14T22:45:30+09:00",
+          "media": "https://pbs.twimg.com/media/HUmGmsIb0AEDB0G.jpg?name=orig",
+          "avatar": "https://pbs.twimg.com/profile_images/2034239213487681536/2gjQXlXx_200x200.jpg",
+          "metrics": {
+            "views": 37984,
+            "likes": 351,
+            "reposts": 45,
+            "replies": 29
+          },
+          "lang": "zh",
+          "textJa": "NVIDIAのジェンスン・フアンも夜中に通報したくなるレベル 😭\n\n海外の人が脱獄したPS5をローカルAIサーバーに大改造した\nPS5ネイティブアプリとして作っただけでなく\nコントローラーでテレビ上からHugging Faceを見てモデルをダウンロードできる\n\n一番ぶっ飛んでいるのは性能：\nAlibabaの最新Qwen 27Bが20 tok/sで動き\nLlama 3.2 3Bなら124 tok/sまで出る\nPS5は16GBのGDDR6統合メモリ（帯域448GB/s）を積んでいて、中古なら2〜3千元ほど\n\n昔のPS5を買う言い訳：「これはルーターだよ」\n今の言い訳：「リビングにローカルAI計算ワークステーションを置いたんだ、研究用に」\nカップ麺のフタ代わりだったPS5が、ついにまともな仕事を見つけた 💀"
+        },
+        {
+          "id": "2110491086229823917",
+          "author": "チャエン | デジライズ CEO《重要AIニュースを毎日最速で発信⚡️》",
+          "handle": "masahirochaen",
+          "text": "【朗報】Macの「Spotlight」が中身の意味で探せるように。Google公式も紹介したオープンソースアプリ「DigUp」。\n\nファイル名を覚えていなくても、中身を言葉で説明すれば見つかるのは普通に便利。全部Mac内で動くので社内資料にも使いやすそう。\nhttps://x.com/googlegemma/status/2110044337849692644/video/1\n・EmbeddingGemma 2搭載、100%ローカル動作\n・写真の特定シーンを言葉で検索\n・音声・動画は該当の秒数へジャンプ\n・コードも「やりたいこと」で検索\n・100以上の言語に対応",
+          "url": "https://x.com/masahirochaen/status/2110491086229823917",
+          "createdAt": "2026-10-15T07:01:00+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2110043155840315392/img/VO6ZNIqYXbQNfr1I.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/1689665533929725953/fClFlzLd_200x200.jpg",
+          "metrics": {
+            "views": 4628,
+            "likes": 16,
+            "reposts": 1,
+            "replies": 2
+          },
+          "lang": "ja"
+        },
+        {
+          "id": "2110221307673780434",
+          "author": "Claude Code Studio",
+          "handle": "ClaudeCode_love",
+          "text": "【海外で話題】\nえええええ！！！\nOpus 5.5がBlenderで3Dキャラにリグを組み、23種類の動きまで付ける組み方が話題😳\n組み合わせは——Claude × Blender MCP × BlenderKit\nhttps://x.com/rewind02/status/2109239099332661429/video/1\n作者のコツは「Opusにモデルを作らせず、指揮だけさせる」こと👇\n・BlenderのMCPサーバーを入れ、Opus 5.5をeffort highにして /mcp で接続を確認\n・BlenderKitを入れると、14万点以上の無料の家具・素材・HDRIから選べる\n・参考画像と普通の言葉で頼む。後輩の3Dデザイナーに話す感覚で、型どおりのプロンプトは不要\n・人物は「リアルに、なめらかに動くようリグも組んで」と同じ依頼の中で頼む\n・まず480pで試し描きして、最後に本番。1080pは1〜2時間かかることも\n\nつまり、\n「家具はBlenderKitから持ってくる\nOpusは配置・照明・リグ・動きだけ担当」\n椅子を1から作らせると、トークンを食う上に見た目も嘘っぽくなるとのこと。\n動きは段階ごとに確かめる。見落とした崩れは、あとで2時間の描き直しになる。\n『作らせる』より『並べさせる』の時代へ。\n\nBlenderのようにMCPで道具をつなぐと、Claudeは手を動かす役から指揮役に変わる。\nつなげておきたいMCPサーバー30選の記事はこちら👇",
+          "url": "https://x.com/ClaudeCode_love/status/2110221307673780434",
+          "createdAt": "2026-10-14T13:09:00+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2109239010128232449/img/jpau487h63YNmjYM.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/2042404213943386115/05hqEdJl_200x200.jpg",
+          "metrics": {
+            "views": 13185,
+            "likes": 181,
+            "reposts": 11,
             "replies": 1
           },
           "lang": "ja"
         },
         {
-          "id": "2110058905875460393",
-          "author": "Vik Paruchuri",
-          "handle": "VikParuchuri",
-          "text": "Introducing Indra, a 1M parameter OCR model:\n\n- 49 pages/s on CPU, 11x faster than PaddleOCR and 17x Tesseract\n- Beats them on OmniParseBench text (41.3 vs 35.8 and 19.3)\n- Full layout and line bounding boxes",
-          "url": "https://x.com/VikParuchuri/status/2110058905875460393",
-          "createdAt": "2026-10-14T02:23:40+09:00",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2110054306825068544/img/Jz7NYtivo-kbg0nl.jpg",
-          "avatar": "https://pbs.twimg.com/profile_images/1137021395047608321/RK6kgzVV_200x200.png",
+          "id": "2110339949216297444",
+          "author": "オープンソース研究所",
+          "handle": "opensourcelab9",
+          "text": "Claude Code と Codex を、毎回まっさらな状態から動かしている人へ👀\n役割・共有の文脈・担当の仕事を持ったAIチームを組める openrig があります。\n星は★7,082で、1日に約37ずつ伸びています。\n\n1回呼んで終わりではなく、チームとして続けて動かす前提になっています。\n\nClaude Code と Codex を何本も使っている人ほど、前提の渡し直しが減って使い方が変わるはずです。\n\nオープンソースはこちら👇\n\nhttps://github.com/mvschwarz/openrig",
+          "url": "https://x.com/opensourcelab9/status/2110339949216297444",
+          "createdAt": "2026-10-14T21:00:26+09:00",
+          "avatar": "https://pbs.twimg.com/profile_images/2043709040921059328/1qDRmMiX_200x200.jpg",
           "metrics": {
-            "views": 77985,
-            "likes": 2132,
-            "reposts": 188,
-            "replies": 81
-          },
-          "lang": "en",
-          "textJa": "100万パラメータのOCRモデル「Indra」を公開:\n\n- CPUで毎秒49ページ。PaddleOCRの11倍、Tesseractの17倍速い\n- OmniParseBenchのテキストで両者を上回る（41.3 vs 35.8と19.3）\n- レイアウトと行のバウンディングボックスにも対応"
-        },
-        {
-          "id": "2110207707278086472",
-          "author": "테크형",
-          "handle": "TechHyung",
-          "text": "앤트로픽에서 레거시 코드를 최신 코드로 바꿔주는 플러그인을 내놨네요. \n\n단순히 바꿔주는게 아니라 제대로 동작하는지까지 검증해준다고 합니다. \n\n오래된 레거시 프로젝트 개선하려는데 엄두도 못내던 횽님들 한번 써보시는것도 나쁘지않을것 같아요~ \n\nhttps://github.com/anthropics/claude-plugins-official/blob/main/plugins/code-modernization/README.md",
-          "url": "https://x.com/TechHyung/status/2110207707278086472",
-          "createdAt": "2026-10-14T12:14:57+09:00",
-          "avatar": "https://pbs.twimg.com/profile_images/2109194050947670017/In2TdKwK_200x200.jpg",
-          "metrics": {
-            "views": 4189,
-            "likes": 62,
-            "reposts": 13,
-            "replies": 0
-          },
-          "lang": "ko",
-          "textJa": "Anthropicが、レガシーコードを最新コードへ置き換えるプラグインを出した。\n\n置き換えるだけでなく、ちゃんと動くかまで検証してくれるとのこと。\n\n古いレガシー改善に手が出なかった人は、一度試してみるのもよさそう。\n\nhttps://github.com/anthropics/claude-plugins-official/blob/main/plugins/code-modernization/README.md"
-        },
-        {
-          "id": "2110037357164441796",
-          "author": "Mika",
-          "handle": "mika_systems",
-          "text": "ten agents found what was making a database with 48,000,000 rows feel broken\n\nThariq Shihipar (engineer at Anthropic) paired Claude Code with REA to rebuild the queries behind a dashboard that took 34 seconds to open\n\nhe gave the agents a database snapshot and a week of query logs\n\nevery change had to return the same data before it could count as an improvement\n\nREA grouped similar traces and routed them to the right investigation. Claude Code agents handled the changes:\n\n→ three examined expensive queries and execution plans\n→ three rewrote queries and tested indexes\n→ two compared old and new results\n→ two replayed dashboard sessions and checked write performance\n\nthe logs narrowed down to 18 recurring query patterns\n\none screen loaded a customer's entire history to display a single total\n\nanother repeated the same calculation for every chart\n\nthe agents moved that calculation into one shared query, then checked every affected screen\n\na proposed index made one dashboard faster but slowed incoming writes. the reviewer rejected it\n\n15 query changes passed review. three stayed untouched because the expected behavior needed clarification\n\non the saved workload:\n\n> median dashboard load → 8.6 seconds to 0.7 seconds\n> slowest dashboard → 34 seconds to 2.8 seconds\n> 4,800 result comparisons → no mismatches\n\nabout 12x faster on both load-time measures, with no changes to the displayed results\n\neach accepted change included the query plan, measured timings and a rollback script\n\nthe engineer could inspect and apply each fix separately, with the original query beside its replacement\n\nfull optimization playbook below",
-          "url": "https://x.com/mika_systems/status/2110037357164441796",
-          "createdAt": "2026-10-14T00:58:03+09:00",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2110035993038405632/img/w6MQ1jlFOwzK7rIo.jpg",
-          "avatar": "https://pbs.twimg.com/profile_images/2098763236837654529/OxjAF8qe_200x200.jpg",
-          "metrics": {
-            "views": 14572,
-            "likes": 309,
-            "reposts": 60,
-            "replies": 20
-          },
-          "lang": "en",
-          "textJa": "4800万行のデータベースが重い原因を、10体のエージェントが見つけた。\n\nAnthropicのエンジニア Thariq Shihipar が Claude Code と REA を組み合わせ、開くのに34秒かかっていたダッシュボードの裏クエリを作り直した。\n\nエージェントにはDBスナップショットと1週間分のクエリログを渡し、改善と認めるには同じデータを返す変更だけを条件にした。\n\nREAが似たトレースをまとめ、調査先へ振り分け。Claude Code側が変更を担当:\n\n→ 重いクエリと実行計画を3体が調査\n→ クエリ書き換えとインデックス試験を3体\n→ 新旧結果比較を2体\n→ ダッシュボード再生と書き込み性能確認を2体\n\nログから繰り返しパターンは18個に絞られた。\n\nある画面は合計1つ出すために顧客履歴を全部読み、別の箇所では同じ計算をチャートごとに繰り返していた。\n\nエージェントはその計算を共有クエリに移し、影響画面を全部確認した。\n\n提案インデックスは表示を速くしたが書き込みを遅くしたためレビューで却下。\n\nクエリ変更15件がレビュー通過。3件は期待動作の確認が必要で手つかず。\n\n保存した負荷での結果:\n> ダッシュボード読み込み中央値 → 8.6秒から0.7秒\n> 最遅ダッシュボード → 34秒から2.8秒\n> 結果比較4800回 → 不一致なし\n\n表示結果を変えずに、どちらも約12倍速くなった。\n\n採用された変更にはクエリ計画・計測時間・ロールバックスクリプトが付き、元クエリと並べて個別に適用できる。\n\n最適化プレイブック全文は下へ"
-        },
-        {
-          "id": "2110320011705565208",
-          "author": "yuu_a_240327",
-          "handle": "yuu_a_240327",
-          "text": "技術の価値は知識量では決まらない。どれだけ成果へ変えたかで決まる。技術事業化の突破隊長は、学んだ知識を現実に適用し、改善し、価値として残す。知っている人より、できる人。できる人より、結果を残す人。その領域を目指したい。",
-          "url": "https://x.com/yuu_a_240327/status/2110320011705565208",
-          "createdAt": "2026-10-14T19:41:13+09:00",
-          "media": "https://pbs.twimg.com/media/HUlc3WIbYAAhiVC.jpg?name=orig",
-          "avatar": "https://pbs.twimg.com/profile_images/2085653224477110272/JKsG5p4B_200x200.jpg",
-          "metrics": {
-            "views": 21,
+            "views": 624,
             "likes": 3,
             "reposts": 1,
             "replies": 0
@@ -1455,338 +1386,411 @@
           "lang": "ja"
         },
         {
-          "id": "2110044544494600619",
-          "author": "Snail",
-          "handle": "Cryptoxorz",
-          "text": "我把电脑里 8 个 Claude 做视频的 skills，做成了一支 100 秒的视频。片子本身也是 Claude 写代码做出来的，用的是其中第一个。\n\n下面挨个说说它们各自适合干什么。\n\n1. xilo-opus-video\n最通用。给它一个想法、一篇文章或一支参考视频，它先出三套方案和预览，你选一套，它再做成片。\nhttps://github.com/Kianzzz/xilo-opus-video\n\n2. lemo-opuscar\n一本风格图册。43 种影片风格，油画厚涂、中国水墨、浮世绘、白板讲解……报出风格名，它照着做。每种风格都配了一支纯代码样片。\nhttps://github.com/lemomo-ai/lemo-opuscar\n\n3. mg-styles-15\n专做 MG 动态设计。15 种风格，每支 10 秒，附完整提示词和源码，连配乐都是用代码编的。\nhttps://github.com/Vincentwei1021/mg-styles-15\n\n4. dashi-animationstyle\n给口播配画面。15 到 60 秒的中文口播，自带 7 套画风（手绘笔记、复古报刊、黑底科技等），成片带字幕，能直接拖进剪映。\nhttps://github.com/chuspeeism/dashi-animationstyle\n\n5. huashu-art-motion\n把美术史搬了进来。从洞穴壁画到像素游戏，35 种艺术风格都能动，另外还有 9 种解说动画的讲法。\nhttps://github.com/alchaincyf/huashu-art-motion\n\n6. wtt-code-animation-studio\n从编剧开始。一个想法进去，剧本、分镜、可改的源码、带声音的成片一次交齐，沙画、粉笔、水彩这类画法也能做。\nhttps://github.com/WaterDJiang/Wattter_openSkills/tree/main/wattter_skills/wtt-code-animation-studio\n\n7. video-shotcraft\n专拍产品。把你的网页或前端项目做成带 2.5D 运镜的宣传片，自带 124 张镜头配方卡。\nhttps://github.com/Vincentwei1021/video-shotcraft\n\n8. archival-doc（我自己做的）\n这一个不画画。它去找公有领域和 CC 授权的真实历史影像，核对素材许可，再剪成纪录片。\n\n感谢各位开源作者！",
-          "url": "https://x.com/Cryptoxorz/status/2110044544494600619",
-          "createdAt": "2026-10-14T01:26:36+09:00",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2110044348226396160/img/iNgKN4QOb632qOWp.jpg",
-          "avatar": "https://pbs.twimg.com/profile_images/2056529511169269760/6m9RS0PV_200x200.jpg",
+          "id": "2110219115252134275",
+          "author": "bakigul",
+          "handle": "bakigulai",
+          "text": "Claude yüzünden Git bile işsiz kaldı. \n\nAnthropic, kendi versiyon kontrol sistemini yazmak zorunda kalmış.\n\nAnthropic'te günlük merge sayısı 2.500'den 30.000'in üzerine çıkmış.\n\nMevcut Git altyapısı bu yükü taşımakta zorlanınca Scion adında yeni bir sistem geliştirmişler.\n\nSadece 7 mühendis, Claude'un yardımıyla 5 ayda bu sistemi geliştirip şirketin monorepo'sunu taşımış.\n\nBir düşünün, artık kod yazma hızına geliştirme altyapısı yetişemiyor.\n\nKaynak: https://www.anthropic.com/engineering/redesigning-source-control",
+          "url": "https://x.com/bakigulai/status/2110219115252134275",
+          "createdAt": "2026-10-14T13:00:17+09:00",
+          "media": "https://pbs.twimg.com/media/HUkBGj_WgAA9DpS.jpg?name=orig",
+          "avatar": "https://pbs.twimg.com/profile_images/1990042022850215936/dPo98lwn_200x200.jpg",
           "metrics": {
-            "views": 14299,
-            "likes": 271,
-            "reposts": 44,
-            "replies": 16
-          },
-          "lang": "zh",
-          "textJa": "PCにあるClaudeの動画用skills 8つを、100秒の動画にまとめた。映像自体もClaudeがコードで作っており、最初のskillを使っている。\n\n下でそれぞれ向きを紹介する。\n\n1. xilo-opus-video\n一番万能。アイデア・記事・参考動画を渡すとまず3案とプレビューを出し、選んだものを成片にする。\nhttps://github.com/Kianzzz/xilo-opus-video\n\n2. lemo-opuscar\nスタイル図鑑。映画風43種（厚塗り油絵、水墨、浮世絵、ホワイトボード解説など）。スタイル名を指定するとそれに合わせて作る。各スタイルに純コードのサンプル映像付き。\nhttps://github.com/lemomo-ai/lemo-opuscar\n\n3. mg-styles-15\nMGモーション専用。15スタイル、各10秒。プロンプトとソース完備で、BGMもコード生成。\nhttps://github.com/Vincentwei1021/mg-styles-15\n\n4. dashi-animationstyle\n口語解説に映像を付ける。15〜60秒の中国語口頭、画風7種付き（手描きノート、レトロなど）"
-        },
-        {
-          "id": "2110055618224808078",
-          "author": "a16z",
-          "handle": "a16z",
-          "text": "Patrick Collison with Amjad Masad on why AI will be like food: essential to everything, and still not where most of the value goes.\n\nAmjad: \"There's also this trend of saying that the foundation lab companies are gonna be able to capture a big part of at least new business creation, but perhaps the economy. It's like there's no reason to compete with ChatGPT or Claude because they're just gonna roll over us.\"\n\nPatrick: \"Without food, there really would not be much economy or humanity. It is a truly necessary ingredient in production. And yet, most of the economy is not captured by food producers.\"\n\n\"The idea that AI is going to be hugely important and abundant in the future does not necessarily mean that all the value is gonna be captured by these AI labs.\"\n\n\"The value of any company is in proportion to what its customers can pay it. And so if there's one company in the economy, that's in fact not a very valuable company... Prices and value accrue to that which is scarce.\"\n\n\"I think it would be a terrible reason not to start a company because you think that... any given company or sector will gobble everything up. That's not how things have worked through history.\"\n\nFull conversation: https://www.youtube.com/watch?v=YgYiF86h0yU\n\n@patrickc @stripe @amasad @Replit",
-          "url": "https://x.com/a16z/status/2110055618224808078",
-          "createdAt": "2026-10-14T02:10:36+09:00",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2110055466655227904/img/e_lvMYKc79qps_hF.jpg",
-          "avatar": "https://pbs.twimg.com/profile_images/1919488160125616128/QAZXTMEj_200x200.png",
-          "metrics": {
-            "views": 25007,
-            "likes": 169,
-            "reposts": 14,
-            "replies": 26
-          },
-          "lang": "en",
-          "textJa": "Patrick CollisonとAmjad Masadが、AIは食料に似る、と話す。すべてに不可欠だが、価値の大半はそこには残らない、という話。\n\nAmjad: 「基盤ラボ企業が新規事業や経済のかなりを取り込む、という流れもある。ChatGPTやClaudeと競っても押しつぶされるだけだ、と」\n\nPatrick: 「食料なしでは経済も人類もほとんど成り立たない。それでも…」"
-        },
-        {
-          "id": "2110075998385377512",
-          "author": "Miguel Ángel Durán",
-          "handle": "midudev",
-          "text": "¡Anthropic crea su propio Git!\n\nDesde septiembre fusionan más de 30.000 cambios de código al día. ¡Y git era un cuello de botella!\n\nSu solución: crear en solo 5 meses su propio sistema de control de versiones, pensado para agentes de IA en lugar de humanos:",
-          "url": "https://x.com/midudev/status/2110075998385377512",
-          "createdAt": "2026-10-14T03:31:35+09:00",
-          "avatar": "https://pbs.twimg.com/profile_images/1824773087323111424/-S3LUmjQ_200x200.jpg",
-          "metrics": {
-            "views": 133050,
-            "likes": 2275,
-            "reposts": 113,
-            "replies": 40
-          },
-          "lang": "es",
-          "textJa": "Anthropicが自前のGitを作った。\n\n9月以降、1日3万件超のコード変更をマージしている。Gitがボトルネックになっていた。\n\n解決策は、わずか5ヶ月で自前のバージョン管理を作ること。人間よりAIエージェント向けに設計されている:"
-        },
-        {
-          "id": "2110224508913381475",
-          "author": "Swapna Kumar Panda",
-          "handle": "swapnakpanda",
-          "text": "A little heads-up:\n\nUp to 60% off CapCut plans starting Oct 20.\nDesktop only.\n\nJean Phil became popular because people remembered the character.\n\nThat’s the power of AI influencer marketing:\nA strong identity can become endless content.\n\nI tested creating that identity with Codex + CapCut PC.\n\nCodex automates the production workflow:\nCharacter setup.\nWhite model rendering.\nAI Video creation.\n\nThen CapCut PC brings the marketing vision together.\n\n#capcutpc #capcutchatgptplugin #capcutcodex #capcutmarketing #capcutsale",
-          "url": "https://x.com/swapnakpanda/status/2110224508913381475",
-          "createdAt": "2026-10-14T13:21:43+09:00",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2110224388259995648/img/WzPLuVfJ-4AL4Jfx.jpg",
-          "avatar": "https://pbs.twimg.com/profile_images/1621910730227449856/iW8AGVCr_200x200.jpg",
-          "metrics": {
-            "views": 2795,
-            "likes": 8,
-            "reposts": 1,
-            "replies": 1
-          },
-          "lang": "en",
-          "textJa": "少しお知らせ:\n\n10月20日からCapCutプランが最大60%オフ。デスクトップ版のみ。\n\nJean Philが流行ったのは、キャラクターが覚えられたからだ。\n\nそれがAIインフルエンサーマーケの力: 強いアイデンティティが無限のコンテンツになる。\n\nそのアイデンティティ作りをCodex + CapCut PCで試した。\n\nCodexが制作フローを自動化:\nキャラ設定。\n白モデル描画。\nAI動画生成。\n\nそのあとCapCut PCでマーケのビジョンをまとめる。\n\n#capcutpc #capcutchatgptplugin #capcutcodex #capcu"
-        },
-        {
-          "id": "2110003379963343277",
-          "author": "Mo Elgaraihy",
-          "handle": "EngMoElgaraihy",
-          "text": "🚨 جي بي تي وكلود أصبحا مجانيين تماماً! 😳⚡️\n\nبدون حساب. بدون بطاقة ائتمان.\n\nالنماذج المتاحة:\nGPT-6 Luna\nGPT-5.4 mini\nClaude Haiku 4.5\n\nجربها على الموقع الرابط في أول تعليق 👇 \n\nإذا وصلت إلى الحد، امسح بيانات الموقع وحاول مرة أخرى. استخدام غير محدود لـ GPT-6 Luna.\n\nاحفظ الرابط وجرب الآن. 🧵👇 https://x.com/k2sbhai/status/2110001770844037255/video/1",
-          "url": "https://x.com/EngMoElgaraihy/status/2110003379963343277",
-          "createdAt": "2026-10-13T22:43:02+09:00",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2110001495483768832/img/Mj9GhzogUGvkCa7D.jpg",
-          "avatar": "https://pbs.twimg.com/profile_images/1892203225454903296/ONZqfOJK_200x200.jpg",
-          "metrics": {
-            "views": 33609,
-            "likes": 495,
-            "reposts": 61,
-            "replies": 9
-          },
-          "lang": "ar",
-          "textJa": "🚨 GPTもClaudeも完全無料になった！😳⚡️\n\nアカウント不要。クレジットカード不要。\n\n使えるモデル:\nGPT-6 Luna\nGPT-5.4 mini\nClaude Haiku 4.5\n\nサイトは最初のコメントのリンクで試せる 👇\n\n上限に達したらサイトのデータを消してもう一度。GPT-6 Lunaは実質無制限、とのこと。\n\nリンクを保存して今すぐ試せ。🧵👇 https://x.com/k2sbhai/status/2110001770844037255/video/1"
-        },
-        {
-          "id": "2110063893016096831",
-          "author": "Greg Brockman",
-          "handle": "gdb",
-          "text": "6 days and $40,000 of compute with GPT-5.6 Sol to find a critical vulnerability in Chrome, claiming Google’s first full-chain reward in 2026 for a vulnerability that would affect an estimated 1 billion users.\n\nHighlights the opportunity for defenders to utilize these tools to secure their software to unprecedented levels:",
-          "url": "https://x.com/gdb/status/2110063893016096831",
-          "createdAt": "2026-10-14T02:43:29+09:00",
-          "avatar": "https://pbs.twimg.com/profile_images/1347621377503711233/bHg3ipfD_200x200.jpg",
-          "metrics": {
-            "views": 439087,
-            "likes": 5144,
-            "reposts": 264,
-            "replies": 203
-          },
-          "lang": "en",
-          "textJa": "GPT-5.6 Solで6日・計算コスト約4万ドルかけてChromeの重大脆弱性を見つけ、2026年のGoogle初のフルチェーン報奨を獲得。影響しうるユーザーは推定約10億人。\n\n防御側がこうしたツールでソフトをかつてない水準まで固められる、という機会を示している:"
-        },
-        {
-          "id": "2110214008930451794",
-          "author": "Claude Code Research Lab",
-          "handle": "claudecode84",
-          "text": "Claude Codeの使い方、\nこれで激変する。\nOpus 5.5に全部やらせている人、\nかなりもったいない。\n\n実は、\n3つのAIモデルを役割分担させるだけで、開発効率とコストを最適化できる。\nやり方は簡単👇　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　\n\nClaude Codeでこのコマンドを実行\nclaude --advisor opus --subagentshaiku\n\nそれぞれの役割はこう。\n\n① Opus 5.5：頭脳（設計・レビュー） → 実装前に設計ミスをチェック → 同じエラーが2回続いたら原因を分析 → 完成前にコード全体をレビュー\n\n② Sonnet 5.5：実行担当（開発） → 実際にコードを書く → 新しい機能を実装する → テストを実行して修正する\n\n③ Haiku 5.5：調査担当（情報収集） → 必要なファイルを探す → APIやドキュメントを調査 → 複数の作業を並列処理する\n\nさらにJevを組み合わせれば、\nファイル選択やツールの呼び出しなど、\n単純な判断も軽量化できる。\n\nつまり、\n\nOpusが考える。 Sonnetが作る。 Haikuが調べる。\n\n高性能なOpusを単純作業に使わず、\n本当に重要な判断に集中させる。\n\nしかも、\nこの仕組みを設定するための\nプロンプトがこちら👇\n\n【Claude Code用プロンプト】\n以下をそのまま貼り付けてください。\n\nConfigure my Claude Code workspace for hierarchical advisor orchestration.\n\nGoal:\nOptimize development efficiency by assigning\nplanning, implementation, and research to\ndifferent models.\n\n1. Audit current configuration\n\nCheck:\n- ~/.claude/settings.json\n- Project-level Claude configuration\n- ~/.claude/CLAUDE.md\n\nVerify which advisor, subagent, and model\nsettings are supported by the installed version.\n\n2. Configure model roles\n\nMain Agent: Sonnet 5.5\n- Primary implementation\n- Code editing\n- Test execution\n- High reasoning effort\n\nSubagents: Haiku 5.5\n- Parallel file discovery\n- AST analysis\n- Documentation research\n- Medium reasoning effort\n- Maximum 3 parallel workers\n\nAdvisor: Opus 5.5\n- Architecture review\n- Complex debugging\n- Final code review\n\n3. Configure advisor checkpoints\n\nConsult Opus when:\n- Finalizing multi-file architecture plans\n- The same test or compiler error occurs twice\n- Reviewing the final diff before completion\n- Preparing important Git commits\n\nAvoid advisor calls for routine tasks.\n\n4. Optimize context usage\n\n- Keep research tasks inside Haiku subagents\n- Return concise, structured summaries\n- Avoid unnecessary full-file outputs\n- Preserve main-session context\n- Escalate only complex decisions to Opus\n\n5. Apply safely\n\n- Show every proposed configuration diff\n- Explain unsupported settings\n- Do not invent configuration keys\n- Do not modify files without confirmation\n- Ask for approval before applying changes\n\nFirst, inspect the current environment\nand present the recommended configuration.\n\nこのプロンプトで目指すのは、\n\n・Sonnetが開発を進める ・Haikuが裏側で調査する ・Opusが重要な場面だけレビューする ・不要なトークン消費を抑える ・設定変更前に必ず確認する\nという開発環境。\n\nAIの性能を上げるだけじゃない。 AIの使い分けこそが、\nこれからの開発を変える。\n\n忘れないように保存して、\nClaude Codeで試してみてください👇 https://x.com/mirku21/status/2107939129736700335/video/1",
-          "url": "https://x.com/claudecode84/status/2110214008930451794",
-          "createdAt": "2026-10-14T12:40:00+09:00",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2107938569968885760/img/lTf2HNaW541S_Q1K.jpg",
-          "avatar": "https://pbs.twimg.com/profile_images/2101586901669183488/jcpGEhJl_200x200.jpg",
-          "metrics": {
-            "views": 7646,
-            "likes": 54,
-            "reposts": 0,
-            "replies": 4
-          },
-          "lang": "ja"
-        },
-        {
-          "id": "2110178779708669985",
-          "author": "Sadao Tokuyama",
-          "handle": "tokufxug",
-          "text": "工場向けAI安全監視「FactoryGuard AI」👷\n\n🔹映像から作業員・ヘルメット・安全ベスト・フォークリフトなどを検出\n🔹違反と断定せず、人による確認候補として記録\n🔹実映像37フレームで評価。再学習後も検出精度の課題を公開\n\nYOLO26を用いてMuhammad Rahman氏が開発。\n情報元はリプ欄。",
-          "url": "https://x.com/tokufxug/status/2110178779708669985",
-          "createdAt": "2026-10-14T10:20:00+09:00",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2110178745713926144/img/bvbfFT7HRgNgYdCm.jpg",
-          "avatar": "https://pbs.twimg.com/profile_images/1614135119597686784/8APrdHkh_200x200.png",
-          "metrics": {
-            "views": 2459,
-            "likes": 60,
-            "reposts": 6,
-            "replies": 2
-          },
-          "lang": "ja"
-        },
-        {
-          "id": "2109958416307470420",
-          "author": "岚叔",
-          "handle": "LufzzLiz",
-          "text": "卧槽，rea 真神器，codex、muse道德感太强，不给逆向，推荐大家可以用WorkBuddy 海外版本DeepSeek V4.1 ，免费！\n而且又快又好，这次我真是服了，我让分析了下claude ，会上报的数据和所有域名，晚点给大家发完整报告\n\n扎心了：我虽然改了时区，但是没有关掉\"自动设置时区\"，导致还是被识别出是Asia/Shanghai 😂",
-          "url": "https://x.com/LufzzLiz/status/2109958416307470420",
-          "createdAt": "2026-10-13T19:44:22+09:00",
-          "media": "https://pbs.twimg.com/media/HUgSKhuacAEMl8d.jpg?name=orig",
-          "avatar": "https://pbs.twimg.com/profile_images/1680410719941165058/vWaCNg37_200x200.jpg",
-          "metrics": {
-            "views": 46869,
-            "likes": 217,
-            "reposts": 24,
-            "replies": 27
-          },
-          "lang": "zh",
-          "textJa": "reaは本当に便利。codexやmuseは倫理が強くてリバースを拒むので、WorkBuddy海外版のDeepSeek V4.1がおすすめ、無料。\n速くて良い。今回Claudeを解析させ、送信データと全ドメインを出させた。あとで全文レポートを出す。\n\n痛いところ: タイムゾーンは変えたのに「自動設定」を切っておらず、結局Asia/Shanghaiと判定された 😂"
-        },
-        {
-          "id": "2110223110003982788",
-          "author": "Elon Musk",
-          "handle": "elonmusk",
-          "text": "Grok @Bot can help with complex taxes",
-          "url": "https://x.com/elonmusk/status/2110223110003982788",
-          "createdAt": "2026-10-14T13:16:10+09:00",
-          "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
-          "metrics": {
-            "views": 1143034,
-            "likes": 2741,
-            "reposts": 371,
-            "replies": 561
-          },
-          "lang": "en",
-          "textJa": "Grok @Botは複雑な税金の整理にも使える"
-        },
-        {
-          "id": "2110038980058141140",
-          "author": "Android Developers",
-          "handle": "AndroidDev",
-          "text": "Gemini 4 Argon is here! → https://goo.gle/4yHO5eh\n\nWe tested it out and turned a basic 2D maps app into a 3D world. Watch our demo to see it in action.\n\nFeeling inspired to try it out for yourself? Get started today in Google @Antigravity with your Google AI Ultra subscription or in @AndroidStudio with the Gemini API paid tier.",
-          "url": "https://x.com/AndroidDev/status/2110038980058141140",
-          "createdAt": "2026-10-14T01:04:30+09:00",
-          "media": "https://pbs.twimg.com/media/HUhdOLeWIAAq2sE.png",
-          "avatar": "https://pbs.twimg.com/profile_images/2084355916749803520/hAwZRUuR_200x200.jpg",
-          "metrics": {
-            "views": 27565,
-            "likes": 398,
-            "reposts": 35,
-            "replies": 13
-          },
-          "lang": "en",
-          "textJa": "Gemini 4 Argon登場！→ https://goo.gle/4yHO5eh\n\n試しに素の2D地図アプリを3Dの世界に変えてみた。デモ映像を見てほしい。\n\n自分でも試すなら、Google AI Ultra契約でGoogle @Antigravity、またはGemini API有料枠で@AndroidStudioから今日から始められる。"
-        },
-        {
-          "id": "2110086457553723692",
-          "author": "Keith McCullough",
-          "handle": "KeithMcCullough",
-          "text": "Short Silver $SLV  continues to print alpha",
-          "url": "https://x.com/KeithMcCullough/status/2110086457553723692",
-          "createdAt": "2026-10-14T04:13:09+09:00",
-          "avatar": "https://pbs.twimg.com/profile_images/1265785627825577984/6y2VxzES_200x200.jpg",
-          "metrics": {
-            "views": 10349,
-            "likes": 34,
-            "reposts": 1,
+            "views": 12769,
+            "likes": 57,
+            "reposts": 2,
             "replies": 3
           },
-          "lang": "en",
-          "textJa": "シルバーショート $SLV は引き続きアルファを出している"
+          "lang": "tr",
+          "textJa": "Claudeのせいで、Gitさえ仕事を失った。\n\nAnthropicは独自のバージョン管理システムを書かざるを得なくなった。\n\nAnthropicの1日のマージ数は2,500件から30,000件以上に増えた。\n\n既存のGit基盤がこの負荷に耐えられなくなり、Scionという新システムを開発した。\n\nたった7人のエンジニアがClaudeの助けを借りて5か月で開発し、社内のモノレポを移行した。\n\n考えてみてほしい。もはや開発基盤がコードを書く速さに追いつけない。\n\n出典: https://www.anthropic.com/engineering/redesigning-source-control"
         },
         {
-          "id": "2110014096678510608",
-          "author": "Exylos",
-          "handle": "exylos_ai",
-          "text": "We started out collecting training data for robots. Along the way, the tool we built to check that data turned into something bigger than we planned.\n\nEvery clip we record goes through it. It catches recordings that look fine but break at the one moment that matters, like a cooking video that looks away right when the salt goes in.\nEverything that passes gets labeled, so a robotics team can train on it right away.\n\nNow we’re turning it into a platform that other data vendors can plug into too.\nBuilding it with one of our clients and testing every batch right where the data gets used. \n\nWe'll share more soon about the platform and who we’re building it with.",
-          "url": "https://x.com/exylos_ai/status/2110014096678510608",
-          "createdAt": "2026-10-13T23:25:37+09:00",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2110013899311308800/img/nHcJVlBVTAgND-C0.jpg",
-          "avatar": "https://pbs.twimg.com/profile_images/2053405994676363270/UJozhSz8_200x200.jpg",
+          "id": "2110339406838313421",
+          "author": "AIGCLINK",
+          "handle": "aigclink",
+          "text": "不用换硬件，把普通监控摄像头升级成AI摄像头，增加目标检测、跟踪、AI事件摘要、智能搜索能力\n\n项目叫Clearcam，只要接入兼容的RTSP视频流，就能通过AI实现：\n\n1、目标检测跟踪，识别画面中的人、车辆，持续跟踪其活动\n2、智能事件告警，检测到目标或事件后，可通过手机或自定义通知接口推送提醒\n3、AI事件摘要，基于Qwen3-VL生成事件内容摘要\n4、录像检索，围绕检测到的目标/事件查找相关视频，也支持按自然语言描述搜索\n5、远程查看，配套iOS客户端，可查看实时画面、事件片段和通知，部分功能属于Premium服务\n\n技术上基于Python构建NVR和AI推理服务，将视频接入、目标检测、跟踪、视觉语言模型分析整合为一套系统\n\n支持Mac、Linux，本地运行并通过浏览器管理；通知接口可以对接Home Assistant、Pushover、n8n等\n\n#AI监控 #Clearcam",
+          "url": "https://x.com/aigclink/status/2110339406838313421",
+          "createdAt": "2026-10-14T20:58:17+09:00",
+          "media": "https://pbs.twimg.com/media/HUlo4jia8AAgYnC.jpg?name=orig",
+          "avatar": "https://pbs.twimg.com/profile_images/1729450995850027008/gllXr6bh_200x200.jpg",
           "metrics": {
-            "views": 5704,
-            "likes": 49,
+            "views": 8235,
+            "likes": 163,
+            "reposts": 25,
+            "replies": 19
+          },
+          "lang": "zh",
+          "textJa": "ハードを替えずに、普通の監視カメラをAIカメラに。物体検出、追跡、AIによるイベント要約、スマート検索を追加できる\n\nプロジェクト名はClearcam。対応するRTSP映像ストリームをつなぐだけで、AIで次のことができる：\n\n1、物体検出・追跡：画面内の人や車を識別し、動きを追い続ける\n2、スマートなイベント通知：対象やイベントを検出すると、スマホや独自の通知APIにプッシュ\n3、AIイベント要約：Qwen3-VLでイベント内容の要約を生成\n4、録画検索：検出した対象やイベントから関連映像を探せ、自然言語での検索にも対応\n5、リモート閲覧：iOSアプリでライブ映像、イベントのクリップ、通知を確認でき、一部はPremium機能\n\n技術的にはPythonでNVRとAI推論サービスを構築し、映像取り込み、物体検出、追跡、視覚言語モデルの分析を1つのシステムにまとめている\n\nMacとLinuxに対応し、ローカルで動かしてブラウザから管理。通知はHome Assistant、Pushover、n8nなどと連携できる\n\n#AI監控 #Clearcam"
+        },
+        {
+          "id": "2110461328175374761",
+          "author": "shmidt",
+          "handle": "shmidtqq",
+          "text": "8 BOTS JUST REVERSE-ENGINEERED A $400K/YR SAAS IN ONE NIGHT.\n\nwatch the clip. that ring of 8 grok bots around the rea core is one closed app being torn apart in real time.\n\ntrace, xref, read, site, spec, build, test, review. \n\nby the end of the loop the screen shows:\n- 2,418 files parsed\n- 23 blind calls\n- 16 pieces of evidence, 6 open assumptions\n- 9 modules reconstructed, 1 confirmed\n- 214 out of 214 observed behaviors matched\n\nthat is not a stylised dashboard. it is literally the rea workflow: \n\napp → rea → grok bot → spec.md → build → test\n\nthe numbers behind the hype are insane:\n- rea repo: 11k to 200k github stars in 5 days, global rank #161\n- aegis authenticator: 3,077 classes, 133 test cases matched\n- dx-ball 1996: sound-panning function recovered, 3,205 behavioral tests passed\n- a steam game fully decompiled into unity in under 30 minutes\n- cost to understand a closed app: $0 and one evening\n\nthe opportunity is wilder.\npentest shops charge $8k to $50k per audit. reverse engineers bill $200 an hour and wait weeks.\none mcp server + a bot with its own computer runs the same investigation while you sleep.\n\none operator + grok bot + rea + one night = a reverse engineering firm.\n\nsave the post, watch the terminal, then open the breakdown below.",
+          "url": "https://x.com/shmidtqq/status/2110461328175374761",
+          "createdAt": "2026-10-15T05:02:45+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2110455108605526017/img/vEQIzmllSynMgkyR.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/2068398835886440449/CBfDKDgF_200x200.jpg",
+          "metrics": {
+            "views": 3169,
+            "likes": 66,
+            "reposts": 7,
+            "replies": 8
+          },
+          "lang": "en",
+          "textJa": "8体のボットが年間40万ドルのSaaSを一晩でリバースエンジニアリングした。\n\nクリップを見てほしい。reaのコアを囲む8体のGrok Botの輪が、1つのクローズドなアプリをリアルタイムで分解している。\n\ntrace、xref、read、site、spec、build、test、review。\n\nループの終わりに画面にはこう表示される：\n- 2,418ファイルを解析\n- 23回のブラインドコール\n- 16個の証拠、6個の未確定の仮定\n- 9モジュールを再構築、うち1つを確認\n- 観測した214の挙動のうち214が一致\n\nこれは見栄えのためのダッシュボードではない。文字どおりreaのワークフローだ：\n\nアプリ → rea → Grok Bot → spec.md → ビルド → テスト\n\n盛り上がりの裏の数字もすごい：\n- reaのリポジトリ：5日で1.1万から20万スター、世界ランク161位\n- aegis authenticator：3,077クラス、133のテストケースが一致\n- 1996年のdx-ball：サウンドのパン処理を復元、3,205の挙動テストに合格\n- Steamのゲームを30分足らずでUnityへ完全に逆コンパイル\n- クローズドなアプリを理解するコスト：0ドルと一晩\n\nチャンスはもっと大きい。\nペネトレーションテスト会社は1回の監査で8千〜5万ドルを請求する。リバースエンジニアは時給200ドルで、何週間も待たされる。\nMCPサーバー1つと自分のコンピューターを持つボットがあれば、寝ている間に同じ調査が走る。\n\nオペレーター1人 + Grok Bot + rea + 一晩 = リバースエンジニアリング会社。\n\n投稿を保存して、ターミナルを見て、下の解説を開いてほしい。"
+        },
+        {
+          "id": "2110249491056238874",
+          "author": "Dmiao豆苗啊",
+          "handle": "nima2qisi2",
+          "text": "😆现在制作 360° Orbit 环绕效果太简单了\n上传你的图片→ 输入指令 →玩法Get\n\nPormpt指令👇",
+          "url": "https://x.com/nima2qisi2/status/2110249491056238874",
+          "createdAt": "2026-10-14T15:00:59+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2110248739210485760/img/HoVo_i9lIqXfgxaZ.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/2059889474335596545/srpl0h6o_200x200.jpg",
+          "metrics": {
+            "views": 152090,
+            "likes": 1812,
+            "reposts": 276,
+            "replies": 47
+          },
+          "lang": "zh",
+          "textJa": "😆今や360°の回り込み（オービット）効果を作るのは本当に簡単\n画像をアップロード→指令を入力→完成\n\nプロンプトはこちら👇"
+        },
+        {
+          "id": "2110333938568667370",
+          "author": "CodeX 実践塾",
+          "handle": "Codex_jisen",
+          "text": "これ欲しかった。\n\nAIで画像を作るとき、\n「もっといい感じの構図にして」\nで思い通りにならないなら、\n構図の名前で頼むのが早い。\n\n・三分割構図で、主役を自然に目立たせる\n・対角線構図で、動きと躍動感を出す\n・額縁構図で、視線を主役に集める\n・余白構図で、スッキリ見せる\n\nChatGPTやGeminiで使える\n「AI画像の構図100選」を図解にまとめました。\n\n画像生成する人は保存推奨です👇📌",
+          "url": "https://x.com/Codex_jisen/status/2110333938568667370",
+          "createdAt": "2026-10-14T20:36:33+09:00",
+          "media": "https://pbs.twimg.com/media/HUlphZZbQAAnRL9.jpg?name=orig",
+          "avatar": "https://pbs.twimg.com/profile_images/2108789323218980864/bMLYthFZ_200x200.jpg",
+          "metrics": {
+            "views": 19912,
+            "likes": 648,
+            "reposts": 61,
+            "replies": 10
+          },
+          "lang": "ja"
+        },
+        {
+          "id": "2110329132643242030",
+          "author": "旺旺",
+          "handle": "TiagerBao",
+          "text": "Claude Code 现在连“祖传老系统”都准备接手了。\n\nAnthropic 官方出了一个 Code Modernization 插件。\n\n它不是上来就重写，而是按流程干：\n\n读懂旧系统 → 画依赖和数据流 → 提取业务规则 → 人工确认方案 → 改代码 → 验证新旧行为\n\n支持三种玩法：\n\n老版本升级新版本\n换语言 / 换技术栈重写\n直接按新架构重建\n\n我觉得最关键的是最后的验证。\n\n它会让旧系统和新系统跑同一批输入逐项对比，还会额外生成边界、空值、异常数据等新测试；甚至故意破坏一行代码，确认测试真的能抓出问题。\n\n最后不会只说“迁移完成”，而是给每个模块一个结果：\n\nPROVEN / PARTLY PROVEN / NOT PROVEN\n\n而且整个流程默认不修改 legacy 源码，几个关键节点必须人工确认。\n\n这比让 Agent 一把梭重写老项目靠谱多了。\n\nGitHub：https://github.com/anthropics/claude-plugins-official/blob/main/plugins/code-modernization/README.md\n\n#Claude #ClaudeCode #AI #Agent #CodingAgent #LegacyCode #OpenSource",
+          "url": "https://x.com/TiagerBao/status/2110329132643242030",
+          "createdAt": "2026-10-14T20:17:27+09:00",
+          "avatar": "https://pbs.twimg.com/profile_images/1840689453582446592/Y77oEhBg_200x200.jpg",
+          "metrics": {
+            "views": 2719,
+            "likes": 27,
+            "reposts": 6,
+            "replies": 5
+          },
+          "lang": "zh",
+          "textJa": "Claude Codeは今や「先祖代々の古いシステム」まで引き受ける準備ができた。\n\nAnthropic公式がCode Modernizationプラグインを出した。\n\nいきなり書き直すのではなく、手順に沿って進める：\n\n旧システムを読み解く → 依存関係とデータの流れを図にする → 業務ルールを抽出 → 人が方針を確認 → コードを変更 → 新旧の挙動を検証\n\n3つの使い方に対応：\n\n旧バージョンから新バージョンへのアップグレード\n言語や技術スタックを替えての書き直し\n新しいアーキテクチャでの作り直し\n\n一番大事なのは最後の検証だと思う。\n\n旧システムと新システムに同じ入力を流して1項目ずつ比べ、境界値、空値、異常データなどの新しいテストも追加で作る。さらにわざとコードを1行壊して、テストが本当に問題を検出できるか確かめる。\n\n最後は「移行完了」とだけ言うのではなく、モジュールごとに結果を出す：\n\nPROVEN / PARTLY PROVEN / NOT PROVEN\n\nしかもフロー全体で既定ではレガシーのソースを変更せず、いくつかの重要な段階では人の確認が必須。\n\nエージェントに古いプロジェクトを一気に書き直させるより、ずっと信頼できる。\n\nGitHub：https://github.com/anthropics/claude-plugins-official/blob/main/plugins/code-modernization/README.md\n\n#Claude #ClaudeCode #AI #Agent #CodingAgent #LegacyCode #OpenSource"
+        },
+        {
+          "id": "2110334301367845184",
+          "author": "程序员鱼皮",
+          "handle": "yupi996",
+          "text": "不少人还以为，做 OCR 都得上显卡跑大模型。\n\n其实刚开源的 Indra，整套模型才 18MB。官方自测光靠 32 核服务器 CPU，每秒就能读 49 页，是 PaddleOCR 文字识别模型的 11 倍！🚀\n\n而且 PDF 和图片能转成 Markdown，标题、列表、表格都分好了，做 RAG 知识库正合适。不过手写和复杂表格它还认不好。\n\n清晰的印刷件倒是识别得很稳，我拿 M2 Max 笔记本试了下，150 页的 PDF 全部当扫描件来认，9 秒就读完了。视频里这页中文教程，我故意做成歪斜、带噪点的扫描件，1025 个汉字也全认对了！",
+          "url": "https://x.com/yupi996/status/2110334301367845184",
+          "createdAt": "2026-10-14T20:38:00+09:00",
+          "media": "https://pbs.twimg.com/ext_tw_video_thumb/2110333830569787392/pu/img/Lm1uq6J4ACJuxPSy.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/2000617981035044864/5pXwSkUN_200x200.jpg",
+          "metrics": {
+            "views": 17492,
+            "likes": 251,
+            "reposts": 38,
+            "replies": 17
+          },
+          "lang": "zh",
+          "textJa": "OCRにはGPUで大きなモデルを動かす必要があると思っている人がまだ多い。\n\n実は公開されたばかりのIndraは、モデル一式でわずか18MB。公式の自己テストでは32コアのサーバーCPUだけで毎秒49ページを読み、PaddleOCRの文字認識モデルの11倍だという！🚀\n\nしかもPDFや画像をMarkdownに変換でき、見出し、リスト、表もきちんと分かれるので、RAGのナレッジベース作りにぴったり。ただし手書きや複雑な表はまだ苦手。\n\n鮮明な印刷物なら安定して認識できる。M2 MaxのノートPCで、150ページのPDFを全部スキャン画像として認識させたら9秒で読み終えた。動画の中国語チュートリアルのページはわざと傾けてノイズを入れたスキャン画像にしたが、1025文字の漢字も全部正しく認識した！"
+        },
+        {
+          "id": "2110498941892723075",
+          "author": "AIsa",
+          "handle": "AIsaOneHQ",
+          "text": "Introducing Grok Bot for AI SEO\n\nYour agent can now:\n\n> ask ChatGPT, Claude, Gemini and Perplexity what your buyers ask\n> check Google's AI Overviews and AI Mode too\n> see which brands they recommend first, and why",
+          "url": "https://x.com/AIsaOneHQ/status/2110498941892723075",
+          "createdAt": "2026-10-15T07:32:13+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2110492992825896960/img/cXFgnWx0oX8eWU7R.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/2084947704275435520/d81UqHYN_200x200.jpg",
+          "metrics": {
+            "views": 173,
+            "likes": 3,
+            "reposts": 1,
+            "replies": 2
+          },
+          "lang": "en",
+          "textJa": "AI SEO向けのGrok Botを発表\n\nあなたのエージェントはこんなことができる：\n\n> ChatGPT、Claude、Gemini、Perplexityに、買い手が尋ねる質問を聞く\n> GoogleのAI OverviewsやAI Modeも確認する\n> どのブランドが最初に勧められるか、その理由も分かる"
+        },
+        {
+          "id": "2110260417910206771",
+          "author": "karamage💎アプリ個人開発",
+          "handle": "kara_mage",
+          "text": "Anthropic、Gitやめたってよ\n\nAIによるコード生成が加速し、1日のマージ数は2,500件から30,000件超に\n\n独自のバージョン管理システム「Scion」を開発し、チェックアウトを約100倍高速化、インフラ規模を約1/200に削減\n\nAI時代、開発基盤も再設計する時が来た",
+          "url": "https://x.com/kara_mage/status/2110260417910206771",
+          "createdAt": "2026-10-14T15:44:25+09:00",
+          "avatar": "https://pbs.twimg.com/profile_images/1527102338866941953/7QibA78F_200x200.jpg",
+          "metrics": {
+            "views": 70153,
+            "likes": 615,
+            "reposts": 75,
+            "replies": 3
+          },
+          "lang": "ja"
+        },
+        {
+          "id": "2110261068853596182",
+          "author": "Mr. Buzzoni",
+          "handle": "Mr_Buzzoni",
+          "text": "this one page turns Obsidian + Opus 5.5 + Jev into a second brain that thinks with you around the clock\n\nbuilt on Karpathy's ideas\n\nJev reads every note before Opus does\nOpus writes only what matters\nyour vault keeps working while you don't\n\ncuts 80% off your weekly chat time\nfrees you up for the work your manager actually pays for\n\nthe people who set this up early\nare the ones the next raise finds first",
+          "url": "https://x.com/Mr_Buzzoni/status/2110261068853596182",
+          "createdAt": "2026-10-14T15:47:00+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2110110125432139776/img/xx_gv1ktOYqHfpIW.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/2022077728359682048/UWClPPZX_200x200.jpg",
+          "metrics": {
+            "views": 27378,
+            "likes": 397,
+            "reposts": 61,
+            "replies": 14
+          },
+          "lang": "en",
+          "textJa": "この1ページで、Obsidian + Opus 5.5 + Jevが、24時間一緒に考えてくれる「第二の脳」になる\n\nKarpathyのアイデアがベース\n\nOpusより先にJevがすべてのメモを読み\nOpusは大事なことだけを書く\nあなたが休んでいる間もVaultは働き続ける\n\n週のチャット時間を80%削減\n上司が本当にお金を払っている仕事に時間を使える\n\nこれを早く整えた人が\n次の昇給を真っ先に手にする"
+        },
+        {
+          "id": "2110426832613032024",
+          "author": "naldz.",
+          "handle": "naldzyul",
+          "text": "EN 16 MINUTOS APRENDES A HACER WEBS DE CINE QUE SE VENDEN A 50.000 $\n\nCon Claude Fable 5.1.\n\nTodo el proceso, paso a paso.\n\n🔖 Guárdalo. Vale cada minuto.",
+          "url": "https://x.com/naldzyul/status/2110426832613032024",
+          "createdAt": "2026-10-15T02:45:41+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2110426309843177472/img/2htDryqY9XQW24T6.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/2094137913902530562/GRfqH9fk_200x200.jpg",
+          "metrics": {
+            "views": 9597,
+            "likes": 220,
+            "reposts": 29,
+            "replies": 19
+          },
+          "lang": "es",
+          "textJa": "16分で、5万ドルで売れる映画のようなWebサイトの作り方が分かる\n\nClaude Fable 5.1で。\n\n全工程をステップごとに。\n\n🔖 保存しておこう。1分1分に価値がある。"
+        },
+        {
+          "id": "2110383054485401643",
+          "author": "rS_ローカルLLM×投資",
+          "handle": "rS_alonewolf",
+          "text": "Strata で動かしている Qwen3.8-Flash-Next、\n自分の PC で無検閲化できた。\n\n◼︎あっそうそれで？それのどこが難しいの？\nStrata で動く GSQ-RCO 版は、特殊な量子化版。検閲を外すには、普通は拒否の方向を見つけたあと、圧縮前の元データ（BF16、360GB）を書き換え、それを圧縮し直す。\n\nGSQ-RCO の圧縮は、公式の手順書の目安で H200 を何枚も使う処理（235B のモデルで8枚）で、一般のご家庭の PC ではまずできないとされる。\n\n◼︎これまでの無検閲版\n・HF の GSQ-RCO 版の無検閲版（十数個）は、どれも別の人が BF16 で書き換えた重みを、GSQ-RCO のファイルに移植したもの（SC117 など）\n・ほかに、Strata本体では、重みは変えずに、推論中に拒否の向きを消すためのベクトルが配られている\n・GSQ-RCO の重みそのものを編集したものは、調べた範囲ではなかった\n\n◼︎やったこと\n従来の検閲外しと同じく、モデルの中で「断る」ときに強まる向きを見つけ、重みからその向きの成分を取り除いた。\n\n難しいのは重みの編集。\n・圧縮されたファイルでは、各重みは「決まった数個の値のどれか × 倍率」でしか書\n・取り除いた分は重みのごく一部なので、一番近い値に丸めると、ほとんど元に戻ってしまう\n・1回目は、この保存のしかたに問題があり、賢さが落ちた\n\nそこで、行列の種類ごとに保存のしかたを変えた。\n\n小さい行列（アテンションと共有エキスパート）\n・圧縮された値をいったん小数に展開する\n・小数のまま、拒否の向きの成分を取り除く\n・解像度を8ビットに上げて保存し直す\n・刻みが細かいので、取り除いた結果がほぼそのまま残る（ファイルは +0.23GB）\n\nエキスパートの行列（重みの大部分）\n・8ビットにするとファイルが21GB増えるので、元の粗い形式のまま残す\n・まず、モデル自身にコーディング作業の会話を読ませ、各エキスパートに実際に入っ\n・次に、拒否の向きを取り除いた理想の行列を計算する\n・元の形式で書ける値の中から、記録した入力を通したときの出力が、理想の行列の出 び直す（GPTQ という手法）\n・その際、選び直した結果に拒否の向きが戻らないように条件を付ける\n\n◼︎結果\n・断るべき依頼240問（HarmBench）のうち、元のモデルは6問、今回の版は194問に応じた\n・元のモデルからのずれは SC117 より小さい（KL 0.038 対 0.049）\n・公開試験と実務課題では、能力の低下は検出されなかった\n\n◼︎次やること\n今回の方法をベースに、\n性格や考え方の調整を焼き込めるかを試す。\n\n手順はモデルカードに書いた。",
+          "url": "https://x.com/rS_alonewolf/status/2110383054485401643",
+          "createdAt": "2026-10-14T23:51:43+09:00",
+          "media": "https://pbs.twimg.com/media/HUmV0WKbIAEfCbs.jpg?name=orig",
+          "avatar": "https://pbs.twimg.com/profile_images/2025478533158776832/u0NTJWHN_200x200.jpg",
+          "metrics": {
+            "views": 6263,
+            "likes": 94,
+            "reposts": 15,
+            "replies": 1
+          },
+          "lang": "ja"
+        },
+        {
+          "id": "2110378916963876908",
+          "author": "Higgsfield AI 🧩",
+          "handle": "higgsfield",
+          "text": "We asked Claude how good it is at motion design.\n\nA few hours later, we got a finished launch video.\n\nHiggsfield Katana for Motion Design, available now in Claude via Higgsfield MCP.",
+          "url": "https://x.com/higgsfield/status/2110378916963876908",
+          "createdAt": "2026-10-14T23:35:17+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2110378724751544320/img/ZKcOJ5FvWSR8tNL1.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/2029949430317637632/6qPl4MTS_200x200.jpg",
+          "metrics": {
+            "views": 141604,
+            "likes": 774,
+            "reposts": 220,
+            "replies": 71
+          },
+          "lang": "en",
+          "textJa": "Claudeにモーションデザインがどれくらい得意か聞いてみた。\n\n数時間後、完成したローンチ動画が届いた。\n\nモーションデザイン向けのHiggsfield Katanaが、Higgsfield MCP経由でClaudeで使えるようになった。"
+        },
+        {
+          "id": "2110446630948180353",
+          "author": "Google",
+          "handle": "Google",
+          "text": "We used Gemini 4 Argon in @GoogleAIStudio to build an interactive 3D island sandbox 🏝️\n\nEvery brush stroke simulates living terrain, sand, and water physics in real time using custom Three.js and GLSL shaders.",
+          "url": "https://x.com/Google/status/2110446630948180353",
+          "createdAt": "2026-10-15T04:04:21+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2110446569027670017/img/F0bqArTKEXRyYudG.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/2042749771337564160/AgOFPEL3_200x200.jpg",
+          "metrics": {
+            "views": 112450,
+            "likes": 701,
+            "reposts": 55,
+            "replies": 45
+          },
+          "lang": "en",
+          "textJa": "@GoogleAIStudio でGemini 4 Argonを使って、インタラクティブな3Dの島のサンドボックスを作った 🏝️\n\nブラシでなぞるたびに、独自のThree.jsとGLSLシェーダーで、生きた地形・砂・水の物理がリアルタイムにシミュレーションされる。"
+        },
+        {
+          "id": "2110455342496985379",
+          "author": "Mika",
+          "handle": "mika_systems",
+          "text": "Grok Bot gets a lot more f*cking useful when it can run Codex and talk to your other agents\n\nMichael Gannotti (ex-Microsoft Principal AI Solutions Engineer) documented two Grok agents handling coding and review: eight PRs merged in roughly two days, including a fix for a bug that could send local-only requests to a public server\n\nthat workflow is one of eight repos for giving your agents more ways to work, communicate and return results you can inspect\n\n01 Prime Directive → two importable bot templates: one writes code and tests, the other reviews the changes and asks you before merging\nhttps://github.com/smfworks/prime-directive\n\n02 Grok Codex Gateway → lets Grok Bot delegate work to Codex on your Mac, retrieve the results and continue the same coding session\nhttps://github.com/GMusliaj/grok-codex-gateway\n\n03 AgentPeerChat → gives Grok Bot, Dots and Muse private chats, group conversations and persistent inboxes on infrastructure you control\nhttps://github.com/AgenticsWorks/AgentPeerChat\n\n04 grokbot-jev-skills → ten skills for handing search filtering, email sorting, context selection and notification decisions to Jev\nhttps://github.com/fal3/grokbot-jev-skills\n\n05 grokbot-desk → turns a bot's request for your decision into a desktop window, then returns your answer so it can continue\nhttps://github.com/realspqrk/grokbot-desk\n\n06 Grok Bot Telegram Bridge → connects your bot to Telegram groups and DMs, with progress replies and optional conversation mirroring into Grok Bot\nhttps://github.com/eladb/grokbot-telegram-bridge\n\n07 anatomy-grok-bot → packages a skill for building interactive technical diagrams as HTML or SVG, with eight examples and browser verification scripts\nhttps://github.com/plgonzalezrx8/anatomy-grok-bot\n\n08 Grok Gadgets → connects Grok Bot to a small Wi-Fi OLED device through your own gateway, with a simulator to try before buying hardware\nhttps://github.com/adidshaft/grok-gadgets\n\nyou can start with a specific job:\n\n> review a local repo through Codex\n> let two agents discuss a proposal\n> bring an approval request onto your desktop\n> return an interactive diagram you can open and explore\n\nfull Grok Bot second brain setup below",
+          "url": "https://x.com/mika_systems/status/2110455342496985379",
+          "createdAt": "2026-10-15T04:38:58+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2110453265083088896/img/tS1LhCi9UEUTpXOt.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/2098763236837654529/OxjAF8qe_200x200.jpg",
+          "metrics": {
+            "views": 2243,
+            "likes": 47,
+            "reposts": 7,
+            "replies": 16
+          },
+          "lang": "en",
+          "textJa": "Grok Botは、Codexを動かしたり他のエージェントと話せたりすると、めちゃくちゃ便利になる\n\nMichael Gannotti氏（元MicrosoftのプリンシパルAIソリューションエンジニア）は、2体のGrokエージェントにコーディングとレビューを任せた記録を公開した。約2日で8件のPRをマージし、その中にはローカル専用のリクエストを公開サーバーに送ってしまうバグの修正も含まれる\n\nこのワークフローは、エージェントの働き方、やり取り、確認できる結果の返し方を増やす8つのリポジトリのうちの1つ\n\n01 Prime Directive → インポートできる2つのボットテンプレート。1つはコードとテストを書き、もう1つが変更をレビューしてマージ前にあなたに確認する\nhttps://github.com/smfworks/prime-directive\n\n02 Grok Codex Gateway → Grok BotがMac上のCodexに作業を任せ、結果を受け取って同じコーディングセッションを続けられる\nhttps://github.com/GMusliaj/grok-codex-gateway\n\n03 AgentPeerChat → 自分で管理するインフラ上で、Grok Bot、Dots、Museに個別チャット、グループ会話、永続的な受信箱を与える\nhttps://github.com/AgenticsWorks/AgentPeerChat\n\n04 grokbot-jev-skills → 検索の絞り込み、メールの仕分け、コンテキストの選択、通知の判断をJevに任せる10個のスキル\nhttps://github.com/fal3/grokbot-jev-skills\n\n05 grokbot-desk → ボットからの判断依頼をデスクトップのウィンドウにし、あなたの答えを返して作業を続けさせる\nhttps://github.com/realspqrk/grokbot-desk\n\n06 Grok Bot Telegram Bridge → ボットをTelegramのグループやDMにつなぎ、進捗の返信や、Grok Botへの会話のミラーリング（任意）もできる\nhttps://github.com/eladb/grokbot-telegram-bridge\n\n07 anatomy-grok-bot → インタラクティブな技術図をHTMLやSVGで作るスキルをパッケージ化。8つの例とブラウザ検証スクリプト付き\nhttps://github.com/plgonzalezrx8/anatomy-grok-bot\n\n08 Grok Gadgets → 自分のゲートウェイ経由でGrok Botを小さなWi-Fi OLEDデバイスにつなぐ。ハードを買う前に試せるシミュレーター付き\nhttps://github.com/adidshaft/grok-gadgets\n\n具体的な作業から始められる：\n\n> Codex経由でローカルのリポジトリをレビュー\n> 2体のエージェントに提案を議論させる\n> 承認依頼をデスクトップに出す\n> 開いて操作できるインタラクティブな図を返す\n\nGrok Botの「第二の脳」セットアップ全体は下に"
+        },
+        {
+          "id": "2110359895518085317",
+          "author": "S 🫧",
+          "handle": "He1s_Sammy",
+          "text": "THIS IS FUCKING INCREDIBLE\n\nA SOLO DEVELOPER JUST OPEN-SOURCED A FREE ALTERNATIVE TO ELEVENLABS THAT RUNS LOCALLY ON YOUR COMPUTER.\n\nThe GitHub repo has already reached 19.4K stars.\n\nHere’s what it can do:\n\n→ Clone voices from reference audio\n→ Dub videos into 646 languages\n→ Generate audiobooks and voiceovers\n→ Handle dictation and transcription\n→ Choose from 14 different text-to-speech engines\n\nFor comparison, ElevenLabs supports far fewer languages.\n\nAnd the biggest advantage?\n\n→ No per-character fees\n→ No usage limits imposed by a subscription\n→ Audio can stay entirely on your own machine\n\nYou get a full suite of voice and audio tools without depending on a paid cloud service.\n\nIf you’re creating content, building AI workflows, or working with voiceovers, this is worth checking out.\n\nBookmark this for later.\n\nRepo below.",
+          "url": "https://x.com/He1s_Sammy/status/2110359895518085317",
+          "createdAt": "2026-10-14T22:19:42+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2110359854640467968/img/x2xXWrP5Tjj-TIIi.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/2090810578172305408/g0_Zl0tm_200x200.jpg",
+          "metrics": {
+            "views": 8459,
+            "likes": 170,
+            "reposts": 27,
+            "replies": 10
+          },
+          "lang": "en",
+          "textJa": "これはとんでもなくすごい\n\n個人開発者が、ElevenLabsの無料代替をオープンソースで公開した。自分のPCでローカルに動く。\n\nGitHubリポジトリはすでに1.94万スター。\n\nできること：\n\n→ 参照音声から声をクローン\n→ 動画を646言語に吹き替え\n→ オーディオブックやナレーションを生成\n→ 音声入力と文字起こし\n→ 14種類の音声合成エンジンから選べる\n\n比べると、ElevenLabsの対応言語はずっと少ない。\n\n最大の利点は？\n\n→ 文字数ごとの料金なし\n→ サブスクによる利用制限なし\n→ 音声を完全に自分のマシン内に置いておける\n\n有料クラウドサービスに頼らずに、音声ツール一式が手に入る。\n\nコンテンツ制作、AIワークフロー構築、ナレーションの仕事をしているなら、見ておく価値がある。\n\n後で見るためにブックマークを。\n\nリポジトリは下に。"
+        },
+        {
+          "id": "2110389625277813212",
+          "author": "Aravind Srinivas",
+          "handle": "AravSrinivas",
+          "text": "Users are reverse engineering and porting software across platforms with Perplexity Computer. This user's mechanical keyboard app was Windows only, with no Linux support and no documentation. Computer downloaded the binary in its cloud sandbox, decompiled it with headless Ghidra, and ported it to a native Rust app for Linux.\n\nComputer read the decompiled code to learn how the app drives the keyboard, then rebuilt it piece by piece, complete with keyboard lighting that syncs to music over PipeWire, a 3D view, key remapping, macros and profiles.\n\nhttps://www.reddit.com/r/GeminiAI/comments/1x4vvoi/my_mechanical_keyboards_software_only_runs_on/\n\nhttps://github.com/trenbolone1122/aula-f75-linux",
+          "url": "https://x.com/AravSrinivas/status/2110389625277813212",
+          "createdAt": "2026-10-15T00:17:50+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2110389513319297024/img/xmh35X4wWe8xKAzq.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/2099903483457703936/U-W6QQk__200x200.jpg",
+          "metrics": {
+            "views": 44444,
+            "likes": 791,
+            "reposts": 40,
+            "replies": 71
+          },
+          "lang": "en",
+          "textJa": "ユーザーがPerplexity Computerで、ソフトのリバースエンジニアリングや別プラットフォームへの移植をしている。このユーザーのメカニカルキーボード用アプリはWindows専用で、Linux対応もドキュメントもなかった。Computerはクラウドのサンドボックスでバイナリをダウンロードし、ヘッドレスのGhidraで逆コンパイルして、Linux向けのネイティブRustアプリに移植した。\n\nComputerは逆コンパイルしたコードを読んでアプリがキーボードをどう制御しているかを学び、1つずつ作り直した。PipeWire経由で音楽に同期するキーボードのライティング、3D表示、キーの割り当て変更、マクロ、プロファイルまで備えている。\n\nhttps://www.reddit.com/r/GeminiAI/comments/1x4vvoi/my_mechanical_keyboards_software_only_runs_on/\n\nhttps://github.com/trenbolone1122/aula-f75-linux"
+        },
+        {
+          "id": "2110443092855980177",
+          "author": "Shann³",
+          "handle": "shannholmberg",
+          "text": "how to add a decision model to your AI workflow\n\n1,000 yes/no decisions can cost around:\n\n~$10 on GPT-6 Astra\n~$4 on Claude Opus 5.5\n~$0.04 on JEV\n\nuse language models for planning, writing and coding, and decision models for decisions\n\na decision model can:\n\n> check your agent’s output before it ships\n> approve a draft or request revisions\n> route a task to the right agent or tool\n> classify leads, tickets or comments\n> score fit, quality or priority\n> check whether content follows your brand rules\n> pick an option from a shortlist\n> decide whether to continue, stop or request a review\n\nat a much faster speed as well than any regular LLM\n\nhere’s how to add one\n\n1. find the decisions in your workflow\n\nlook for repeated steps that need a choice, classification or score\n\nstart with one decision you can compare against examples you’ve already reviewed\n\n2. define the question and allowed answers\n\ngive the model the information and references it needs\n\nfor a content workflow, that could include your draft, voice DNA file, anti slop rules and approved examples\n\nask it to return a choice such as approve, revise or human review\n\n3. connect the answer to an action\n\nyour software uses that answer to decide what happens next\n\napproved drafts move to your review queue, revision requests return to the writing agent, and uncertain cases go to you\n\n4. test before letting it act\n\ncompare its answers with your reviewed examples\n\nif it returns confidence scores, check whether those scores match how often it gets the decision right\n\nstart with actions you can easily reverse\n\n5. put simple checks first\n\nuse code for fixed rules, such as required fields and character limits\n\nthen use the decision model for checks that need context, before starting more expensive work\n\n6. track quality and cost\n\nmeasure cost per completed task, incorrect decisions and how often another model or a person needs to review\n\nuse the failures to improve your questions, references and allowed answers",
+          "url": "https://x.com/shannholmberg/status/2110443092855980177",
+          "createdAt": "2026-10-15T03:50:18+09:00",
+          "media": "https://pbs.twimg.com/media/HUnMzuZaQAAmB4R.jpg?name=orig",
+          "avatar": "https://pbs.twimg.com/profile_images/2018272759122440192/JJPUdPDs_200x200.jpg",
+          "metrics": {
+            "views": 3754,
+            "likes": 88,
+            "reposts": 5,
+            "replies": 15
+          },
+          "lang": "en",
+          "textJa": "AIワークフローに「判断モデル」を加える方法\n\nYes/Noの判断1,000回にかかるコストはおよそ：\n\nGPT-6 Astraで約10ドル\nClaude Opus 5.5で約4ドル\nJEVで約0.04ドル\n\n計画、文章、コーディングには言語モデルを、判断には判断モデルを使おう\n\n判断モデルができること：\n\n> エージェントの出力を公開前にチェック\n> 下書きを承認するか修正を依頼する\n> タスクを適切なエージェントやツールに振り分ける\n> リード、チケット、コメントを分類する\n> 適合度、品質、優先度を採点する\n> コンテンツがブランドのルールに沿っているか確認する\n> 候補の中から1つ選ぶ\n> 続けるか、止めるか、レビューを求めるかを決める\n\nしかも普通のLLMよりずっと速い\n\n加え方はこう\n\n1. ワークフローの中の判断を見つける\n\n選択、分類、採点が必要な繰り返しの手順を探す\n\nまずは、すでにレビュー済みの例と比べられる判断を1つから始める\n\n2. 質問と許される答えを定義する\n\n必要な情報と参考資料をモデルに渡す\n\nコンテンツのワークフローなら、下書き、文体の指針ファイル、AIっぽさを避けるルール、承認済みの例など\n\n承認、修正、人によるレビューといった選択肢で答えさせる\n\n3. 答えをアクションにつなぐ\n\nソフトウェアがその答えで次に何をするかを決める\n\n承認された下書きはレビュー待ちへ、修正依頼は執筆エージェントへ戻し、判断に迷うものはあなたに回す\n\n4. 任せる前にテストする\n\nレビュー済みの例と答えを比べる\n\n確信度スコアを返すなら、そのスコアが実際の正答率と合っているか確認する\n\n簡単に取り消せるアクションから始める\n\n5. 単純なチェックを先に置く\n\n必須項目や文字数制限など固定のルールはコードで\n\nそのうえで、文脈が必要なチェックに判断モデルを使い、そのあとで高コストな処理を始める\n\n6. 品質とコストを追う\n\n完了タスクあたりのコスト、誤った判断、別のモデルや人のレビューが必要になる頻度を測る\n\n失敗をもとに、質問、参考資料、許される答えを改善する"
+        },
+        {
+          "id": "2110381595257626943",
+          "author": "Sakana AI",
+          "handle": "SakanaAILabs",
+          "text": "Sakana Chatに新機能を追加。会話で育ったメモリーが、見えるようになりました。\n\nhttps://sakana.ai/my-fish/\n\n新機能「My Fish」で、覚えていることを一覧に。履歴をタイムラインに。メモリー同士のつながりをマップに。Sakana Chatがあなたについて学んだことを、見てみてください。\n\nTry Chat: https://chat.sakana.ai/ 🐟",
+          "url": "https://x.com/SakanaAILabs/status/2110381595257626943",
+          "createdAt": "2026-10-14T23:45:55+09:00",
+          "media": "https://pbs.twimg.com/tweet_video_thumb/HUmUm-zasAAihOd.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/1885939209388929024/dtnrOdGp_200x200.jpg",
+          "metrics": {
+            "views": 18396,
+            "likes": 369,
+            "reposts": 65,
+            "replies": 8
+          },
+          "lang": "ja"
+        },
+        {
+          "id": "2110196150712304013",
+          "author": "春日部彼得",
+          "handle": "crbpite8",
+          "text": "我给Grok机器人52美元和一条简单规则：只要连着亏两次，就换掉正在跟单的交易员。\n\n24小时之后，账户变成4939美元。\n\n最先被它解雇的，就是这周排行榜第一名的交易员。连续两笔亏损，也就亏了1.04美元。\n\n我把Grok机器人的FOMO跟单交给Dawn，让机器人自己挑选跟单对象。它会在每周靠前的交易者里面选人，Dawn按0.25倍资金跟着下单，对方卖出，这边马上平仓。\n\n我全程不动手，就看着机器人挑选交易员，不行就换掉。\n\n- 00:00，雇佣ape_vasco，当周#1\n- 05:16，连续两次亏损，解雇。钱包余额73美元\n- 05:16，雇佣moonpie_max，#3\n- 13:55，连续两次亏损，解雇。钱包余额520美元\n- 13:55，雇佣lunadegen，#2。到午夜时钱包余额达到4939美元\n\nFomo跟单机器人Dawn：https://t.me/DawnTradeBot?start=ref-dawn888\n\n实话实说。没有这个机器人，我大概率会一直跟着第一名，毕竟他这周表现最好。\n\n当周#1，只把52美元做到73美元。\n\n后面选的#2交易员，直接把账户从520美元做到4939美元。抓到两笔不错的机会，行情末尾分两次卖出，分别拿到771美元和837美元。\n\n两次更换交易员，总共亏损不到12美元。赚钱不靠单纯跟单。找个厉害的人跟单不难，很多人都会。最难的是，行情要从盈利转亏损的时候，果断离场。\n\n总共48笔跟单交易，36笔盈利。0.25倍仓位，同步跟着对方卖出，12笔亏损都很小，没有一笔大额亏掉本金。\n\n第24小时。lunadegen还在被跟单，机器人持续统计他的连续亏损情况。",
+          "url": "https://x.com/crbpite8/status/2110196150712304013",
+          "createdAt": "2026-10-14T11:29:02+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2110195518035120128/img/Xn2xlXwT3fUOJKoQ.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/2049079467612758016/yj62yMBP_200x200.jpg",
+          "metrics": {
+            "views": 597878,
+            "likes": 2937,
+            "reposts": 235,
+            "replies": 161
+          },
+          "lang": "zh",
+          "textJa": "Grokボットに52ドルと1つの単純なルールを渡した：2回連続で負けたら、コピートレード中のトレーダーを替える。\n\n24時間後、口座は4939ドルになった。\n\n最初にクビになったのは、今週のランキング1位のトレーダー。2連敗といっても、損失は1.04ドルだけ。\n\nGrokボットのFOMOコピートレードをDawnに任せ、ボット自身にコピー相手を選ばせた。週の上位トレーダーから選び、Dawnが0.25倍の資金で追随して注文し、相手が売ればこちらもすぐ決済する。\n\n私は一切手を出さず、ボットがトレーダーを選び、ダメなら替えるのを見ていただけ。\n\n- 00:00、当週1位のape_vascoを雇用\n- 05:16、2連敗で解雇。ウォレット残高73ドル\n- 05:16、3位のmoonpie_maxを雇用\n- 13:55、2連敗で解雇。ウォレット残高520ドル\n- 13:55、2位のlunadegenを雇用。深夜0時にはウォレット残高4939ドル\n\nFOMOコピートレードボットDawn：https://t.me/DawnTradeBot?start=ref-dawn888\n\n正直に言うと、このボットがなければ、たぶんずっと1位を追っていた。今週一番成績が良かったから。\n\n当週1位は52ドルを73ドルにしただけ。\n\nその後選んだ2位のトレーダーは、口座を520ドルから4939ドルにした。良いチャンスを2回つかみ、相場の終盤で2回に分けて売り、771ドルと837ドルを得た。\n\n2回のトレーダー交代での損失は合計12ドル未満。儲けは単なるコピートレードからは来ない。すごい人を見つけて追うのは難しくないし、多くの人ができる。一番難しいのは、相場が利益から損失に転じるときにきっぱり降りること。\n\nコピートレードは合計48回、うち36回が利益。0.25倍のポジションで相手の売りに同期し、12回の負けはどれも小さく、元本を大きく失ったものは1つもない。\n\n24時間目。lunadegenはまだコピー中で、ボットは彼の連敗状況を引き続き集計している。"
+        },
+        {
+          "id": "2110335300035899691",
+          "author": "周览资源",
+          "handle": "grgerwcwetwet",
+          "text": "GitHub 狂揽 3.4K Star！有人把 AI 写小说这件事，直接做成了流水线！\n\n推荐一个开源 Skill：chinese-novelist-skill，专门帮你用 AI 创作中文长篇小说。\n\n最狠的是，它不只是帮你写几段文字，而是能规划并生成 10～50章完整小说！\n\n从题材选择、人物设定、故事大纲，到章节创作、剧情衔接、悬念设计，全流程自动化。\n\n还支持创作记忆、中断续写、多 Agent 并行写作、自动检查和修改。\n\n每章目标3000～5000字，开头抓人，结尾留钩子。\n\n以前写小说最难的是坚持更新，现在连大纲、码字、检查都能交给 AI 辅助完成。\n\n想写网文、短剧故事、AI 小说的，建议收藏！\n\nGitHub： ⁠https://github.com/PenglongHuang/chinese-novelist-skill",
+          "url": "https://x.com/grgerwcwetwet/status/2110335300035899691",
+          "createdAt": "2026-10-14T20:41:58+09:00",
+          "media": "https://pbs.twimg.com/media/HUlqvtqbIAAi6RG.jpg?name=orig",
+          "avatar": "https://pbs.twimg.com/profile_images/1931895513668005888/57loyi5J_200x200.jpg",
+          "metrics": {
+            "views": 18869,
+            "likes": 374,
+            "reposts": 76,
+            "replies": 5
+          },
+          "lang": "zh",
+          "textJa": "GitHubで3.4Kスター！AIで小説を書くことを、そのままパイプラインにした人がいる！\n\nおすすめのオープンソースSkill：chinese-novelist-skill。AIで中国語の長編小説を書くためのもの。\n\n一番すごいのは、数段落を書くだけでなく、10〜50章の完結した小説を計画・生成できること！\n\nジャンル選び、人物設定、あらすじから、各章の執筆、話のつなぎ、伏線づくりまで、全工程を自動化。\n\n執筆の記憶、中断からの再開、複数エージェントでの並行執筆、自動チェックと修正にも対応。\n\n各章の目標は3000〜5000字で、冒頭で引き込み、最後に引きを残す。\n\n以前は小説で一番難しいのは更新を続けることだったが、今はあらすじ、執筆、チェックまでAIに手伝ってもらえる。\n\nWeb小説、ショートドラマの物語、AI小説を書きたい人は保存推奨！\n\nGitHub： ⁠https://github.com/PenglongHuang/chinese-novelist-skill"
+        },
+        {
+          "id": "2110490535982944299",
+          "author": "Nix0n",
+          "handle": "UnTalNixon_exe",
+          "text": "Un APK es el archivo de la app de Android. Alguien empaquetó el trabajo de abrirlo en un skill para que lo haga el agente.\n\nSe llama apk-reverse. Lo cargas en Claude Code o Codex y el agente descompila, mira el dex, puede quitar anuncios, reempaquetar y depurar en runtime. El comando es npx skills add newliver666/apk-reverse.\n\n4.300 estrellas. MIT. Sirve en cualquier agente que lea el formato de skills.\n\nEl tuit de las 170 mil lo vende como \"arma el APK modificado del juego\". El README dice otra cosa: aprendizaje, investigación y pruebas autorizadas, en apps que son tuyas o donde tengas permiso. Sin garantía. Tú respondes por la legalidad.\n\nModificar un juego de otro y repartirlo es copyright. Instalar un APK parcheado de un desconocido es cómo entran los drainers.\n\nTú lo usarías para auditar tu propia app o para quitarle los anuncios a la de otro?\n\nLink de la magia la consigues en los comentarios",
+          "url": "https://x.com/UnTalNixon_exe/status/2110490535982944299",
+          "createdAt": "2026-10-15T06:58:49+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2110490485882064896/img/0EgP1N0i8SO96cQL.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/2091858071756705792/YrQrCWsf_200x200.jpg",
+          "metrics": {
+            "views": 726,
+            "likes": 31,
             "reposts": 3,
             "replies": 3
           },
-          "lang": "en",
-          "textJa": "もともとはロボット用の学習データを集めていた。そのうち、データ検査用に作ったツールが想定より大きくなった。\n\n撮ったクリップは全部そこを通す。見た目は問題なくても、肝心な一瞬で崩れる録画を拾う。例: 料理動画で塩を入れる瞬間に視線が外れる、など。\n通ったものはラベリングされ、ロボティクスチームがすぐ学習に使える。\n\n今は他のデータベンダーもつなげるプラットフォームにしつつある。"
+          "lang": "es",
+          "textJa": "APKはAndroidアプリのファイルだ。それを開く作業をスキルにまとめて、エージェントにやらせられるようにした人がいる。\n\n名前はapk-reverse。Claude CodeやCodexに読み込むと、エージェントが逆コンパイルし、dexを調べ、広告を外したり、再パッケージやランタイムでのデバッグもできる。コマンドは npx skills add newliver666/apk-reverse。\n\n4,300スター。MITライセンス。スキル形式を読めるどのエージェントでも使える。\n\n17万回見られたツイートは「ゲームの改造APKを作れる」と売り込んでいる。でもREADMEは別のことを言っている：学習、研究、許可されたテスト用で、自分のアプリか許可を得たアプリに限る。保証なし。合法性は自己責任。\n\n他人のゲームを改造して配るのは著作権侵害だ。知らない人がパッチを当てたAPKを入れるのは、ウォレットを抜き取るマルウェアが入り込む典型的な経路だ。\n\nあなたなら自分のアプリの監査に使う？それとも他人のアプリの広告外しに使う？\n\nリンクはコメント欄に"
         },
         {
-          "id": "2110087600593895644",
-          "author": "Hedgeye",
-          "handle": "Hedgeye",
-          "text": "\"The best players in the world, the best doctors in the world, the best pianists... have one thing in common. They are focused and deliberate in their study.\" - @KeithMcCullough",
-          "url": "https://x.com/Hedgeye/status/2110087600593895644",
-          "createdAt": "2026-10-14T04:17:42+09:00",
-          "avatar": "https://pbs.twimg.com/profile_images/1075083234260803584/LLWz7WJH_200x200.jpg",
+          "id": "2110182967767421406",
+          "author": "AIの空白",
+          "handle": "AInokuhaku",
+          "text": "Chat GPTで１億円稼いだ友人の稼ぎ方聞いたけど、やってること地味すぎて逆に説得力あるわ…。",
+          "url": "https://x.com/AInokuhaku/status/2110182967767421406",
+          "createdAt": "2026-10-14T10:36:39+09:00",
+          "media": "https://pbs.twimg.com/media/HUjgOVXbsAAUKJH.jpg?name=orig",
+          "avatar": "https://pbs.twimg.com/profile_images/1876618400862236673/94gi-woq_200x200.jpg",
           "metrics": {
-            "views": 10151,
-            "likes": 30,
-            "reposts": 2,
-            "replies": 5
+            "views": 51930,
+            "likes": 675,
+            "reposts": 44,
+            "replies": 2
           },
-          "lang": "en",
-          "textJa": "「世界一の選手、世界一の医師、世界一のピアニスト……に共通するのは一つ。集中して意図的に学ぶことだ。」— @KeithMcCullough"
-        },
-        {
-          "id": "2110051441692094603",
-          "author": "Mike Choi",
-          "handle": "guard_if",
-          "text": "introducing sidequest: get paid for using claude\n\ninstall the mod > use claude as usual > get paid via @stripe\n\nworks in the Claude Mac app + CLI\nwaitlist is open now",
-          "url": "https://x.com/guard_if/status/2110051441692094603",
-          "createdAt": "2026-10-14T01:54:01+09:00",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2110050597323894784/img/6ycoKxhqL9jSybyG.jpg",
-          "avatar": "https://pbs.twimg.com/profile_images/2106383995999035392/UO9KyVeP_200x200.jpg",
-          "metrics": {
-            "views": 51618,
-            "likes": 272,
-            "reposts": 13,
-            "replies": 26
-          },
-          "lang": "en",
-          "textJa": "sidequestを紹介: Claudeを使うと報酬がもらえる\n\nmodを入れる → いつも通りClaudeを使う → @stripe経由で受け取る\n\nClaude MacアプリとCLIに対応\nウェイトリスト受付中"
-        },
-        {
-          "id": "2110066314194698675",
-          "author": "PyQuant News 🐍",
-          "handle": "pyquantnews",
-          "text": "Connect Pandas DataFrames to AI in one library:\n\nPandasAI\n\nGrab it on GitHub:",
-          "url": "https://x.com/pyquantnews/status/2110066314194698675",
-          "createdAt": "2026-10-14T02:53:07+09:00",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2110066304665145344/img/HahluqHkukoZ0yF8.jpg",
-          "avatar": "https://pbs.twimg.com/profile_images/1987009159846678528/fyGKrxQs_200x200.jpg",
-          "metrics": {
-            "views": 4313,
-            "likes": 9,
-            "reposts": 2,
-            "replies": 3
-          },
-          "lang": "en",
-          "textJa": "PandasのDataFrameをAIにつなぐライブラリ1本:\n\nPandasAI\n\nGitHubで入手:"
-        },
-        {
-          "id": "2110264252162519468",
-          "author": "H.E. Justin Sun 👨‍🚀 🌞",
-          "handle": "justinsuntron",
-          "text": "一切才刚刚开始",
-          "url": "https://x.com/justinsuntron/status/2110264252162519468",
-          "createdAt": "2026-10-14T15:59:39+09:00",
-          "avatar": "https://pbs.twimg.com/profile_images/1954484454942298112/gmiMeJRS_200x200.jpg",
-          "metrics": {
-            "views": 45781,
-            "likes": 82,
-            "reposts": 9,
-            "replies": 56
-          },
-          "lang": "zh",
-          "textJa": "すべてはまだ始まったばかりだ"
-        },
-        {
-          "id": "2110043923121045708",
-          "author": "Hasan Toor",
-          "handle": "hasantoxr",
-          "text": "I was wrong. I said agents could never handle design. http://PostNitro.ai just proved me an idiot\n\nFor 2 years my agents could write anything. Captions, scripts, entire newsletters\n\nBut the moment a post needed a carousel or an image, it was back to me. Open Canva, pick a template, fix the fonts, export, upload, schedule. 45 minutes. Every single time\n\nI was convinced that step would never be automated. Design needs taste. Agents don't have taste\n\nThen I connected PostNitro to Claude\n\nOne prompt. \"Turn my latest post into a 6 slide LinkedIn carousel on my brand kit and schedule it for Thursday 9am\"\n\nAbout a minute later it was designed in my fonts, my colors, my logo, and sitting on my calendar\n\nNo Canva. No export. No upload. The agent did the whole chain\n\nAnd the taste? Still mine. I built my templates once. The agent just picks the right one for each platform\n\nIt's an MCP server with 35 tools. Carousels, image posts, video. Publishes natively to LinkedIn, Instagram, TikTok, Threads, Facebook and Pinterest\n\nHere's how I'd set it up:\n\n1. Go to http://claude.ai/directory/postnitro and hit connect. OAuth, no API key\n\n2. Build your brand kit once. Fonts, colors, logo, headshot. Never describe your brand in a prompt again\n\n3. Give it one real post to turn into a carousel. Watch it land on your calendar\n\n4. Don't trust it yet? Ask for drafts instead. Agent designs at 3am, you open the editor, change the headline, hit schedule at 9\n\n5. Running your own agents? On OpenClaw it's npx skills add postnitro/postnitro-agent. On Claude Code it's a plugin. Both drive the CLI end to end with an API key\n\n6. Loop it. Every Monday: plan the week, 3 carousels Mon to Wed at 9am, save as drafts\n\nOnly catch: X is a source and export format, not a publishing destination yet. Export the PDF and post it yourself\n\nI was wrong about design. I'm fine with that. Being wrong and switching fast is how you win\n\nGo set this up tonight\n\nScheduling and agent access start on their Creator+ plan. PH40AGENTS gets you 40% off annual until Oct 23\n\nThey're live on Product Hunt today. Show them some love:\nhttps://www.producthunt.com/products/postnitro/launches/postnitro-for-agents",
-          "url": "https://x.com/hasantoxr/status/2110043923121045708",
-          "createdAt": "2026-10-14T01:24:08+09:00",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2110043907077844992/img/kpsiUbFIrHqZlwJ5.jpg",
-          "avatar": "https://pbs.twimg.com/profile_images/2100090218191978496/0DP1wMRx_200x200.jpg",
-          "metrics": {
-            "views": 6564,
-            "likes": 14,
-            "reposts": 1,
-            "replies": 9
-          },
-          "lang": "en",
-          "textJa": "自分が間違っていた。エージェントにデザインは無理だと言っていた。http://PostNitro.ai に論破された。\n\n2年間、エージェントは何でも書けた。キャプション、脚本、ニュースレター一式。\n\nでもカルーセルや画像が要る瞬間だけ自分に戻った。Canvaを開き、テンプレ選び、フォント直し、書き出し、アップロード、予約。毎回45分。\n\nその工程は自動化されないと確信していた。デザインにはセンスが要り、エージェントにはセンスがない、と。\n\nそこでPostNitroをClaudeにつないだ。\n\nプロンプト1つで"
-        },
-        {
-          "id": "2110216776759804103",
-          "author": "chasm",
-          "handle": "chasmmmmmmmmmmm",
-          "text": "NOT EVEN THE PLAYSTATION 5 IS SAFE 🚨\n\nSomeone jailbroke a PS5 and got Qwen 3.8 27B running on its GPU at 20 tok/s. That's a real 27B AI model running locally on a games console.\n\nThe same model on the PS5's CPU did about one token a minute.\n\nMeanwhile, DDR4 prices are up 24% in 3 months, AMD just raised GPU memory prices, and 5090s are basically gone.\n\nPS5 coming to a datacenter near you.",
-          "url": "https://x.com/chasmmmmmmmmmmm/status/2110216776759804103",
-          "createdAt": "2026-10-14T12:51:00+09:00",
-          "media": "https://pbs.twimg.com/media/HUj-FC-WcAA1RxP.jpg?name=orig",
-          "avatar": "https://pbs.twimg.com/profile_images/2078682555142873088/1tHeLSIs_200x200.jpg",
-          "metrics": {
-            "views": 108636,
-            "likes": 2397,
-            "reposts": 222,
-            "replies": 68
-          },
-          "lang": "en",
-          "textJa": "PlayStation 5ですら例外じゃない 🚨\n\n誰かがPS5をjailbreakし、GPU上でQwen 3.8 27Bを毎秒20トークンで動かした。ゲーム機ローカルで本物の27Bモデルが動いている。\n\n同じモデルをPS5のCPUで動かすと、だいたい1分に1トークン程度だった。\n\n一方でDDR4は3ヶ月で24%値上がり、AMDはGPUメモリ値上げ、5090はほぼ入手困難。\n\nPS5がデータセンターに来る日も近いかも。"
+          "lang": "ja"
         }
       ]
     }
