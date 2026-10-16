@@ -667,339 +667,380 @@
       "name": "鳳翼炎輪祓闇大鎧城",
       "handle": "N8jhSzyQoL35422",
       "sample": false,
-      "updatedAt": "2026-10-15T19:16:59+09:00",
+      "updatedAt": "2026-10-16T12:16:13+09:00",
       "posts": [
         {
-          "id": "2110574328156971471",
+          "id": "2110614394551906648",
+          "author": "梭哈.AI",
+          "handle": "SUOHA_AI",
+          "text": "连马斯克都亲自转发认可的 Grok Bot 实战视频 作者 Alex Finn 用 Grok Bot 搭建全自动微型商业帝国的复盘视频，全片仅仅 20 分钟，Stripe 后台直接真金白银入账 $1,100 美金，我已翻译为中文双语版本，分享给大家 在这 20 分钟里，你能完整学会一套真实的 Agentic Income（智能体被动收入） 闭环：",
+          "url": "https://x.com/SUOHA_AI/status/2110614394551906648",
+          "metrics": {
+            "views": 107234,
+            "likes": 1229
+          }
+        },
+        {
+          "id": "2110608860679487757",
+          "author": "劳伦斯",
+          "handle": "LawrenceW_Zen",
+          "text": "用 Claude 指挥你的 Grok Bot 干活！！ 自从开通了 X Subscription Super 之后，Grok Bot 我真的爱不释手。最近又发现一个特别爽的玩法：让 Claude 直接去指挥 Grok Bot。 1、装插件：在 Claude Code 里安装 Cursor 官方插件，一键安装就行 https:// cursor.com/cn/docs/bdk/gu ides/grokbot-agents … 2、建对接 Bot：装好之后，你的",
+          "url": "https://x.com/LawrenceW_Zen/status/2110608860679487757",
+          "metrics": {
+            "views": 75292,
+            "likes": 695
+          }
+        },
+        {
+          "id": "2110245336182874447",
+          "author": "いる科（Cちゃん）",
+          "handle": "iru_cection",
+          "text": "Claude Codeのスキル「imozuru」を公開しました imozuruは、ループエンジニアリングの考え方を応用し、情報探索の研究（Batesのberrypicking、Ellis、Kuhlthau）が示した検索手法を、LLMにそのままやってもらうスキルです！ ガンガンドメイン知識を仕入れられます",
+          "url": "https://x.com/iru_cection/status/2110245336182874447",
+          "metrics": {
+            "views": 56945,
+            "likes": 1229
+          }
+        },
+        {
+          "id": "2110695188729659703",
+          "author": "さ",
+          "handle": "_sagyoai",
+          "text": "喋るだけで漫画作れるやつ、うちもうOSSで出してるから4000円で使い方教えてもいいけど って思ったけど普通にめんどくさいのでやめた なので無料です MITライセンスで無料のclaude codeとcodexが入ってる環境向け漫画生スキルあるよ",
+          "url": "https://x.com/_sagyoai/status/2110695188729659703",
+          "metrics": {
+            "views": 47354,
+            "likes": 1207
+          }
+        },
+        {
+          "id": "2110644606543249704",
+          "author": "松丸 彗吾(keigo matsumaru)",
+          "handle": "k_matsumaru",
+          "text": "これ僕知らなかったから @oikon48 さんに教えてもらったんだけど、ClaudeデスクトップとかのRemote Controlの設定で許可するフォルダ設定しておけば PC側でclaude rcとかやらないでもスマホClaudeアプリから自由にセッション立てられるみたい 知らんかった…便利…",
+          "url": "https://x.com/k_matsumaru/status/2110644606543249704",
+          "metrics": {
+            "views": 113219,
+            "likes": 964
+          }
+        },
+        {
+          "id": "2110768730330550326",
           "author": "StudioYebisu",
           "handle": "studio_yebisu",
-          "text": "情報を深くサーベイすることがある人は、このスキル試してみてほしい。 / 「探す→引用をたどる→原文を集める」を、Claude Codeに任せられるAgentSkills。【imozuru】 / 例えば、 / 「LLMの長期記憶について、arXivの論文から関連研究を芋づる式に調べて」 / と頼む。",
-          "url": "https://x.com/studio_yebisu/status/2110574328156971471",
+          "text": "緊急!!天才注意報!!! 今、オープンウェイトで公開されている中で最強のTTS(文字を声にする)モデル Fish Audio Drama 3。 声のクローンもかなり簡単にできるモデルだ。 先日、私がGoogleColabを使って600万円のGPUをレンタルして使ってたやつなんだけど。 それを【12GB",
+          "url": "https://x.com/studio_yebisu/status/2110768730330550326",
           "metrics": {
-            "views": 10001,
-            "likes": 204
+            "views": 22296,
+            "likes": 456
           }
         },
         {
-          "id": "2110624105171190237",
-          "author": "クロニキ｜Claude Code専門家",
-          "handle": "chroniki_ai",
-          "text": "Claude Codeに「重たく」って送るだけで、物理アニメーションのコードが自動で完成するスキルが公開されていたんです。",
-          "url": "https://x.com/chroniki_ai/status/2110624105171190237",
-          "media": "https://pbs.twimg.com/ext_tw_video_thumb/2110624070232616960/pu/img/LF-Nx7BGQrWTcF0e.jpg",
-          "metrics": {
-            "views": 372,
-            "likes": 5
-          }
-        },
-        {
-          "id": "2110343613616185610",
+          "id": "2110751301042663867",
           "author": "0xMarioNawfal",
           "handle": "RoundtableSpace",
-          "text": "Grok Bot has improved a lot in just a few weeks. / This video covers the latest updates, the best use cases I’ve found, how my setup works, and whether Grok Bot",
-          "url": "https://x.com/RoundtableSpace/status/2110343613616185610",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2110106272645181441/img/2pt46oLqMaqsM7TR.jpg",
+          "text": "Local vs cloud at Tetris. •⁠ ⁠Jev (cloud): 316ms per decision, buried alive, game over •⁠ ⁠Laya (local, open-weights): 43ms per decision, running clean on a 16GB MacBook Air 11x faster and it didn't even need the cloud to get there.",
+          "url": "https://x.com/RoundtableSpace/status/2110751301042663867",
           "metrics": {
-            "views": 44201,
-            "likes": 70
+            "views": 70539,
+            "likes": 236
           }
         },
         {
-          "id": "2110655072845603176",
-          "author": "fleyta",
-          "handle": "fleyta88",
-          "text": "GROK BOT CAN RUN ALL NIGHT. BUT WHAT HAPPENS WHEN 7 AGENTS NEED YOU AT 3 A.M.? / this is where most overnight automation setups fall apart. / a routine wakes up",
-          "url": "https://x.com/fleyta88/status/2110655072845603176",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2110654995888500736/img/xyEFXLIdckz7qjfn.jpg",
-          "metrics": {
-            "views": 746,
-            "likes": 26
-          }
-        },
-        {
-          "id": "2110310642422780309",
-          "author": "Promix",
-          "handle": "Promixyz",
-          "text": "it’s f*cking gold / GPT 6 Astra can become an entire AI engineering system / 15 GitHub repos that give one AI model memory, research, tools, autonomous workers,",
-          "url": "https://x.com/Promixyz/status/2110310642422780309",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2110310345445113857/img/zHEDjqdpSCoX9IZs.jpg",
-          "metrics": {
-            "views": 6761,
-            "likes": 107
-          }
-        },
-        {
-          "id": "2110425375167729718",
-          "author": "shirosignal",
-          "handle": "shirosignal",
-          "text": "SpaceXAI engineer: / “99% of people are still using GrokBot like Google. / The other 1% are running entire companies with self-learning agent swarms. / I run 10",
-          "url": "https://x.com/shirosignal/status/2110425375167729718",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2110397797790883840/img/4TPLA7aPjKxDyANZ.jpg",
-          "metrics": {
-            "views": 22086,
-            "likes": 207
-          }
-        },
-        {
-          "id": "2110656933044609476",
-          "author": "usutaku",
-          "handle": "usutaku_channel",
-          "text": "AIでアニメーションを作る時に使える指示文↓ / ・Kinetic Typography：文字を動かして魅せる映像表現。おしゃれなMVやリリック動画に / ・UI UX animation：ボタンを押す・開くなど、操作に反応する気持ちいい動き / ・Infographic animation：数字やデータを図にして動か",
-          "url": "https://x.com/usutaku_channel/status/2110656933044609476",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2110390655692517376/img/aqOBg_nZpSTMs3MQ.jpg",
-          "metrics": {
-            "views": 3082,
-            "likes": 27
-          }
-        },
-        {
-          "id": "2110672782367596613",
-          "author": "kimura",
-          "handle": "kimura_0314",
-          "text": "Gemini 4 Argon を、いま選べる 3.8 思考モードと 3.6 Flash と並べて比べました。 / 同じ指示を20個、新しいチャットで1回ずつ送って、出てきたものを全部採点しています。",
-          "url": "https://x.com/kimura_0314/status/2110672782367596613",
-          "metrics": {
-            "views": 87,
-            "likes": 2
-          }
-        },
-        {
-          "id": "2110324991594053813",
-          "author": "kiosa",
-          "handle": "thegreatest_sv",
-          "text": "This is getting f*cking useful: Claude can build your app while JEV spots easy jobs that don’t need an expensive AI. / Someone packed that setup into an open-so",
-          "url": "https://x.com/thegreatest_sv/status/2110324991594053813",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2110298163324088320/img/1U5Slcf-gQ90tN3E.jpg",
-          "metrics": {
-            "views": 11153,
-            "likes": 171
-          }
-        },
-        {
-          "id": "2110540622973259791",
+          "id": "2110904282648318210",
           "author": "Sadao Tokuyama",
           "handle": "tokufxug",
-          "text": "ドローン空撮から3DマップとVPSマップ生成 / メッシュ・3D Gaussian Splatting（3DGS）・点群データ（Point Cloud）の3形式で生成 / 地上・空中のデバイス向けに、自己位置推定・ナビゲーション用のVPSマップも作成 / MultiSet AIによる開発。 / 情報元はリプ欄。",
-          "url": "https://x.com/tokufxug/status/2110540622973259791",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2110540586998702080/img/TrKWfYTiM9WjtiWr.jpg",
+          "text": "防犯カメラの映像から飲食店のテーブル稼働状況を可視化 YOLO26xで人物を検知し、手動設定したテーブル区域に対応付け 1.5秒以上の滞留で着席と判定し、テーブルごとの利用時間を計測 空席・利用中の状態、稼働率、滞在時間をダッシュボードに表示 Abdul Ahad Raza氏が開発。 情報元はリプ欄。",
+          "url": "https://x.com/tokufxug/status/2110904282648318210",
           "metrics": {
-            "views": 6433,
-            "likes": 186
+            "views": 2509,
+            "likes": 90
           }
         },
         {
-          "id": "2110584140135591961",
-          "author": "スナガク",
-          "handle": "suna_gaku",
-          "text": "【悲報】Grok Botで、ボットを複数選択してドラッグ＆ドロップでセクション移動しようとしたら、1つずつしか動かせなかった… / でも、複数選択したまま右クリックして移動先のセクションを選べば、まとめて一気に移動できる",
-          "url": "https://x.com/suna_gaku/status/2110584140135591961",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2110581496977506304/img/osaMuVeDwSPlmQFH.jpg",
+          "id": "2110693283265437727",
+          "author": "Gipp",
+          "handle": "gippp69",
+          "text": "claude + REA can rebuild software features without copying a single line of code opus 5.5 reads what REA finds inside a program, then rebuilds the feature in a separate clean-room setup. here's how to do it: 1. run npx rea-agents setup to connect REA to Claude Code 2. pick a",
+          "url": "https://x.com/gippp69/status/2110693283265437727",
           "metrics": {
-            "views": 650,
-            "likes": 5
+            "views": 55335,
+            "likes": 947
           }
         },
         {
-          "id": "2110214008930451794",
-          "author": "Claude Code Research Lab",
-          "handle": "claudecode84",
-          "text": "Claude Codeの使い方、 / これで激変する。 / Opus 5.5に全部やらせている人、 / かなりもったいない。 / 実は、 / 3つのAIモデルを役割分担させるだけで、開発効率とコストを最適化できる。 / やり方は簡単",
-          "url": "https://x.com/claudecode84/status/2110214008930451794",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2107938569968885760/img/lTf2HNaW541S_Q1K.jpg",
-          "metrics": {
-            "views": 85873,
-            "likes": 814
-          }
-        },
-        {
-          "id": "2110618204418830563",
-          "author": "Julian Goldie SEO",
-          "handle": "JulianGoldieSEO",
-          "text": "FREE Grok 4.5 Course : Automate ANYTHING! / Want the SOP? DM me.",
-          "url": "https://x.com/JulianGoldieSEO/status/2110618204418830563",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2110615891968983040/img/AUw9mvixEEK8oz3a.jpg",
-          "metrics": {
-            "views": 1141,
-            "likes": 1
-          }
-        },
-        {
-          "id": "2110553369643245680",
-          "author": "Elon Musk",
-          "handle": "elonmusk",
-          "text": "Grok @Bot",
-          "url": "https://x.com/elonmusk/status/2110553369643245680",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2110181501480714241/img/Yekp0p5IQUjQ3ewL.jpg",
-          "metrics": {
-            "views": 1185107,
-            "likes": 4507
-          }
-        },
-        {
-          "id": "2110326141210730563",
-          "author": "Alba",
-          "handle": "albacnt",
-          "text": "これは狂気だ / GitHubのプロジェクトで、長い動画をソーシャルメディアに投稿する準備が整った短いクリップに変換するもの。 / OpenShortsという名前で、オープンソースだ。 / 一番良いところ？ / → 動画のベストモーメントを見つける / → 縦型クリップを生成 / → 字幕を自動的に追加 / →",
-          "url": "https://x.com/albacnt/status/2110326141210730563",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2110325721277042688/img/GLZALIi7v-GXFM-b.jpg",
-          "metrics": {
-            "views": 54863,
-            "likes": 1363
-          }
-        },
-        {
-          "id": "2110174786148340098",
-          "author": "Daniel San",
-          "handle": "dani_avila7",
-          "text": "Anthropic released code-modernization v1.0.0, a Claude Code plugin for modernizing legacy codebases / Save this post if you have a legacy project worth moderniz",
-          "url": "https://x.com/dani_avila7/status/2110174786148340098",
-          "metrics": {
-            "views": 178998,
-            "likes": 2305
-          }
-        },
-        {
-          "id": "2110382356028686598",
-          "author": "Mnimiy",
-          "handle": "Mnilax",
-          "text": "wow.. / Anthropic and Google now teach Claude Code to design / 15 github repos that turn Opus 5.5 into a full design team: / GIVE CLAUDE TASTE / 01. frontend-de",
-          "url": "https://x.com/Mnilax/status/2110382356028686598",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2110382235383660544/img/hwHS2osI6JngVenO.jpg",
-          "metrics": {
-            "views": 15396,
-            "likes": 205
-          }
-        },
-        {
-          "id": "2110562303724675533",
-          "author": "しょうへい｜デイトラ代表",
-          "handle": "showheyohtaki",
-          "text": "AIへの指示用に、\"LP・Webサイトの演出の名前\" をまとめました。 / ClaudeやCodexでサイトを作るとき、「おしゃれに動かして」だけでは、狙った演出はまず出ない。 / 「ピン留め」「マーキー」「スクロールスナップ」と名前で頼めば、思い通りの演出を再現できます。 / 保存推奨です",
-          "url": "https://x.com/showheyohtaki/status/2110562303724675533",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2110418307526651904/img/IF_hswgDu72_IADB.jpg",
-          "metrics": {
-            "views": 8789,
-            "likes": 180
-          }
-        },
-        {
-          "id": "2110567589579559284",
-          "author": "Codex研究ラボ",
-          "handle": "codexneo4",
-          "text": "Codexから「GPT-6 Pro Web」を / サブエージェントとして大量起動 / できるSkillが登場",
-          "url": "https://x.com/codexneo4/status/2110567589579559284",
-          "media": "https://pbs.twimg.com/media/HUlnrV1bkAAKJxc?format=jpg&name=small",
-          "metrics": {
-            "views": 28566,
-            "likes": 252
-          }
-        },
-        {
-          "id": "2110550262855467336",
-          "author": "Kinopee",
-          "handle": "kinopee_ai",
-          "text": "Grok Bot のメールがプラスエイリアスに対応 / name+support@ のように用途別のアドレスが使えて、どのエイリアス宛てか見分けたり、エイリアスから送ったり、エイリアス宛てだけでルーティンを起動したりできます。 / バックエンド側のアップデートもガンガン続いています。",
-          "url": "https://x.com/kinopee_ai/status/2110550262855467336",
-          "media": "https://pbs.twimg.com/media/HUn9G2SXcAAQsX_?format=png&name=small",
-          "metrics": {
-            "views": 4651,
-            "likes": 56
-          }
-        },
-        {
-          "id": "2109962425512734739",
-          "author": "Sac",
-          "handle": "Saccc_c",
-          "text": "花费16天，我用 Opus 5.5 将小王子的故事制作成了3D剧情游戏 / 结合Tripo+Blender，Opus 5.5 将小王子故事中的每一个星球变成了可探索的3D场景 / 希望大家能支持一手，后续会开源整个游戏，以及详细制作流程 / Welcome to The Little Prince: Across th",
-          "url": "https://x.com/Saccc_c/status/2109962425512734739",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2109941568253927424/img/mZUBc3N5H9TqmjEJ.jpg",
-          "metrics": {
-            "views": 2899744,
-            "likes": 15662
-          }
-        },
-        {
-          "id": "2110274610839388544",
+          "id": "2110646438623650167",
           "author": "にも｜AIによって爆誕",
           "handle": "ai_ai_ailover",
-          "text": "又吉の発想、Claudeで再現したらエッグいアイデアに変わってて最高。",
-          "url": "https://x.com/ai_ai_ailover/status/2110274610839388544",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2110268536795095040/img/9QTRiaZdZz99Dn_w.jpg",
+          "text": "Claude CodeをWikipediaにするってどういうこと？って思って動画も合わせてみたらすごい面白かった。",
+          "url": "https://x.com/ai_ai_ailover/status/2110646438623650167",
           "metrics": {
-            "views": 3832,
-            "likes": 21
+            "views": 1674,
+            "likes": 12
           }
         },
         {
-          "id": "2110324917896163481",
-          "author": "Kshitij Mishra | AI & Tech",
-          "handle": "DAIEvolutionHub",
-          "text": "Sam Altman (CEO of OpenAI): / \"You no longer need to write prompts.\" / In just 38 minutes, he explains how to use ChatGPT at a level that most people can't even",
-          "url": "https://x.com/DAIEvolutionHub/status/2110324917896163481",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2110323653967806464/img/A-mBXLdoinqHF7OS.jpg",
+          "id": "2110741831030095984",
+          "author": "テツメモ｜AI図解×検証｜Newsletter",
+          "handle": "tetumemo",
+          "text": "SpaceXでGrok Botを手掛けているlaurenさんの活用方法が学び深い！ https:// x.com/0xMortyx/statu s/2110418502439866765/video/1 … Grok Botは情報のスカウト（収集役） Kimi K3やClaude Codeなどにレポート作成（まとめ役） これ、シンプルだけど一番Grok Botの楽しさ、便利さを感じられると思う 私も似た設計です 詳細は記事で ↓",
+          "url": "https://x.com/tetumemo/status/2110741831030095984",
           "metrics": {
-            "views": 109161,
-            "likes": 727
+            "views": 5069,
+            "likes": 57
           }
         },
         {
-          "id": "2110363776637694247",
-          "author": "LOOPY",
-          "handle": "VibeEverything",
-          "text": "今、動画から「音」もワンクリックで簡単に抜き取れるよ / AI動画を作っていると、時々変なBGMや / 不要な効果音が強制的に混ざって出てくる時があるよね / そんな時、Metaが公開したSAM Audioを使えば / 複雑な編集ソフトやプラグインなしで / ブラウザ上で不要な音だけをすぐ削除できるよ",
-          "url": "https://x.com/VibeEverything/status/2110363776637694247",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2110363179440365568/img/RLJgNDl2rZjTI_dv.jpg",
+          "id": "2110924237804601724",
+          "author": "AIじいさん",
+          "handle": "ai_sugoi_jisan",
+          "text": "みんな、やっほーじゃ！ 今日はオンラインゲームの日じゃのぉ！ 剣が見つからんかったから おたまと鍋ぶたで参戦じゃっ！ 職業はバーサーカー！気合いは十分じゃ〜！ #オンラインゲームの日 #AIイラスト",
+          "url": "https://x.com/ai_sugoi_jisan/status/2110924237804601724",
           "metrics": {
-            "views": 12999,
-            "likes": 341
+            "views": 127,
+            "likes": 15
           }
         },
         {
-          "id": "2110395624940257629",
-          "author": "Ram Maheshwari",
-          "handle": "rammcodes",
-          "text": "Brooooooooooooo WTF?? ... Now you can easily share your localhost with anyone using this FREE service by Cloudflare. / Simply run one command and you're done.",
-          "url": "https://x.com/rammcodes/status/2110395624940257629",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2110394963007770625/img/KStqZKCS5TYbSE2t.jpg",
+          "id": "2110678036144410967",
+          "author": "AI駆動経営ラボ",
+          "handle": "yoshio_nocode",
+          "text": "AIタスク並列実行基盤で、オーケストレーターを『Dots』と『Grok Bot』から選べるようにしたら最高すぎた 最強のAI Botを司令塔に都度指名できるように↓ ➊アプリにタスクを依頼 ❷選んだ司令塔にWebhook ❸アプリのMCPでタスクを取得・claim ❹GrokbotのクラウドコンピュータやローカルPCのCodex /",
+          "url": "https://x.com/yoshio_nocode/status/2110678036144410967",
           "metrics": {
-            "views": 6871,
-            "likes": 144
+            "views": 6957,
+            "likes": 51
           }
         },
         {
-          "id": "2110565372013511124",
-          "author": "nogu",
-          "handle": "_nogu66",
-          "text": "Claudeデスクトップから、iOSシミュレータ使えるの便利だな / 何気に初めて使ってみた",
-          "url": "https://x.com/_nogu66/status/2110565372013511124",
-          "media": "https://pbs.twimg.com/media/HUo8BKybsAEyJSg?format=jpg&name=small",
+          "id": "2110697299819319741",
+          "author": "周览资源",
+          "handle": "grgerwcwetwet",
+          "text": "GitHub 狂揽 9.7K Star！有人做了个 AI 新闻雷达，直接帮你从全网挖掘高价值信息！ 1、聚合 X、Telegram、Reddit、GitHub、Hacker News、RSS 等多个信息源。 2、AI 自动筛选、评分、去重，把真正值得看的内容留下来。 3、自动生成中英文每日简报，还能补充事件背景和网友讨论。 GitHub：",
+          "url": "https://x.com/grgerwcwetwet/status/2110697299819319741",
           "metrics": {
-            "views": 6717,
-            "likes": 55
+            "views": 48233,
+            "likes": 839
           }
         },
         {
-          "id": "2110308382959931643",
-          "author": "電電猫猫/ Naoki",
-          "handle": "nya3_neko2",
-          "text": "ドパガキIME完成した！！！！…… / やっぱりこれからの時代はIMEでもドーパミン出していかないとね",
-          "url": "https://x.com/nya3_neko2/status/2110308382959931643",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2110308015220133888/img/mK66YPbM55mRJ_ea.jpg",
+          "id": "2110904454564438304",
+          "author": "Polymarket Japan",
+          "handle": "polymarketjapan",
+          "text": "【速報】テスラ、空飛ぶ新型「ロードスター」を発表 実際に空中を飛ぶデモも披露",
+          "url": "https://x.com/polymarketjapan/status/2110904454564438304",
           "metrics": {
-            "views": 400692,
-            "likes": 7151
+            "views": 1273721,
+            "likes": 12425
           }
         },
         {
-          "id": "2110408774737432738",
-          "author": "beamnxw ./",
-          "handle": "beamnxw",
-          "text": "this is pure f*cking treasure / 20 GitHub repos to build your own motion design studio with Opus 5.5 / storyboards. typography. assets. character states. keyfra",
-          "url": "https://x.com/beamnxw/status/2110408774737432738",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2110406118308466688/img/X_XTY27hlzcOf5-i.jpg",
+          "id": "2110611636499153365",
+          "author": "Iron Giant",
+          "handle": "irongiantXBT",
+          "text": "these grok bot guides are free f*cking gold basically playbooks for running a whole bot team i went through all 17 and kept the 6 with real setups you can copy as-is each one shows the exact bots, schedules and approval rules the authors run 1. grok bot 101 - matt palmer > his",
+          "url": "https://x.com/irongiantXBT/status/2110611636499153365",
           "metrics": {
-            "views": 21891,
-            "likes": 437
+            "views": 24336,
+            "likes": 256
+          }
+        },
+        {
+          "id": "2110921983194222900",
+          "author": "チャエン | デジライズ CEO《重要AIニュースを毎日最速で発信》",
+          "handle": "masahirochaen",
+          "text": "【新機能】ChatGPTの音声がGPT-Live-1.1に更新。日本語を含む6言語に新しい声が入り、発音も自然になった。 「確認しています」で待たされる場面も減ったとのこと。音声モードで英会話の練習をしている人は試してみると良さそう。APIの解放が楽しみ。",
+          "url": "https://x.com/masahirochaen/status/2110921983194222900",
+          "metrics": {
+            "views": 4405,
+            "likes": 24
+          }
+        },
+        {
+          "id": "2110796346198467008",
+          "author": "Michael | AI + Agents",
+          "handle": "Michael_Fenech_",
+          "text": "If you use Grok Bot every day, I’d run this audit once a month. It finds work you’ve already done that could save you starting from scratch next time. Copy this into your Chief of Staff: REUSABLE WORK AUDIT Review the work we’ve completed over the last 30 days using the",
+          "url": "https://x.com/Michael_Fenech_/status/2110796346198467008",
+          "metrics": {
+            "views": 24161,
+            "likes": 239
+          }
+        },
+        {
+          "id": "2110646238484001215",
+          "author": "洛克船长",
+          "handle": "slashui",
+          "text": "电路板设计领域的 Cursor来了！ 连设计电路板，都要变成普通人可以做的事情了吗？ 你只需要用人话描述想做什么，AI 就能帮你： 制定硬件方案、选择电子元器件 绘制电路原理图、生成 PCB 初版布局 自动检查电路错误并尝试修复 生成生产文件 Gerber、物料清单，甚至固件代码框架",
+          "url": "https://x.com/slashui/status/2110646238484001215",
+          "metrics": {
+            "views": 29348,
+            "likes": 608
+          }
+        },
+        {
+          "id": "2110767153762681091",
+          "author": "区块链行情研究",
+          "handle": "qkl2058",
+          "text": "我只给 Claude 200 美元，让它自己交易。10 小时后，它跑到了 3000 美元 昨晚我干了件挺疯的事： 直接把 Claude 放开，让它接管我的电脑，拿着 200 美元去 Polymarket 上自主交易。 我只留了一句话： “给你 200 刀，你自己想办法赚钱。” 然后我就去睡了。 醒来打开电脑，发现这 10",
+          "url": "https://x.com/qkl2058/status/2110767153762681091",
+          "metrics": {
+            "views": 1830,
+            "likes": 3
+          }
+        },
+        {
+          "id": "2110687947423088920",
+          "author": "Rimsha Bhardwaj",
+          "handle": "heyrimsha",
+          "text": "GitHub has officially gone insane. You can now build an entire AI content factory without hiring a single person. 10 ridiculously powerful repos: 1. OpenCreator Give Codex a creator workspace to write scripts, generate images, create voiceovers, translate videos, and edit",
+          "url": "https://x.com/heyrimsha/status/2110687947423088920",
+          "metrics": {
+            "views": 33881,
+            "likes": 669
+          }
+        },
+        {
+          "id": "2110804233570451852",
+          "author": "루샨 lucian",
+          "handle": "lucian__03",
+          "text": "ついに！！お待ちいただいていたLucian UX/UI Promptの大規模アップデートです！ 100%無料...アニメーションUX/UIを200個新たに追加しました！ （もちろん全編オープンソースです。） 既存の200個からなんと… --> 合計400個になりました！",
+          "url": "https://x.com/lucian__03/status/2110804233570451852",
+          "metrics": {
+            "views": 10121,
+            "likes": 235
+          }
+        },
+        {
+          "id": "2110603581493858509",
+          "author": "GitTrend",
+          "handle": "GitTrend0x",
+          "text": "今日爆款 Jev 应用分享 全网玩家把 Jev 玩成了下一代「200ms 点下一格的浏览器手 + 开源本地决策核 + 技能路由闸 + 监督神经 + 超快浏览器 Agent」： browser-use/jev-ultrafast（ https:// github.com/browser-use/je v-ultrafast …） 动态索引动作空间 + Jev 选操作/元素，小模型只打字。Flights 7.1 秒级别。",
+          "url": "https://x.com/GitTrend0x/status/2110603581493858509",
+          "metrics": {
+            "views": 10203,
+            "likes": 153
+          }
+        },
+        {
+          "id": "2110851435223285909",
+          "author": "Alex Finn",
+          "handle": "AlexFinn",
+          "text": "This week I had my Grok Bot build and maintain a microbusiness that has made me $1,800 autonomously Today I'm giving you that same power Announcing my Side Hustle CEO Grok Bot template You add this bot to your Grok Bot and it will interview you, build, and launch a",
+          "url": "https://x.com/AlexFinn/status/2110851435223285909",
+          "metrics": {
+            "views": 92388,
+            "likes": 1141
+          }
+        },
+        {
+          "id": "2110609259268657513",
+          "author": "爱吃折耳根的Ace",
+          "handle": "_zheergen",
+          "text": "卧槽！有人把 48 套 TradingView 量化交易策略直接开源了！ 趋势跟踪、动量交易、均值回归，连多品种自动预警和策略回测都安排好了。 这个开源项目叫 pinescript-strategies。 作者整理了 74 个 Pine Script 文件，包含 48 套交易策略、19 个技术指标和 7 套多品种预警系统，支持 Pine Script",
+          "url": "https://x.com/_zheergen/status/2110609259268657513",
+          "metrics": {
+            "views": 29610,
+            "likes": 329
+          }
+        },
+        {
+          "id": "2110505177245777955",
+          "author": "CodeX 実践塾",
+          "handle": "Codex_jisen",
+          "text": "これ欲しかった。 AIで動画を作るとき、 「もっと迫力のある動画にして」 でイメージが伝わらないなら、 カメラワークの名前で頼むのが早い。 ・ドリーインで、被写体に迫る ・オービットで、被写体の周りを回る ・ラックフォーカスで、視線を誘導 ・ウィップパンで、スピード感を出す",
+          "url": "https://x.com/Codex_jisen/status/2110505177245777955",
+          "metrics": {
+            "views": 35116,
+            "likes": 957
+          }
+        },
+        {
+          "id": "2110751391899644101",
+          "author": "Google",
+          "handle": "Google",
+          "text": "With Gemini 4 Argon, your research has new ways to tell its story We used Nano Banana, Veo, and Argon to turn a dense academic PDF into a full-color, animated storybook in the @GeminiApp .",
+          "url": "https://x.com/Google/status/2110751391899644101",
+          "metrics": {
+            "views": 375554,
+            "likes": 2719
+          }
+        },
+        {
+          "id": "2110883428610490594",
+          "author": "Julian Goldie SEO",
+          "handle": "JulianGoldieSEO",
+          "text": "Turn 1 idea into a working app while you do other things. My Hermes Kanban 2.0 does the work: → You type one idea → AI writes the plan → You approve it → AI agents build and check it → Your app lands in a gallery No endless copy and paste. Want the SOP? DM me.",
+          "url": "https://x.com/JulianGoldieSEO/status/2110883428610490594",
+          "metrics": {
+            "views": 1276,
+            "likes": 3
+          }
+        },
+        {
+          "id": "2110630754837471651",
+          "author": "Codex研究ラボ",
+          "handle": "codexneo4",
+          "text": "【衝撃】 Claude CodeがCodexの Computer Useを自由に使えるwww",
+          "url": "https://x.com/codexneo4/status/2110630754837471651",
+          "metrics": {
+            "views": 35211,
+            "likes": 283
+          }
+        },
+        {
+          "id": "2110642060894048528",
+          "author": "José Siles | AI | Data",
+          "handle": "josesilesdata",
+          "text": "中国人、OCRをぶち抜いた： 1か月で120万ダウンロード BaiduがUnlimited-OCRを公開したばかり。 無料、オープンウェイト、MITライセンス。 何ができる？ ドキュメント、写真、スキャン、PDF全体を入力すると、クリーンで構造化されたテキストとして返してくれる。",
+          "url": "https://x.com/josesilesdata/status/2110642060894048528",
+          "metrics": {
+            "views": 73612,
+            "likes": 1505
+          }
+        },
+        {
+          "id": "2110763835175153885",
+          "author": "StudioYebisu",
+          "handle": "studio_yebisu",
+          "text": "アツ!!最強クラスの画像生成モデルFlux3がオープンウェイで公開（無料公開） Fluxは画像生成AI四天王の一角。実写系にとんでも無く強いモデルで、ほぼ写真のような画像が生成可能。 Base5.8Bなので、8GB VRAMのGPUでも全然動かせる!! 最近の画像生成モデルは軽い！速い！高画質！",
+          "url": "https://x.com/studio_yebisu/status/2110763835175153885",
+          "metrics": {
+            "views": 11560,
+            "likes": 212
+          }
+        },
+        {
+          "id": "2110725001070379518",
+          "author": "distort",
+          "handle": "distortgeekin",
+          "text": "SpaceXAI pays engineers $750K-$1.2M to run teams of Grok Bots Then it put how they do it into 17 free guides I read all 17. Only 3 are worth your time: S → Multiple Teams, Engineering, PMs A → 101, Work, Support, Mobile App Dev B → Templates, Marketing, Performance",
+          "url": "https://x.com/distortgeekin/status/2110725001070379518",
+          "metrics": {
+            "views": 19573,
+            "likes": 185
+          }
+        },
+        {
+          "id": "2110807890433077642",
+          "author": "あきらパパ【生成AI活用エンジニア&３児のパパ】",
+          "handle": "akira_papa_IT",
+          "text": "【Gemini 3.8 Flash TTSで、自分の声の日本語AIナレーションを作る手順をまとめました】 7分ほどの動画で、Gemini 3.8 Flash TTSを使って、自分の声で日本語ナレーションを作るまでの流れを実際の手順どおりにご紹介しています 最初に録音したのは次の2本です。 ・ふだんどおり自然に話した声",
+          "url": "https://x.com/akira_papa_IT/status/2110807890433077642",
+          "metrics": {
+            "views": 825,
+            "likes": 16
+          }
+        },
+        {
+          "id": "2110884914283606469",
+          "author": "雨哥向前冲",
+          "handle": "xiangxiang103",
+          "text": "成了！我把 Grok Bot 直接接进了 Cursor、Codex 和 Claude Code，三家都已支持、都实测过了！ 刚在 Cursor 里直接说了一句「让 Grok Bot 拉一下我今天的推文数据」，32 条推文的浏览、点赞、转发、回复、收藏直接回到对话里。Cursor、Codex、Claude Code 三家我都测过，现在全都能用。 Grok Bot",
+          "url": "https://x.com/xiangxiang103/status/2110884914283606469",
+          "metrics": {
+            "views": 3538,
+            "likes": 28
           }
         }
       ]
@@ -1304,526 +1345,282 @@
       "name": "Cloud",
       "handle": "cloud8wq",
       "sample": false,
-      "updatedAt": "2026-10-16T08:36:15+09:00",
+      "updatedAt": "2026-10-16T12:11:47+09:00",
       "posts": [
         {
-          "id": "2110688037487128835",
-          "author": "yuulia ✟",
-          "handle": "yuliaisc",
-          "text": "🚨 10 REPOS DE GITHUB QUE DEBERÍAN SER ILEGALES\n\n(están destruyendo +50.000 millones de dólares en ingresos a grandes empresas)\n\nGUÁRDALO.\n\n1. yt-dlp\nDescarga cualquier vídeo de YouTube, X, TikTok, Instagram y muchas otras plataformas.\n\nYouTube Premium cobra 14 $ al mes por hacer menos que esto. Es 100 % gratuito.\n\nRepo → http://github.com/yt-dlp/yt-dlp\n\n2. Ollama\n\nEjecuta modelos de IA de nivel GPT-4 directamente en tu portátil. Sin costes de API.\n\nMuchos desarrolladores gastan 500 $ al mes en OpenAI para tareas que Ollama puede hacer sin conexión por 0 $.\n\nRepo → http://github.com/ollama/ollama\n\n3. Fooocus\n\nGeneración de imágenes con calidad similar a Midjourney usando tu propia GPU. \n\nMidjourney cuesta 30 $ al mes.\nFooocus permite generaciones ilimitadas de forma gratuita.\n\nRepo → http://github.com/lllyasviel/Fooocus\n\n4. Whisper\n\nEl modelo de transcripción de OpenAI, liberado como código abierto.\n\nOtter cobra 20 $ al mes por algo que Whisper hace gratis y en 99 idiomas.\n\nRepo → http://github.com/openai/whisper\n\n5. Plausible Analytics\n\nLa alternativa de código abierto y centrada en la privacidad a Google Analytics.\n\nGoogle Analytics 360 cuesta hasta 150.000 $ al año para empresas.\n\nPlausible, alojado por ti mismo, cuesta 0 $.\n\nRepo → http://github.com/plausible/analytics\n\n6. AppFlowy\n\nEl Notion de código abierto. Notion cobra 20 $ por usuario al mes para equipos. \n\nAppFlowy permite usuarios ilimitados en tu propio servidor de forma gratuita.\n\nRepo → http://github.com/AppFlowy-IO/AppFlowy\n\n7. Penpot\n\nLa alternativa open source a Figma. Figma cobra 45 $ al mes por editor.\n\nPenpot ofrece prácticamente la misma experiencia, autoalojada y gratis para siempre.\n\nRepo → http://github.com/penpot/penpot\n\n8. n8n\n\nEl Zapier de código abierto. Zapier Pro puede costar hasta 600 $ al mes para automatizaciones complejas.\n\nn8n, autoalojado, permite automatizaciones ilimitadas por 0 $.\n\nRepo → http://github.com/n8n-io/n8n\n\n9. http://Cal.com\n\nLa alternativa open source a Calendly. Calendly Teams cuesta 16 $ por usuario al mes.\n\nhttp://Cal.com es gratuito para particulares y de código abierto para equipos.\n\nRepo → http://github.com/calcom/cal.com\n\n10. Bitwarden\n\nLa alternativa de código abierto a 1Password.\n\nMuchos gestores de contraseñas cobran unos 8 $ por usuario al mes.\n\nBitwarden ofrece una versión gratuita muy completa y es de código abierto.\n\nRepo → http://github.com/bitwarden/server\n\nEstos repos están destruyendo silenciosamente 50.000 millones de dólares en ingresos a grandes empresas cada año.\n\nNinguno de ellos es ilegal.\n\nGuarda este hilo.\n\nCompártelo con esa persona que sigue pagando por herramientas que llevan años teniendo alternativas gratuitas.\n\n100 % gratis. 100 % código abierto.",
-          "url": "https://x.com/yuliaisc/status/2110688037487128835",
-          "createdAt": "2026-10-15T20:03:37+09:00",
-          "media": "https://pbs.twimg.com/media/HUqrdiSXwAAntb3.jpg?name=orig",
-          "avatar": "https://pbs.twimg.com/profile_images/2074618246779604992/BVcCMrwO_200x200.jpg",
+          "id": "2110710206476808663",
+          "author": "liam.",
+          "handle": "liambraus",
+          "text": "CHINAがまさに100ページのPDFを一気に飲み込むOCRのコードを公開した\n\nその名もUnlimited OCR、GitHubで無料公開中だ。\n\nパラメータはわずか3b。ローカルで動作する。\n\n他のOCRツールはドキュメントをページごとに分割して途中で迷子になるが、これは途切れなく連続してすべてを読み取る。\n\n→",
+          "url": "https://x.com/liambraus/status/2110710206476808663",
           "metrics": {
-            "views": 191472,
-            "likes": 2234,
-            "reposts": 286,
-            "replies": 43
-          },
-          "lang": "es",
-          "textJa": "「違法にすべきレベル」のGitHubリポジトリ10選（大企業の売上を年500億ドル以上奪っている、と主張）。\n\n1. yt-dlp: YouTube・X・TikTok・Instagramなどの動画をダウンロード。YouTube Premiumは月14ドルだが、これは完全無料。 http://github.com/yt-dlp/yt-dlp\n2. Ollama: GPT-4級のAIモデルをノートPCで直接動かせる。API料金ゼロ。 http://github.com/ollama/ollama\n3. Fooocus: 自分のGPUでMidjourney並みの画像生成。Midjourneyは月30ドル、こちらは無制限で無料。 http://github.com/lllyasviel/Fooocus\n4. Whisper: OpenAIの文字起こしモデルのオープンソース版。Otterは月20ドル、Whisperは無料で99言語対応。 http://github.com/openai/whisper\n5. Plausible Analytics: プライバシー重視のGoogleアナリティクス代替。セルフホストなら0ドル。 http://github.com/plausible/analytics\n6. AppFlowy: オープンソース版Notion。自前サーバーならユーザー無制限で無料。 http://github.com/AppFlowy-IO/AppFlowy\n7. Penpot: オープンソースのFigma代替。セルフホストでずっと無料。 http://github.com/penpot/penpot\n8. n8n: オープンソース版Zapier。セルフホストなら自動化し放題で0ドル。 http://github.com/n8n-io/n8n\n9. http://Cal.com: オープンソースのCalendly代替。個人は無料。 http://github.com/calcom/cal.com\n10. Bitwarden: オープンソースの1Password代替。無料版がかなり充実。 http://github.com/bitwarden/server\n\nどれも違法ではない。まだ有料ツールにお金を払い続けている人に共有してほしい。100%無料、100%オープンソース。"
+            "views": 6281,
+            "likes": 160
+          }
         },
         {
-          "id": "2110695188729659703",
-          "author": "さ🥺",
-          "handle": "_sagyoai",
-          "text": "喋るだけで漫画作れるやつ、うちもうOSSで出してるから4000円で使い方教えてもいいけど\nって思ったけど普通にめんどくさいのでやめた\nなので無料です\n\nMITライセンスで無料のclaude codeとcodexが入ってる環境向け漫画生スキルあるよ\nhttps://github.com/sa-san10/rimochan-nyamuru-manga-forge",
-          "url": "https://x.com/_sagyoai/status/2110695188729659703",
-          "createdAt": "2026-10-15T20:32:02+09:00",
-          "avatar": "https://pbs.twimg.com/profile_images/1911587677561815040/EgWXKkoa_200x200.jpg",
+          "id": "2110728002040365306",
+          "author": "carpe",
+          "handle": "ftcarpe",
+          "text": "17 ソーシャルメディア向けスキル in Claude!\n\n100% 無料でオープンソース。\n\n✓ あなたの3-5つのテキストであなたの声を学習\n✓ 投稿ごとに6つのフック\n✓ 一度に24-40のコンテンツアイデア\n✓ カルーセル、インフォグラフィック、YouTubeのサムネイル\n✓ リール用のスクリプト",
+          "url": "https://x.com/ftcarpe/status/2110728002040365306",
           "metrics": {
-            "views": 31838,
-            "likes": 908,
-            "reposts": 83,
-            "replies": 8
-          },
-          "lang": "ja"
+            "views": 7702,
+            "likes": 145
+          }
         },
         {
-          "id": "2110866210573386065",
-          "author": "ClaudeDevs",
-          "handle": "ClaudeDevs",
-          "text": "Code Review is now generally available for Claude Team and Enterprise plans. \n\nReviews are now faster, catch more of the bugs that matter, and admins can pick from Quick, Standard, or Deep review levels for each repo.",
-          "url": "https://x.com/ClaudeDevs/status/2110866210573386065",
-          "createdAt": "2026-10-16T07:51:37+09:00",
-          "media": "https://pbs.twimg.com/media/HUtNPoja4AAs_9b.jpg?name=orig",
-          "avatar": "https://pbs.twimg.com/profile_images/2044472418815893504/xf14RxM8_200x200.png",
-          "metrics": {
-            "views": 57153,
-            "likes": 955,
-            "reposts": 46,
-            "replies": 53
-          },
-          "lang": "en",
-          "textJa": "Code ReviewがClaudeのTeam／Enterpriseプランで正式提供（GA）に。レビューがより速くなり、重要なバグをより多く見つけられるようになった。管理者はリポジトリごとにQuick・Standard・Deepの3段階からレビューの深さを選べる。"
-        },
-        {
-          "id": "2110708127674810421",
-          "author": "angel",
-          "handle": "angeldot_",
-          "text": "ESTO ES UNA LOCURA\n\nAndrej Karpathy (ex-OpenAI y ex-Tesla) acaba de publicar un prompt para que Opus 5.5 complete tus tareas de forma automatizada.\n\nPásaselo a Opus 5.5 y luego me cuentas.\n\nY si quieres exprimir Claude al máximo, en este artículo tienes la guía completa.\n\nGuárdate este post, te va a servir 👇",
-          "url": "https://x.com/angeldot_/status/2110708127674810421",
-          "createdAt": "2026-10-15T21:23:27+09:00",
-          "media": "https://pbs.twimg.com/media/HUq92qBXIAAWDL9.jpg?name=orig",
-          "avatar": "https://pbs.twimg.com/profile_images/2075917252306571264/whuKX6wm_200x200.jpg",
-          "metrics": {
-            "views": 93000,
-            "likes": 877,
-            "reposts": 113,
-            "replies": 21
-          },
-          "lang": "es",
-          "textJa": "これはヤバい。Andrej Karpathy（元OpenAI・元Tesla）が、Opus 5.5にタスクを自動でこなさせるプロンプトを公開した。Opus 5.5に渡して試してみて。Claudeを使い倒したいなら、この記事に完全ガイドがある。保存推奨。"
-        },
-        {
-          "id": "2110681709578514767",
-          "author": "Stefan Friedman",
-          "handle": "SteticIA",
-          "text": "Absolutamente recomiendo usar Cache Control en Claude Code\n\nProbablemente uno de los Mods que te ahorrará la mayor cantidad de tokens y ayudará a mantener tus sesiones activas por mucho más tiempo\n\nAñade esta barra para la caché de 5 minutos de Claude y envía notificaciones para ayudar a mantener la caché activa\n\nComando de instalación:\nnpx claude-code-templates@latest --mod observability/prompt-cache-control",
-          "url": "https://x.com/SteticIA/status/2110681709578514767",
-          "createdAt": "2026-10-15T19:38:28+09:00",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2110681635796484096/img/B6qQFpRT8ZigiRe-.jpg",
-          "avatar": "https://pbs.twimg.com/profile_images/2074578940090335232/xgwxQsrZ_200x200.jpg",
-          "metrics": {
-            "views": 20559,
-            "likes": 271,
-            "reposts": 20,
-            "replies": 16
-          },
-          "lang": "es",
-          "textJa": "Claude Codeでは「Cache Control」の利用を強くおすすめする。トークンを最も節約でき、セッションを長く保てるModのひとつ。Claudeの5分間プロンプトキャッシュの残り時間をステータスバーに表示し、キャッシュを切らさないよう通知も出してくれる。\n\nインストール:\nnpx claude-code-templates@latest --mod observability/prompt-cache-control"
-        },
-        {
-          "id": "2110699165051453771",
-          "author": "陈成",
-          "handle": "chenchengpro",
-          "text": "我写了个代码编辑器，叫 Mayoi。\n\n现在大家的工作方式变了，已经很少手动改文件。\n\n所以，每天大部分需要用到 editor 的场景是：\n1. 看 diff\n2. review agent 写的代码\n3. 打开几个文件确认一下\n3. 开个终端，起下一个 agent\n\nVS Code 和 Cursor 是为以前那种写法造的。Cursor 装完快 1 GB，一大堆功能我从来不用。\n\n所以我给现在的写法做了一个。\n\n- 所有改动在一个 diff 里看，行内或左右对照，在行号旁直接 stage 或 revert\n- 终端用的是 Ghostty 的内核，放底部面板或单开一个 tab 都行，⌘V 能把截图直接贴给 Claude Code\n- 所有仓库开在一个窗口里，后台项目的 agent 一响铃，它的 tab 就会亮\n- 快速打开、全局搜索、Markdown 预览、Vim 模式、Remote SSH\n\n内置 Qoder、Claude 和 Matrix 等主题。Matrix 那款有代码雨。\n\n够小：\n- 应用 24 MB，Cursor 970 MB\n- 内存约 180 MB，Cursor 约 1.3 GB，都是此刻我电脑上开着的数字\n- 10 万行的文件，打开约 20 ms\n\nGo 写的，基于 MyGo，GPU 直接画原生 UI，没有 Electron，没有 webview。\n\nMIT 开源，试试 👇",
-          "url": "https://x.com/chenchengpro/status/2110699165051453771",
-          "createdAt": "2026-10-15T20:47:50+09:00",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2110698817758875648/img/CKbfdHrD3e9im5om.jpg",
-          "avatar": "https://pbs.twimg.com/profile_images/1988508365274968065/t6BOO_uc_200x200.jpg",
-          "metrics": {
-            "views": 10137,
-            "likes": 102,
-            "reposts": 7,
-            "replies": 18
-          },
-          "lang": "zh",
-          "textJa": "コードエディタ「Mayoi」を作った。いまは手でファイルを直すことはほとんどなく、エディタを使う場面は主に、diffを見る、エージェントが書いたコードをレビューする、いくつかファイルを開いて確認する、ターミナルを開いて次のエージェントを起動する、の4つ。VS CodeやCursorは昔の書き方向けで、Cursorはインストールすると1GB近くあり、使わない機能だらけ。\n\nそこで今の書き方向けに作った。全変更を1つのdiffで（インライン／左右比較）見て、行番号の横から直接stage・revertできる。ターミナルはGhosttyのエンジンで、⌘Vでスクショを直接Claude Codeに貼れる。全リポジトリを1ウィンドウで開け、裏のエージェントが通知すると該当タブが光る。クイックオープン、全体検索、Markdownプレビュー、Vimモード、Remote SSHも対応。\n\nアプリは24MB（Cursorは970MB）、メモリ約180MB（Cursorは約1.3GB）、10万行のファイルも約20msで開く。Go製でMyGoベース、GPUでネイティブUIを描画し、ElectronもWebViewも使わない。MITライセンスのオープンソース。"
-        },
-        {
-          "id": "2110859261618323592",
-          "author": "StudioYebisu",
-          "handle": "studio_yebisu",
-          "text": "AIオタク君向けに最高のOSSをPerplexityが公開。\nAI AgentとかユーザーごとにLinuxの実行環境を分けられるっていう公開基盤。\n\n「AIに実際の作業を任せる環境を作る」用途では、かなり便利そうでゴザ。\n\nAIごとのLinux作業部屋をAPIで用意し、その中でプログラムを動かして、終了・保存・再開まで管理する。\nコードを実行するサービスの開発者向け。\n\n「VM作成→コマンド実行→結果回収」\nそれぞれ、別のサンドボックス環境を構築していろいろできるっていう。\n\n例えば「このデータを集計して」と頼む仕組みに組み込むなら、こういう流れ。\n1. アプリがSPACEに作業環境の作成を依頼する。\n2. 隔離環境の中で、Agentがコードを実行する。\n3. 実行結果やエラーを受け取り、必要なら修正して再実行する。\n4. 必要な成果を回収し、環境を残す・休止する・削除する。\n便利なのは、作業場所の分離と、その後の管理をまとめて扱えるところ。\n\n一方、導入はサーバー基盤を組むくらいの準備が必要です。公式のローカル導入手順はLinux x86_64＋KVMを前提に、特権コンテナを扱えるDockerやKind／Kubernetesを使います。\n\nつまり、最初に言った通り、AIオタク君向けってこと。",
-          "url": "https://x.com/studio_yebisu/status/2110859261618323592",
-          "createdAt": "2026-10-16T07:24:00+09:00",
-          "avatar": "https://pbs.twimg.com/profile_images/2095218586046652416/pyuFtKH0_200x200.jpg",
-          "metrics": {
-            "views": 1676,
-            "likes": 30,
-            "reposts": 1,
-            "replies": 1
-          },
-          "lang": "ja"
-        },
-        {
-          "id": "2110579872661909787",
-          "author": "Taku🤖🧠",
-          "handle": "taku_sid",
-          "text": "ほら、言ったじゃん\njevが画像対応したら革命起きるって！！\nしかも予想以上でBBOXも対応してるのかよ！！\n\n神じゃん\nhttps://x.com/taku_sid/status/2100850139938394389",
-          "url": "https://x.com/taku_sid/status/2110579872661909787",
-          "createdAt": "2026-10-15T12:53:48+09:00",
-          "avatar": "https://pbs.twimg.com/profile_images/2041312533299318784/GurjfR5o_200x200.jpg",
-          "metrics": {
-            "views": 52960,
-            "likes": 631,
-            "reposts": 40,
-            "replies": 2
-          },
-          "lang": "ja"
-        },
-        {
-          "id": "2110662025202503942",
-          "author": "あやみ｜マーケティング",
-          "handle": "ayami_marketing",
-          "text": "マーケやってる人、みんなGrok Botに課金したほうがいい説ある。\n\nAPI費用かけずに、1日1,000件までX投稿を取得できるから\n・ユーザーの口コミ情報の分析を自動化できる\n・競合のキャンペーン情報などの動きを定期で監視\n・トレンドをいち早く察知して、マーケ施策を立案\n\n↑みたいなこと大量に出来る",
-          "url": "https://x.com/ayami_marketing/status/2110662025202503942",
-          "createdAt": "2026-10-15T18:20:15+09:00",
-          "avatar": "https://pbs.twimg.com/profile_images/1731250656588320768/cRTczn2G_200x200.jpg",
-          "metrics": {
-            "views": 37291,
-            "likes": 279,
-            "reposts": 19,
-            "replies": 0
-          },
-          "lang": "ja"
-        },
-        {
-          "id": "2110856789235519549",
-          "author": "atomic.chat",
-          "handle": "atomic_chat_hq",
-          "text": "Run Ternary Bonsai 2 locally in Atomic Chat 🪴\n\n@PrismML shrank Qwen3.5 7x so the 9B goes from 17.9 GB to just 2.42 GB and it keeps up or outperforms the original model on benchmarks\n\nRun AI models locally -> https://atomic.chat",
-          "url": "https://x.com/atomic_chat_hq/status/2110856789235519549",
-          "createdAt": "2026-10-16T07:14:11+09:00",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2110837342802001920/img/V3HCwAcztkHWP7kZ.jpg",
-          "avatar": "https://pbs.twimg.com/profile_images/2037454994899959808/L7uqgUfL_200x200.jpg",
-          "metrics": {
-            "views": 4375,
-            "likes": 121,
-            "reposts": 14,
-            "replies": 2
-          },
-          "lang": "en",
-          "textJa": "Ternary Bonsai 2をAtomic Chatでローカル実行できる。@PrismMLがQwen3.5を7分の1に圧縮し、9Bモデルが17.9GBからわずか2.42GBに。それでもベンチマークでは元モデルと同等以上の成績だという。\n\nAIモデルをローカルで動かす → https://atomic.chat"
-        },
-        {
-          "id": "2110557405801308357",
-          "author": "T",
-          "handle": "tkvtk",
-          "text": "AnthropicのエンジニアによるみんなAIの使い方下手だねと言う話",
-          "url": "https://x.com/tkvtk/status/2110557405801308357",
-          "createdAt": "2026-10-15T11:24:32+09:00",
-          "avatar": "https://pbs.twimg.com/profile_images/1854327205901537280/S7hIoDO9_200x200.jpg",
-          "metrics": {
-            "views": 476130,
-            "likes": 1583,
-            "reposts": 81,
-            "replies": 8
-          },
-          "lang": "ja"
-        },
-        {
-          "id": "2110659610659139819",
-          "author": "小林 - デザイナー",
-          "handle": "pulpxstyle",
-          "text": "AIと制作していると、言葉だけではどうしても認識を合わせにくいことがある。特にアニメーションやモーションは動きを見せた方が伝えやすい。\n\nなので、動きの見本をビジュアルで確認できるサイトを用意しようと思っていたら、すでに良いサイトがあったので使わせてもらいます。\n\nこういうの便利だよね",
-          "url": "https://x.com/pulpxstyle/status/2110659610659139819",
-          "createdAt": "2026-10-15T18:10:39+09:00",
-          "avatar": "https://pbs.twimg.com/profile_images/2058839458188038144/IFpTbmuP_200x200.jpg",
-          "metrics": {
-            "views": 14986,
-            "likes": 110,
-            "reposts": 2,
-            "replies": 1
-          },
-          "lang": "ja"
-        },
-        {
-          "id": "2110778993435967981",
-          "author": "チャエン | デジライズ CEO《重要AIニュースを毎日最速で発信⚡️》",
+          "id": "2110770244101054598",
+          "author": "チャエン | デジライズ CEO《重要AIニュースを毎日最速で発信》",
           "handle": "masahirochaen",
-          "text": "Claude Codeがアップデートされて、よく使う環境をスター付きで固定できるのが一番嬉しい。UI UX良くなった。",
-          "url": "https://x.com/masahirochaen/status/2110778993435967981",
-          "createdAt": "2026-10-16T02:05:03+09:00",
-          "media": "https://pbs.twimg.com/media/HUr-MN5bUAECsyv.jpg?name=orig",
-          "avatar": "https://pbs.twimg.com/profile_images/1689665533929725953/fClFlzLd_200x200.jpg",
+          "text": "【速報】BytePlusが「OmniHuman 2.0」を公開。音声1本から、話す人物の動画を最大5分ワンカットで作れるように。\n\nこれいいな、、早速試してみたい。Youtubeやセミナー動画の完全自動化ももうすぐか。",
+          "url": "https://x.com/masahirochaen/status/2110770244101054598",
           "metrics": {
-            "views": 8194,
-            "likes": 41,
-            "reposts": 1,
-            "replies": 0
-          },
-          "lang": "ja"
+            "views": 8473,
+            "likes": 46
+          }
         },
         {
-          "id": "2110673774257549499",
-          "author": "محيا",
-          "handle": "TechBit_M",
-          "text": "مدير تنزيل اسمه Plexo\n\nيجمع لك أكثر من اتصال إنترنت عشان يسرّع تحميل الملفات \n\nمثلاً عندك واي فاي سرعته 50 ميجابت، ونت جوالك عبر USB سرعته 30 ميجابت، Plexo يستفيد من الشبكتين لتحميل أجزاء مختلفة من الملف، ثم يجمعها لك بملف واحد  \n\nمفتوح المصدر",
-          "url": "https://x.com/TechBit_M/status/2110673774257549499",
-          "createdAt": "2026-10-15T19:06:56+09:00",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2110673729831194624/img/UiWa_KmAy8S-NqEv.jpg",
-          "avatar": "https://pbs.twimg.com/profile_images/2051411292544458752/mkhLDjmu_200x200.jpg",
+          "id": "2110603581493858509",
+          "author": "GitTrend",
+          "handle": "GitTrend0x",
+          "text": "今日爆款 Jev アプリ共有\n\n全ネットプレイヤーが Jev を次世代「200ms で次のマスをクリックするブラウザ手 + オープンソースのローカル意思決定カーネル + スキルルーティングゲート + 監督ニューラル + 超高速ブラウザエージェント」に仕立て上げました：\n\n",
+          "url": "https://x.com/GitTrend0x/status/2110603581493858509",
           "metrics": {
-            "views": 13219,
-            "likes": 310,
-            "reposts": 27,
-            "replies": 1
-          },
-          "lang": "ar",
-          "textJa": "ダウンロードマネージャー「Plexo」。複数のネット回線を束ねてファイルのダウンロードを速くする。たとえば50MbpsのWi-Fiと、USB接続したスマホの30Mbps回線があれば、両方の回線でファイルの別々の部分を落としてから1つのファイルにまとめてくれる。オープンソース。"
+            "views": 10000,
+            "likes": 153
+          }
         },
         {
-          "id": "2110862913074323906",
-          "author": "godhears",
-          "handle": "godhearsw",
-          "text": "300+ FREE GROK BOTS ON ONE SHEET. \n\nEverything you need to automate your entire workflow:\nOver 300+ ready-to-use agents organized into 6 core stacks.\n\n1. Zoom in\n2. Pick your bots\n3. Deploy in 1 click\n\nNo fluff. Just pure infrastructure.\n\nBookmark this so you don't lose it.\n\nAnd read my article below on how to assemble them into a working AI agent team in just one evening\n\nRepo link in the replies ↓",
-          "url": "https://x.com/godhearsw/status/2110862913074323906",
-          "createdAt": "2026-10-16T07:38:31+09:00",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2110862558810800128/img/kgBRBr1yUYyJ67Ek.jpg",
-          "avatar": "https://pbs.twimg.com/profile_images/2110324400356540416/MDfOzkBz_200x200.jpg",
+          "id": "2110590027453669498",
+          "author": "Kxians",
+          "handle": "xulijian1994",
+          "text": "誰かが Claude デスクトップクライアントの UI をほぼ根こそぎ解体して、直接オープンソース化しました。\n\nプロジェクト名は Open Claude UI で、REA 逆向工学フレームワークを使って、Claude デスクトップ版を徹底的に分解しています。\n\n最も価値があるのは Claude",
+          "url": "https://x.com/xulijian1994/status/2110590027453669498",
           "metrics": {
-            "views": 86,
-            "likes": 2,
-            "reposts": 0,
-            "replies": 1
-          },
-          "lang": "en",
-          "textJa": "300以上の無料Grok Botを1枚のシートに。ワークフロー全体を自動化するのに必要なものがそろう：すぐ使えるエージェント300以上を6つの主要カテゴリに整理。拡大して、ボットを選んで、ワンクリックでデプロイするだけ。ブックマーク推奨。ひと晩でAIエージェントチームに組み上げる方法は下の記事で。リポジトリのリンクはリプ欄に。"
+            "views": 15000,
+            "likes": 165
+          }
         },
         {
-          "id": "2110866531932316011",
-          "author": "Google Antigravity",
-          "handle": "antigravity",
-          "text": "We’re rolling out Gemini 4 Argon in Antigravity to paid Google AI Pro subscribers today. Demand has been incredible and we've scaled capacity deliberately to get here. We’ve rolled out a separate weekly-only Argon quota for Pro on top of the existing Gemini bucket for 3.8 Flash so you have the best of Gemini for all your tasks.",
-          "url": "https://x.com/antigravity/status/2110866531932316011",
-          "createdAt": "2026-10-16T07:52:53+09:00",
-          "avatar": "https://pbs.twimg.com/profile_images/1990585614279049216/-Zz6T2nk_200x200.png",
+          "id": "2110752191023591806",
+          "author": "Mo Elgaraihy",
+          "handle": "EngMoElgaraihy",
+          "text": "AIを「分解、修正、再構築」させる1つのスキルで、Androidアプリ（APK）を完全に扱う！ \n\n開発者たちが、アプリの逆コンパイル工学のルールを根本から変える全く新しいツールを開発中：\n\napk-reverseスキルとは？ Claude CodeやCodexのようなAIエージェントに、Android",
+          "url": "https://x.com/EngMoElgaraihy/status/2110752191023591806",
           "metrics": {
-            "views": 63583,
-            "likes": 2323,
-            "reposts": 248,
-            "replies": 155
-          },
-          "lang": "en",
-          "textJa": "AntigravityでGemini 4 Argonを、有料のGoogle AI Pro加入者向けに本日から提供開始。需要がすさまじく、ここまで計画的に容量を増やしてきた。Pro向けには既存のGemini 3.8 Flash用の枠とは別に、週単位のArgon専用クォータを用意したので、あらゆるタスクでGeminiの最良のモデルを使える。"
+            "views": 10000,
+            "likes": 309
+          }
         },
         {
-          "id": "2110239467412111771",
-          "author": "みやび｜AI社員育成家",
-          "handle": "miyabi_foxx",
-          "text": "Claude Code × Obsidian自動ナレッジ構築の全てを図解まとめしてみた",
-          "url": "https://x.com/miyabi_foxx/status/2110239467412111771",
-          "createdAt": "2026-10-14T14:21:10+09:00",
-          "media": "https://pbs.twimg.com/media/HUkTi3tbgAABWAm.jpg?name=orig",
-          "avatar": "https://pbs.twimg.com/profile_images/2054900175072849920/IgeFpuSn_200x200.jpg",
-          "metrics": {
-            "views": 17653,
-            "likes": 201,
-            "reposts": 15,
-            "replies": 2
-          },
-          "lang": "ja"
-        },
-        {
-          "id": "2110852716247519517",
+          "id": "2110877572011844019",
           "author": "Elon Musk",
           "handle": "elonmusk",
-          "text": "Ask your @Grok @Bot to remove your phone number from spam call & text lists!",
-          "url": "https://x.com/elonmusk/status/2110852716247519517",
-          "createdAt": "2026-10-16T06:57:59+09:00",
-          "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+          "text": "Maybe more than 10GW",
+          "url": "https://x.com/elonmusk/status/2110877572011844019",
           "metrics": {
-            "views": 1001186,
-            "likes": 9678,
-            "reposts": 1106,
-            "replies": 1159
-          },
-          "lang": "en",
-          "textJa": "@Grok @Botに頼んで、迷惑電話・迷惑SMSのリストから自分の電話番号を削除してもらおう。"
+            "views": 1030000,
+            "likes": 4575
+          }
         },
         {
-          "id": "2110803247405408595",
-          "author": "Bober_smart",
-          "handle": "Bober_smart",
-          "text": "It is becoming f*cking dangerous: I don't understand why everyone still isn't doing this, thanks to this I reached an income of $12,000 as early as 3 months ago\n\nAndrej Karpathy, co-founder of OpenAI, shared a straightforward concept that blew up with over 23 million views: stop relying on AI strictly for coding and start using it to construct your own personal knowledge engine\n\nPoint Claude Code to a folder, toss in raw materials (whether it's an article, a video transcript, or a PDF) and Claude processes everything, links relevant topics together, and organizes it into a self-updating wiki of your personal knowledge. It acts like compound interest: the more information you add, the more capable it becomes\n\nHere is the exact breakdown:\n\nSet up Obsidian, create a fresh vault, and open it using Claude Code\n\nSupply Karpathy's wiki layout prompt and instruct Claude to build the architecture\n\nClaude automatically sets up three components: a ⁠raw⁠ directory for source files, a ⁠wiki⁠ directory for processed pages, and a ⁠CLAUDE.md⁠ control file to run the system\n\nDump any document into the ⁠raw⁠ folder and run \"ingest this\"\n\nQuery your entire knowledge repository at any time, indefinitely\n\nIt takes just five minutes to configure, eliminating the need to ever start a conversation with a completely blank context window again\n\nCheck the link below for the complete step-by-step walkthrough on setting up Claude with Obsidian\n\nBookmark this post for later",
-          "url": "https://x.com/Bober_smart/status/2110803247405408595",
-          "createdAt": "2026-10-16T03:41:25+09:00",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2110803199821021184/img/oeNlJiW2Qsxo1EoT.jpg",
-          "avatar": "https://pbs.twimg.com/profile_images/2050347090543300608/p1PlS_hc_200x200.jpg",
+          "id": "2110921245940502898",
+          "author": "AI開発コネクト",
+          "handle": "ai_develop_conn",
+          "text": "AWS Machine Learning Blogでは、エンタープライズリーダーがAIエージェントに自主性を与えたいと考えています。エージェントはより多くの作業を行うことができます。\n#AIエージェント #AWS #生成AI",
+          "url": "https://x.com/ai_develop_conn/status/2110921245940502898",
           "metrics": {
-            "views": 8780,
-            "likes": 141,
-            "reposts": 8,
-            "replies": 32
-          },
-          "lang": "en",
-          "textJa": "これはマジで危険なレベル。なぜみんなまだやらないのか分からない。おかげで3か月前には月収1万2000ドルに達した。\n\nOpenAI共同創業者のAndrej Karpathyが共有し2300万回以上見られた考え方：AIをコーディングだけに使うのをやめて、自分専用のナレッジエンジンを作ろう、というもの。Claude Codeをフォルダに向け、記事・動画の文字起こし・PDFなどの素材を放り込むと、Claudeが処理して関連トピック同士をつなぎ、自動で更新される個人Wikiに整理してくれる。情報を足すほど賢くなる複利のような仕組み。\n\n手順：Obsidianで新しいVaultを作りClaude Codeで開く、KarpathyのWiki構成プロンプトを渡して骨組みを作らせる、Claudeが元資料用のrawフォルダ・整理済みページ用のwikiフォルダ・全体を動かすCLAUDE.mdの3つを自動で用意する、rawに資料を入れて「ingest this」と指示する、あとはいつでも知識ベース全体に質問できる。設定は5分で、毎回まっさらな状態から会話を始める必要がなくなる。詳しい手順は下のリンクで。"
+            "views": 29,
+            "likes": 0
+          }
         },
         {
-          "id": "2110694725640474759",
-          "author": "Sac",
-          "handle": "Saccc_c",
-          "text": "手把手教你用 Opus 5.5 / Astra + Tripo 制作 3D 游戏\n\n本周，我用 Opus 5.5 + Tripo + Blender，把《小王子》中的星际旅行做成了一款可以亲自探索的 3D 游戏。发布后，全网累计收获近 300w 浏览。",
-          "url": "https://x.com/Saccc_c/status/2110694725640474759",
-          "createdAt": "2026-10-15T20:30:12+09:00",
-          "media": "https://pbs.twimg.com/media/HUqwAreaUAEJ474.jpg",
-          "avatar": "https://pbs.twimg.com/profile_images/2081939362808520704/FwzCMH0g_200x200.jpg",
+          "id": "2110636073797689844",
+          "author": "Álvaro Peña",
+          "handle": "isocialwebseo",
+          "text": "無料SEOツール。Microsoftが無料で教えてくれる、AIが競合を引用するのにあなたを引用しない質問のこと。\n\nそれだけじゃない：各トピックの重み付けと、それを分け合うウェブサイトの数も教えてくれる。\n\n10月13日にBing Webmaster",
+          "url": "https://x.com/isocialwebseo/status/2110636073797689844",
           "metrics": {
-            "views": 208291,
-            "likes": 2547,
-            "reposts": 403,
-            "replies": 239
-          },
-          "textJa": "Opus 5.5／Astra＋Tripoで3Dゲームを作る方法を手取り足取り解説。今週、Opus 5.5＋Tripo＋Blenderで『星の王子さま』の星めぐりの旅を、自分で探検できる3Dゲームにした。公開後、合計で300万近く閲覧された。"
+            "views": 3232,
+            "likes": 50
+          }
         },
         {
-          "id": "2110813628215836780",
-          "author": "Binkg",
-          "handle": "dummerspast39",
-          "text": "Tibo failed day 11, so I will take over for today. Here is infinite GPT 6 for everybody. Chat on Steroids turns ChatGPT into Codex and runs on your ChatGPT limit instead of the Codex one. This gives you basically infinite GPT 6. \nOpen source: https://github.com/totec448-spec/chat-on-steroids",
-          "url": "https://x.com/dummerspast39/status/2110813628215836780",
-          "createdAt": "2026-10-16T04:22:40+09:00",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2110813527195664385/img/JyCN4oDCY0pLkyop.jpg",
-          "avatar": "https://pbs.twimg.com/profile_images/1954538487845203968/IxBPGAtt_200x200.jpg",
+          "id": "2110764237396062222",
+          "author": "Nico",
+          "handle": "nicos_ai",
+          "text": "Gmailを修理したばかりです。そしてオープンソースです。\n\nInbox Zero Mailという名前です。\n\nGitHubで12kのスターがあり、自分で無料でホストできます。\n\n→ GmailとOutlookで動作し、すべてのアカウントを一つの受信トレイに\n→ 高速でキーボード使用を想定した設計\n→",
+          "url": "https://x.com/nicos_ai/status/2110764237396062222",
           "metrics": {
-            "views": 27581,
-            "likes": 173,
-            "reposts": 5,
-            "replies": 26
-          },
-          "lang": "en",
-          "textJa": "Tiboが11日目で脱落したので、今日は代わりに自分が。みんなに無限のGPT 6を。「Chat on Steroids」はChatGPTをCodex化し、Codexの枠ではなくChatGPTの利用枠で動く。つまり実質GPT 6が使い放題になる。オープンソース: https://github.com/totec448-spec/chat-on-steroids"
+            "views": 1601,
+            "likes": 26
+          }
         },
         {
-          "id": "2110724335795405017",
-          "author": "Ryoru 𒌐",
-          "handle": "Ryorugg",
-          "text": "yo pagando 6 suscripciones todos los meses sin saber que github existía y me lo daba todo gratis💀",
-          "url": "https://x.com/Ryorugg/status/2110724335795405017",
-          "createdAt": "2026-10-15T22:27:51+09:00",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2110724242153013248/img/SpdwICTiap_cg4pl.jpg",
-          "avatar": "https://pbs.twimg.com/profile_images/2024582580016701440/EjcmK8g4_200x200.jpg",
+          "id": "2110610960474079445",
+          "author": "Elon Musk",
+          "handle": "elonmusk",
+          "text": "This works well. If Grok @Bot makes a mistake with a purchase or leaks your card (never happened yet), SpaceX will make you whole.",
+          "url": "https://x.com/elonmusk/status/2110610960474079445",
           "metrics": {
-            "views": 132244,
-            "likes": 3209,
-            "reposts": 166,
-            "replies": 28
-          },
-          "lang": "es",
-          "textJa": "GitHubが全部タダでくれるとも知らずに、毎月サブスクを6つも払ってた💀"
+            "views": 2280000,
+            "likes": 16000
+          }
         },
         {
-          "id": "2110603171920023720",
-          "author": "LinearUncle",
-          "handle": "LinearUncle",
-          "text": "国外搞逆向的猛男真多啊！十分推荐这个强大的agent 逆向工程IDE平台名为Eleven：\n\n1. 专注逆向二进制app, 包括:\nMac/iOS, Linux ELF, Windows PE, Andoird apk等等；\n2. 底层用的也是这几天爆火的REA逆向库+二进制逆向工具\n3. 支持常见的所有agent，类似Claude Code, Codex，Cursor等\n4. 各种使用AI辅助逆向的强大功能\n\nhttps://github.com/Zfinix/eleven",
-          "url": "https://x.com/LinearUncle/status/2110603171920023720",
-          "createdAt": "2026-10-15T14:26:23+09:00",
-          "media": "https://pbs.twimg.com/media/HUpdgb7b0AAHNFr.jpg?name=orig",
-          "avatar": "https://pbs.twimg.com/profile_images/1906323582759874560/6Elwf5WN_200x200.jpg",
+          "id": "2110782556820148299",
+          "author": "チャエン | デジライズ CEO《重要AIニュースを毎日最速で発信》",
+          "handle": "masahirochaen",
+          "text": "最近、弊社で開発を内製化してから、開発スピードが劇的に上がった。大げさに聞こえるけど、局所的には体感100倍速いんじゃないかと思うほど。\n\n特に感じるのが、部長クラス以上や事業責任者がAIを使って自らゴリゴリ開発する強さ。",
+          "url": "https://x.com/masahirochaen/status/2110782556820148299",
           "metrics": {
-            "views": 31717,
-            "likes": 499,
-            "reposts": 92,
-            "replies": 27
-          },
-          "lang": "zh",
-          "textJa": "海外のリバースエンジニアリング勢は猛者ぞろい。エージェント対応のリバースエンジニアリングIDE「Eleven」を強くおすすめする。Mac/iOS、Linux ELF、Windows PE、Android APKなどのバイナリ解析に特化。基盤には最近話題のREA解析ライブラリとバイナリ解析ツールを使い、Claude Code・Codex・Cursorなど主要なエージェントに対応。AIでリバースエンジニアリングを支援する強力な機能が多数ある。\n\nhttps://github.com/Zfinix/eleven"
+            "views": 21000,
+            "likes": 161
+          }
         },
         {
-          "id": "2110646238484001215",
-          "author": "洛克船长",
-          "handle": "slashui",
-          "text": "电路板设计领域的 Cursor来了！🤯🤯🤯\n\n连设计电路板，都要变成普通人可以做的事情了吗？\n\n你只需要用人话描述想做什么，AI 就能帮你：\n\n⚡ 制定硬件方案、选择电子元器件\n⚡ 绘制电路原理图、生成 PCB 初版布局\n⚡ 自动检查电路错误并尝试修复\n⚡ 生成生产文件 Gerber、物料清单，甚至固件代码框架\n\n当然，它可能还处于非常早期阶段，但想想软件开发的速度吧。\n\n也许有一天，普通人真的可以从一个想法出发，自己设计电路板、交给工厂生产，最后拿到一个真正属于自己的电子产品。\n\nAI 让生活美好每一天！",
-          "url": "https://x.com/slashui/status/2110646238484001215",
-          "createdAt": "2026-10-15T17:17:31+09:00",
-          "media": "https://pbs.twimg.com/media/HUqFeHbawAAd_0u.jpg?name=orig",
-          "avatar": "https://pbs.twimg.com/profile_images/1772801474118246400/9St_FlfL_200x200.jpg",
-          "metrics": {
-            "views": 23950,
-            "likes": 506,
-            "reposts": 78,
-            "replies": 26
-          },
-          "lang": "zh",
-          "textJa": "電子回路基板設計版のCursorが登場。基板設計まで普通の人ができるようになるのか。やりたいことを普通の言葉で説明するだけで、AIがハードウェア構成の立案と部品選定、回路図の作成とPCBの初期レイアウト、回路エラーの自動チェックと修正、製造用のGerberファイルや部品表、さらにはファームウェアのコードのひな形まで作ってくれる。まだごく初期段階かもしれないが、ソフトウェア開発の進化の速さを考えると、いつか普通の人がアイデアから基板を設計して工場に発注し、自分だけの電子製品を手にする日が来るかもしれない。"
-        },
-        {
-          "id": "2110804233570451852",
-          "author": "루샨 lucian",
-          "handle": "lucian__03",
-          "text": "드디어!! 기다려주셨던 Lucian UX/UI Prompt 대규모 업데이트입니다!\n\n🔥 100% 무료... 애니메이션 UX/UI 200개를 새롭게 추가했습니다! 🔥\n\n(당연히 전체 오픈소스입니다.)\n\n기존 200개에서 무려..\n\n--> 총 400개가 됐습니다!\n\n지난번 제가 만든 오픈소스를 공개한 뒤 정말 많은 분들이 관심을 가져주셨고, 업데이트한다고 말씀드렸을 때도 정말 많은 분들이 기대해주셨는데요.\n\n그래서 이번에는 단순히 개수만 늘리는 게 아니라, 실제 웹사이트에서 써보고 싶은 다양한 인터랙션과 애니메이션을 새롭게 만들었습니다.\n\n이번에 새롭게 추가된 200개를 영상 하나에 전부 보여드릴 수는 없어서, 그중 5개만 먼저 보여드립니다!\n\n자동화 흐름도부터 입체적으로 솟아오르는 데이터 차트, 선택한 기준에 따라 다시 모이는 버블, 물결처럼 움직이는 글자, 클릭하면 반응하는 관계망까지!\n\n나머지 UXUI도 아래 사이트에서 직접 확인해보실 수 있습니다.\n\n(이번에도 라이트테마, 다크테마 각각 모두 지원, 한국어/영어 지원입니다.)\n\n이번에도 전부 무료로 공개하는 오픈소스 프로젝트입니다.\n\n기다려주시고 응원해주신 모든 분들 정말 감사합니다!! 🙇‍♂️\n\nhttps://lucianlabs.dev/uxui-prompt/",
-          "url": "https://x.com/lucian__03/status/2110804233570451852",
-          "createdAt": "2026-10-16T03:45:20+09:00",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2110803519586635776/img/N9n7i0-SS2DNUutk.jpg",
-          "avatar": "https://pbs.twimg.com/profile_images/2078006004999245824/w7vT0DCP_200x200.jpg",
-          "metrics": {
-            "views": 3014,
-            "likes": 82,
-            "reposts": 17,
-            "replies": 8
-          },
-          "lang": "ko",
-          "textJa": "お待たせしました。Lucian UX/UI Promptの大型アップデートです。完全無料で、アニメーション付きUX/UIを新たに200個追加しました（もちろん全部オープンソース）。既存の200個と合わせて計400個になりました。\n\n今回は数を増やすだけでなく、実際のWebサイトで使いたくなるようなインタラクションやアニメーションを新しく作りました。動画では5つだけ紹介しています。自動化フロー図、立体的に立ち上がるデータチャート、選んだ基準で集まり直すバブル、波のように動く文字、クリックで反応する関係図など。残りは下のサイトで確認できます。今回もライト／ダークテーマ両対応、韓国語／英語対応です。\n\nhttps://lucianlabs.dev/uxui-prompt/"
-        },
-        {
-          "id": "2110298314239537358",
-          "author": "刘小域",
-          "handle": "buildnomadx",
-          "text": "月入2万，有手就行：\n\n1、去Reddit、X、Youtube各注册1个账号\n\n2、每天去这3个平台找30条最新的AI相关信息\n\n3、翻译成中文，整理成30条笔记发到小红书\n\n4、坚持1个月，发900条笔记\n\n5、接下来靠商单、合作、带货，月入2万轻轻松松",
-          "url": "https://x.com/buildnomadx/status/2110298314239537358",
-          "createdAt": "2026-10-14T18:15:00+09:00",
-          "avatar": "https://pbs.twimg.com/profile_images/2095564823593627648/9ldc4i_i_200x200.jpg",
-          "metrics": {
-            "views": 277551,
-            "likes": 2310,
-            "reposts": 340,
-            "replies": 403
-          },
-          "lang": "zh",
-          "textJa": "月収2万元、誰でもできる：(1) Reddit・X・YouTubeでアカウントを1つずつ作る、(2) 毎日この3つから最新のAI関連情報を30件探す、(3) 中国語に訳して30本のノートにまとめ小紅書に投稿する、(4) 1か月続けて900本投稿する、(5) あとは案件・提携・物販で月収2万元は楽勝。"
-        },
-        {
-          "id": "2110492704836821208",
-          "author": "P夏￤Webエンジニア",
-          "handle": "P4523677124155",
-          "text": "JevDay期待してたけど凄すぎるな\n- jevは元々マルチモーダルだった、だけど知能が低下する事が多く今まで無効化していたが有効化できるようになった\n- jevは元々ユースケース上大きいコンテキストが必要なケースは少ないから制限されていた、元の4倍である262Kコンテキストに拡大\n\nHappy JevDay🔥🔥🔥",
-          "url": "https://x.com/P4523677124155/status/2110492704836821208",
-          "createdAt": "2026-10-15T07:07:26+09:00",
-          "avatar": "https://pbs.twimg.com/profile_images/1896535643674578944/5fUihqcT_200x200.jpg",
-          "metrics": {
-            "views": 37138,
-            "likes": 475,
-            "reposts": 39,
-            "replies": 2
-          },
-          "lang": "ja"
-        },
-        {
-          "id": "2110636187606245421",
-          "author": "爱丽丝呀！",
-          "handle": "BTCqzy1",
-          "text": "这个开源量化平台有点离谱：别人给 AI 写交易规则，它直接让 AI 自己把策略训练出来。\n\n均线、因子、选股，库都有，支持 A 股、美股、ETF、加密等市场\n\n这个 GitHub 开源项目就是：FinRL\n\n它把历史行情变成训练环境，让 Agent 在里面反复模拟交易，学买卖和仓位，再拿历史数据回测。\n\n✅ 内置 A2C、DDPG、PPO、SAC、TD3，不用自己从零搭算法\n\n✅ 股票交易和组合配置都有现成示例\n\n✅ 训练、测试、回测一条流水线，结果可以和指数对比\n\n✅ 教程直接拉道指成分股，加 MACD、RSI 再训练\n\n仓库地址：https://github.com/AI4Finance-Foundation/FinRL\n\n感兴趣的可以看看哦～非投资建议，dyor",
-          "url": "https://x.com/BTCqzy1/status/2110636187606245421",
-          "createdAt": "2026-10-15T16:37:35+09:00",
-          "media": "https://pbs.twimg.com/media/HUp8YBla4AAUTL3.jpg?name=orig",
-          "avatar": "https://pbs.twimg.com/profile_images/2092549279160451072/hyytXe7Q_200x200.png",
-          "metrics": {
-            "views": 6584,
-            "likes": 95,
-            "reposts": 24,
-            "replies": 5
-          },
-          "lang": "zh",
-          "textJa": "このオープンソースのクオンツ基盤はちょっとすごい。AIに売買ルールを書くのではなく、AI自身に戦略を学習させる。移動平均・ファクター・銘柄選定のライブラリもそろい、中国A株・米国株・ETF・暗号資産などに対応。GitHubのオープンソースプロジェクト「FinRL」だ。\n\n過去の相場を学習環境にして、エージェントに模擬売買を繰り返させ、売買タイミングとポジション量を学ばせたうえで過去データでバックテストする。A2C・DDPG・PPO・SAC・TD3を内蔵しアルゴリズムを一から組む必要がない。株式売買とポートフォリオ配分のサンプルあり。学習・テスト・バックテストが一連のパイプラインで、結果を指数と比べられる。チュートリアルではダウ構成銘柄にMACD・RSIを加えて学習する。\n\nリポジトリ: https://github.com/AI4Finance-Foundation/FinRL\n投資助言ではない。自己責任で。"
-        },
-        {
-          "id": "2110753767150981509",
-          "author": "Seth",
-          "handle": "Sethnuzum",
-          "text": "I’m calling JEV 4 times a second and telling it to find 5 menus of items. Insanely fast and cheap option to identify objects in frame.",
-          "url": "https://x.com/Sethnuzum/status/2110753767150981509",
-          "createdAt": "2026-10-16T00:24:48+09:00",
-          "media": "https://pbs.twimg.com/amplify_video_thumb/2110753684175126528/img/g2ixI6YF9PMMSjVQ.jpg",
-          "avatar": "https://pbs.twimg.com/profile_images/2058318210706120704/EPKvVSfs_200x200.jpg",
-          "metrics": {
-            "views": 58679,
-            "likes": 723,
-            "reposts": 41,
-            "replies": 51
-          },
-          "lang": "en",
-          "textJa": "JEVを1秒に4回呼び出して、メニュー5つ分の品目を見つけさせている。画面内の物体を識別する手段として、とんでもなく速くて安い。"
-        },
-        {
-          "id": "2110645603029889500",
+          "id": "2110675802077778242",
           "author": "0xMarioNawfal",
           "handle": "RoundtableSpace",
-          "text": "Claude Code can now use almost any app on your computer, not just your code.\n\nCLI-Anything wraps desktop software in a command line an AI agent can operate: GIMP, Blender, LibreOffice, Calibre and a growing list of community-built ones.\n\n→ CLI-Hub works like an app store for agent-ready tools\n→ No CLI for your app yet? A plugin generates one\n→ Works with Claude Code, Cursor, Codex, OpenClaw and more\n\nTry one in two commands:\npip install cli-anything-hub\ncli-hub install gimp\n\nAdd the generator to Claude Code:\n/plugin marketplace add HKUDS/CLI-Anything\n/plugin install cli-anything\n\nYou still need the real app installed: GIMP for the GIMP CLI, Blender for the Blender one.\n\n52K+ GitHub stars. Apache-2.0.\n\nhttp://github.com/HKUDS/CLI-Anything",
-          "url": "https://x.com/RoundtableSpace/status/2110645603029889500",
-          "createdAt": "2026-10-15T17:15:00+09:00",
-          "avatar": "https://pbs.twimg.com/profile_images/2012162102283407360/U-fPj6wg_200x200.jpg",
+          "text": "11 GitHub repos that let Claude Code use Photoshop, Word, Excel, CapCut, Blender and more, for free.\n\nEach one is an open-source app or plugin an AI agent can operate directly.\n\n1. Photoshop → PhotoCraft, an open-source clone with its own MCP server\n\nhttps://github.com/storytold/photocraft…\n\n2.",
+          "url": "https://x.com/RoundtableSpace/status/2110675802077778242",
           "metrics": {
-            "views": 60442,
-            "likes": 460,
-            "reposts": 55,
-            "replies": 47
-          },
-          "lang": "en",
-          "textJa": "Claude Codeがコードだけでなく、PC上のほぼどんなアプリも操作できるようになった。CLI-Anythingは、デスクトップソフトをAIエージェントが扱えるコマンドラインで包むツール。GIMP、Blender、LibreOffice、Calibreのほか、コミュニティ製のものも増えている。CLI-Hubはエージェント対応ツールのアプリストアのような存在で、まだCLIがないアプリもプラグインで生成できる。Claude Code、Cursor、Codex、OpenClawなどで動く。\n\n2コマンドで試せる:\npip install cli-anything-hub\ncli-hub install gimp\n\nClaude Codeにジェネレーターを追加:\n/plugin marketplace add HKUDS/CLI-Anything\n/plugin install cli-anything\n\n実物のアプリは必要（GIMP用CLIならGIMP、BlenderならBlender）。GitHubスター5.2万超、Apache-2.0。\n\nhttp://github.com/HKUDS/CLI-Anything"
+            "views": 47000,
+            "likes": 138
+          }
+        },
+        {
+          "id": "2110635413790728270",
+          "author": "liam.",
+          "handle": "liambraus",
+          "text": "誰もノートパソコンを開ける前に、8件のクライアントレポートが完成\n\n私たちはデータスタジオで6人。レポートは木曜の午後に公開されていました。誰もそれ以前に触りたくなかったからです。",
+          "url": "https://x.com/liambraus/status/2110635413790728270",
+          "metrics": {
+            "views": 9212,
+            "likes": 199
+          }
+        },
+        {
+          "id": "2110688892567384180",
+          "author": "Kevin Moreira",
+          "handle": "kevindatas",
+          "text": "Claude や Codex でスクロールアニメーションを説明するのに、これらの用語が大いに役立つでしょう。\n\n保存しておいてください。必要になるはずです。",
+          "url": "https://x.com/kevindatas/status/2110688892567384180",
+          "metrics": {
+            "views": 17000,
+            "likes": 501
+          }
+        },
+        {
+          "id": "2110764303087288788",
+          "author": "Elliot Padfield",
+          "handle": "ElliotPadfield",
+          "text": "if you're using claude to edit videos, you can give it a library of 5.2M+ audio files for $0\n\nsound effects, ambience, music. openverse has a free api. no key needed.\n\ngive it https://api.openverse.org and ask:\n\n“whenever you need sound effects search Openverse to find the best",
+          "url": "https://x.com/ElliotPadfield/status/2110764303087288788",
+          "metrics": {
+            "views": 97000,
+            "likes": 2362
+          }
+        },
+        {
+          "id": "2110838384713466067",
+          "author": "ケム",
+          "handle": "kemu_aii",
+          "text": "【注意】Claude Codeの上限がすぐ来る人、この4つを絶対にやらないでください\n\n・途中で/modelを切り替える\n・スクショを何十枚も貼り続ける\n・サブエージェントを5分以上待たせる\n・やり直したい流れを/compactで片付ける\n\n全部キャッシュが外れて、会話を最初から読み直すぶん枠を食います",
+          "url": "https://x.com/kemu_aii/status/2110838384713466067",
+          "metrics": {
+            "views": 3781,
+            "likes": 26
+          }
+        },
+        {
+          "id": "2110676519068508602",
+          "author": "Sprytix",
+          "handle": "Sprytixl",
+          "text": "THE LEAD ANTHROPIC ENGINEER ON $1.5M A YEAR LEAKED A FILE WHERE 4 AGENTS STAND IN FOR 50 ENGINEERS AND CARRY A BUSINESS TO $70K IN ITS FIRST MONTH\n\nfifty seats in that office cost $600,000 a month, four agents cover their work in seven days\n\nspec → schema → api → billing →",
+          "url": "https://x.com/Sprytixl/status/2110676519068508602",
+          "metrics": {
+            "views": 3003,
+            "likes": 66
+          }
+        },
+        {
+          "id": "2110772817319088225",
+          "author": "marcus",
+          "handle": "marcusyul",
+          "text": "SILICON VALLEY'S FAVORITE $40 EMAIL APP JUST GOT AN OPEN-SOURCE RIVAL.\n\nSuperhuman is the email client founders and VCs swear by. Fast, keyboard-first, and $40/month if you want the AI.\n\nInbox Zero just launched its own email app built on the same idea:\n\n→ Works with Gmail and",
+          "url": "https://x.com/marcusyul/status/2110772817319088225",
+          "metrics": {
+            "views": 28000,
+            "likes": 120
+          }
+        },
+        {
+          "id": "2110642904892940471",
+          "author": "ابو سعود",
+          "handle": "AbuSaud_Cyber",
+          "text": "من مرحلة تعلم الـ agents لين تشغيلها فعليًا في الإنتاج، هذي 6 repositories على GitHub توصلكم.\n\n1. awesome-llm-apps\nأكثر من 100 agent و skill وتطبيق RAG مفتوح المصدر.\n\n2. awesome-mcp-servers\nدليل ضخم لسيرفرات MCP عشان تربط الـ agents بأدوات وأنظمة حقيقية.\n\n3. llm-course\nمسار تعلم",
+          "url": "https://x.com/AbuSaud_Cyber/status/2110642904892940471",
+          "metrics": {
+            "views": 2545,
+            "likes": 76
+          }
+        },
+        {
+          "id": "2110864691639513578",
+          "author": "Daniel San",
+          "handle": "dani_avila7",
+          "text": "Claude Code lets you export your entire session with /export file_name\n\nThis creates a plain text file containing your session history\n\nYou can use it as context for another agent to continue your work, or analyze it to create custom skills that improve your Claude Code workflow",
+          "url": "https://x.com/dani_avila7/status/2110864691639513578",
+          "metrics": {
+            "views": 3577,
+            "likes": 87
+          }
+        },
+        {
+          "id": "2110929752634929650",
+          "author": "Noirさくまら〜",
+          "handle": "FromNoir",
+          "text": "ヽ(・∞・)ノピエ〜\n\n#うさまる",
+          "url": "https://x.com/FromNoir/status/2110929752634929650",
+          "metrics": {
+            "views": 58,
+            "likes": 7
+          }
+        },
+        {
+          "id": "2110404747605709153",
+          "author": "飞翔的企鹅x",
+          "handle": "BystAnd3rs",
+          "text": "マジかよ！Claudeの手触りがなんでこんなに気持ちいいんだ、この度ついに俺が剥ぎ取って解明したぜ\n\nClaudeの滑らかさはただの色調の美しさだけじゃない\n下層にめっちゃ埋め込まれた一連のエンジニアリングインタラクション物理学と手触り最適化の詳細がある",
+          "url": "https://x.com/BystAnd3rs/status/2110404747605709153",
+          "metrics": {
+            "views": 86000,
+            "likes": 1036
+          }
+        },
+        {
+          "id": "2110584646794887669",
+          "author": "Aman Singh",
+          "handle": "amananimates",
+          "text": "If you're a designer, bookmark this.\n\n1.⁠ ⁠\nhttps://scrolltide.co -  600+ design Prompts with full source code for 3D and scroll-driven sites\n2.⁠ ⁠\nhttps://navbar.gallery - navbar inspiration\n3.⁠ ⁠\nhttps://footer.design -  better footers\n4.⁠ ⁠\nhttps://cta.gallery -",
+          "url": "https://x.com/amananimates/status/2110584646794887669",
+          "metrics": {
+            "views": 140000,
+            "likes": 1668
+          }
+        },
+        {
+          "id": "2110807863123935732",
+          "author": "Aravind Srinivas",
+          "handle": "AravSrinivas",
+          "text": "Nemotron, one of America's leading open-weight multimodal models, is available on Perplexity. Try it out!",
+          "url": "https://x.com/AravSrinivas/status/2110807863123935732",
+          "metrics": {
+            "views": 17000,
+            "likes": 143
+          }
         }
       ]
     }
