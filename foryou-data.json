@@ -1301,370 +1301,529 @@
       "name": "Cloud",
       "handle": "cloud8wq",
       "sample": false,
-      "updatedAt": "2026-10-16T19:08:53+09:00",
+      "updatedAt": "2026-10-16T20:37:36+09:00",
       "posts": [
         {
-          "id": "2110990253431656764",
-          "author": "チャエン | デジライズ CEO《重要AIニュースを毎日最速で発信 ⚡️ 》",
-          "handle": "masahirochaen",
-          "text": "【新機能】Lovableが集客まで面倒を見るように。作ったアプリのチャットから、Google・Metaの5媒体へ広告をそのまま出せるように。 アプリは作れたのに客が来ない個人開発者や、小さなお店にはかなり刺さりそう。 ・Google検索・マップ・YouTube、Facebook・Instagramに出稿",
-          "url": "https://x.com/masahirochaen/status/2110990253431656764",
+          "id": "2110986473407430773",
+          "author": "AI駆動経営ラボ",
+          "handle": "yoshio_nocode",
+          "text": "ChatGPTサブスク×CloudflareOS、\nめっちゃいいな。\n\nCloudflareOSのAI Work OSとしての作りは大好きなのだが、気に食わなかったのが、\nLLMモデルをAPIキーで従量課金で使うこと。\n\n「Sign in with ChatGPT」を使って実装したら、\nサブスク枠で動かせるように\n\nOSSだから自由に編集・回収できるのも、\nCloudflareOSの素晴らしい点\n\nCloudflareOSにタスク管理機能を載せようかな",
+          "url": "https://x.com/yoshio_nocode/status/2110986473407430773",
+          "createdAt": "2026-10-16T15:49:30+09:00",
+          "media": "https://pbs.twimg.com/media/HUu5t5BaIAAbZqo.jpg?name=orig",
+          "avatar": "https://pbs.twimg.com/profile_images/1858455105324077056/8cd9mgzp_200x200.jpg",
           "metrics": {
-            "views": 7534,
-            "likes": 35
-          }
-        },
-        {
-          "id": "2110877572011844019",
-          "author": "Elon Musk",
-          "handle": "elonmusk",
-          "text": "Maybe more than 10GW",
-          "url": "https://x.com/elonmusk/status/2110877572011844019",
-          "metrics": {
-            "views": 1546484,
-            "likes": 6694
-          }
-        },
-        {
-          "id": "2110993106594316306",
-          "author": "Avi Chawla",
-          "handle": "_avichawla",
-          "text": "\"Big release here! After MCP, A2A, & AG-UI, there's another agent protocol: And this one is built for Agent harnesses: UHP (Unified Harness Protocol) is a standardized interface for running agent tasks across any agent harness, regardless of which one you use. HarnessRouter is\"",
-          "url": "https://x.com/_avichawla/status/2110993106594316306",
-          "metrics": {
-            "views": 2739,
-            "likes": 49
-          }
-        },
-        {
-          "id": "2110910186101879142",
-          "author": "ララんでよ",
-          "handle": "rarandeyo",
-          "text": "一生のお願いなのでエンジニアの方はclaude公式のsecrity pluginを使ってほしい repoデカいと30分くらいかかるし、何も出なくてusage消費するかもしれないけと、あの時やってたら〜より絶対良いです！github.com/anthropics/cla …",
-          "url": "https://x.com/rarandeyo/status/2110910186101879142",
-          "metrics": {
-            "views": 203625,
-            "likes": 2288
-          }
-        },
-        {
-          "id": "2110993750596222986",
-          "author": "Csaba Kissi",
-          "handle": "csaba_kissi",
-          "text": "5 free dev tools I'd bookmark before the weekend👇\"- Open-source AI coding simplifier\"github.com/Tencent/Browse …\"- Free browser automation for agents\"\"- Free visual agent feedback\"\"- 50+ free animated React\"",
-          "url": "https://x.com/csaba_kissi/status/2110993750596222986",
-          "metrics": {
-            "views": 1749,
-            "likes": 32
-          }
-        },
-        {
-          "id": "2110727812961485079",
-          "author": "Jan",
-          "handle": "voidJan",
-          "text": "\"誰かがREAを使ってClaude Desktopを逆向解析した後、 フロントエンドの詳細を掘り出しました。 カウントダウンの数字が「跳ねない」ようにするため、 ClaudeはCSSプロパティを強制的に使用しています： font-variant-numeric: tabular-nums これにより、数字0-9の幅が一定になります。\"",
-          "url": "https://x.com/voidJan/status/2110727812961485079",
-          "metrics": {
-            "views": 70826,
-            "likes": 459
-          }
-        },
-        {
-          "id": "2110775776522154074",
-          "author": "unusual_whales",
-          "handle": "unusual_whales",
-          "text": "\"JUST IN: The live flow show is on Unusual Whales. Join and ask any question you want. Join here:\"",
-          "url": "https://x.com/unusual_whales/status/2110775776522154074",
-          "metrics": {
-            "views": 98052,
-            "likes": 38
-          }
-        },
-        {
-          "id": "2110937434535915906",
-          "author": "Mo Elgaraihy",
-          "handle": "EngMoElgaraihy",
-          "text": "🚨ビデオデザイナーおよびClaudeユーザー向けの重大ニュース！🎬ブラウザでサウンドエフェクトや音楽を探す代わりに、ClaudeをOpenverse API経由で520万以上の無料オーディオファイルを含むライブラリに接続できます！ リンク（）を渡して、以下のように依頼するだけ：",
-          "url": "https://x.com/EngMoElgaraihy/status/2110937434535915906",
-          "metrics": {
-            "views": 6701,
-            "likes": 198
-          }
-        },
-        {
-          "id": "2110944702891766059",
-          "author": "Swapna Kumar Panda",
-          "handle": "swapnakpanda",
-          "text": "Shoutout to every owner who has googled \"best time to post\" at 1am. You're not alone.",
-          "url": "https://x.com/swapnakpanda/status/2110944702891766059",
-          "metrics": {
-            "views": 1906,
-            "likes": 0
-          }
-        },
-        {
-          "id": "2110752807238136139",
-          "author": "Eric Bandholz",
-          "handle": "bandholz",
-          "text": "Freetemplate (Ritual). Looks baller because details matter. Focusing on colors, fonts, photography, and icons makes a bigger impact than the template you select.GIF",
-          "url": "https://x.com/bandholz/status/2110752807238136139",
-          "metrics": {
-            "views": 495,
-            "likes": 5
-          }
-        },
-        {
-          "id": "2110784877629202507",
-          "author": "AK",
-          "handle": "_akhaliq",
-          "text": "\"From Failures to Learnable Worlds Policy-Conditioned Environment Generation for Navigation Agents paper:\"huggingface.co/papers/2610.19 …",
-          "url": "https://x.com/_akhaliq/status/2110784877629202507",
-          "metrics": {
-            "views": 12708,
-            "likes": 38
-          }
-        },
-        {
-          "id": "2110873583694098656",
-          "author": "OneDrive",
-          "handle": "onedrive",
-          "text": "What’s next for OneDrive in the AI era?👀Jeff Teper has a message for you. Join us October 20 for the 4th annual OneDrive + Copilot event and see what’s new and what’s ahead. Register today➡️0:01 / 0:50",
-          "url": "https://x.com/onedrive/status/2110873583694098656",
-          "metrics": {
-            "views": 8672,
-            "likes": 71
-          }
-        },
-        {
-          "id": "2110898006044418550",
-          "author": "爱吃折耳根的Ace",
-          "handle": "_zheergen",
-          "text": "絶了！LuxAlgo が取引復盤端末を直接オープンソース化しちゃった！ 証券会社同期、損益分析、K 線再生、さらには AI 自動復盤取引習慣まで、全部整ってる。 プロジェクト名は Trade Journal、GitHub で 474 Stars、182 Forks、MIT ライセンス。",
-          "url": "https://x.com/_zheergen/status/2110898006044418550",
-          "metrics": {
-            "views": 4069,
-            "likes": 19
-          }
-        },
-        {
-          "id": "2110934548049731681",
-          "author": "Elon Musk",
-          "handle": "elonmusk",
-          "text": "One of my favorite shows as a kid!",
-          "url": "https://x.com/elonmusk/status/2110934548049731681",
-          "metrics": {
-            "views": 2203030,
-            "likes": 54391
-          }
-        },
-        {
-          "id": "2110866324616364349",
-          "author": "Bilgin Ibryam",
-          "handle": "bibryam",
-          "text": "As we run more AI agents in parallel, it becomes harder to see what they're doing, especially across a team. One thing Agor does differently is making agent work visible on a shared spatial board. You can follow agent activity, organize work, and interact with running sessions.",
-          "url": "https://x.com/bibryam/status/2110866324616364349",
-          "metrics": {
-            "views": 1158,
-            "likes": 3
-          }
-        },
-        {
-          "id": "2110743785315410262",
-          "author": "Mastercard",
-          "handle": "Mastercard",
-          "text": "Today, we're launching Mastercard Global Money Platform with\", enabling banks, fintechs, and enterprises to offer stablecoin payments, local bank payouts, spend stablecoin-linked cards, and multi-currency accounts through a single integration. Learn more:\"1:03",
-          "url": "https://x.com/Mastercard/status/2110743785315410262",
-          "metrics": {
-            "views": 73356,
-            "likes": 1660
-          }
-        },
-        {
-          "id": "2110864606088593672",
-          "author": "Tibo",
-          "handle": "thsottiaux",
-          "text": "こんにちは",
-          "url": "https://x.com/thsottiaux/status/2110864606088593672",
-          "metrics": {
-            "views": 427856,
-            "likes": 3147
-          }
-        },
-        {
-          "id": "2110841543380660544",
-          "author": "Stefan Friedman",
-          "handle": "SteticIA",
-          "text": "\">abro claude code >le paso todo el repo >me voy a mear >vuelvo 6 minutos después >caché caducada >40k tokens a precio completo >se me acaba el límite a las 11 de la mañana\"",
-          "url": "https://x.com/SteticIA/status/2110841543380660544",
-          "metrics": {
-            "views": 1176,
-            "likes": 18
-          }
-        },
-        {
-          "id": "2111026882959286396",
-          "author": "CNN",
-          "handle": "CNN",
-          "text": "New filings with the Federal Election Commission are shedding light on tech billionaire Elon Musk's heavy influence on the 2026 midterm elections, especially the blockbuster Senate race in Texas.画像",
-          "url": "https://x.com/CNN/status/2111026882959286396",
-          "metrics": {
-            "views": 58482,
-            "likes": 91
-          }
-        },
-        {
-          "id": "2110899706369126626",
-          "author": "Keith McCullough",
-          "handle": "KeithMcCullough",
-          "text": "He has no timestamps.",
-          "url": "https://x.com/KeithMcCullough/status/2110899706369126626",
-          "metrics": {
-            "views": 6488,
-            "likes": 7
-          }
-        },
-        {
-          "id": "2110830571257507849",
-          "author": "PlayStation",
-          "handle": "PlayStation",
-          "text": "Gravity Circuit 2 brings retro action to PS5 Spring 2027⚡\"New trailer highlights two playable characters and 2D gameplay:\"",
-          "url": "https://x.com/PlayStation/status/2110830571257507849",
-          "metrics": {
-            "views": 949466,
-            "likes": 1137
-          }
-        },
-        {
-          "id": "2110988664344121572",
-          "author": "Shah Rukh Khan",
-          "handle": "iamsrk",
-          "text": "India's biggest voices. One extraordinary day. UNIFYD, a music festival like no other. 20 March 2027 | Etihad Live, Abu Dhabi, UAE Download the District app to get notified when tickets go live!",
-          "url": "https://x.com/iamsrk/status/2110988664344121572",
-          "metrics": {
-            "views": 244107,
-            "likes": 5682
-          }
-        },
-        {
-          "id": "2110843408512323743",
-          "author": "Fortnite",
-          "handle": "Fortnite",
-          "text": "gg grumpygran1948🫶",
-          "url": "https://x.com/Fortnite/status/2110843408512323743",
-          "metrics": {
-            "views": 452692,
-            "likes": 4008
-          }
-        },
-        {
-          "id": "2110800666188800273",
-          "author": "The NAM",
-          "handle": "ShopFloorNAM",
-          "text": ".calls permitting reform \"the single most important thing we can do for our economy.\" Manufacturers need a faster, more predictable and more cost-effective permitting process to get shovels in the ground, create jobs and strengthen manufacturing in America. via",
-          "url": "https://x.com/ShopFloorNAM/status/2110800666188800273",
-          "metrics": {
-            "views": 347,
-            "likes": 6
-          }
-        },
-        {
-          "id": "2110923760379552227",
-          "author": "Lucilfer",
-          "handle": "cat_maxxxed",
-          "text": "How ima pull up on yo girl in a Tesla roadster",
-          "url": "https://x.com/cat_maxxxed/status/2110923760379552227",
-          "metrics": {
-            "views": 421785,
-            "likes": 25466
-          }
-        },
-        {
-          "id": "2110859213387731343",
-          "author": "Bill Ackman",
-          "handle": "BillAckman",
-          "text": "2,400+ New Yorkers tuned in live to hearcandidate for NYAG answer questions. A must listen for those who care of ridding NY of crime, waste, fraud and abuse. Electing Saritha is the single-most powerful thing you can do to make a better safer city.",
-          "url": "https://x.com/BillAckman/status/2110859213387731343",
-          "metrics": {
-            "views": 58030,
-            "likes": 2771
-          }
-        },
-        {
-          "id": "2110912589932777966",
-          "author": "Nicolas Krassas",
-          "handle": "Dinosn",
-          "text": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud serversHackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
-          "url": "https://x.com/Dinosn/status/2110912589932777966",
-          "metrics": {
-            "views": 1682,
-            "likes": 12
-          }
-        },
-        {
-          "id": "2110686719146332542",
-          "author": "陈大黄",
-          "handle": "realchendahuang",
-          "text": "多くの人が、AIの収益化で最もすごいのはソフトウェアを作って、ユーザーにサブスクリプション料金を払ってもらい、毎月ドルで支払ってもらうことだと考えています。",
-          "url": "https://x.com/realchendahuang/status/2110686719146332542",
-          "metrics": {
-            "views": 84033,
-            "likes": 1033
-          }
-        },
-        {
-          "id": "2110766902985286030",
-          "author": "Izabella Kaminska",
-          "handle": "izakaminska",
-          "text": "That sounds like my growing incapacity to keep up with the news flow. Nice to know it’s not just me. Also, have a feeling this is exactly what the “singularity” was supposed to feel like. The moment things start moving so quickly they transcend the comprehension capacity of",
-          "url": "https://x.com/izakaminska/status/2110766902985286030",
-          "metrics": {
-            "views": 6378,
-            "likes": 40
-          }
-        },
-        {
-          "id": "2110874127066165381",
-          "author": "SportsCenter",
-          "handle": "SportsCenter",
-          "text": ".surprises UAB head coach Alex Mortensen, son of Chris Mortensen, with a message on SportsCenter🙌",
-          "url": "https://x.com/SportsCenter/status/2110874127066165381",
-          "metrics": {
-            "views": 463965,
-            "likes": 1510
-          }
+            "views": 7414,
+            "likes": 83,
+            "reposts": 8,
+            "replies": 0
+          },
+          "lang": "ja"
         },
         {
           "id": "2110942609367818605",
-          "author": "チャエン | デジライズ CEO《重要AIニュースを毎日最速で発信 ⚡️ 》",
+          "author": "チャエン | デジライズ CEO《重要AIニュースを毎日最速で発信⚡️》",
           "handle": "masahirochaen",
-          "text": "最初フェイク動画だと思ったら、まさかの本物でした。ついに空飛ぶ車が完成か、、 テスラが新型Roadsterを公開。逆さまの壁を走って、空中で一回転して着地します。 ・C字型の壁を上り、逆さまで停止 ・SpaceX由来の冷ガス噴射で空中姿勢を制御 ・Cybertruck・Semiなど5台を飛び越え",
+          "text": "最初フェイク動画だと思ったら、まさかの本物でした。ついに空飛ぶ車が完成か、、\n\nテスラが新型Roadsterを公開。逆さまの壁を走って、空中で一回転して着地します。\n\n・C字型の壁を上り、逆さまで停止\n・SpaceX由来の冷ガス噴射で空中姿勢を制御\n・Cybertruck・Semiなど5台を飛び越え\n・0-60mph（約96km/h）は約1秒",
           "url": "https://x.com/masahirochaen/status/2110942609367818605",
+          "createdAt": "2026-10-16T12:55:12+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2110942535816458240/img/5rwRubQk3cm96BuG.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/1689665533929725953/fClFlzLd_200x200.jpg",
           "metrics": {
-            "views": 252068,
-            "likes": 789
-          }
+            "views": 313540,
+            "likes": 950,
+            "reposts": 131,
+            "replies": 17
+          },
+          "lang": "ja"
         },
         {
-          "id": "2111017711287542140",
-          "author": "大賀 愛一郎",
-          "handle": "oga_aiichiro",
-          "text": "AIの日本語を推敲するスキル『yomiyasu (よみやす) 』 v2.0.0 をリリースしました！🎉過去最大級のアプデです！ 推敲した文章を返す前に、数値や否定が変わっていないかを yomiyasu 自身が検査します。 取引先あてのメールは取引先あての言い回しに。 Codex でも名前を呼ぶだけで動きます！",
-          "url": "https://x.com/oga_aiichiro/status/2111017711287542140",
+          "id": "2110974210017501554",
+          "author": "Codex研究ラボ",
+          "handle": "codexneo4",
+          "text": "Codex 6.1に「Superpowers」を\n必ず導入した方が良い‼️\n\n開発効率がマジで別次元になる。\n\n今まで何時間もかけていた開発が、\n無駄な修正を減らすだけで一気に効率化\n\n仕組みと導入方法を解説する👇",
+          "url": "https://x.com/codexneo4/status/2110974210017501554",
+          "createdAt": "2026-10-16T15:00:46+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2110787287407824896/img/iQU-Cl-xy9LHODSh.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/2051958410049191936/2xPvU4Du_200x200.jpg",
           "metrics": {
-            "views": 9504,
-            "likes": 346
-          }
+            "views": 17858,
+            "likes": 180,
+            "reposts": 20,
+            "replies": 3
+          },
+          "lang": "ja"
         },
         {
-          "id": "2110894635904110632",
+          "id": "2111038207240388770",
+          "author": "Google DeepMind",
+          "handle": "GoogleDeepMind",
+          "text": "Together with scientists around the world, our models and tools are helping make disease more detectable, treatable, and preventable. 🧬\n\nFrom pinpointing rare genetic variants to speeding up drug discovery, here’s how we’re helping turn lab breakthroughs into real-world care → https://goo.gle/4i48Cmr",
+          "url": "https://x.com/GoogleDeepMind/status/2111038207240388770",
+          "createdAt": "2026-10-16T19:15:04+09:00",
+          "media": "https://pbs.twimg.com/tweet_video_thumb/HUvplD8W4AAEu4P.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/1695024885070737408/-M-HSH5P_200x200.jpg",
+          "metrics": {
+            "views": 17275,
+            "likes": 174,
+            "reposts": 16,
+            "replies": 53
+          },
+          "lang": "en",
+          "textJa": "世界中の科学者と協力し、私たちのモデルやツールは病気をより発見しやすく、治療しやすく、予防しやすくする手助けをしています。🧬\n\n希少な遺伝子変異の特定から創薬の加速まで、研究室での成果を実際の医療につなげる取り組みをご紹介します → https://goo.gle/4i48Cmr"
+        },
+        {
+          "id": "2110988110930878874",
+          "author": "nogu",
+          "handle": "_nogu66",
+          "text": "コードレビューで「人が全部読む」のは、もう前提じゃないっぽい\n\nClaude Code チームが、自分たちのコードレビューの仕組みを公開していた\n\nClaude Code のコードは約9割を Claude が書いていて、Anthropic のモノレポでは1日のマージ数が5月の約2,500件から9月には3万件超\n\nもう人が1行ずつ読むのは無理、という前提から始まる\n\n「人がコードを読んだか？」は「何が壊れうるか、どのチェックで捕まえるべきか」の不正確な代わりでしかない、という話\n\n目標は、人の時間を最小にしつつ、リバートや障害を増やさないこと\n\n7つの層による人の時間を守るレビュー\n\n① PR 前に検証\nテスト・ビルド・スクショで Claude に「動いた証拠」を出させ、別のサブエージェントが新しい文脈で diff を見る\n\n② 全 PR に AI レビュー\n複数のエージェントが並行でバグを探し、別のグループが投票して「本物」と合意したものだけ残す。スタイルの指摘は捨てる\n\n③ セキュリティレビューで止める\n指摘を直すか、理由をつけて閉じるまでマージできない\n\n④ いつもの CI\nlint、型、全プラットフォームのテスト。PR テンプレには「どうテストしたか」「どう戻すか」\n\n⑤ 人の承認はリスクで変える\ndocs や フラグ裏の変更は0人、普通の変更は1人、課金・自動更新・CI は2人。リスクは書いた人ではなく変更内容で決まる。エージェントの承認は人の代わりにならない\n\n⑥ マージキューと段階リリース\nまず社内、次に latest、最後に stable\n\n⑦ すぐ気づいて、すぐ戻す\nフラグはデプロイなしで切れる。障害レビューでは「どの層で捕まえるべきだったか」を問う\n\nレビュアー自体の改善も面白い\n・過去の障害とリバートを評価セットにして、毎日レビュアーを回す\n・エージェント同士が延々と直し合うのを防ぐため、3ラウンドで打ち切ってやり方から見直す（一晩で50往復した PR があったらしい）\n\n人に残る仕事は5つ\n・そもそも作るべきか\n・課金や CI などの危険なコード\n・真似されるアーキテクチャ\n・証拠を読む\n・結果に責任を持つ\n\n結果、6〜9月でマージ数は2倍以上、リバート率は4割以上減った\n\n結論、レビューは「最後の関門」から「書きながら走るスペルチェック」に変わって、人の仕事は「全部読む」から「何を見落としうるか判断する」に移ってきた\nhttps://claude.dev/blog/solving-code-review-at-anthropic/",
+          "url": "https://x.com/_nogu66/status/2110988110930878874",
+          "createdAt": "2026-10-16T15:56:00+09:00",
+          "avatar": "https://pbs.twimg.com/profile_images/2101920476285259776/D_bbTJtX_200x200.jpg",
+          "metrics": {
+            "views": 29333,
+            "likes": 402,
+            "reposts": 30,
+            "replies": 1
+          },
+          "lang": "ja"
+        },
+        {
+          "id": "2111006741110682096",
+          "author": "そう｜Claude CodeのX運用で月800万インプ",
+          "handle": "so_ainsight",
+          "text": "Notion x Grok Bot、えぐい。\n\n海外で、Xのブックマークや読んだ本、講義のメモまでをNotionに集めている人がいます。作っているのは「メンタルモデル」（頭の整理に使う考え方の型）のデータベース。\n\n・XのブックマークはGrok Bot経由でNotionに取り込む\n・本や講義、会議メモなどいくつもの元ネタを横断する\n・毎朝、その日に考えられる型をメールで送る設計\n\nなど、ためた情報が毎朝ひとつの学びになって返ってくる仕組みらしいです👇",
+          "url": "https://x.com/so_ainsight/status/2111006741110682096",
+          "createdAt": "2026-10-16T17:10:02+09:00",
+          "media": "https://pbs.twimg.com/media/HUvNcQObkAAgKjz.png?name=orig",
+          "avatar": "https://pbs.twimg.com/profile_images/1951625625455951872/pj57KIjJ_200x200.jpg",
+          "metrics": {
+            "views": 1297,
+            "likes": 9,
+            "reposts": 0,
+            "replies": 1
+          },
+          "lang": "ja"
+        },
+        {
+          "id": "2110967562137956690",
+          "author": "テツメモ｜AI図解×検証｜Newsletter",
+          "handle": "tetumemo",
+          "text": "📝 Grok Botを使っている人、Dr Eggbotは入れておいた方がいいです\n\n作ったのはGrok Bot開発チームのエンジニア、Lauren Tanさん（@poteto）。自分に合った専門botを設計して、作成までしてくれるボットテンプレート\n\n複数のbotを作れると分かっても、「何を任せる？」「どこで役割を分ける？」で迷う。Dr Eggbotは、そこから相談できる\n\n私も既存の2体を見直してもらったら、Xネタ帳・ニュースレター編集・スキル管理という3体の専門botを提案してくれた\n\nしかも、決めるのは仕事内容だけじゃない。「やらないこと」「口調」「起動のしかた」まで整理して作ってくれる\n\n何でも1体に頼んで混乱している人や、専門botを増やしたいけど設計に迷っている人には、かなり頼れる入口になる\n\n実際のやり取りと導入方法、専門botを組み合わせる使い方を記事にまとめました　↓",
+          "url": "https://x.com/tetumemo/status/2110967562137956690",
+          "createdAt": "2026-10-16T14:34:21+09:00",
+          "media": "https://pbs.twimg.com/media/HUupzx7bgAAVHKK.jpg?name=orig",
+          "avatar": "https://pbs.twimg.com/profile_images/1740572915685584896/7nsuwNFv_200x200.jpg",
+          "metrics": {
+            "views": 11464,
+            "likes": 191,
+            "reposts": 10,
+            "replies": 7
+          },
+          "lang": "ja"
+        },
+        {
+          "id": "2110831074787963098",
+          "author": "Paul Vengeons",
+          "handle": "VengeonsP",
+          "text": "Le hack de maillage interne le plus sous-coté du SEO tient en une recherche Google\n\nTapez site: collé à votre domaine, puis votre mot-clé entre guillemets\n\nChaque résultat est une page de votre site qui parle déjà du sujet, donc une page qui devrait faire un lien\n\nLa méthode\n\n1/ Choisissez la page à faire monter et son mot-clé exact\n\n2/ Lancez cette recherche avec le mot-clé exact\n\n3/ Dans chaque page trouvée, transformez la phrase qui en parle en lien vers la page cible, avec le mot-clé exact en ancre\n\n4/ Visez au moins 5 liens, dans le texte, jamais dans le footer\n\nZéro outil, et c'est le levier le moins cher du SEO",
+          "url": "https://x.com/VengeonsP/status/2110831074787963098",
+          "createdAt": "2026-10-16T05:32:00+09:00",
+          "media": "https://pbs.twimg.com/media/HUqlZaYXEAA721_.jpg?name=orig",
+          "avatar": "https://pbs.twimg.com/profile_images/1815661844364664832/oeMLY2A1_200x200.jpg",
+          "metrics": {
+            "views": 9426,
+            "likes": 125,
+            "reposts": 14,
+            "replies": 1
+          },
+          "lang": "fr",
+          "textJa": "SEOで最も過小評価されている内部リンクのテクニックは、Google検索ひとつで完結する。\n\n「site:」に自分のドメインをくっつけて入力し、続けてキーワードを引用符で囲んで検索する。\n\nヒットした結果はどれも、すでにそのテーマに触れている自サイトのページ。つまりリンクを張るべきページだ。\n\nやり方\n\n1/ 順位を上げたいページと、その完全一致キーワードを決める\n\n2/ その完全一致キーワードで上の検索をする\n\n3/ 見つかった各ページで、そのテーマに触れている文をターゲットページへのリンクにする。アンカーテキストは完全一致キーワードで\n\n4/ 最低5本を目標に、本文中に張る。フッターには絶対に入れない\n\nツール不要。SEOで最も安上がりな施策だ。"
+        },
+        {
+          "id": "2110719890068041872",
+          "author": "はじめ｜SEOツール「コトサーチ」",
+          "handle": "tetsu_tetsu333",
+          "text": "JevでSEO診断を自動化しようと思っていて、改めてGoogle公式文章で書かれていることの中で「Jevに任せられそうな判断」をかなり細かく整理してみた。\n\n【Jevで判断できそうなこと】\n①タイトル・見出し\n・タイトルと本文で扱っているテーマが一致しているか\n・タイトルで約束した内容に本文が答えているか\n・タイトルが本文の内容を誇張していないか\n・タイトルにある対象者と本文の対象者が一致しているか\n・タイトルにある地域・業種・用途と本文が一致しているか\n・タイトルの「比較」「手順」「事例」などに対応する内容があるか\n・主見出しがページの主題を説明しているか\n・各見出しと、その直下の本文が対応しているか\n・意味がほぼ同じ見出しを繰り返していないか\n・見出しだけ読んでも、扱っている論点がわかるか\n\n②本文の説明・整合性\n・質問に対する答えが本文に記載されているか\n・結論と、その理由が対応しているか\n・同じ内容を表現だけ変えて繰り返していないか\n・一つの段落で話題が大きく飛んでいないか\n・説明の途中で前提条件が変わっていないか\n・本文内に矛盾する記述の候補がないか\n・専門用語に必要な説明が添えられているか\n・代名詞や「こちら」が何を指すか読み取りにくくないか\n・メリットの説明に、適用条件や制約が添えられているか\n・descriptionが本文の内容を適切に要約しているか\n\n③検索意図への適合\n※対策KW・想定する検索意図・対象読者などを渡す前提\n・想定する検索意図とページの主題が一致しているか\n・情報を知りたい人向けか、比較したい人向けかを分類できるか\n・購入・問い合わせを検討する人向けの内容になっているか\n・初心者向けという前提に対して説明が難しすぎないか\n・実務担当者向けという前提に対して一般論に偏っていないか\n・指定した検索者の疑問に答えているか\n・指定した比較軸が本文に含まれているか\n・指定した対象者に不要な話題が大部分を占めていないか\n・検索意図と、記事・商品・一覧などのページ形式が合っているか\n・想定する読者の用件と、ページ内の案内先がつながっているか\n\n④ページ同士の重複・差分\n※比較するページの内容を渡す前提\n・複数ページが同じテーマを扱っているか\n・複数ページが同じ疑問に答えているか\n・言葉は違っても、実質的な説明が重複していないか\n・似たタイトルでも、対象者や用途に違いがあるか\n・地域名だけを差し替えたような内容になっていないか\n・商品名だけを差し替えたような内容になっていないか\n・各ページに、そのページ固有の説明があるか\n・詳細ページとまとめページで役割が分かれているか\n・比較対象にはある説明が、自社ページに欠けているか\n・更新前後で、説明の意味が実質的に変わっているか\n\n⑤内部リンク\n・リンク元とリンク先のテーマが関連しているか\n・アンカーテキストがリンク先の内容を説明しているか\n・アンカーで期待させた内容と、リンク先の内容が一致しているか\n・リンク前後の文章とリンク先がつながっているか\n・補足説明を読みたい場面で、補足ページへ案内しているか\n・比較したい場面で、比較情報のあるページへ案内しているか\n・手順を知りたい場面で、該当する手順ページへ案内しているか\n・関連性の薄いリンクを無理に差し込んでいないか\n・候補ページの中に、より文脈に合うリンク先があるか\n・同じリンク文言が、意味の異なるページへ使われていないか\n\n⑥商品・サービス・比較記事\n※公式仕様や比較基準を渡すと、確認できる範囲が広がる\n・商品やサービスの対象者が説明されているか\n・どの課題を解決するものかが説明されているか\n・利用できることと、利用できないことが区別されているか\n・料金の適用条件が説明されているか\n・無料と有料の範囲が説明上矛盾していないか\n・渡した公式仕様と本文の機能説明が一致しているか\n・比較表と本文で説明が食い違っていないか\n・メリットとデメリットの両方が記載されているか\n・「おすすめ」「最適」とする理由が記載されているか\n・どの用途・条件なら他の選択肢が向くか記載されているか\n\n⑦根拠・具体性・発信者の説明\n・抽象的な主張に具体例が添えられているか\n・数値を使った主張に出典や測定条件が添えられているか\n・調査結果に対象者・対象期間・調査方法の説明があるか\n・レビューに試した内容や条件の説明があるか\n・比較に使った評価基準が説明されているか\n・体験談と一般的な事実が区別されているか\n・著者が誰かを説明しているか\n・著者プロフィールに記事分野と関係する経験の記載があるか\n・運営者や問い合わせ先の説明があるか\n・引用・実測・事例など、根拠候補の種類を分類できるか\n\nここまでは、条件を明確にして一問ずつ判定させると、一次チェックに使えそう。\n\nただし「根拠が書いてある」と「根拠が正しい」は別。\n「専門性の説明がある」と「本当に専門家である」も別。\n\n【Jevだけでは判断できなさそうなこと】\n①書かれている内容が、本当か\n・掲載している体験談が実際の経験なのか\n・紹介している事例が実在するのか\n・測定結果が実際に計測した数値なのか\n・著者の経歴や資格が本物なのか\n・引用元そのものが信頼でき、主張を裏付けているのか\n\n②Googleで実際に何が起きているか\n※Search Consoleなどを見ない場合\n・そのURLが実際にインデックスされているか\n・GoogleがどのURLをcanonicalとして選んだか\n・Googlebotが実際にどの内容を取得したか\n・Googlebotのアクセスが継続的に失敗していないか\n・どの検索語で、どのページが表示・クリックされているか\n\n③競合や市場を見ないとわからないこと\n・競合と比べて情報が不足しているか\n・競合と比べて独自の価値があるか\n・同じテーマの記事が、世の中にどれくらいあるか\n・現在の検索結果で、どんなページ形式が求められていそうか\n・検索需要そのものが増えているのか、減っているのか\n\n④事業や顧客の情報がないと決められないこと\n・どのキーワードを優先して狙うべきか\n・どのサービスのページを先に改善するべきか\n・流入は少なくても、重要な顧客が使っているページなのか\n・検索流入がないページを削除してよいか\n・実装工数や売上への影響まで含めて、何から着手すべきか\n\n⑤将来の成果や因果関係\n・タイトルを直したら何位上がるか\n・内部リンクを追加したら流入が何件増えるか\n・記事を統合したらCVが何件増えるか\n・順位が落ちた原因が、その修正だけだったのか\n・施策後の改善が、その施策だけによって起きたのか\n\n⑥Jevの入力・出力だけでは扱えないこと\n・URL文字列だけからページを取得すること\n・画像を直接見て、altと内容が一致するか判断すること\n・スクリーンショットを直接見て、画面の使いやすさを判断すること\n・動画を直接見て、説明内容が正しいか確認すること\n・診断理由や修正案を自由な文章で生成すること\n\nちなみに、404、転送ループ、titleの欠落、noindexの設定、canonicalの宣言、リンク切れ、構造化データの構文エラーなどは、コードで確認する部分。\n\nその上で、取得した情報の意味や関係性を読むところにJevを使う。\n\n「判断できなさそうなこと」の中にも、\n・必要な情報を渡せば判断できること\n・追加情報があっても候補判定にとどまること\n・将来の順位やGoogle内部の評価のように、確定できないこと\nがあるので、ここも分けたい。\n\n診断結果には、\n「問題あり」\n「問題なし」\n「要確認」\n「情報不足で未判定」\n「対象外」\nなどを持たせるつもり。\n\n特に情報不足を減点しないことは大事だと思う。\n日本語でどの程度安定して判定できるかは、項目ごとに検証したい。\n\nSEO診断を自動化するなら、「何を判定するか」と同じくらい、「何を根拠に判定するか」「どこから先は判定しないか」を設計する必要がありそう。",
+          "url": "https://x.com/tetsu_tetsu333/status/2110719890068041872",
+          "createdAt": "2026-10-15T22:10:11+09:00",
+          "avatar": "https://pbs.twimg.com/profile_images/2086378861592477696/otV4VNpQ_200x200.jpg",
+          "metrics": {
+            "views": 6138,
+            "likes": 63,
+            "reposts": 5,
+            "replies": 1
+          },
+          "lang": "ja"
+        },
+        {
+          "id": "2110865910881820875",
           "author": "Elon Musk",
           "handle": "elonmusk",
-          "text": "Tesla x SpaceX",
-          "url": "https://x.com/elonmusk/status/2110894635904110632",
+          "text": "Grok @Bot improves significantly every day",
+          "url": "https://x.com/elonmusk/status/2110865910881820875",
+          "createdAt": "2026-10-16T07:50:25+09:00",
+          "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
           "metrics": {
-            "views": 2679248,
-            "likes": 37045
-          }
+            "views": 1388950,
+            "likes": 4524,
+            "reposts": 495,
+            "replies": 760
+          },
+          "lang": "en",
+          "textJa": "Grok @Bot は毎日大きく進化している"
+        },
+        {
+          "id": "2110899022794043673",
+          "author": "govin.eth | G哥",
+          "handle": "goan999999",
+          "text": "WTF！Codex 6.1 装上 Superpowers，效率直接提高 10 倍！关键是不用再反复返工\n\n用 Codex 最烦什么？\n\n你让它开发一个功能，它上来就写代码，写了半天才发现需求理解错了，改完又出 Bug，来回折腾，Token 烧了不少，项目还没做完\n\nSuperpowers 就是专门解决这个问题的！\n\n我给兄弟们准备了一段实战提示词，复制到 Codex 就能测试（也可以看视频，后半段有演示效果）：\n\n“\n开发一个 AI 工具导航网站，参考 Product Hunt 的设计风格，支持 AI 工具分类、搜索、排行榜和收藏功能，使用 Next.js + Tailwind CSS。调用 Superpowers，先用 brainstorming 澄清需求，不要直接写代码；需求确认后，用 writing-plans 拆解任务；再逐步开发，过程中执行自动化测试和代码审查，最后启动网站让我查看实际效果\n”\n\n它直接给 Codex 装上了一套完整的软件开发工作流：\n\n1、需求澄清：先问清楚你要什么，不再直接乱写\n\n2、任务规划：复杂项目拆成小任务，按步骤执行\n\n3、多 Agent 协作：子代理分工开发、检查代码\n\n4、自动测试：先写测试，再写代码，减少 Bug\n\n5、代码审查：交付前检查，避免反复返工\n\n你会发现，Codex 不再上来就埋头写代码，而是先确认需求、制定计划，再进入开发流程\n\nCodex 6.1 负责干活，Superpowers 负责让它少返工！",
+          "url": "https://x.com/goan999999/status/2110899022794043673",
+          "createdAt": "2026-10-16T10:02:00+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2110787287407824896/img/iQU-Cl-xy9LHODSh.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/2085726397587443712/XkX2eLfE_200x200.jpg",
+          "metrics": {
+            "views": 24430,
+            "likes": 31,
+            "reposts": 7,
+            "replies": 10
+          },
+          "lang": "zh",
+          "textJa": "マジか！Codex 6.1にSuperpowersを入れたら効率が一気に10倍に。何より手戻りを繰り返さなくて済む。\n\nCodexを使っていて一番イラッとするのは何か？\n\n機能を作らせると、いきなりコードを書き始め、しばらくしてから要件を誤解していたことが判明。直したらまたバグが出て、行ったり来たり。トークンはかなり消費したのに、プロジェクトはまだ終わらない。\n\nSuperpowersはまさにこの問題を解決するためのものだ！\n\n実践用のプロンプトを用意したので、Codexにコピーすれば試せる（動画でもOK、後半にデモあり）：\n\n「\nAIツールのナビサイトを開発して。Product Huntのデザインを参考に、AIツールのカテゴリ分け、検索、ランキング、お気に入り機能に対応し、Next.js + Tailwind CSSを使うこと。Superpowersを呼び出し、まずbrainstormingで要件を明確にして、いきなりコードは書かないこと。要件が固まったらwriting-plansでタスクを分解し、段階的に開発して、途中で自動テストとコードレビューを実行し、最後にサイトを起動して実際の動作を見せて\n」\n\nこれでCodexに一式そろったソフトウェア開発ワークフローが入る：\n\n1、要件の明確化：まず何が欲しいかを確認し、いきなり適当に書かない\n\n2、タスク計画：複雑なプロジェクトを小さなタスクに分け、順番に実行\n\n3、マルチエージェント協調：サブエージェントが分担して開発・コードチェック\n\n4、自動テスト：先にテストを書いてからコードを書き、バグを減らす\n\n5、コードレビュー：納品前にチェックして手戻りを防ぐ\n\nCodexがいきなりコードに没頭するのではなく、まず要件を確認し、計画を立ててから開発に入るようになるのが分かるはずだ。\n\nCodex 6.1が作業を担い、Superpowersが手戻りを減らす！"
+        },
+        {
+          "id": "2110906739642269697",
+          "author": "nwtgck",
+          "handle": "nwtgck",
+          "text": "できた！！！\n\nWebブラウザ内でQwen3.8-Flash-Next UD-Q4_K_XL (Unsloth)という125BのLLMが動いた！\n\n完全ローカルでオフライン。ブラウザ内で完結するから、サーバーにプロンプトが送られることもない。合計100GiB越えのHugging Faceの.ggufのままで動かせるようになるとは。",
+          "url": "https://x.com/nwtgck/status/2110906739642269697",
+          "createdAt": "2026-10-16T10:32:40+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2110906238779506688/img/U1NcNoCQ_GfK9VYV.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/2098822525837033473/n-qyqbQy_200x200.jpg",
+          "metrics": {
+            "views": 16387,
+            "likes": 139,
+            "reposts": 10,
+            "replies": 2
+          },
+          "lang": "ja"
+        },
+        {
+          "id": "2111042468066038047",
+          "author": "Man ting",
+          "handle": "Manorgw",
+          "text": "一个 744B 参数的大模型，居然普通电脑也能带得动？\n\nColibrì 这个项目最近被我刷到，路子相当野：它压根不要求你把整个模型灌进显存，而是把专家权重丢到硬盘上，用哪个加载哪个。\n\n🧠 744B MoE，每个 token 大约激活 40B 参数\n💾 约 370GB 专家权重搁磁盘上按需读\n⚡ 稠密部分以 int4 常驻，占用约 9.9GB 内存\n💻 不用 GPU，24GB 以上内存就能试\n🔧 纯 C 写就，零推理框架依赖\n官方实测里，25GB 左右内存的机器也能把它跑起来，代价是速度明显拖慢；核心玩法是把 VRAM、RAM、SSD 当成一整套分层内存来调度。\n说白了：过去大模型比的是显存，现在开始比谁更会用硬盘。\n🔗 https://github.com/JustVugg/colibri",
+          "url": "https://x.com/Manorgw/status/2111042468066038047",
+          "createdAt": "2026-10-16T19:32:00+09:00",
+          "media": "https://pbs.twimg.com/media/HUoMHDubgAA4nMK.jpg?name=orig",
+          "avatar": "https://pbs.twimg.com/profile_images/2089743502334963713/YkOLBpbt_200x200.jpg",
+          "metrics": {
+            "views": 139,
+            "likes": 4,
+            "reposts": 0,
+            "replies": 1
+          },
+          "lang": "zh",
+          "textJa": "744Bパラメータの大規模モデルが、普通のPCでも動かせる？\n\n最近見つけたColibrìというプロジェクトは、かなり大胆なやり方をしている。モデル全体をVRAMに載せることはそもそも求めず、エキスパートの重みをディスクに置いて、使うものだけを読み込む。\n\n🧠 744BのMoEで、1トークンあたり約40Bパラメータが動く\n💾 約370GBのエキスパート重みをディスクに置き、必要に応じて読み込む\n⚡ 密な部分はint4で常駐し、メモリ使用量は約9.9GB\n💻 GPU不要、24GB以上のメモリがあれば試せる\n🔧 純粋なCで書かれ、推論フレームワークへの依存ゼロ\n公式の実測では、25GB前後のメモリのマシンでも動くが、その代わり速度はかなり落ちる。肝はVRAM・RAM・SSDをひとつの階層型メモリとしてまとめて扱うことだ。\n要するに、これまで大規模モデルはVRAMの勝負だったが、これからはディスクをいかにうまく使うかの勝負になる。\n🔗 https://github.com/JustVugg/colibri"
+        },
+        {
+          "id": "2110762848217338294",
+          "author": "Google",
+          "handle": "Google",
+          "text": "Shop smarter this holiday season with our When to Buy Guide. We analyzed data about promotional patterns, Search trends, and discounts across U.S. merchants to help you find when holiday discounts may hit their peak. Mark your calendars:\n\n🎮 Promotions for video games and consoles peak during Black Friday weekend.\n👠 Find the best prices and variety for shoe sales on Black Friday.\n👃 Shop for fragrances before the holiday rush — data shows the best deals and inventory in the two weeks after Black Friday.\n👛 Target mid-December for handbag purchases to get the best discounts and selection.\n🧳 Need travel gear? Shop Black Friday for accessories and late December for suitcases.\n🤖 If electronic toys are on your kids’ wish lists, you’ll likely find the steepest markdowns in the final shopping stretch before the holidays.",
+          "url": "https://x.com/Google/status/2110762848217338294",
+          "createdAt": "2026-10-16T01:00:53+09:00",
+          "avatar": "https://pbs.twimg.com/profile_images/2042749771337564160/AgOFPEL3_200x200.jpg",
+          "metrics": {
+            "views": 126056,
+            "likes": 146,
+            "reposts": 12,
+            "replies": 21
+          },
+          "lang": "en",
+          "textJa": "このホリデーシーズンは「When to Buy Guide（買い時ガイド）」で賢く買い物を。米国の小売店のセール傾向、検索トレンド、割引データを分析し、ホリデーの割引がピークになりそうな時期をまとめました。カレンダーに書き込んでおきましょう：\n\n🎮 ゲームソフトやゲーム機のセールはブラックフライデーの週末がピーク。\n👠 靴は、ブラックフライデーが最安かつ品ぞろえも豊富。\n👃 香水はホリデーの混雑前に。データ上、ブラックフライデー後の2週間がお得で在庫も多い。\n👛 ハンドバッグは12月中旬が割引・品ぞろえともにベスト。\n🧳 旅行用品なら、小物はブラックフライデー、スーツケースは12月下旬に。\n🤖 子どもの欲しいものリストに電子おもちゃがあるなら、ホリデー直前の最後の追い込み時期に最も大きな値下げが見つかりそう。"
+        },
+        {
+          "id": "2110894744457085433",
+          "author": "0xMarioNawfal",
+          "handle": "RoundtableSpace",
+          "text": "7 GitHub repos that turn Claude Code into a stronger research and writing agent:\n\n1.  Context Mode – https://github.com/mksglu/context-mode\n2.  XERJ (local search for agents) – https://github.com/xerj-org/xerj\n3.  Orca (parallel agents) – https://github.com/stablyai/orca\n4.  Claude Code MCP – https://github.com/anthropics/claude-code-mcp\n5.  Matt Pocock’s Skills – https://github.com/mattpocock/skills\n6.  Code Modernization – https://github.com/anthropics/code-modernization\n7.  Claude Code Ultimate Guide – https://github.com/anthropics/claude-code-guide\n\nBookmark this and stop researching alone",
+          "url": "https://x.com/RoundtableSpace/status/2110894744457085433",
+          "createdAt": "2026-10-16T09:45:00+09:00",
+          "avatar": "https://pbs.twimg.com/profile_images/2012162102283407360/U-fPj6wg_200x200.jpg",
+          "metrics": {
+            "views": 44122,
+            "likes": 38,
+            "reposts": 0,
+            "replies": 9
+          },
+          "lang": "en",
+          "textJa": "Claude Codeをより強力なリサーチ・執筆エージェントにするGitHubリポジトリ7選：\n\n1.  Context Mode – https://github.com/mksglu/context-mode\n2.  XERJ（エージェント向けローカル検索） – https://github.com/xerj-org/xerj\n3.  Orca（並列エージェント） – https://github.com/stablyai/orca\n4.  Claude Code MCP – https://github.com/anthropics/claude-code-mcp\n5.  Matt PocockのSkills – https://github.com/mattpocock/skills\n6.  Code Modernization – https://github.com/anthropics/code-modernization\n7.  Claude Code Ultimate Guide – https://github.com/anthropics/claude-code-guide\n\nブックマークして、ひとりで調べ回るのはもうやめよう"
+        },
+        {
+          "id": "2110838005154165070",
+          "author": "Pratham",
+          "handle": "Prathkum",
+          "text": "Generative UI will be the next big shift in AI.\n\nYour product UI won’t be fixed anymore. It gets generated on the fly, based on user intent and context.\n\nMost AI apps today are still a chat box with a model behind it. Users type, read a wall of text, then do the real work themselves.\n\nOpenUI 1.0 fixes that. Instead of dumping text, any agent can respond with real, interactive UI: the form, the chart, the table, the right thing for the moment.\n\nIt’s open source and available for every other agent.\n\n10K+ stars and 6M+ downloads before 1.0 even shipped.\n\nTextbox era is ending.",
+          "url": "https://x.com/Prathkum/status/2110838005154165070",
+          "createdAt": "2026-10-16T05:59:32+09:00",
+          "avatar": "https://pbs.twimg.com/profile_images/1965842512221982720/NjuSrsay_200x200.jpg",
+          "metrics": {
+            "views": 7392,
+            "likes": 36,
+            "reposts": 0,
+            "replies": 4
+          },
+          "lang": "en",
+          "textJa": "生成UIはAIにおける次の大きな転換になる。\n\nプロダクトのUIはもう固定ではなくなる。ユーザーの意図や文脈に応じて、その場で生成されるようになる。\n\n今のAIアプリの多くは、まだチャット欄の裏にモデルがあるだけ。ユーザーは入力し、長い文章を読み、実際の作業は自分でやる。\n\nOpenUI 1.0はそれを解決する。テキストを吐き出す代わりに、どんなエージェントでも本物のインタラクティブなUIで応答できる。フォーム、グラフ、表など、その場に合ったものだ。\n\nオープンソースで、ほかのどのエージェントでも使える。\n\n1.0リリース前の時点で1万スター超、600万ダウンロード超。\n\nテキストボックスの時代は終わりつつある。"
+        },
+        {
+          "id": "2110789964430786745",
+          "author": "Elon Musk",
+          "handle": "elonmusk",
+          "text": "Old friends are the best friends. Jensen rocks. \n\nThe Star Mind computer being co-engineered by SpaceX and Nvidia is far better than almost anyone expects and will reach volume production next year.\n\nWorking with the incredibly talented Nvidia engineering team is pure joy!",
+          "url": "https://x.com/elonmusk/status/2110789964430786745",
+          "createdAt": "2026-10-16T02:48:38+09:00",
+          "avatar": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_200x200.jpg",
+          "metrics": {
+            "views": 2288997,
+            "likes": 40810,
+            "reposts": 4151,
+            "replies": 1347
+          },
+          "lang": "en",
+          "textJa": "古い友人こそ最高の友人。ジェンスンは最高だ。\n\nSpaceXとNvidiaが共同開発している「Star Mind」コンピューターは、ほとんど誰の予想よりもはるかに優れていて、来年には量産に入る。\n\nNvidiaの驚くほど優秀なエンジニアチームと働けるのは本当に楽しい！"
+        },
+        {
+          "id": "2110767153523904932",
+          "author": "unusual_whales",
+          "handle": "unusual_whales",
+          "text": "CoreWeave, $CRWV, bonds are bouncing back after a sharp sell-off over concerns about the company’s debt, per Bloomberg.\n\nThe October 2031 bonds jumped 3.3 cents to 82.8 cents on the dollar, and the June 2030 bonds surged 5.7 cents to 91.3 cents.",
+          "url": "https://x.com/unusual_whales/status/2110767153523904932",
+          "createdAt": "2026-10-16T01:18:00+09:00",
+          "avatar": "https://pbs.twimg.com/profile_images/1714107328134516736/dLZGJPm7_200x200.png",
+          "metrics": {
+            "views": 136785,
+            "likes": 307,
+            "reposts": 23,
+            "replies": 55
+          },
+          "lang": "en",
+          "textJa": "CoreWeave（$CRWV）の社債が、同社の債務への懸念による急落から持ち直している。Bloomberg報道。\n\n2031年10月償還債は3.3セント上昇して額面1ドルあたり82.8セント、2030年6月償還債は5.7セント急伸して91.3セントとなった。"
+        },
+        {
+          "id": "2110748921349706112",
+          "author": "Miguel Ángel Durán",
+          "handle": "midudev",
+          "text": "La mejor colección de componentes animados tiene nueva versión: ¡React Bits 2.0!\n\n✓ +150 componentes para copiar y pegar\n✓ Totalmente personalizable con CSS o Tailwind\n\nCon efectos muy chulos para darle un toque top a tu app o web → https://reactbits.dev",
+          "url": "https://x.com/midudev/status/2110748921349706112",
+          "createdAt": "2026-10-16T00:05:33+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2110748872754569216/img/zmyAhsO4cLA63LxE.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/1824773087323111424/-S3LUmjQ_200x200.jpg",
+          "metrics": {
+            "views": 23676,
+            "likes": 739,
+            "reposts": 59,
+            "replies": 9
+          },
+          "lang": "es",
+          "textJa": "アニメーション付きコンポーネント集の決定版が新バージョンに。React Bits 2.0！\n\n✓ コピペで使えるコンポーネント150以上\n✓ CSSやTailwindで自由にカスタマイズ可能\n\nアプリやWebサイトをワンランク上げる、かなりカッコいいエフェクト付き → https://reactbits.dev"
+        },
+        {
+          "id": "2110892228025397422",
+          "author": "AI军火库",
+          "handle": "CryptoJHK",
+          "text": "GitHub 搞钱，这 8 个推荐库收仓起来\n\n从信息差到自动化，8 个库全给你找齐了\n\n1、ai-money-mindset（AI时代财富思维）\nhttps://github.com/XiaomingX/ai-money-maker-handbook\n\n2、ai-goods-monitor（闲鱼价格监控）\nhttps://github.com/Usagi-org/ai-goofish-monitor\n\n3、awesome-remote-job（远程工作合集）\nhttps://github.com/lukasz-madon/awesome-remote-job\n\n4、awesome-telegram-groups（TG社群导航）\nhttps://github.com/stkw0/awesome-telegram-groups\n\n5、awesome（优质开源精选）\nhttps://github.com/sindresorhus/awesome\n\n6、n8n（自动化工作流）\nhttps://github.com/n8n-io/n8n\n\n7、awesome-quant（量化交易策略）\nhttps://github.com/wilsonfreitas/awesome-quant\n\n8、awesome-public-datasets（公开数据集）\nhttps://github.com/awesomedata/awesome-publi...\n\n#GitHub #搞钱 #副业 #开源 #AI工具",
+          "url": "https://x.com/CryptoJHK/status/2110892228025397422",
+          "createdAt": "2026-10-16T09:35:00+09:00",
+          "avatar": "https://pbs.twimg.com/profile_images/1506883765754236929/NtxXAmwf_200x200.jpg",
+          "metrics": {
+            "views": 13439,
+            "likes": 150,
+            "reposts": 37,
+            "replies": 10
+          },
+          "lang": "zh",
+          "textJa": "GitHubで稼ぐ。このおすすめ8リポジトリは保存しておこう\n\n情報格差から自動化まで、8つ全部そろえた\n\n1、ai-money-mindset（AI時代の富の考え方）\nhttps://github.com/XiaomingX/ai-money-maker-handbook\n\n2、ai-goods-monitor（闲鱼の価格監視）\nhttps://github.com/Usagi-org/ai-goofish-monitor\n\n3、awesome-remote-job（リモートワークまとめ）\nhttps://github.com/lukasz-madon/awesome-remote-job\n\n4、awesome-telegram-groups（Telegramコミュニティ案内）\nhttps://github.com/stkw0/awesome-telegram-groups\n\n5、awesome（優良オープンソース厳選）\nhttps://github.com/sindresorhus/awesome\n\n6、n8n（自動化ワークフロー）\nhttps://github.com/n8n-io/n8n\n\n7、awesome-quant（クオンツ取引戦略）\nhttps://github.com/wilsonfreitas/awesome-quant\n\n8、awesome-public-datasets（公開データセット）\nhttps://github.com/awesomedata/awesome-publi...\n\n#GitHub #稼ぐ #副業 #オープンソース #AIツール"
+        },
+        {
+          "id": "2110771542825304257",
+          "author": "Self",
+          "handle": "selfxyz",
+          "text": "At Self Labs, we’ve been using agents since day one\n\nOur agentic web identity & privacy stack is already used by companies like Google\n\nToday we're launching the missing piece: Agent Vault, a secure way for agents to log in & make credit card payments\n\nSuperpowers for your agents",
+          "url": "https://x.com/selfxyz/status/2110771542825304257",
+          "createdAt": "2026-10-16T01:35:26+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2110771414202744832/img/OjKfZukkVfddNg9Z.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/1894153706578317312/A_wuvkoA_200x200.jpg",
+          "metrics": {
+            "views": 842552,
+            "likes": 1185,
+            "reposts": 132,
+            "replies": 179
+          },
+          "lang": "en",
+          "textJa": "Self Labsでは創業初日からエージェントを使ってきた\n\n私たちのエージェント向けWebアイデンティティ＆プライバシー基盤は、すでにGoogleなどの企業に使われている\n\n今日、欠けていた最後のピースをリリースする。Agent Vault。エージェントが安全にログインし、クレジットカード決済できる仕組みだ\n\nエージェントにスーパーパワーを"
+        },
+        {
+          "id": "2110316777850671405",
+          "author": "Fabien",
+          "handle": "Fabien_Mikol",
+          "text": "Sylvia Serfati sur la révolution de l'IA en mathématiques\n\"La plupart des résultats d'OpenAI mériteraient la médaille Fields\".\n\"Les preuves sont d'une complexité incroyable et aussi parfois d'une beauté impressionnante. C'est-à-dire que nous n'avons pas le monopole de la beauté.\"",
+          "url": "https://x.com/Fabien_Mikol/status/2110316777850671405",
+          "createdAt": "2026-10-14T19:28:22+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2110315123193618432/img/gCgy0YsbyslXIQHt.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/1254388332605444098/VxStQ7V3_200x200.jpg",
+          "metrics": {
+            "views": 124737,
+            "likes": 2196,
+            "reposts": 514,
+            "replies": 50
+          },
+          "lang": "fr",
+          "textJa": "シルヴィア・セルファティ氏、数学におけるAI革命について\n「OpenAIの成果の多くはフィールズ賞に値するだろう」\n「証明は信じられないほど複雑で、ときに驚くほど美しくもある。つまり、美しさは私たちの専売特許ではないということだ」"
+        },
+        {
+          "id": "2110818400570069064",
+          "author": "Claude Code Changelog",
+          "handle": "ClaudeCodeLog",
+          "text": "Claude Code 2.1.301 is now available.\n\n51 CLI changes, 1 system prompt change\n\nHighlights:\n• System prompt adds security-testing scope and must refuse out-of-scope probes, blocking unauthorized testing\n• Unattended retry mode now aborts requests when the next usage-limit reset is far in the future\n\nComplete details in thread ↓",
+          "url": "https://x.com/ClaudeCodeLog/status/2110818400570069064",
+          "createdAt": "2026-10-16T04:41:38+09:00",
+          "media": "https://pbs.twimg.com/ext_tw_video_thumb/2110818375492374528/pu/img/fIKhuOh-5v_53On_.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/2024922567320997889/1KnSSnCQ_200x200.jpg",
+          "metrics": {
+            "views": 32051,
+            "likes": 369,
+            "reposts": 12,
+            "replies": 20
+          },
+          "lang": "en",
+          "textJa": "Claude Code 2.1.301が公開されました。\n\nCLIの変更51件、システムプロンプトの変更1件\n\n主な内容：\n• システムプロンプトにセキュリティテストの範囲が追加され、範囲外の調査は拒否するように。無許可のテストを防ぐ\n• 無人リトライモードで、次の利用上限リセットがかなり先の場合はリクエストを中止するように\n\n詳細はスレッドで ↓"
+        },
+        {
+          "id": "2110758820259741721",
+          "author": "Hasan Toor",
+          "handle": "hasantoxr",
+          "text": "wait... so an AI agent can now build the business software AND use it??\n\nhttp://ERP.AI just launched Proto and the idea is kinda wild:\n\n- you describe a process like invoicing or purchase approvals and it builds the app\n- it handles the boring stuff inside it, finding records, updating them, drafting follow ups\n- anything that matters still waits for a human to approve\n\nif agents end up doing the work, paying per seat for software starts looking really weird\n\npick one business process you know, try building it with http://ERP.AI and Proto, and lemme know what you get\n\nhttps://www.erp.ai/",
+          "url": "https://x.com/hasantoxr/status/2110758820259741721",
+          "createdAt": "2026-10-16T00:44:53+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2110758654538588160/img/R5XMEVeKy8_yPWTY.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/2100090218191978496/0DP1wMRx_200x200.jpg",
+          "metrics": {
+            "views": 6996,
+            "likes": 28,
+            "reposts": 1,
+            "replies": 1
+          },
+          "lang": "en",
+          "textJa": "待って…つまりAIエージェントが業務ソフトを作って、しかもそれを使えるようになったってこと？？\n\nhttp://ERP.AI がProtoをローンチした。発想がかなりぶっ飛んでいる：\n\n- 請求書発行や購買承認などのプロセスを説明すると、アプリを作ってくれる\n- その中の面倒な作業もこなす。レコードを探し、更新し、フォローアップの下書きを作る\n- 重要なことは必ず人間の承認を待つ\n\nもし仕事をするのがエージェントになるなら、ソフトウェアに1席ごとにお金を払うのはかなり奇妙に見えてくる\n\nよく知っている業務プロセスをひとつ選んで、http://ERP.AI とProtoで作ってみて、結果を教えて\n\nhttps://www.erp.ai/"
+        },
+        {
+          "id": "2110770330943820179",
+          "author": "ben.",
+          "handle": "benyuls",
+          "text": "okay, this guy just went after superhuman with an open-source email app...\n\n> elie starts inbox zero 3 years ago\n> just an ai assistant for gmail and outlook\n> open source from day one\n> 12k github stars, 25k+ sign-ups\n> enterprise customers start showing up\n> meanwhile superhuman charges $40/month for its ai\n> so he builds his own email app\n> fast, keyboard-first, one inbox for every account\n> free to use, ai for $20/month\n> pentested by openai and snyk with unreleased cyber models\n> and you can self-host the whole thing for free\n\n3 years of building just to make a $40 app look expensive",
+          "url": "https://x.com/benyuls/status/2110770330943820179",
+          "createdAt": "2026-10-16T01:30:37+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2110770307803889664/img/700gEdDmoEVGHxj-.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/2101240275184361472/RiDrutgt_200x200.jpg",
+          "metrics": {
+            "views": 26339,
+            "likes": 96,
+            "reposts": 14,
+            "replies": 11
+          },
+          "lang": "en",
+          "textJa": "なんと、この人がオープンソースのメールアプリでSuperhumanに挑んだ…\n\n> エリーは3年前にInbox Zeroを始める\n> 当初はGmailとOutlook向けのAIアシスタントにすぎなかった\n> 初日からオープンソース\n> GitHubスター1.2万、登録2.5万超\n> 法人顧客が現れ始める\n> 一方SuperhumanはAI機能に月40ドルを取っている\n> そこで自前のメールアプリを作る\n> 速くて、キーボード中心で、全アカウントをひとつの受信箱に\n> 無料で使え、AIは月20ドル\n> OpenAIとSnykが未公開のサイバー系モデルでペネトレーションテスト済み\n> しかも全部を無料でセルフホストできる\n\n40ドルのアプリを高く見せるために3年かけて作り上げた"
+        },
+        {
+          "id": "2110838033943785507",
+          "author": "santi",
+          "handle": "santtiagom_",
+          "text": "podés estar usando Claude Opus 5.5 todos los días y no estar aprovechando todo su potencial.\n\nAnthropic publicó una guía oficial con recomendaciones para sacarle más provecho al modelo.\n\nalgunos consejos que me parecieron muy buenos:\n\n1) empezá con effort medium: aumentalo cuando la complejidad de la tarea lo justifique. más razonamiento implica mayor costo y latencia.\n\n2) evitá pedirle que piense demasiado: instrucciones como \"pensá antes de responder\" pueden hacerlo más lento sin mejorar los resultados.\n\n3) definí cuándo termina el trabajo: para tareas largas, establecé criterios claros de finalización y una checklist para verificar el progreso.\n\n4) dale contexto antes de actuar: pedile que explore los archivos, documentos y herramientas relevantes antes de empezar a trabajar.\n\n5) establecé límites de tiempo: cuando trabajás con múltiples agentes, decirle cuánto tiempo tienen disponible puede mejorar la coordinación.\n\nestá bueno saber cuánto se pueden mejorar los resultados de un mismo modelo ajustando las instrucciones, el contexto y la forma en que organizamos los agentes.\n\nles dejo la guía completa:\nhttps://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5-5",
+          "url": "https://x.com/santtiagom_/status/2110838033943785507",
+          "createdAt": "2026-10-16T05:59:39+09:00",
+          "media": "https://pbs.twimg.com/media/HUsz2CGXMAAvAdb.jpg?name=orig",
+          "avatar": "https://pbs.twimg.com/profile_images/1920658459302780928/cX2Z3tT2_200x200.jpg",
+          "metrics": {
+            "views": 20822,
+            "likes": 492,
+            "reposts": 38,
+            "replies": 4
+          },
+          "lang": "es",
+          "textJa": "Claude Opus 5.5を毎日使っていても、その実力を出し切れていないかもしれない。\n\nAnthropicが、このモデルをもっと活用するための推奨事項をまとめた公式ガイドを公開した。\n\n特に良いと思ったアドバイス：\n\n1) effortはmediumから始める：タスクの複雑さに見合うときに上げる。推論を増やすほどコストと待ち時間が増える。\n\n2) 考えすぎを求めない：「答える前によく考えて」といった指示は、結果を良くしないまま遅くすることがある。\n\n3) 作業の終わりを定義する：長いタスクでは、明確な完了条件と進捗確認用のチェックリストを決める。\n\n4) 行動の前に文脈を与える：作業を始める前に、関連するファイル、ドキュメント、ツールを調べさせる。\n\n5) 時間制限を設ける：複数のエージェントで作業するとき、使える時間を伝えると連携が良くなることがある。\n\n指示や文脈、エージェントの組み方を調整するだけで、同じモデルの結果がこれだけ良くなるのは知っておくと良い。\n\nガイド全文はこちら：\nhttps://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5-5"
+        },
+        {
+          "id": "2110773321138884745",
+          "author": "Khosla Ventures",
+          "handle": "khoslaventures",
+          "text": "Excited to partner with @nabihasaklayen, @madridmarinna & @cellinobio as they launch @withreservoir today.\n\nPreserve your immune cells with a simple blood draw at a clinic or at home. Watch why your cells will never be younger than they are today.",
+          "url": "https://x.com/khoslaventures/status/2110773321138884745",
+          "createdAt": "2026-10-16T01:42:30+09:00",
+          "avatar": "https://pbs.twimg.com/profile_images/1678874504888729600/3L4MucY4_200x200.jpg",
+          "metrics": {
+            "views": 2299,
+            "likes": 29,
+            "reposts": 4,
+            "replies": 8
+          },
+          "lang": "en",
+          "textJa": "@nabihasaklayen、@madridmarinna、@cellinobio と提携できることをうれしく思います。本日 @withreservoir がローンチしました。\n\nクリニックや自宅での簡単な採血で、自分の免疫細胞を保存できます。あなたの細胞が今日より若くなることはない理由を、ぜひご覧ください。"
+        },
+        {
+          "id": "2110723758877212852",
+          "author": "程序员鱼皮",
+          "handle": "yupi996",
+          "text": "我用 REA 逆向了付费颜色 APP，结果很意外！🤣\n\n去他丫的 “软件已死” 。。",
+          "url": "https://x.com/yupi996/status/2110723758877212852",
+          "createdAt": "2026-10-15T22:25:34+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2110717324273856512/img/5ejBnz5WK-FT2lvF.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/2000617981035044864/5pXwSkUN_200x200.jpg",
+          "metrics": {
+            "views": 84873,
+            "likes": 528,
+            "reposts": 40,
+            "replies": 23
+          },
+          "lang": "zh",
+          "textJa": "REAで有料の色見本アプリをリバースエンジニアリングしてみたら、意外な結果に！🤣\n\n「ソフトウェアは死んだ」なんてクソくらえ。。"
+        },
+        {
+          "id": "2110810154031525944",
+          "author": "Recogard",
+          "handle": "recogard",
+          "text": "6 free GitHub bots for trading on Polymarket…\n\nHere’s everything you need to automate and make your trading much easier:\n\n1. A trading bot powered by AI with 118 ready to use strategies and tools for prediction markets.\n\nIt includes a web dashboard where you can simply ask the bot to research, analyze or execute anything you want based on the latest market data. \n\nGitHub: https://github.com/recogardtech/AutoPilotPM\n\n2. A backtesting simulator that lets you test any of your own trading ideas and strategies.\n\nIt simulates your strategy on real historical markets and shows how it would have performed, with pnl, win rate and all possible risks.\n\nGitHub: https://github.com/evan-kolberg/prediction-market-backtesting\n\n3. This bot can automatically manage all your limit orders on Polymarket to maximize liquidity rewards.\n\nGitHub: https://github.com/lihanyu81/polymarket_lp_tool\n\n4. A bot toolkit that includes copy trading, arbitrage, smart money, market making, whale alerts, spread farming, sports trading and more.\n\nGitHub: https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits\n\n5. A bot for trading weather markets that scans multiple sources in real time, like weather forecasts, airport data and aviation observations (METAR) to collect the latest temperature data.\n\nThen it generates a detailed weather report for any specific city and day.\n\nGitHub: https://github.com/yangyuan-zhen/PolyWeather\n\n6. A Claude powered trading bot that connects directly to Polymarket.\n\nIt can analyze markets in real time, track prices, suggest possible trades or even trade for you. \n\nGitHub: https://github.com/caiovicentino/polymarket-mcp-server\n\nEach of these bots includes a dry run mode, so you can test them on real markets without risking any funds.",
+          "url": "https://x.com/recogard/status/2110810154031525944",
+          "createdAt": "2026-10-16T04:08:52+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2110810139989037056/img/UsNjgiRmVVLXR_dd.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/1963279071707529225/6DM23jXl_200x200.jpg",
+          "metrics": {
+            "views": 20487,
+            "likes": 274,
+            "reposts": 48,
+            "replies": 18
+          },
+          "lang": "en",
+          "textJa": "Polymarketで取引するための無料GitHubボット6選…\n\n取引を自動化して、ぐっと楽にするのに必要なものをまとめた：\n\n1. 予測市場向けの戦略とツールを118個すぐ使える形で備えたAI取引ボット。\n\nWebダッシュボード付きで、最新の市場データをもとに、調査・分析・注文の実行など何でもボットに頼める。\n\nGitHub: https://github.com/recogardtech/AutoPilotPM\n\n2. 自分の取引アイデアや戦略を何でも検証できるバックテストシミュレーター。\n\n実際の過去の市場で戦略をシミュレーションし、損益、勝率、想定されるリスクを含めてどうなっていたかを示す。\n\nGitHub: https://github.com/evan-kolberg/prediction-market-backtesting\n\n3. Polymarketの指値注文をすべて自動管理し、流動性報酬を最大化するボット。\n\nGitHub: https://github.com/lihanyu81/polymarket_lp_tool\n\n4. コピートレード、アービトラージ、スマートマネー追跡、マーケットメイク、クジラ通知、スプレッド狙い、スポーツ取引などを含むボットツールキット。\n\nGitHub: https://github.com/HarrierOnChain/Prediction-Markets-Trading-Bot-Toolkits\n\n5. 天気予報、空港データ、航空気象観測（METAR）など複数の情報源をリアルタイムで調べ、最新の気温データを集める天気市場向け取引ボット。\n\nさらに、特定の都市・日付について詳しい気象レポートを作る。\n\nGitHub: https://github.com/yangyuan-zhen/PolyWeather\n\n6. Polymarketに直接つながるClaude搭載の取引ボット。\n\n市場をリアルタイムで分析し、価格を追跡し、取引案を出したり、代わりに取引したりできる。\n\nGitHub: https://github.com/caiovicentino/polymarket-mcp-server\n\nどのボットにもドライランモードがあるので、資金をリスクにさらさずに実際の市場で試せる。"
+        },
+        {
+          "id": "2110870071933645103",
+          "author": "ComfyUI",
+          "handle": "ComfyUI",
+          "text": "Higgsfield promised to open-source their entire platform. They didn’t.\n\nLet's help them.\n\nFor the next two weeks, Comfy and our partners are putting up $25,000 in prizes for the best open-source builds on the Comfy Developer Platform.\n\nPartners: @NVIDIAAI, @runpod, @MiniMax_AI, @ltx_io,  @bfl_ai\n\n→ $10K grand prize\n→ RTX 5090: Most Innovative\n→ RTX 5090: Most Viral\n→ RTX 5090: Open Weights Only\n→ 10 runners-up: $250 in Comfy credits",
+          "url": "https://x.com/ComfyUI/status/2110870071933645103",
+          "createdAt": "2026-10-16T08:06:57+09:00",
+          "media": "https://pbs.twimg.com/amplify_video_thumb/2110870013259509760/img/NO4kqR9YQZiDTNSX.jpg",
+          "avatar": "https://pbs.twimg.com/profile_images/2047708517570887680/vasvAmZR_200x200.jpg",
+          "metrics": {
+            "views": 95036,
+            "likes": 1352,
+            "reposts": 138,
+            "replies": 100
+          },
+          "lang": "en",
+          "textJa": "Higgsfieldはプラットフォーム全体をオープンソース化すると約束した。でも、しなかった。\n\nだから手伝おう。\n\nこれから2週間、Comfyとパートナー各社が、Comfy Developer Platform上の優れたオープンソース作品に総額2万5000ドルの賞金を用意する。\n\nパートナー: @NVIDIAAI、@runpod、@MiniMax_AI、@ltx_io、@bfl_ai\n\n→ 大賞 1万ドル\n→ RTX 5090: 最も革新的\n→ RTX 5090: 最もバズった\n→ RTX 5090: オープンウェイト限定\n→ 入賞10名: Comfyクレジット250ドル分"
         }
       ]
     }
