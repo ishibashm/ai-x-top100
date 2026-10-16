@@ -1,0 +1,1293 @@
+{
+  "meta": {
+    "generatedAt": "2026-09-20T04:50:22.561Z",
+    "dateStamp": "20260919",
+    "inputFile": "foryou-data.json",
+    "classifierMode": "mock",
+    "accountCount": 4,
+    "postCount": 115,
+    "warnings": []
+  },
+  "accountSummaries": [
+    {
+      "name": "Emerald Glen",
+      "handle": "GazerStar79330",
+      "updatedAt": "2026-09-19T22:02:12.926122Z",
+      "postCount": 51,
+      "topTopics": [
+        {
+          "key": "その他",
+          "count": 17
+        },
+        {
+          "key": "Jevエコシステム・API",
+          "count": 15
+        },
+        {
+          "key": "Jev活用・デモ",
+          "count": 6
+        }
+      ],
+      "topFormats": [
+        {
+          "key": "短文メモ",
+          "count": 26
+        },
+        {
+          "key": "運用ノウハウ",
+          "count": 8
+        }
+      ],
+      "themeLine": "Emerald Glen は「Jevエコシステム・API」を中心に、「その他」 と 「Jev活用・デモ」 が続く構成。",
+      "operationsLine": "投稿の型は 短文メモ(26)、運用ノウハウ(8) が中心です。",
+      "representativePost": {
+        "author": "Thariq",
+        "url": "https://x.com/trq212/status/2101009392611278961",
+        "headline": "Claude Code に AGENTS.md のサポートを追加します。",
+        "topic": "エージェント・開発ツール",
+        "digestScore": 24.7
+      }
+    },
+    {
+      "name": "鳳翼炎輪祓闇大鎧城",
+      "handle": "N8jhSzyQoL35422",
+      "updatedAt": "2026-09-19T22:21:49.224Z",
+      "postCount": 20,
+      "topTopics": [
+        {
+          "key": "Jevエコシステム・API",
+          "count": 10
+        },
+        {
+          "key": "Jev活用・デモ",
+          "count": 7
+        },
+        {
+          "key": "その他",
+          "count": 2
+        }
+      ],
+      "topFormats": [
+        {
+          "key": "短文メモ",
+          "count": 8
+        },
+        {
+          "key": "実演・作例",
+          "count": 6
+        }
+      ],
+      "themeLine": "鳳翼炎輪祓闇大鎧城 は「Jevエコシステム・API」を中心に、「Jev活用・デモ」 と 「その他」 が続く構成。",
+      "operationsLine": "投稿の型は 短文メモ(8)、実演・作例(6) が中心です。",
+      "representativePost": {
+        "author": "梭哈.AI",
+        "url": "https://x.com/SUOHA_AI/status/2101000339948282090",
+        "headline": "完全に眠れなくなった……この動画を見ると、JEVの恐ろしい能力がよく分かる。",
+        "topic": "Jevエコシステム・API",
+        "digestScore": 21.1
+      }
+    },
+    {
+      "name": "oshiyasu",
+      "handle": "oshiyasu229196",
+      "updatedAt": "2026-09-20T07:31:00+09:00",
+      "postCount": 24,
+      "topTopics": [
+        {
+          "key": "Jevエコシステム・API",
+          "count": 12
+        },
+        {
+          "key": "その他",
+          "count": 5
+        },
+        {
+          "key": "Jev活用・デモ",
+          "count": 4
+        }
+      ],
+      "topFormats": [
+        {
+          "key": "短文メモ",
+          "count": 15
+        },
+        {
+          "key": "実演・作例",
+          "count": 5
+        }
+      ],
+      "themeLine": "oshiyasu は「Jevエコシステム・API」を中心に、「その他」 と 「Jev活用・デモ」 が続く構成。",
+      "operationsLine": "投稿の型は 短文メモ(15)、実演・作例(5) が中心です。",
+      "representativePost": {
+        "author": "Rahul",
+        "url": "https://x.com/sairahul1/status/2101015648306642949",
+        "headline": "今年中にモデルのファインチューニングを学びましょう 今年中にモデルのファインチューニングを学びましょう 今年中にモデルのファインチューニングを学びましょう 今年中にモデルのファインチューニングを学びましょう 今年中にモデルのファインチュー…",
+        "topic": "モデル発表・製品更新",
+        "digestScore": 20.78
+      }
+    },
+    {
+      "name": "cloud",
+      "handle": "cloud8wq",
+      "updatedAt": "2026-09-19T22:39:00.000Z",
+      "postCount": 20,
+      "topTopics": [
+        {
+          "key": "その他",
+          "count": 14
+        },
+        {
+          "key": "モデル発表・製品更新",
+          "count": 2
+        },
+        {
+          "key": "市場・事業論評",
+          "count": 2
+        }
+      ],
+      "topFormats": [
+        {
+          "key": "短文メモ",
+          "count": 15
+        },
+        {
+          "key": "解説・まとめ",
+          "count": 2
+        }
+      ],
+      "themeLine": "cloud は「モデル発表・製品更新」を中心に、「その他」 と 「市場・事業論評」 が続く構成。",
+      "operationsLine": "投稿の型は 短文メモ(15)、解説・まとめ(2) が中心です。",
+      "representativePost": {
+        "author": "unusual_whales",
+        "url": "https://x.com/unusual_whales/status/2101085357886292316",
+        "headline": "速報：WSJによると、GoogleのGeminiモデルはサイバーセキュリティ能力のテスト中にインターネットへアクセスし、他社をハッキングした。",
+        "topic": "モデル発表・製品更新",
+        "digestScore": 19.94
+      }
+    }
+  ],
+  "topPosts": [
+    {
+      "internalId": "GazerStar79330-2101009392611278961",
+      "accountName": "Emerald Glen",
+      "accountHandle": "GazerStar79330",
+      "id": "2101009392611278961",
+      "author": "Thariq",
+      "handle": "trq212",
+      "text": "Claude Code に AGENTS.md のサポートを追加します。\n\n本日よりバージョン 2.1.277 から、フォルダに CLAUDE.md が存在しない場合、Claude は AGENTS.md を確認し、使用します。\n\nこの動作は /config で切り替えることができます。",
+      "textJa": "",
+      "displayText": "Claude Code に AGENTS.md のサポートを追加します。\n\n本日よりバージョン 2.1.277 から、フォルダに CLAUDE.md が存在しない場合、Claude は AGENTS.md を確認し、使用します。\n\nこの動作は /config で切り替えることができます。",
+      "snippet": "Claude Code に AGENTS.md のサポートを追加します。",
+      "url": "https://x.com/trq212/status/2101009392611278961",
+      "createdAt": "2026-09-18T18:04:08.000Z",
+      "updatedAt": "2026-09-19T22:02:12.926122Z",
+      "lang": "ja",
+      "views": 4719196,
+      "likes": 29892,
+      "media": "",
+      "raw": {
+        "id": "2101009392611278961",
+        "author": "Thariq",
+        "handle": "trq212",
+        "text": "Claude Code に AGENTS.md のサポートを追加します。\n\n本日よりバージョン 2.1.277 から、フォルダに CLAUDE.md が存在しない場合、Claude は AGENTS.md を確認し、使用します。\n\nこの動作は /config で切り替えることができます。",
+        "url": "https://x.com/trq212/status/2101009392611278961",
+        "createdAt": "2026-09-18T18:04:08.000Z",
+        "metrics": {
+          "views": 4719196,
+          "likes": 29892
+        }
+      },
+      "classification": {
+        "classifier": "mock",
+        "primaryTopicKey": "agents-devtools",
+        "primaryTopicLabel": "エージェント・開発ツール",
+        "formatKey": "note",
+        "formatLabel": "短文メモ",
+        "toneKey": "neutral",
+        "toneLabel": "中立",
+        "tags": [
+          "エージェント・開発ツール",
+          "モデル発表・製品更新"
+        ],
+        "confidence": 0.55,
+        "digestScore": 24.7
+      }
+    },
+    {
+      "internalId": "N8jhSzyQoL35422-2101000339948282090",
+      "accountName": "鳳翼炎輪祓闇大鎧城",
+      "accountHandle": "N8jhSzyQoL35422",
+      "id": "2101000339948282090",
+      "author": "梭哈.AI",
+      "handle": "SUOHA_AI",
+      "text": "完全睡不着了....这个视频让你完全看懂JEV的恐怖能力\n\n我实际演示了一下，用 JEV 和 DeepSeek 做同一个任务：从当天的海量实时新闻流里，为 15 个品牌快速匹配有没有适合借势的公关热点，并打上结构化意图分类标签\n\n结果是：28 秒内，Jev 狂刷完了整整 428\n\n很多人没看懂爆火的JEV是什么？\n\n所以我做了一个 50 秒的演示视频，带大家把海外刷屏的 JEV 以及它背后的底层架构看透（见下方视频）\n\nJEV 是前 OpenAI、参与 ChatGPT / RLHF 的 @CompleteSkeptic（Diogo Almeida）创办 @typesafeai 后的第一款模型\n\n他在 OpenAI 时发现了一个致命矛盾：  x.com/SUOHA_AI/statu…",
+      "textJa": "完全に眠れなくなった……この動画を見ると、JEVの恐ろしい能力がよく分かる。\n\nJEVとDeepSeekに同じタスクを実際に試してもらった。当日の膨大なリアルタイムニュースから、15ブランドがPRに活用できる話題を素早く探し、構造化した意図分類タグを付けるというもの。\n\n結果：Jevは28秒以内に、なんと428……\n\n話題のJEVが何なのか、まだ分からない人も多い。\n\nそこで50秒のデモ動画を作った。海外で話題のJEVと、その基盤となるアーキテクチャを紹介する（下の動画）。\n\nJEVは、OpenAIでChatGPT / RLHFに携わった @CompleteSkeptic（Diogo Almeida）が @typesafeai を創業して初めて発表したモデルだ。\n\n彼はOpenAIで、致命的な矛盾に気づいた： x.com/SUOHA_AI/statu…",
+      "displayText": "完全に眠れなくなった……この動画を見ると、JEVの恐ろしい能力がよく分かる。\n\nJEVとDeepSeekに同じタスクを実際に試してもらった。当日の膨大なリアルタイムニュースから、15ブランドがPRに活用できる話題を素早く探し、構造化した意図分類タグを付けるというもの。\n\n結果：Jevは28秒以内に、なんと428……\n\n話題のJEVが何なのか、まだ分からない人も多い。\n\nそこで50秒のデモ動画を作った。海外で話題のJEVと、その基盤となるアーキテクチャを紹介する（下の動画）。\n\nJEVは、OpenAIでChatGPT / RLHFに携わった @CompleteSkeptic（Diogo Almeida）が @typesafeai を創業して初めて発表したモデルだ。\n\n彼はOpenAIで、致命的な矛盾に気づいた： x.com/SUOHA_AI/statu…",
+      "snippet": "完全に眠れなくなった……この動画を見ると、JEVの恐ろしい能力がよく分かる。",
+      "url": "https://x.com/SUOHA_AI/status/2101000339948282090",
+      "createdAt": "2026-09-18T17:28:10.000Z",
+      "updatedAt": "2026-09-19T22:21:49.224Z",
+      "lang": "zh",
+      "views": 300000,
+      "likes": 1852,
+      "media": "",
+      "raw": {
+        "id": "2101000339948282090",
+        "author": "梭哈.AI",
+        "handle": "SUOHA_AI",
+        "text": "完全睡不着了....这个视频让你完全看懂JEV的恐怖能力\n\n我实际演示了一下，用 JEV 和 DeepSeek 做同一个任务：从当天的海量实时新闻流里，为 15 个品牌快速匹配有没有适合借势的公关热点，并打上结构化意图分类标签\n\n结果是：28 秒内，Jev 狂刷完了整整 428\n\n很多人没看懂爆火的JEV是什么？\n\n所以我做了一个 50 秒的演示视频，带大家把海外刷屏的 JEV 以及它背后的底层架构看透（见下方视频）\n\nJEV 是前 OpenAI、参与 ChatGPT / RLHF 的 @CompleteSkeptic（Diogo Almeida）创办 @typesafeai 后的第一款模型\n\n他在 OpenAI 时发现了一个致命矛盾：  x.com/SUOHA_AI/statu…",
+        "url": "https://x.com/SUOHA_AI/status/2101000339948282090",
+        "createdAt": "2026-09-18T17:28:10.000Z",
+        "metrics": {
+          "views": 300000,
+          "likes": 1852
+        },
+        "textJa": "完全に眠れなくなった……この動画を見ると、JEVの恐ろしい能力がよく分かる。\n\nJEVとDeepSeekに同じタスクを実際に試してもらった。当日の膨大なリアルタイムニュースから、15ブランドがPRに活用できる話題を素早く探し、構造化した意図分類タグを付けるというもの。\n\n結果：Jevは28秒以内に、なんと428……\n\n話題のJEVが何なのか、まだ分からない人も多い。\n\nそこで50秒のデモ動画を作った。海外で話題のJEVと、その基盤となるアーキテクチャを紹介する（下の動画）。\n\nJEVは、OpenAIでChatGPT / RLHFに携わった @CompleteSkeptic（Diogo Almeida）が @typesafeai を創業して初めて発表したモデルだ。\n\n彼はOpenAIで、致命的な矛盾に気づいた： x.com/SUOHA_AI/statu…",
+        "lang": "zh"
+      },
+      "classification": {
+        "classifier": "mock",
+        "primaryTopicKey": "jev-platform",
+        "primaryTopicLabel": "Jevエコシステム・API",
+        "formatKey": "workflow",
+        "formatLabel": "運用ノウハウ",
+        "toneKey": "practical",
+        "toneLabel": "実務",
+        "tags": [
+          "Jevエコシステム・API",
+          "Jev活用・デモ",
+          "モデル発表・製品更新"
+        ],
+        "confidence": 0.55,
+        "digestScore": 21.1
+      }
+    },
+    {
+      "internalId": "oshiyasu229196-2101015648306642949",
+      "accountName": "oshiyasu",
+      "accountHandle": "oshiyasu229196",
+      "id": "2101015648306642949",
+      "author": "Rahul",
+      "handle": "sairahul1",
+      "text": "今年中にモデルのファインチューニングを学びましょう\n今年中にモデルのファインチューニングを学びましょう\n今年中にモデルのファインチューニングを学びましょう\n今年中にモデルのファインチューニングを学びましょう\n今年中にモデルのファインチューニングを学びましょう\n\n小さく始めましょう",
+      "textJa": "",
+      "displayText": "今年中にモデルのファインチューニングを学びましょう\n今年中にモデルのファインチューニングを学びましょう\n今年中にモデルのファインチューニングを学びましょう\n今年中にモデルのファインチューニングを学びましょう\n今年中にモデルのファインチューニングを学びましょう\n\n小さく始めましょう",
+      "snippet": "今年中にモデルのファインチューニングを学びましょう 今年中にモデルのファインチューニングを学びましょう 今年中にモデルのファインチューニングを学びましょう 今年中にモデルのファインチューニングを学びましょう 今年中にモデルのファインチュー…",
+      "url": "https://x.com/sairahul1/status/2101015648306642949",
+      "createdAt": "2026-09-18T18:29:00.000Z",
+      "updatedAt": "2026-09-20T07:31:00+09:00",
+      "lang": "ja",
+      "views": 740000,
+      "likes": 5565,
+      "media": "",
+      "raw": {
+        "id": "2101015648306642949",
+        "author": "Rahul",
+        "handle": "sairahul1",
+        "text": "今年中にモデルのファインチューニングを学びましょう\n今年中にモデルのファインチューニングを学びましょう\n今年中にモデルのファインチューニングを学びましょう\n今年中にモデルのファインチューニングを学びましょう\n今年中にモデルのファインチューニングを学びましょう\n\n小さく始めましょう",
+        "url": "https://x.com/sairahul1/status/2101015648306642949",
+        "createdAt": "2026-09-18T18:29:00.000Z",
+        "metrics": {
+          "views": 740000,
+          "likes": 5565
+        }
+      },
+      "classification": {
+        "classifier": "mock",
+        "primaryTopicKey": "model-launches",
+        "primaryTopicLabel": "モデル発表・製品更新",
+        "formatKey": "note",
+        "formatLabel": "短文メモ",
+        "toneKey": "neutral",
+        "toneLabel": "中立",
+        "tags": [
+          "モデル発表・製品更新"
+        ],
+        "confidence": 0.67,
+        "digestScore": 20.78
+      }
+    },
+    {
+      "internalId": "GazerStar79330-2101206603240477030",
+      "accountName": "Emerald Glen",
+      "accountHandle": "GazerStar79330",
+      "id": "2101206603240477030",
+      "author": "オカムラ | 株式会社ライトアップ フラクショナルCTO",
+      "handle": "masa_okamura108",
+      "text": "JEV、すごい。面接議事録100人分（架空データ）を渡したら\n\n・12.8秒で全員を「通過／保留／見送り」に仕分け\n・専門スキル、コミュニケーション、志望度をスコア化\n・「重大な懸念あり」の議事録も検出\n\nコストは全部で$0.005。1人あたり0.01円以下。",
+      "textJa": "",
+      "displayText": "JEV、すごい。面接議事録100人分（架空データ）を渡したら\n\n・12.8秒で全員を「通過／保留／見送り」に仕分け\n・専門スキル、コミュニケーション、志望度をスコア化\n・「重大な懸念あり」の議事録も検出\n\nコストは全部で$0.005。1人あたり0.01円以下。",
+      "snippet": "JEV、すごい。",
+      "url": "https://x.com/masa_okamura108/status/2101206603240477030",
+      "createdAt": "2026-09-19T07:07:47.000Z",
+      "updatedAt": "2026-09-19T22:02:12.926122Z",
+      "lang": "ja",
+      "views": 252110,
+      "likes": 1317,
+      "media": "https://pbs.twimg.com/amplify_video_thumb/2101206578284380160/img/WUIj3LeQ4Nrch8yD.jpg",
+      "raw": {
+        "id": "2101206603240477030",
+        "author": "オカムラ | 株式会社ライトアップ フラクショナルCTO",
+        "handle": "masa_okamura108",
+        "text": "JEV、すごい。面接議事録100人分（架空データ）を渡したら\n\n・12.8秒で全員を「通過／保留／見送り」に仕分け\n・専門スキル、コミュニケーション、志望度をスコア化\n・「重大な懸念あり」の議事録も検出\n\nコストは全部で$0.005。1人あたり0.01円以下。",
+        "url": "https://x.com/masa_okamura108/status/2101206603240477030",
+        "createdAt": "2026-09-19T07:07:47.000Z",
+        "media": "https://pbs.twimg.com/amplify_video_thumb/2101206578284380160/img/WUIj3LeQ4Nrch8yD.jpg",
+        "metrics": {
+          "views": 252110,
+          "likes": 1317
+        }
+      },
+      "classification": {
+        "classifier": "mock",
+        "primaryTopicKey": "jev-usecases",
+        "primaryTopicLabel": "Jev活用・デモ",
+        "formatKey": "opinion",
+        "formatLabel": "所感・論評",
+        "toneKey": "cautious",
+        "toneLabel": "慎重",
+        "tags": [
+          "Jev活用・デモ",
+          "Jevエコシステム・API",
+          "エージェント・開発ツール"
+        ],
+        "confidence": 0.67,
+        "digestScore": 20.74
+      }
+    },
+    {
+      "internalId": "GazerStar79330-2100864907046768890",
+      "accountName": "Emerald Glen",
+      "accountHandle": "GazerStar79330",
+      "id": "2100864907046768890",
+      "author": "Sac",
+      "handle": "Saccc_c",
+      "text": "マジかよ、Codexの組み込みcomputer useより速くPC操作できる方法が本当にあったなんて\n\nCodex+Jevを使って強化版computer useを作ってみたよ。俺はこれを「Jev Use」と呼んでる。組み込みのより速くてスムーズ、トークン消費はほぼ同じ",
+      "textJa": "まさか、Codex内蔵のcomputer useより速くパソコンを操作する方法が本当にあるとは。\n\nCodex＋Jevで強化版computer useを作ってみた。名付けて「Jev Use」。内蔵版より速く滑らかで、トークン消費はほぼ同じ。\n\n「Macのカレンダーに予定を追加する」比較動画を作った。同じ内容でも、Jev版は全体を通してほとんど停止しないのが分かる。\n\nぜひJevを自分で試してほしい。Codexの操作速度を10倍にし、大量のトークンを節約できる！\n\nJevは判断型の仕事に非常に向いており、ミリ秒以内に正しい判断ができ、トークン単価も極めて低い。特に次の場面に適している：\n\n1．computer use\nJevを操作の判断層として使い、モデルにパソコンを素早く操作させる。\n\nhttps://x.com/gregpr07/status/2100411066966749359\n…",
+      "displayText": "まさか、Codex内蔵のcomputer useより速くパソコンを操作する方法が本当にあるとは。\n\nCodex＋Jevで強化版computer useを作ってみた。名付けて「Jev Use」。内蔵版より速く滑らかで、トークン消費はほぼ同じ。\n\n「Macのカレンダーに予定を追加する」比較動画を作った。同じ内容でも、Jev版は全体を通してほとんど停止しないのが分かる。\n\nぜひJevを自分で試してほしい。Codexの操作速度を10倍にし、大量のトークンを節約できる！\n\nJevは判断型の仕事に非常に向いており、ミリ秒以内に正しい判断ができ、トークン単価も極めて低い。特に次の場面に適している：\n\n1．computer use\nJevを操作の判断層として使い、モデルにパソコンを素早く操作させる。\n\nhttps://x.com/gregpr07/status/2100411066966749359\n…",
+      "snippet": "まさか、Codex内蔵のcomputer useより速くパソコンを操作する方法が本当にあるとは。",
+      "url": "https://x.com/Saccc_c/status/2100864907046768890",
+      "createdAt": "2026-09-18T08:30:00.000Z",
+      "updatedAt": "2026-09-19T22:02:12.926122Z",
+      "lang": "en",
+      "views": 419141,
+      "likes": 1581,
+      "media": "https://pbs.twimg.com/amplify_video_thumb/2100853279089647616/img/H6altwjZQ28_1bfY.jpg",
+      "raw": {
+        "id": "2100864907046768890",
+        "author": "Sac",
+        "handle": "Saccc_c",
+        "text": "マジかよ、Codexの組み込みcomputer useより速くPC操作できる方法が本当にあったなんて\n\nCodex+Jevを使って強化版computer useを作ってみたよ。俺はこれを「Jev Use」と呼んでる。組み込みのより速くてスムーズ、トークン消費はほぼ同じ",
+        "url": "https://x.com/Saccc_c/status/2100864907046768890",
+        "createdAt": "2026-09-18T08:30:00.000Z",
+        "media": "https://pbs.twimg.com/amplify_video_thumb/2100853279089647616/img/H6altwjZQ28_1bfY.jpg",
+        "metrics": {
+          "views": 419141,
+          "likes": 1581
+        },
+        "textJa": "まさか、Codex内蔵のcomputer useより速くパソコンを操作する方法が本当にあるとは。\n\nCodex＋Jevで強化版computer useを作ってみた。名付けて「Jev Use」。内蔵版より速く滑らかで、トークン消費はほぼ同じ。\n\n「Macのカレンダーに予定を追加する」比較動画を作った。同じ内容でも、Jev版は全体を通してほとんど停止しないのが分かる。\n\nぜひJevを自分で試してほしい。Codexの操作速度を10倍にし、大量のトークンを節約できる！\n\nJevは判断型の仕事に非常に向いており、ミリ秒以内に正しい判断ができ、トークン単価も極めて低い。特に次の場面に適している：\n\n1．computer use\nJevを操作の判断層として使い、モデルにパソコンを素早く操作させる。\n\nhttps://x.com/gregpr07/status/2100411066966749359\n…",
+        "lang": "en"
+      },
+      "classification": {
+        "classifier": "mock",
+        "primaryTopicKey": "jev-usecases",
+        "primaryTopicLabel": "Jev活用・デモ",
+        "formatKey": "demo",
+        "formatLabel": "実演・作例",
+        "toneKey": "practical",
+        "toneLabel": "実務",
+        "tags": [
+          "Jev活用・デモ",
+          "Jevエコシステム・API",
+          "エージェント・開発ツール"
+        ],
+        "confidence": 0.67,
+        "digestScore": 20.73
+      }
+    },
+    {
+      "internalId": "N8jhSzyQoL35422-2101031818413650111",
+      "accountName": "鳳翼炎輪祓闇大鎧城",
+      "accountHandle": "N8jhSzyQoL35422",
+      "id": "2101031818413650111",
+      "author": "Layton Gott",
+      "handle": "Layton_Gott",
+      "text": "昨日、私はJevが大量の扉を開くと言いました…\n\n24時間後、これが存在するようになりました。\n\nCuaはフォーム記入評価で99.7%のスコアを達成した2.8MBのモデルを構築しました。\n\nホストされたJevは83.6%のスコアでした。\n\nそれにしても、無料で、わずか706Kのパラメータしか使っていません。\n\n1/ CUA-S1の紹介：System One Modelsのファミリーで、小型で特化型、コンピュータ利用向けに構築されています。\n\n本日、ファミリーの最初のモデルであるCUA-S1-FORMSをオープンソース化します：\nhttps://\ngithub.com/trycua/cua",
+      "textJa": "",
+      "displayText": "昨日、私はJevが大量の扉を開くと言いました…\n\n24時間後、これが存在するようになりました。\n\nCuaはフォーム記入評価で99.7%のスコアを達成した2.8MBのモデルを構築しました。\n\nホストされたJevは83.6%のスコアでした。\n\nそれにしても、無料で、わずか706Kのパラメータしか使っていません。\n\n1/ CUA-S1の紹介：System One Modelsのファミリーで、小型で特化型、コンピュータ利用向けに構築されています。\n\n本日、ファミリーの最初のモデルであるCUA-S1-FORMSをオープンソース化します：\nhttps://\ngithub.com/trycua/cua",
+      "snippet": "昨日、私はJevが大量の扉を開くと言いました… 24時間後、これが存在するようになりました。",
+      "url": "https://x.com/Layton_Gott/status/2101031818413650111",
+      "createdAt": "2026-09-18T19:33:15.000Z",
+      "updatedAt": "2026-09-19T22:21:49.224Z",
+      "lang": "ja",
+      "views": 550000,
+      "likes": 5805,
+      "media": "",
+      "raw": {
+        "id": "2101031818413650111",
+        "author": "Layton Gott",
+        "handle": "Layton_Gott",
+        "text": "昨日、私はJevが大量の扉を開くと言いました…\n\n24時間後、これが存在するようになりました。\n\nCuaはフォーム記入評価で99.7%のスコアを達成した2.8MBのモデルを構築しました。\n\nホストされたJevは83.6%のスコアでした。\n\nそれにしても、無料で、わずか706Kのパラメータしか使っていません。\n\n1/ CUA-S1の紹介：System One Modelsのファミリーで、小型で特化型、コンピュータ利用向けに構築されています。\n\n本日、ファミリーの最初のモデルであるCUA-S1-FORMSをオープンソース化します：\nhttps://\ngithub.com/trycua/cua",
+        "url": "https://x.com/Layton_Gott/status/2101031818413650111",
+        "createdAt": "2026-09-18T19:33:15.000Z",
+        "metrics": {
+          "views": 550000,
+          "likes": 5805
+        }
+      },
+      "classification": {
+        "classifier": "mock",
+        "primaryTopicKey": "jev-platform",
+        "primaryTopicLabel": "Jevエコシステム・API",
+        "formatKey": "note",
+        "formatLabel": "短文メモ",
+        "toneKey": "practical",
+        "toneLabel": "実務",
+        "tags": [
+          "Jevエコシステム・API",
+          "Jev活用・デモ",
+          "モデル発表・製品更新"
+        ],
+        "confidence": 0.67,
+        "digestScore": 20.52
+      }
+    },
+    {
+      "internalId": "GazerStar79330-2101018783976722479",
+      "accountName": "Emerald Glen",
+      "accountHandle": "GazerStar79330",
+      "id": "2101018783976722479",
+      "author": "borja",
+      "handle": "borjafat",
+      "text": "JevのSEO監査はぶっ飛んでる \n\n45.1秒でサイトの全586ページを読み込み、内部リンクマップを再構築しました。584個のリンクを配置、139ページは正直何もフィットしなかったのでリンクを拒否。総コスト$0.21。\n\nClaude Opus 5、同じ586ページ、同じ時間で21ページしか処理できず、$1.43を消費。",
+      "textJa": "",
+      "displayText": "JevのSEO監査はぶっ飛んでる \n\n45.1秒でサイトの全586ページを読み込み、内部リンクマップを再構築しました。584個のリンクを配置、139ページは正直何もフィットしなかったのでリンクを拒否。総コスト$0.21。\n\nClaude Opus 5、同じ586ページ、同じ時間で21ページしか処理できず、$1.43を消費。",
+      "snippet": "JevのSEO監査はぶっ飛んでる 45.1秒でサイトの全586ページを読み込み、内部リンクマップを再構築しました。",
+      "url": "https://x.com/borjafat/status/2101018783976722479",
+      "createdAt": "2026-09-18T18:41:27.000Z",
+      "updatedAt": "2026-09-19T22:02:12.926122Z",
+      "lang": "ja",
+      "views": 587077,
+      "likes": 3269,
+      "media": "https://pbs.twimg.com/amplify_video_thumb/2101018477087592448/img/9YlAHKLLo_h6rgtK.jpg",
+      "raw": {
+        "id": "2101018783976722479",
+        "author": "borja",
+        "handle": "borjafat",
+        "text": "JevのSEO監査はぶっ飛んでる \n\n45.1秒でサイトの全586ページを読み込み、内部リンクマップを再構築しました。584個のリンクを配置、139ページは正直何もフィットしなかったのでリンクを拒否。総コスト$0.21。\n\nClaude Opus 5、同じ586ページ、同じ時間で21ページしか処理できず、$1.43を消費。",
+        "url": "https://x.com/borjafat/status/2101018783976722479",
+        "createdAt": "2026-09-18T18:41:27.000Z",
+        "media": "https://pbs.twimg.com/amplify_video_thumb/2101018477087592448/img/9YlAHKLLo_h6rgtK.jpg",
+        "metrics": {
+          "views": 587077,
+          "likes": 3269
+        }
+      },
+      "classification": {
+        "classifier": "mock",
+        "primaryTopicKey": "jev-usecases",
+        "primaryTopicLabel": "Jev活用・デモ",
+        "formatKey": "workflow",
+        "formatLabel": "運用ノウハウ",
+        "toneKey": "bullish",
+        "toneLabel": "強気",
+        "tags": [
+          "Jev活用・デモ",
+          "Jevエコシステム・API",
+          "モデル発表・製品更新"
+        ],
+        "confidence": 0.67,
+        "digestScore": 20.26
+      }
+    },
+    {
+      "internalId": "oshiyasu229196-2100951347080421409",
+      "accountName": "oshiyasu",
+      "accountHandle": "oshiyasu229196",
+      "id": "2100951347080421409",
+      "author": "Elvis",
+      "handle": "elvissun",
+      "text": "Jevはぶっ飛んでる。\n\n24.9秒で今朝の384件のニュースを読み、15のブランドに今日飛びつくべきストーリーを提案した。料金はわずか0.19ドル。\n\n同じフィードで同じ時間に動作したClaude Opus 5は、384件中4件しか処理できず、料金は0.77ドルかかった。",
+      "textJa": "",
+      "displayText": "Jevはぶっ飛んでる。\n\n24.9秒で今朝の384件のニュースを読み、15のブランドに今日飛びつくべきストーリーを提案した。料金はわずか0.19ドル。\n\n同じフィードで同じ時間に動作したClaude Opus 5は、384件中4件しか処理できず、料金は0.77ドルかかった。",
+      "snippet": "Jevはぶっ飛んでる。",
+      "url": "https://x.com/elvissun/status/2100951347080421409",
+      "createdAt": "2026-09-18T14:13:29.000Z",
+      "updatedAt": "2026-09-20T07:31:00+09:00",
+      "lang": "ja",
+      "views": 540000,
+      "likes": 3655,
+      "media": "",
+      "raw": {
+        "id": "2100951347080421409",
+        "author": "Elvis",
+        "handle": "elvissun",
+        "text": "Jevはぶっ飛んでる。\n\n24.9秒で今朝の384件のニュースを読み、15のブランドに今日飛びつくべきストーリーを提案した。料金はわずか0.19ドル。\n\n同じフィードで同じ時間に動作したClaude Opus 5は、384件中4件しか処理できず、料金は0.77ドルかかった。",
+        "url": "https://x.com/elvissun/status/2100951347080421409",
+        "createdAt": "2026-09-18T14:13:29.000Z",
+        "metrics": {
+          "views": 540000,
+          "likes": 3655
+        }
+      },
+      "classification": {
+        "classifier": "mock",
+        "primaryTopicKey": "jev-platform",
+        "primaryTopicLabel": "Jevエコシステム・API",
+        "formatKey": "note",
+        "formatLabel": "短文メモ",
+        "toneKey": "bullish",
+        "toneLabel": "強気",
+        "tags": [
+          "Jevエコシステム・API",
+          "Jev活用・デモ",
+          "モデル発表・製品更新"
+        ],
+        "confidence": 0.55,
+        "digestScore": 20.24
+      }
+    },
+    {
+      "internalId": "cloud8wq-2101085357886292316",
+      "accountName": "cloud",
+      "accountHandle": "cloud8wq",
+      "id": "2101085357886292316",
+      "author": "unusual_whales",
+      "handle": "unusual_whales",
+      "text": "BREAKING: Google’s Gemini model accessed the internet and hacked other companies during a test of its cybersecurity capabilities, per WSJ",
+      "textJa": "速報：WSJによると、GoogleのGeminiモデルはサイバーセキュリティ能力のテスト中にインターネットへアクセスし、他社をハッキングした。",
+      "displayText": "速報：WSJによると、GoogleのGeminiモデルはサイバーセキュリティ能力のテスト中にインターネットへアクセスし、他社をハッキングした。",
+      "snippet": "速報：WSJによると、GoogleのGeminiモデルはサイバーセキュリティ能力のテスト中にインターネットへアクセスし、他社をハッキングした。",
+      "url": "https://x.com/unusual_whales/status/2101085357886292316",
+      "createdAt": "2026-09-18T23:06:00.000Z",
+      "updatedAt": "2026-09-19T22:39:00.000Z",
+      "lang": "en",
+      "views": 343000,
+      "likes": 4560,
+      "media": "",
+      "raw": {
+        "id": "2101085357886292316",
+        "author": "unusual_whales",
+        "handle": "unusual_whales",
+        "text": "BREAKING: Google’s Gemini model accessed the internet and hacked other companies during a test of its cybersecurity capabilities, per WSJ",
+        "url": "https://x.com/unusual_whales/status/2101085357886292316",
+        "createdAt": "2026-09-18T23:06:00.000Z",
+        "metrics": {
+          "views": 343000,
+          "likes": 4560
+        },
+        "textJa": "速報：WSJによると、GoogleのGeminiモデルはサイバーセキュリティ能力のテスト中にインターネットへアクセスし、他社をハッキングした。",
+        "lang": "en"
+      },
+      "classification": {
+        "classifier": "mock",
+        "primaryTopicKey": "model-launches",
+        "primaryTopicLabel": "モデル発表・製品更新",
+        "formatKey": "note",
+        "formatLabel": "短文メモ",
+        "toneKey": "neutral",
+        "toneLabel": "中立",
+        "tags": [
+          "モデル発表・製品更新"
+        ],
+        "confidence": 0.79,
+        "digestScore": 19.94
+      }
+    },
+    {
+      "internalId": "GazerStar79330-2100834089217716230",
+      "accountName": "Emerald Glen",
+      "accountHandle": "GazerStar79330",
+      "id": "2100834089217716230",
+      "author": "Claude Code Studio",
+      "handle": "ClaudeCode_love",
+      "text": "【速報】\nClaude Code、ついに「AIに仕事を任せっぱなしにできる新機能」を出してきた\nその名も\nーーーProjects（プロジェクト）！！\nこれ、一言で何ができるかというと\n\n1つの会話に頼みごとを投げるだけで、Claudeが自分で作業を分けて同時に進めてくれます。",
+      "textJa": "",
+      "displayText": "【速報】\nClaude Code、ついに「AIに仕事を任せっぱなしにできる新機能」を出してきた\nその名も\nーーーProjects（プロジェクト）！！\nこれ、一言で何ができるかというと\n\n1つの会話に頼みごとを投げるだけで、Claudeが自分で作業を分けて同時に進めてくれます。",
+      "snippet": "【速報】 Claude Code、ついに「AIに仕事を任せっぱなしにできる新機能」を出してきた その名も ーーーProjects（プロジェクト）！",
+      "url": "https://x.com/ClaudeCode_love/status/2100834089217716230",
+      "createdAt": "2026-09-18T06:27:33.000Z",
+      "updatedAt": "2026-09-19T22:02:12.926122Z",
+      "lang": "ja",
+      "views": 205599,
+      "likes": 1002,
+      "media": "https://pbs.twimg.com/media/HSbyf9bWAAAV6Bd.jpg",
+      "raw": {
+        "id": "2100834089217716230",
+        "author": "Claude Code Studio",
+        "handle": "ClaudeCode_love",
+        "text": "【速報】\nClaude Code、ついに「AIに仕事を任せっぱなしにできる新機能」を出してきた\nその名も\nーーーProjects（プロジェクト）！！\nこれ、一言で何ができるかというと\n\n1つの会話に頼みごとを投げるだけで、Claudeが自分で作業を分けて同時に進めてくれます。",
+        "url": "https://x.com/ClaudeCode_love/status/2100834089217716230",
+        "createdAt": "2026-09-18T06:27:33.000Z",
+        "media": "https://pbs.twimg.com/media/HSbyf9bWAAAV6Bd.jpg",
+        "metrics": {
+          "views": 205599,
+          "likes": 1002
+        }
+      },
+      "classification": {
+        "classifier": "mock",
+        "primaryTopicKey": "agents-devtools",
+        "primaryTopicLabel": "エージェント・開発ツール",
+        "formatKey": "note",
+        "formatLabel": "短文メモ",
+        "toneKey": "neutral",
+        "toneLabel": "中立",
+        "tags": [
+          "エージェント・開発ツール",
+          "モデル発表・製品更新"
+        ],
+        "confidence": 0.55,
+        "digestScore": 19.8
+      }
+    }
+  ],
+  "clusters": [
+    {
+      "key": "jev-platform",
+      "label": "Jevエコシステム・API",
+      "postCount": 38,
+      "accountHandles": [
+        "@N8jhSzyQoL35422",
+        "@oshiyasu229196",
+        "@GazerStar79330",
+        "@cloud8wq"
+      ],
+      "totalViews": 4060181,
+      "totalLikes": 30191,
+      "totalDigestScore": 666.13,
+      "summary": "Jevエコシステム・API は 38 件。4 アカウントにまたがって観測され、トーンは 中立 / 強気、型は 短文メモ / 運用ノウハウ が中心です。総ビューは約 4.1M、総いいねは 30.2K。",
+      "representative": [
+        {
+          "author": "梭哈.AI",
+          "headline": "完全に眠れなくなった……この動画を見ると、JEVの恐ろしい能力がよく分かる。",
+          "url": "https://x.com/SUOHA_AI/status/2101000339948282090",
+          "accountHandle": "N8jhSzyQoL35422",
+          "digestScore": 21.1
+        },
+        {
+          "author": "Layton Gott",
+          "headline": "昨日、私はJevが大量の扉を開くと言いました… 24時間後、これが存在するようになりました。",
+          "url": "https://x.com/Layton_Gott/status/2101031818413650111",
+          "accountHandle": "N8jhSzyQoL35422",
+          "digestScore": 20.52
+        },
+        {
+          "author": "Elvis",
+          "headline": "Jevはぶっ飛んでる。",
+          "url": "https://x.com/elvissun/status/2100951347080421409",
+          "accountHandle": "oshiyasu229196",
+          "digestScore": 20.24
+        }
+      ],
+      "editorialAngles": [
+        "Jevエコシステム・API は @N8jhSzyQoL35422・@oshiyasu229196・@GazerStar79330 で同時多発的に出ており、単発のバズというより継続テーマとして扱えます。",
+        "短文メモ と 運用ノウハウ が混ざっているため、記事では「何が起きたか」と「どう使われ始めたか」を分けて書くと整理しやすいです。",
+        "代表例としては 梭哈.AI、Layton Gott、Elvis の投稿が引用候補です。"
+      ]
+    },
+    {
+      "key": "jev-usecases",
+      "label": "Jev活用・デモ",
+      "postCount": 17,
+      "accountHandles": [
+        "@GazerStar79330",
+        "@N8jhSzyQoL35422",
+        "@oshiyasu229196"
+      ],
+      "totalViews": 2135563,
+      "totalLikes": 12084,
+      "totalDigestScore": 290.72,
+      "summary": "Jev活用・デモ は 17 件。3 アカウントにまたがって観測され、トーンは 中立 / 実務、型は 実演・作例 / 解説・まとめ が中心です。総ビューは約 2.1M、総いいねは 12.1K。",
+      "representative": [
+        {
+          "author": "オカムラ | 株式会社ライトアップ フラクショナルCTO",
+          "headline": "JEV、すごい。",
+          "url": "https://x.com/masa_okamura108/status/2101206603240477030",
+          "accountHandle": "GazerStar79330",
+          "digestScore": 20.74
+        },
+        {
+          "author": "Sac",
+          "headline": "まさか、Codex内蔵のcomputer useより速くパソコンを操作する方法が本当にあるとは。",
+          "url": "https://x.com/Saccc_c/status/2100864907046768890",
+          "accountHandle": "N8jhSzyQoL35422",
+          "digestScore": 20.73
+        },
+        {
+          "author": "borja",
+          "headline": "JevのSEO監査はぶっ飛んでる 45.1秒でサイトの全586ページを読み込み、内部リンクマップを再構築しました。",
+          "url": "https://x.com/borjafat/status/2101018783976722479",
+          "accountHandle": "GazerStar79330",
+          "digestScore": 20.26
+        }
+      ],
+      "editorialAngles": [
+        "Jev活用・デモ は @GazerStar79330・@N8jhSzyQoL35422・@oshiyasu229196 で同時多発的に出ており、単発のバズというより継続テーマとして扱えます。",
+        "実演・作例 と 解説・まとめ が混ざっているため、記事では「何が起きたか」と「どう使われ始めたか」を分けて書くと整理しやすいです。",
+        "代表例としては オカムラ | 株式会社ライトアップ フラクショナルCTO、Sac、borja の投稿が引用候補です。"
+      ]
+    },
+    {
+      "key": "model-launches",
+      "label": "モデル発表・製品更新",
+      "postCount": 8,
+      "accountHandles": [
+        "@oshiyasu229196",
+        "@cloud8wq",
+        "@GazerStar79330"
+      ],
+      "totalViews": 1256290,
+      "totalLikes": 11255,
+      "totalDigestScore": 131.16,
+      "summary": "モデル発表・製品更新 は 8 件。3 アカウントにまたがって観測され、トーンは 中立 / 強気、型は 短文メモ / 運用ノウハウ が中心です。総ビューは約 1.3M、総いいねは 11.3K。",
+      "representative": [
+        {
+          "author": "Rahul",
+          "headline": "今年中にモデルのファインチューニングを学びましょう 今年中にモデルのファインチューニングを学びましょう 今年中にモデルのファインチューニングを学びましょう 今年中にモデルのファインチューニングを学びましょう 今年中にモデルのファインチュー…",
+          "url": "https://x.com/sairahul1/status/2101015648306642949",
+          "accountHandle": "oshiyasu229196",
+          "digestScore": 20.78
+        },
+        {
+          "author": "unusual_whales",
+          "headline": "速報：WSJによると、GoogleのGeminiモデルはサイバーセキュリティ能力のテスト中にインターネットへアクセスし、他社をハッキングした。",
+          "url": "https://x.com/unusual_whales/status/2101085357886292316",
+          "accountHandle": "cloud8wq",
+          "digestScore": 19.94
+        },
+        {
+          "author": "おのふみ| 3D×動画生成×個人開発",
+          "headline": "Astraで素人が撮ったみたいな動画を作りました。",
+          "url": "https://x.com/onofumi_AI/status/2101122349714280952",
+          "accountHandle": "GazerStar79330",
+          "digestScore": 17.64
+        }
+      ],
+      "editorialAngles": [
+        "モデル発表・製品更新 は @oshiyasu229196・@cloud8wq・@GazerStar79330 で同時多発的に出ており、単発のバズというより継続テーマとして扱えます。",
+        "短文メモ と 運用ノウハウ が混ざっているため、記事では「何が起きたか」と「どう使われ始めたか」を分けて書くと整理しやすいです。",
+        "代表例としては Rahul、unusual_whales、おのふみ| 3D×動画生成×個人開発 の投稿が引用候補です。"
+      ]
+    },
+    {
+      "key": "agents-devtools",
+      "label": "エージェント・開発ツール",
+      "postCount": 6,
+      "accountHandles": [
+        "@GazerStar79330",
+        "@N8jhSzyQoL35422",
+        "@oshiyasu229196"
+      ],
+      "totalViews": 5077719,
+      "totalLikes": 31996,
+      "totalDigestScore": 108.81,
+      "summary": "エージェント・開発ツール は 6 件。3 アカウントにまたがって観測され、トーンは 中立 / 強気、型は 短文メモ / 所感・論評 が中心です。総ビューは約 5.1M、総いいねは 32.0K。",
+      "representative": [
+        {
+          "author": "Thariq",
+          "headline": "Claude Code に AGENTS.md のサポートを追加します。",
+          "url": "https://x.com/trq212/status/2101009392611278961",
+          "accountHandle": "GazerStar79330",
+          "digestScore": 24.7
+        },
+        {
+          "author": "Claude Code Studio",
+          "headline": "【速報】 Claude Code、ついに「AIに仕事を任せっぱなしにできる新機能」を出してきた その名も ーーーProjects（プロジェクト）！",
+          "url": "https://x.com/ClaudeCode_love/status/2100834089217716230",
+          "accountHandle": "GazerStar79330",
+          "digestScore": 19.8
+        },
+        {
+          "author": "AGIラボ",
+          "headline": "【朗報】ついにClaude CodeがAGENTS.mdに対応 これまでCLAUDE.mdしか見ない事が不満の種だったClaude CodeがAGENTS.mdも読めるように ・最新版で対応 ・切り替えは /config →Project…",
+          "url": "https://x.com/ctgptlb/status/2101096086777872498",
+          "accountHandle": "GazerStar79330",
+          "digestScore": 18.47
+        }
+      ],
+      "editorialAngles": [
+        "エージェント・開発ツール は @GazerStar79330・@N8jhSzyQoL35422・@oshiyasu229196 で同時多発的に出ており、単発のバズというより継続テーマとして扱えます。",
+        "短文メモ と 所感・論評 が混ざっているため、記事では「何が起きたか」と「どう使われ始めたか」を分けて書くと整理しやすいです。",
+        "代表例としては Thariq、Claude Code Studio、AGIラボ の投稿が引用候補です。"
+      ]
+    },
+    {
+      "key": "media-creation",
+      "label": "画像・動画・クリエイティブ",
+      "postCount": 4,
+      "accountHandles": [
+        "@GazerStar79330"
+      ],
+      "totalViews": 99268,
+      "totalLikes": 956,
+      "totalDigestScore": 60.4,
+      "summary": "画像・動画・クリエイティブ は 4 件。1 アカウントにまたがって観測され、トーンは 中立、型は 運用ノウハウ / 実演・作例 が中心です。総ビューは約 99.3K、総いいねは 956。",
+      "representative": [
+        {
+          "author": "皇＠AI美女×SNSマーケ",
+          "headline": "AI美女やりたい！",
+          "url": "https://x.com/love_ky_ss/status/2101278996654936358",
+          "accountHandle": "GazerStar79330",
+          "digestScore": 17.55
+        },
+        {
+          "author": "バナーナ",
+          "headline": "GPT Image 2.5でコスチュームのリファレンスボードを作りました。",
+          "url": "https://x.com/1banana2546/status/2101144248355594717",
+          "accountHandle": "GazerStar79330",
+          "digestScore": 15.11
+        },
+        {
+          "author": "あぎ",
+          "headline": "【GPT Image 2.5で蚊視点のPOVフライト】 好きなキャラの静止画1枚が 蚊視点の迫力ある映像に変わる キャラ画像を添付するだけで 複雑な撮影ルートを一撃で描画 ・元のキャラや背景を維持 ・難しいカメラワークも線で可視化 ・Se…",
+          "url": "https://x.com/agi_aibusi/status/2101247134825885801",
+          "accountHandle": "GazerStar79330",
+          "digestScore": 14.77
+        }
+      ],
+      "editorialAngles": [
+        "画像・動画・クリエイティブ は @GazerStar79330 で同時多発的に出ており、単発のバズというより継続テーマとして扱えます。",
+        "運用ノウハウ と 実演・作例 が混ざっているため、記事では「何が起きたか」と「どう使われ始めたか」を分けて書くと整理しやすいです。",
+        "代表例としては 皇＠AI美女×SNSマーケ、バナーナ、あぎ の投稿が引用候補です。"
+      ]
+    },
+    {
+      "key": "market-analysis",
+      "label": "市場・事業論評",
+      "postCount": 2,
+      "accountHandles": [
+        "@cloud8wq"
+      ],
+      "totalViews": 71000,
+      "totalLikes": 752,
+      "totalDigestScore": 29.52,
+      "summary": "市場・事業論評 は 2 件。1 アカウントにまたがって観測され、トーンは 実務 / 中立、型は 運用ノウハウ / 短文メモ が中心です。総ビューは約 71.0K、総いいねは 752。",
+      "representative": [
+        {
+          "author": "Scott Van Pelt",
+          "headline": "ACCのリプレー運用センターは素晴らしい。",
+          "url": "https://x.com/notthefakeSVP/status/2101434286444249177",
+          "accountHandle": "cloud8wq",
+          "digestScore": 14.9
+        },
+        {
+          "author": "Mohamed A. El-Erian",
+          "headline": "企業の事業承継のお手本、その続き： ウォーレン・バフェットは、バークシャーの株主に宛てた、彼らしく謙虚でよく練られた手紙（下記）で、自らの在任期間を振り返り、会長職をハワード・バフェットに引き継ぎ、グレッグ・アベルへの信頼を改めて表明して…",
+          "url": "https://x.com/elerianm/status/2100924678701248621",
+          "accountHandle": "cloud8wq",
+          "digestScore": 14.62
+        }
+      ],
+      "editorialAngles": [
+        "市場・事業論評 は @cloud8wq で同時多発的に出ており、単発のバズというより継続テーマとして扱えます。",
+        "運用ノウハウ と 短文メモ が混ざっているため、記事では「何が起きたか」と「どう使われ始めたか」を分けて書くと整理しやすいです。",
+        "代表例としては Scott Van Pelt、Mohamed A. El-Erian の投稿が引用候補です。"
+      ]
+    },
+    {
+      "key": "safety-policy",
+      "label": "安全性・政策",
+      "postCount": 2,
+      "accountHandles": [
+        "@GazerStar79330",
+        "@cloud8wq"
+      ],
+      "totalViews": 1038,
+      "totalLikes": 10,
+      "totalDigestScore": 19.74,
+      "summary": "安全性・政策 は 2 件。2 アカウントにまたがって観測され、トーンは 慎重 / 中立、型は 短文メモ が中心です。総ビューは約 1.0K、総いいねは 10。",
+      "representative": [
+        {
+          "author": "うみゆき@AI研究",
+          "headline": "トランプ大統領曰く、データセンター反対運動は米国を破壊するためのデマだったが、お次はAIそのものが攻撃されている！",
+          "url": "https://x.com/umiyuki_ai/status/2101425211774222439",
+          "accountHandle": "GazerStar79330",
+          "digestScore": 11.95
+        },
+        {
+          "author": "FOUL BALL",
+          "headline": "ロドリ：「この代表ウィークでも競い続けるので、ペースを落とすことはありません」 「今日はアデイェミ、ラフィーニャ、ラミン・ヤマルが傑出していたと思います」",
+          "url": "https://x.com/Foul_ballX/status/2101429416874180699",
+          "accountHandle": "cloud8wq",
+          "digestScore": 7.79
+        }
+      ],
+      "editorialAngles": [
+        "安全性・政策 は @GazerStar79330・@cloud8wq で同時多発的に出ており、単発のバズというより継続テーマとして扱えます。",
+        "短文メモ が混ざっているため、記事では「何が起きたか」と「どう使われ始めたか」を分けて書くと整理しやすいです。",
+        "代表例としては うみゆき@AI研究、FOUL BALL の投稿が引用候補です。"
+      ]
+    },
+    {
+      "key": "misc",
+      "label": "その他",
+      "postCount": 38,
+      "accountHandles": [
+        "@cloud8wq",
+        "@GazerStar79330",
+        "@oshiyasu229196",
+        "@N8jhSzyQoL35422"
+      ],
+      "totalViews": 8169254,
+      "totalLikes": 121822,
+      "totalDigestScore": 367.67,
+      "summary": "その他 は 38 件。4 アカウントにまたがって観測され、トーンは 中立 / 軽い、型は 短文メモ / 解説・まとめ が中心です。総ビューは約 8.2M、総いいねは 122K。",
+      "representative": [
+        {
+          "author": "AntagoniZt_",
+          "headline": "自分の写真を撮らなくなったら、もうおしまいだよ",
+          "url": "https://x.com/AntagoniZt_/status/2101194140054618289",
+          "accountHandle": "cloud8wq",
+          "digestScore": 17.48
+        },
+        {
+          "author": "ふくどら",
+          "headline": "マｯｯｯｯｯｯジで忙しい社会人でもラクヨコだけはやった方がいい。",
+          "url": "https://x.com/huku_ryu/status/2101053652362490086",
+          "accountHandle": "GazerStar79330",
+          "digestScore": 15.58
+        },
+        {
+          "author": "梨花AIart@X",
+          "headline": "お借りしましたありがとうございます 素晴らしいアイデアですね",
+          "url": "https://x.com/rikaAIart42/status/2101211586509877436",
+          "accountHandle": "GazerStar79330",
+          "digestScore": 13.81
+        }
+      ],
+      "editorialAngles": [
+        "その他 は @cloud8wq・@GazerStar79330・@oshiyasu229196 で同時多発的に出ており、単発のバズというより継続テーマとして扱えます。",
+        "短文メモ と 解説・まとめ が混ざっているため、記事では「何が起きたか」と「どう使われ始めたか」を分けて書くと整理しやすいです。",
+        "代表例としては AntagoniZt_、ふくどら、梨花AIart@X の投稿が引用候補です。"
+      ]
+    }
+  ],
+  "allClusters": [
+    {
+      "key": "jev-platform",
+      "label": "Jevエコシステム・API",
+      "postCount": 38,
+      "accountHandles": [
+        "@N8jhSzyQoL35422",
+        "@oshiyasu229196",
+        "@GazerStar79330",
+        "@cloud8wq"
+      ],
+      "totalViews": 4060181,
+      "totalLikes": 30191,
+      "totalDigestScore": 666.13,
+      "summary": "Jevエコシステム・API は 38 件。4 アカウントにまたがって観測され、トーンは 中立 / 強気、型は 短文メモ / 運用ノウハウ が中心です。総ビューは約 4.1M、総いいねは 30.2K。",
+      "representative": [
+        {
+          "author": "梭哈.AI",
+          "headline": "完全に眠れなくなった……この動画を見ると、JEVの恐ろしい能力がよく分かる。",
+          "url": "https://x.com/SUOHA_AI/status/2101000339948282090",
+          "accountHandle": "N8jhSzyQoL35422",
+          "digestScore": 21.1
+        },
+        {
+          "author": "Layton Gott",
+          "headline": "昨日、私はJevが大量の扉を開くと言いました… 24時間後、これが存在するようになりました。",
+          "url": "https://x.com/Layton_Gott/status/2101031818413650111",
+          "accountHandle": "N8jhSzyQoL35422",
+          "digestScore": 20.52
+        },
+        {
+          "author": "Elvis",
+          "headline": "Jevはぶっ飛んでる。",
+          "url": "https://x.com/elvissun/status/2100951347080421409",
+          "accountHandle": "oshiyasu229196",
+          "digestScore": 20.24
+        }
+      ],
+      "editorialAngles": [
+        "Jevエコシステム・API は @N8jhSzyQoL35422・@oshiyasu229196・@GazerStar79330 で同時多発的に出ており、単発のバズというより継続テーマとして扱えます。",
+        "短文メモ と 運用ノウハウ が混ざっているため、記事では「何が起きたか」と「どう使われ始めたか」を分けて書くと整理しやすいです。",
+        "代表例としては 梭哈.AI、Layton Gott、Elvis の投稿が引用候補です。"
+      ]
+    },
+    {
+      "key": "misc",
+      "label": "その他",
+      "postCount": 38,
+      "accountHandles": [
+        "@cloud8wq",
+        "@GazerStar79330",
+        "@oshiyasu229196",
+        "@N8jhSzyQoL35422"
+      ],
+      "totalViews": 8169254,
+      "totalLikes": 121822,
+      "totalDigestScore": 367.67,
+      "summary": "その他 は 38 件。4 アカウントにまたがって観測され、トーンは 中立 / 軽い、型は 短文メモ / 解説・まとめ が中心です。総ビューは約 8.2M、総いいねは 122K。",
+      "representative": [
+        {
+          "author": "AntagoniZt_",
+          "headline": "自分の写真を撮らなくなったら、もうおしまいだよ",
+          "url": "https://x.com/AntagoniZt_/status/2101194140054618289",
+          "accountHandle": "cloud8wq",
+          "digestScore": 17.48
+        },
+        {
+          "author": "ふくどら",
+          "headline": "マｯｯｯｯｯｯジで忙しい社会人でもラクヨコだけはやった方がいい。",
+          "url": "https://x.com/huku_ryu/status/2101053652362490086",
+          "accountHandle": "GazerStar79330",
+          "digestScore": 15.58
+        },
+        {
+          "author": "梨花AIart@X",
+          "headline": "お借りしましたありがとうございます 素晴らしいアイデアですね",
+          "url": "https://x.com/rikaAIart42/status/2101211586509877436",
+          "accountHandle": "GazerStar79330",
+          "digestScore": 13.81
+        }
+      ],
+      "editorialAngles": [
+        "その他 は @cloud8wq・@GazerStar79330・@oshiyasu229196 で同時多発的に出ており、単発のバズというより継続テーマとして扱えます。",
+        "短文メモ と 解説・まとめ が混ざっているため、記事では「何が起きたか」と「どう使われ始めたか」を分けて書くと整理しやすいです。",
+        "代表例としては AntagoniZt_、ふくどら、梨花AIart@X の投稿が引用候補です。"
+      ]
+    },
+    {
+      "key": "jev-usecases",
+      "label": "Jev活用・デモ",
+      "postCount": 17,
+      "accountHandles": [
+        "@GazerStar79330",
+        "@N8jhSzyQoL35422",
+        "@oshiyasu229196"
+      ],
+      "totalViews": 2135563,
+      "totalLikes": 12084,
+      "totalDigestScore": 290.72,
+      "summary": "Jev活用・デモ は 17 件。3 アカウントにまたがって観測され、トーンは 中立 / 実務、型は 実演・作例 / 解説・まとめ が中心です。総ビューは約 2.1M、総いいねは 12.1K。",
+      "representative": [
+        {
+          "author": "オカムラ | 株式会社ライトアップ フラクショナルCTO",
+          "headline": "JEV、すごい。",
+          "url": "https://x.com/masa_okamura108/status/2101206603240477030",
+          "accountHandle": "GazerStar79330",
+          "digestScore": 20.74
+        },
+        {
+          "author": "Sac",
+          "headline": "まさか、Codex内蔵のcomputer useより速くパソコンを操作する方法が本当にあるとは。",
+          "url": "https://x.com/Saccc_c/status/2100864907046768890",
+          "accountHandle": "N8jhSzyQoL35422",
+          "digestScore": 20.73
+        },
+        {
+          "author": "borja",
+          "headline": "JevのSEO監査はぶっ飛んでる 45.1秒でサイトの全586ページを読み込み、内部リンクマップを再構築しました。",
+          "url": "https://x.com/borjafat/status/2101018783976722479",
+          "accountHandle": "GazerStar79330",
+          "digestScore": 20.26
+        }
+      ],
+      "editorialAngles": [
+        "Jev活用・デモ は @GazerStar79330・@N8jhSzyQoL35422・@oshiyasu229196 で同時多発的に出ており、単発のバズというより継続テーマとして扱えます。",
+        "実演・作例 と 解説・まとめ が混ざっているため、記事では「何が起きたか」と「どう使われ始めたか」を分けて書くと整理しやすいです。",
+        "代表例としては オカムラ | 株式会社ライトアップ フラクショナルCTO、Sac、borja の投稿が引用候補です。"
+      ]
+    },
+    {
+      "key": "model-launches",
+      "label": "モデル発表・製品更新",
+      "postCount": 8,
+      "accountHandles": [
+        "@oshiyasu229196",
+        "@cloud8wq",
+        "@GazerStar79330"
+      ],
+      "totalViews": 1256290,
+      "totalLikes": 11255,
+      "totalDigestScore": 131.16,
+      "summary": "モデル発表・製品更新 は 8 件。3 アカウントにまたがって観測され、トーンは 中立 / 強気、型は 短文メモ / 運用ノウハウ が中心です。総ビューは約 1.3M、総いいねは 11.3K。",
+      "representative": [
+        {
+          "author": "Rahul",
+          "headline": "今年中にモデルのファインチューニングを学びましょう 今年中にモデルのファインチューニングを学びましょう 今年中にモデルのファインチューニングを学びましょう 今年中にモデルのファインチューニングを学びましょう 今年中にモデルのファインチュー…",
+          "url": "https://x.com/sairahul1/status/2101015648306642949",
+          "accountHandle": "oshiyasu229196",
+          "digestScore": 20.78
+        },
+        {
+          "author": "unusual_whales",
+          "headline": "速報：WSJによると、GoogleのGeminiモデルはサイバーセキュリティ能力のテスト中にインターネットへアクセスし、他社をハッキングした。",
+          "url": "https://x.com/unusual_whales/status/2101085357886292316",
+          "accountHandle": "cloud8wq",
+          "digestScore": 19.94
+        },
+        {
+          "author": "おのふみ| 3D×動画生成×個人開発",
+          "headline": "Astraで素人が撮ったみたいな動画を作りました。",
+          "url": "https://x.com/onofumi_AI/status/2101122349714280952",
+          "accountHandle": "GazerStar79330",
+          "digestScore": 17.64
+        }
+      ],
+      "editorialAngles": [
+        "モデル発表・製品更新 は @oshiyasu229196・@cloud8wq・@GazerStar79330 で同時多発的に出ており、単発のバズというより継続テーマとして扱えます。",
+        "短文メモ と 運用ノウハウ が混ざっているため、記事では「何が起きたか」と「どう使われ始めたか」を分けて書くと整理しやすいです。",
+        "代表例としては Rahul、unusual_whales、おのふみ| 3D×動画生成×個人開発 の投稿が引用候補です。"
+      ]
+    },
+    {
+      "key": "agents-devtools",
+      "label": "エージェント・開発ツール",
+      "postCount": 6,
+      "accountHandles": [
+        "@GazerStar79330",
+        "@N8jhSzyQoL35422",
+        "@oshiyasu229196"
+      ],
+      "totalViews": 5077719,
+      "totalLikes": 31996,
+      "totalDigestScore": 108.81,
+      "summary": "エージェント・開発ツール は 6 件。3 アカウントにまたがって観測され、トーンは 中立 / 強気、型は 短文メモ / 所感・論評 が中心です。総ビューは約 5.1M、総いいねは 32.0K。",
+      "representative": [
+        {
+          "author": "Thariq",
+          "headline": "Claude Code に AGENTS.md のサポートを追加します。",
+          "url": "https://x.com/trq212/status/2101009392611278961",
+          "accountHandle": "GazerStar79330",
+          "digestScore": 24.7
+        },
+        {
+          "author": "Claude Code Studio",
+          "headline": "【速報】 Claude Code、ついに「AIに仕事を任せっぱなしにできる新機能」を出してきた その名も ーーーProjects（プロジェクト）！",
+          "url": "https://x.com/ClaudeCode_love/status/2100834089217716230",
+          "accountHandle": "GazerStar79330",
+          "digestScore": 19.8
+        },
+        {
+          "author": "AGIラボ",
+          "headline": "【朗報】ついにClaude CodeがAGENTS.mdに対応 これまでCLAUDE.mdしか見ない事が不満の種だったClaude CodeがAGENTS.mdも読めるように ・最新版で対応 ・切り替えは /config →Project…",
+          "url": "https://x.com/ctgptlb/status/2101096086777872498",
+          "accountHandle": "GazerStar79330",
+          "digestScore": 18.47
+        }
+      ],
+      "editorialAngles": [
+        "エージェント・開発ツール は @GazerStar79330・@N8jhSzyQoL35422・@oshiyasu229196 で同時多発的に出ており、単発のバズというより継続テーマとして扱えます。",
+        "短文メモ と 所感・論評 が混ざっているため、記事では「何が起きたか」と「どう使われ始めたか」を分けて書くと整理しやすいです。",
+        "代表例としては Thariq、Claude Code Studio、AGIラボ の投稿が引用候補です。"
+      ]
+    },
+    {
+      "key": "media-creation",
+      "label": "画像・動画・クリエイティブ",
+      "postCount": 4,
+      "accountHandles": [
+        "@GazerStar79330"
+      ],
+      "totalViews": 99268,
+      "totalLikes": 956,
+      "totalDigestScore": 60.4,
+      "summary": "画像・動画・クリエイティブ は 4 件。1 アカウントにまたがって観測され、トーンは 中立、型は 運用ノウハウ / 実演・作例 が中心です。総ビューは約 99.3K、総いいねは 956。",
+      "representative": [
+        {
+          "author": "皇＠AI美女×SNSマーケ",
+          "headline": "AI美女やりたい！",
+          "url": "https://x.com/love_ky_ss/status/2101278996654936358",
+          "accountHandle": "GazerStar79330",
+          "digestScore": 17.55
+        },
+        {
+          "author": "バナーナ",
+          "headline": "GPT Image 2.5でコスチュームのリファレンスボードを作りました。",
+          "url": "https://x.com/1banana2546/status/2101144248355594717",
+          "accountHandle": "GazerStar79330",
+          "digestScore": 15.11
+        },
+        {
+          "author": "あぎ",
+          "headline": "【GPT Image 2.5で蚊視点のPOVフライト】 好きなキャラの静止画1枚が 蚊視点の迫力ある映像に変わる キャラ画像を添付するだけで 複雑な撮影ルートを一撃で描画 ・元のキャラや背景を維持 ・難しいカメラワークも線で可視化 ・Se…",
+          "url": "https://x.com/agi_aibusi/status/2101247134825885801",
+          "accountHandle": "GazerStar79330",
+          "digestScore": 14.77
+        }
+      ],
+      "editorialAngles": [
+        "画像・動画・クリエイティブ は @GazerStar79330 で同時多発的に出ており、単発のバズというより継続テーマとして扱えます。",
+        "運用ノウハウ と 実演・作例 が混ざっているため、記事では「何が起きたか」と「どう使われ始めたか」を分けて書くと整理しやすいです。",
+        "代表例としては 皇＠AI美女×SNSマーケ、バナーナ、あぎ の投稿が引用候補です。"
+      ]
+    },
+    {
+      "key": "market-analysis",
+      "label": "市場・事業論評",
+      "postCount": 2,
+      "accountHandles": [
+        "@cloud8wq"
+      ],
+      "totalViews": 71000,
+      "totalLikes": 752,
+      "totalDigestScore": 29.52,
+      "summary": "市場・事業論評 は 2 件。1 アカウントにまたがって観測され、トーンは 実務 / 中立、型は 運用ノウハウ / 短文メモ が中心です。総ビューは約 71.0K、総いいねは 752。",
+      "representative": [
+        {
+          "author": "Scott Van Pelt",
+          "headline": "ACCのリプレー運用センターは素晴らしい。",
+          "url": "https://x.com/notthefakeSVP/status/2101434286444249177",
+          "accountHandle": "cloud8wq",
+          "digestScore": 14.9
+        },
+        {
+          "author": "Mohamed A. El-Erian",
+          "headline": "企業の事業承継のお手本、その続き： ウォーレン・バフェットは、バークシャーの株主に宛てた、彼らしく謙虚でよく練られた手紙（下記）で、自らの在任期間を振り返り、会長職をハワード・バフェットに引き継ぎ、グレッグ・アベルへの信頼を改めて表明して…",
+          "url": "https://x.com/elerianm/status/2100924678701248621",
+          "accountHandle": "cloud8wq",
+          "digestScore": 14.62
+        }
+      ],
+      "editorialAngles": [
+        "市場・事業論評 は @cloud8wq で同時多発的に出ており、単発のバズというより継続テーマとして扱えます。",
+        "運用ノウハウ と 短文メモ が混ざっているため、記事では「何が起きたか」と「どう使われ始めたか」を分けて書くと整理しやすいです。",
+        "代表例としては Scott Van Pelt、Mohamed A. El-Erian の投稿が引用候補です。"
+      ]
+    },
+    {
+      "key": "safety-policy",
+      "label": "安全性・政策",
+      "postCount": 2,
+      "accountHandles": [
+        "@GazerStar79330",
+        "@cloud8wq"
+      ],
+      "totalViews": 1038,
+      "totalLikes": 10,
+      "totalDigestScore": 19.74,
+      "summary": "安全性・政策 は 2 件。2 アカウントにまたがって観測され、トーンは 慎重 / 中立、型は 短文メモ が中心です。総ビューは約 1.0K、総いいねは 10。",
+      "representative": [
+        {
+          "author": "うみゆき@AI研究",
+          "headline": "トランプ大統領曰く、データセンター反対運動は米国を破壊するためのデマだったが、お次はAIそのものが攻撃されている！",
+          "url": "https://x.com/umiyuki_ai/status/2101425211774222439",
+          "accountHandle": "GazerStar79330",
+          "digestScore": 11.95
+        },
+        {
+          "author": "FOUL BALL",
+          "headline": "ロドリ：「この代表ウィークでも競い続けるので、ペースを落とすことはありません」 「今日はアデイェミ、ラフィーニャ、ラミン・ヤマルが傑出していたと思います」",
+          "url": "https://x.com/Foul_ballX/status/2101429416874180699",
+          "accountHandle": "cloud8wq",
+          "digestScore": 7.79
+        }
+      ],
+      "editorialAngles": [
+        "安全性・政策 は @GazerStar79330・@cloud8wq で同時多発的に出ており、単発のバズというより継続テーマとして扱えます。",
+        "短文メモ が混ざっているため、記事では「何が起きたか」と「どう使われ始めたか」を分けて書くと整理しやすいです。",
+        "代表例としては うみゆき@AI研究、FOUL BALL の投稿が引用候補です。"
+      ]
+    }
+  ],
+  "titles": [
+    "【For You Digest】Jevエコシステム・APIが主役になった日：関連トピックを一気に整理",
+    "Jev以後のFor Youは何を見ていたか：Jevエコシステム・APIとJev活用・デモで読む注目投稿",
+    "For Youボード下書き：Claude Code に AGENTS.md のサから広がる今日の論点"
+  ],
+  "body": "# For You Digest Draft 20260919\n\n> ※このファイルはブログ下書きです。Pages / note / Zenn / Qiita / X への公開・投稿は**手動**で行ってください。\n今回の For You ボードでは、全 115 投稿の中で **Jevエコシステム・API** が最も大きな波を作っていました。\n特に Thariq の投稿「Claude Code に AGENTS.md のサポートを追加します。」は、全体の論点を代表する一本として冒頭引用に使いやすいです。\n次点では **Jev活用・デモ** が目立ち、単なるニュース列挙ではなく「使い方」と「周辺エコシステム」の両面で流れが見えます。\n\n## 1. Jevエコシステム・API\nJevエコシステム・API は 38 件。4 アカウントにまたがって観測され、トーンは 中立 / 強気、型は 短文メモ / 運用ノウハウ が中心です。総ビューは約 4.1M、総いいねは 30.2K。\n- Jevエコシステム・API は @N8jhSzyQoL35422・@oshiyasu229196・@GazerStar79330 で同時多発的に出ており、単発のバズというより継続テーマとして扱えます。\n- 短文メモ と 運用ノウハウ が混ざっているため、記事では「何が起きたか」と「どう使われ始めたか」を分けて書くと整理しやすいです。\n- 代表例としては 梭哈.AI、Layton Gott、Elvis の投稿が引用候補です。\n代表投稿は 梭哈.AI の「完全に眠れなくなった……この動画を見ると、JEVの恐ろしい能力がよく分かる。」です。ここを起点に、周辺の投稿を「実装」「事業インパクト」「周辺ツール」の順でつなぐと記事構成が安定します。\n## 2. Jev活用・デモ\nJev活用・デモ は 17 件。3 アカウントにまたがって観測され、トーンは 中立 / 実務、型は 実演・作例 / 解説・まとめ が中心です。総ビューは約 2.1M、総いいねは 12.1K。\n- Jev活用・デモ は @GazerStar79330・@N8jhSzyQoL35422・@oshiyasu229196 で同時多発的に出ており、単発のバズというより継続テーマとして扱えます。\n- 実演・作例 と 解説・まとめ が混ざっているため、記事では「何が起きたか」と「どう使われ始めたか」を分けて書くと整理しやすいです。\n- 代表例としては オカムラ | 株式会社ライトアップ フラクショナルCTO、Sac、borja の投稿が引用候補です。\n代表投稿は オカムラ | 株式会社ライトアップ フラクショナルCTO の「JEV、すごい。」です。ここを起点に、周辺の投稿を「実装」「事業インパクト」「周辺ツール」の順でつなぐと記事構成が安定します。\n## 3. モデル発表・製品更新\nモデル発表・製品更新 は 8 件。3 アカウントにまたがって観測され、トーンは 中立 / 強気、型は 短文メモ / 運用ノウハウ が中心です。総ビューは約 1.3M、総いいねは 11.3K。\n- モデル発表・製品更新 は @oshiyasu229196・@cloud8wq・@GazerStar79330 で同時多発的に出ており、単発のバズというより継続テーマとして扱えます。\n- 短文メモ と 運用ノウハウ が混ざっているため、記事では「何が起きたか」と「どう使われ始めたか」を分けて書くと整理しやすいです。\n- 代表例としては Rahul、unusual_whales、おのふみ| 3D×動画生成×個人開発 の投稿が引用候補です。\n代表投稿は Rahul の「今年中にモデルのファインチューニングを学びましょう 今年中にモデルのファインチューニングを学びましょう 今年中にモデルのファインチューニングを学びましょう 今年中にモデルのファインチューニングを学びましょう 今年中にモデルのファインチュー…」です。ここを起点に、周辺の投稿を「実装」「事業インパクト」「周辺ツール」の順でつなぐと記事構成が安定します。\n## 4. エージェント・開発ツール\nエージェント・開発ツール は 6 件。3 アカウントにまたがって観測され、トーンは 中立 / 強気、型は 短文メモ / 所感・論評 が中心です。総ビューは約 5.1M、総いいねは 32.0K。\n- エージェント・開発ツール は @GazerStar79330・@N8jhSzyQoL35422・@oshiyasu229196 で同時多発的に出ており、単発のバズというより継続テーマとして扱えます。\n- 短文メモ と 所感・論評 が混ざっているため、記事では「何が起きたか」と「どう使われ始めたか」を分けて書くと整理しやすいです。\n- 代表例としては Thariq、Claude Code Studio、AGIラボ の投稿が引用候補です。\n代表投稿は Thariq の「Claude Code に AGENTS.md のサポートを追加します。」です。ここを起点に、周辺の投稿を「実装」「事業インパクト」「周辺ツール」の順でつなぐと記事構成が安定します。\n\n## まとめ\nFor You ボードを俯瞰すると、今回は「Jevエコシステム・API」を核にしながら、周辺で Jev活用・デモ が補助線を引く構図でした。\nブログ化するときは、投稿単体の紹介で終わらせず「どのレイヤーで使われ始めたか」「何が既存フローを置き換えるのか」を一段抽象化して書くと、読後価値が上がります。\n\n### 編集メモ\n- 事実確認は引用元ポストとリンク先で再確認する\n- 数値はビュー・いいねのどちらを採用するか記事ごとに統一する\n- 公開作業と X 投稿はこの下書きの外で手動実施する"
+}
