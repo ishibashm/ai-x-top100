@@ -6,6 +6,10 @@ iPad向けのスクロールなしボード。AI関連の注目ポスト Top 100
 - ヘッダーで「1–50」「51–100」切替（左右スワイプ可）
 - 「日本語／原文」トグル（localStorageに保存）
 
+## Top100 のデータ
+
+ボードに出ている 100 件は公開ポストの時点スナップショットです。`data-part1.json`〜`data-part4.json` と `data-meta.json` を更新し、同じ内容を `index.html` / `index.slim.html` の `board-data` に埋め込みます。手順・ランキング・カテゴリは [docs/TOP100.md](docs/TOP100.md)。For You の取得とは別です。
+
 ## 常時公開（GitHub Pages）
 
 https://ishibashm.github.io/ai-x-top100/
