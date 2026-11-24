@@ -667,545 +667,248 @@
       "name": "鳳翼炎輪祓闇大鎧城",
       "handle": "N8jhSzyQoL35422",
       "sample": false,
-      "updatedAt": "2026-11-20T12:20:00+09:00",
+      "updatedAt": "2026-11-24T19:20:00+09:00",
       "posts": [
         {
-          "id": "2123496825877598271",
-          "author": "StudioYebisu",
-          "handle": "studio_yebisu",
-          "text": "良さがバレ始めたからT3 Codeの良さを本気で伝えるか…",
-          "url": "https://x.com/studio_yebisu/status/2123496825877598271",
-          "metrics": {
-            "views": 51306,
-            "likes": 546
-          }
-        },
-        {
-          "id": "2123470665210851508",
-          "author": "Google",
-          "handle": "Google",
-          "text": "この一人称シャモニー・スキーシミュレーターで、6つの本物のモンブランのラインを駆け下りて…Gemini 4 Neon",
-          "url": "https://x.com/Google/status/2123470665210851508",
-          "metrics": {
-            "views": 114899,
-            "likes": 809
-          }
-        },
-        {
-          "id": "2123279867710239092",
+          "id": "2124828639732936933",
           "author": "チャエン | デジライズ CEO《重要AIニュースを毎日最速で発信》",
           "handle": "masahirochaen",
-          "text": "MicrosoftがIgnite 2026で自社AIモデル「MAI」を7種一挙発表。",
-          "url": "https://x.com/masahirochaen/status/2123279867710239092",
+          "text": "「claude -p」意外と知られていないけど、めちゃくちゃ優秀。\n\n自分で作ったアプリからこの1行を呼ぶだけで、裏でClaude Codeがそのまま動く。ファイル操作もMCPもSkillsも全部入りで、自分のサブスク枠で使えます。\n\nつまりClaude",
+          "url": "https://x.com/masahirochaen/status/2124828639732936933",
           "metrics": {
-            "views": 13642,
-            "likes": 59
+            "views": 46000,
+            "likes": 469
           }
         },
         {
-          "id": "2123567750383874111",
+          "id": "2125017553319678220",
           "author": "Tetsuro Miyatake",
           "handle": "tmiyatake1",
-          "text": "Anthropicの新しいプロモーション動画。AIのアップサイドを示す、良い動画。",
-          "url": "https://x.com/tmiyatake1/status/2123567750383874111",
+          "text": "GoogleがAI検索をよりパーソナライズさせるためにGoogle Wallet、Google Drive、Geminiなどと連携できるようにしたことを発表した。",
+          "url": "https://x.com/tmiyatake1/status/2125017553319678220",
           "metrics": {
-            "views": 818,
-            "likes": 3
-          }
-        },
-        {
-          "id": "2123590482202968208",
-          "author": "Sadao Tokuyama",
-          "handle": "tokufxug",
-          "text": "AIがCADを直接操作、Rust製オープンソースCAD「SolidCraft」",
-          "url": "https://x.com/tokufxug/status/2123590482202968208",
-          "metrics": {
-            "views": 457,
+            "views": 1399,
             "likes": 5
           }
         },
         {
-          "id": "2123382047662297518",
-          "author": "Charly Wargnier",
-          "handle": "DataChaz",
-          "text": "MacBook Pro、発注したよ、ベイビー！！M5 Pro、RAM 64GB、ストレージ 2TB",
-          "url": "https://x.com/DataChaz/status/2123382047662297518",
+          "id": "2125124256547913815",
+          "author": "ガガロット",
+          "handle": "gagarot200",
+          "text": "Museと無料のGitHubツールを\n組み合わせるとSNSから月100万稼ぐ「リサーチ・制作・マーケ・ローンチ」\n自動で回す為の必須ツール10選",
+          "url": "https://x.com/gagarot200/status/2125124256547913815",
           "metrics": {
-            "views": 3511,
+            "views": 1664,
+            "likes": 12
+          }
+        },
+        {
+          "id": "2125077574921666771",
+          "author": "東大Codex研究所",
+          "handle": "UT_Codex",
+          "text": "これが欲しかった。\n\nAIで作ったアプリを公開する前に\nCodexに「セキュリティチェックして」と\n頼んでいませんか？\n\nでもそれだと表面的な検査で終わってちゃんと対策はできません。\n\n気になる箇所ごとに聞くと、どこを見ればいいか分かります。\n\n・APIキーがコードに残っていそう",
+          "url": "https://x.com/UT_Codex/status/2125077574921666771",
+          "metrics": {
+            "views": 2046,
+            "likes": 29
+          }
+        },
+        {
+          "id": "2124933620783808682",
+          "author": "elvis",
+          "handle": "omarsar0",
+          "text": "最先端モデルの視覚的知能を測る、優れたベンチマークです。\n\nCopy Benchは、物理、WebGL、シェーダーに関わるタスクを通じて視覚的知能を評価します。\n\nGPT-6.2",
+          "url": "https://x.com/omarsar0/status/2124933620783808682",
+          "metrics": {
+            "views": 4405,
+            "likes": 18
+          }
+        },
+        {
+          "id": "2124676840434602224",
+          "author": "mana｜株式会社MakeAI CEO",
+          "handle": "MakeAI_CEO",
+          "text": "本当の本当にClaude Codeいらなくなりましたw\nAntigravityにHyperFramesを導入し、YouTubeの制作を全任せ。\n\n・企画リサーチ\n・台本制作\n・動画制作・編集\n\n全部一気通貫でいけた！！！",
+          "url": "https://x.com/MakeAI_CEO/status/2124676840434602224",
+          "metrics": {
+            "views": 49000,
+            "likes": 488
+          }
+        },
+        {
+          "id": "2125064361886777797",
+          "author": "にく",
+          "handle": "29meat_ai",
+          "text": "やばぁぁぁぁぁ！！ちょっと待って、画質エグすぎない！？！？Colab × Blender使ってAntigravityに任せたら全自動でできちゃったwww\n\n① 国土交通省PLATEAU × Blenderで京都の3D土台\n② Google Flowで夜の京都・無限ループ映像を生成\n③ ColabのGPUで4K 60fps にAI超解像＆ヌルヌル化",
+          "url": "https://x.com/29meat_ai/status/2125064361886777797",
+          "metrics": {
+            "views": 110000,
+            "likes": 767
+          }
+        },
+        {
+          "id": "2125017483027571176",
+          "author": "Hodathi",
+          "handle": "hokazuya",
+          "text": "「センス」\nこれは久しぶりに価値あるからみたほうがええ。\n\n昨日流れてきたのを見た後、以下をABテストで出させた。もちろんランダム性がある状態でA/Bに振り分け。\n\n・HP\n・アプリ一式\n・ゲームのデザインと挿絵\n\n全てのコンテンツで、私は、この「センス」を入れたほうが「良い」と選んだ。",
+          "url": "https://x.com/hokazuya/status/2125017483027571176",
+          "metrics": {
+            "views": 9380,
+            "likes": 58
+          }
+        },
+        {
+          "id": "2125091868803498414",
+          "author": "金のニワトリ",
+          "handle": "gosrum",
+          "text": "Opus 5.5 が気を抜いたら英語で喋りだす問題、みのるんさんの「claude-code-japanese-guard」を使うようにしたらほぼ解決しました。圧倒的感謝...！\n\n「Opus 5.5 を使うときに、急に英語話し出して困る」という方は一度導入することをおすすめします",
+          "url": "https://x.com/gosrum/status/2125091868803498414",
+          "metrics": {
+            "views": 100000,
+            "likes": 1163
+          }
+        },
+        {
+          "id": "2124976952113045787",
+          "author": "lars",
+          "handle": "larsholst_",
+          "text": "この人をフォローして。これ以上は何も言わないよ..\n\nあとで感謝するよ。",
+          "url": "https://x.com/larsholst_/status/2124976952113045787",
+          "metrics": {
+            "views": 260000,
+            "likes": 2169
+          }
+        },
+        {
+          "id": "2124920075262308419",
+          "author": "elvis",
+          "handle": "omarsar0",
+          "text": "次世代の自律型エージェントは、こんな姿になりそうです。\n\nDemiがより豊かなコンテキストを構築・取り込み、エージェントがタスクに対してより自律的に取り組めるようにします。\n\nこれはまた、意思決定モデルが実現を後押しする、私が目にしてきた中でも最も強力なユースケースの一つです。",
+          "url": "https://x.com/omarsar0/status/2124920075262308419",
+          "metrics": {
+            "views": 5455,
             "likes": 27
           }
         },
         {
-          "id": "2123506636170080287",
-          "author": "にも｜AIによって爆誕",
-          "handle": "ai_ai_ailover",
-          "text": "リリース日からゴリゴリ使ってるけど、タスク完遂の速度が桁違いで早い。WebMCPエグい助かる。",
-          "url": "https://x.com/ai_ai_ailover/status/2123506636170080287",
-          "metrics": {
-            "views": 533,
-            "likes": 7
-          }
-        },
-        {
-          "id": "2123276755469550042",
-          "author": "SOU米国株・日本株・AIニュース速報",
-          "handle": "SOU_BTC",
-          "text": "【速報】OpenAI、経理・会計業務向け「ChatGPT for Accounting」を提供開始",
-          "url": "https://x.com/SOU_BTC/status/2123276755469550042",
-          "metrics": {
-            "views": 135342,
-            "likes": 601
-          }
-        },
-        {
-          "id": "2123364223375880493",
-          "author": "DeepTechTR",
-          "handle": "DeepTechTR",
-          "text": "Quantum Space NVIDIA カード所有者向け警告 NVIDIA の最新ドライバー 621.14 および 621.24",
-          "url": "https://x.com/DeepTechTR/status/2123364223375880493",
-          "metrics": {
-            "views": 742,
-            "likes": 3
-          }
-        },
-        {
-          "id": "2123570254223986731",
-          "author": "イケハヤ@放置ゲー「月蝕綺譚」開発",
-          "handle": "IHayato",
-          "text": "Brain売上が好調。1.3億円が見えてきました。",
-          "url": "https://x.com/IHayato/status/2123570254223986731",
-          "metrics": {
-            "views": 4244,
-            "likes": 23
-          }
-        },
-        {
-          "id": "2123521775225184258",
-          "author": "たか田",
-          "handle": "daifukujinji",
-          "text": "",
-          "url": "https://x.com/daifukujinji/status/2123521775225184258",
-          "metrics": {
-            "views": 7544,
-            "likes": 51
-          }
-        },
-        {
-          "id": "2123590693855576256",
-          "author": "Pollo AI Deutschland",
-          "handle": "PolloAIDE",
-          "text": "Aus einem Chat wird ein GTA-inspirierter Kurzfilm.",
-          "url": "https://x.com/PolloAIDE/status/2123590693855576256",
-          "metrics": {
-            "views": 103,
-            "likes": 2
-          }
-        },
-        {
-          "id": "2123448862517981653",
-          "author": "日本経済新聞 電子版（日経電子版）",
-          "handle": "nikkei",
-          "text": "アンソロピック上場　CEO演説全文「科学進歩の100年、AIで10年に」",
-          "url": "https://x.com/nikkei/status/2123448862517981653",
-          "metrics": {
-            "views": 72629,
-            "likes": 285
-          }
-        },
-        {
-          "id": "2123435938848067841",
-          "author": "NASA",
-          "handle": "NASA",
-          "text": "この赤ちゃん星たちが、チャートの頂点を目指して突き進んでいます @ChandraXray",
-          "url": "https://x.com/NASA/status/2123435938848067841",
-          "metrics": {
-            "views": 504191,
-            "likes": 5077
-          }
-        },
-        {
-          "id": "2123506597204820318",
-          "author": "Nintendo of America",
-          "handle": "NintendoAmerica",
-          "text": "冒険を待つセールが開始されました！",
-          "url": "https://x.com/NintendoAmerica/status/2123506597204820318",
-          "metrics": {
-            "views": 247937,
-            "likes": 1005
-          }
-        },
-        {
-          "id": "2123401633711423630",
-          "author": "아이반 IVAN",
-          "handle": "0ooooo0",
-          "text": "AIオタクのAI OS設定 簡単公開",
-          "url": "https://x.com/0ooooo0/status/2123401633711423630",
-          "metrics": {
-            "views": 16926,
-            "likes": 376
-          }
-        },
-        {
-          "id": "2123297384817905971",
-          "author": "Mr. Buzzoni",
-          "handle": "Mr_Buzzoni",
-          "text": "このPDFは、コーディングエージェントを使って構築する人にとって、不公平なクソみたいなアドバンテージだ",
-          "url": "https://x.com/Mr_Buzzoni/status/2123297384817905971",
-          "metrics": {
-            "views": 15176,
-            "likes": 321
-          }
-        },
-        {
-          "id": "2123438650000330910",
-          "author": "Tesla",
-          "handle": "Tesla",
-          "text": "テスラでは、何年もの間、不可能を可能にするために取り組んできました。",
-          "url": "https://x.com/Tesla/status/2123438650000330910",
-          "metrics": {
-            "views": 537032,
-            "likes": 6310
-          }
-        },
-        {
-          "id": "2123477699125817826",
-          "author": "Linus ✦ Ekenstam",
-          "handle": "LinusEkenstam",
-          "text": "私の時計は心拍数を知っている。私の指輪は睡眠の質を知っている。",
-          "url": "https://x.com/LinusEkenstam/status/2123477699125817826",
-          "metrics": {
-            "views": 3483,
-            "likes": 5
-          }
-        },
-        {
-          "id": "2123578319614730702",
-          "author": "0xMarioNawfal",
-          "handle": "RoundtableSpace",
-          "text": "競合他社を監視し、価格変更、新製品の発売…を通知するアプリを構築します。",
-          "url": "https://x.com/RoundtableSpace/status/2123578319614730702",
-          "metrics": {
-            "views": 49331,
-            "likes": 19
-          }
-        },
-        {
-          "id": "2123151425375187260",
-          "author": "Victor M",
-          "handle": "victormustar",
-          "text": "いくつかのテストを実行した後、これは印象的です（ちなみにリアルタイムでできます）Apache 2.0",
-          "url": "https://x.com/victormustar/status/2123151425375187260",
-          "metrics": {
-            "views": 61301,
-            "likes": 1387
-          }
-        },
-        {
-          "id": "2123612043605590161",
-          "author": "Shodai Yanagimoto | 桺本頌大",
-          "handle": "shodaiiiiii",
-          "text": "Orca Botだと！？",
-          "url": "https://x.com/shodaiiiiii/status/2123612043605590161",
-          "metrics": {
-            "views": 163,
-            "likes": 3
-          }
-        },
-        {
-          "id": "2123423676406140969",
-          "author": "PlayStation",
-          "handle": "PlayStation",
-          "text": "『Goat Simulator 3』のDLC「Ticket to Dizzyworld」が本日配信開始。",
-          "url": "https://x.com/PlayStation/status/2123423676406140969",
-          "metrics": {
-            "views": 418541,
-            "likes": 639
-          }
-        },
-        {
-          "id": "2123408558251446400",
-          "author": "KGeN Community",
-          "handle": "KGeN_Community",
-          "text": "Intern's already logged 7 hours of GTA VI and filed it as egocentric data",
-          "url": "https://x.com/KGeN_Community/status/2123408558251446400",
-          "metrics": {
-            "views": 1038,
-            "likes": 13
-          }
-        },
-        {
-          "id": "2123516375805379040",
-          "author": "SpaceX",
-          "handle": "SpaceX",
-          "text": "先週のスターシップ15回目の飛行では、スーパーヘビーブースターが…",
-          "url": "https://x.com/SpaceX/status/2123516375805379040",
-          "metrics": {
-            "views": 553070,
-            "likes": 8817
-          }
-        },
-        {
-          "id": "2123487025814986944",
-          "author": "Shin",
-          "handle": "ShinWorkout0207",
-          "text": "抽象と具体の往復について研究していたが 分かってきたぞ...",
-          "url": "https://x.com/ShinWorkout0207/status/2123487025814986944",
-          "metrics": {
-            "views": 24128,
-            "likes": 448
-          }
-        },
-        {
-          "id": "2123584637666500744",
-          "author": "The New York Times",
-          "handle": "nytimes",
-          "text": "速報：ホワイトハウスの最高サイバーセキュリティ当局者が辞任へ",
-          "url": "https://x.com/nytimes/status/2123584637666500744",
-          "metrics": {
-            "views": 159307,
-            "likes": 651
-          }
-        },
-        {
-          "id": "2123395813737132133",
-          "author": "安保 奈緒美/経営者の伴走者",
-          "handle": "naomicoach7",
-          "text": "最近、Xではビジネスに関する投稿があまり上がってこない…Linkedinに力を入れます",
-          "url": "https://x.com/naomicoach7/status/2123395813737132133",
-          "metrics": {
-            "views": 791,
-            "likes": 41
-          }
-        },
-        {
-          "id": "2123457710733824270",
-          "author": "Samuel Schmidgall",
-          "handle": "SRSchmidgall",
-          "text": "AIエージェントを一人で研究に任せると、しばしば手抜きをする。ほぼ1,000体の…査読制度を発明する。",
-          "url": "https://x.com/SRSchmidgall/status/2123457710733824270",
-          "metrics": {
-            "views": 51055,
-            "likes": 856
-          }
-        },
-        {
-          "id": "2123345655078830287",
-          "author": "前田悠馬｜御社専用のAIツールをいつでも何個でも開発します",
-          "handle": "yumamaeda1210",
-          "text": "Microsoftが、情報同士のつながりまで捉えて検索する技術「GraphRAG Zero」を発表。",
-          "url": "https://x.com/yumamaeda1210/status/2123345655078830287",
-          "metrics": {
-            "views": 14111,
-            "likes": 160
-          }
-        },
-        {
-          "id": "2123575135232024719",
+          "id": "2124981145922146739",
           "author": "Google",
           "handle": "Google",
-          "text": "ジョン・キーツの「秋へ」、完全にコードでアニメーション化 Gemini 4 Neon",
-          "url": "https://x.com/Google/status/2123575135232024719",
+          "text": "パーソナルインテリジェンスにさらに多くのアプリを連携できるようになり、検索はますますあなたに合わせたものに。支出、ドキュメント、チャットの情報を活用して、よりあなたに合った役立つ検索結果を提供します。",
+          "url": "https://x.com/Google/status/2124981145922146739",
           "metrics": {
-            "views": 55730,
-            "likes": 184
+            "views": 100000,
+            "likes": 599
           }
         },
         {
-          "id": "2123615727060197734",
-          "author": "SEO Japan公式（アイオイクス株式会社）",
-          "handle": "ioixseo",
-          "text": "被リンクが集まりやすいコンテンツの傾向について、535サイト・約4,000URLを分析した調査",
-          "url": "https://x.com/ioixseo/status/2123615727060197734",
-          "metrics": {
-            "views": 41,
-            "likes": 5
-          }
-        },
-        {
-          "id": "2123598031597810162",
-          "author": "チャエン | デジライズ CEO《重要AIニュースを毎日最速で発信》",
-          "handle": "masahirochaen",
-          "text": "OpenAIの新しい音声モデル「GPT-Live-1.1」を早速試してみました。",
-          "url": "https://x.com/masahirochaen/status/2123598031597810162",
-          "metrics": {
-            "views": 4543,
-            "likes": 15
-          }
-        },
-        {
-          "id": "2123264105905807821",
+          "id": "2125123201273598216",
           "author": "Tips Excel | AI Productivity",
           "handle": "gudanglifehack",
-          "text": "Windowsユーザーのためのヒント Windowsが起動しない？",
-          "url": "https://x.com/gudanglifehack/status/2123264105905807821",
+          "text": "Excel Shortcuts \n\nThis part focuses on Paste Special, Go To Special & Advanced Productivity shortcuts.\n\n Paste Special\n\n Ctrl + Alt + V → Open Paste Special",
+          "url": "https://x.com/gudanglifehack/status/2125123201273598216",
           "metrics": {
-            "views": 7127,
-            "likes": 92
-          }
-        },
-        {
-          "id": "2123475464043786417",
-          "author": "Elon Musk",
-          "handle": "elonmusk",
-          "text": "Grokボットだけで会社を丸ごと作ることができます！",
-          "url": "https://x.com/elonmusk/status/2123475464043786417",
-          "metrics": {
-            "views": 3192057,
-            "likes": 16260
-          }
-        },
-        {
-          "id": "2123565102943367531",
-          "author": "イケハヤ@放置ゲー「月蝕綺譚」開発",
-          "handle": "IHayato",
-          "text": "",
-          "url": "https://x.com/IHayato/status/2123565102943367531",
-          "metrics": {
-            "views": 3067,
-            "likes": 13
-          }
-        },
-        {
-          "id": "2123568756677112300",
-          "author": "Tetsuro Miyatake",
-          "handle": "tmiyatake1",
-          "text": "AI画像生成サービスIdeogramが…「Ideogram 4.6」をリリース。",
-          "url": "https://x.com/tmiyatake1/status/2123568756677112300",
-          "metrics": {
-            "views": 883,
-            "likes": 4
-          }
-        },
-        {
-          "id": "2123567750312321525",
-          "author": "マーケターおさる",
-          "handle": "osaruproducer",
-          "text": "受講生が「累計1,055万円」を収益化。",
-          "url": "https://x.com/osaruproducer/status/2123567750312321525",
-          "metrics": {
-            "views": 802,
-            "likes": 2
-          }
-        },
-        {
-          "id": "2123272557633683536",
-          "author": "AshutoshShrivastava",
-          "handle": "ai_for_success",
-          "text": "AI Compass 新版 (11月18日) Google が Gemini 4 Neon を…",
-          "url": "https://x.com/ai_for_success/status/2123272557633683536",
-          "metrics": {
-            "views": 2542,
-            "likes": 33
-          }
-        },
-        {
-          "id": "2123576193719148624",
-          "author": "Charly Wargnier",
-          "handle": "DataChaz",
-          "text": "視点がすべてです。リスボン拠点の写真家Suissas",
-          "url": "https://x.com/DataChaz/status/2123576193719148624",
-          "metrics": {
-            "views": 1240,
-            "likes": 7
-          }
-        },
-        {
-          "id": "2123447587445277113",
-          "author": "Hugging Apps",
-          "handle": "HuggingApps",
-          "text": "Cloudflare が @huggingface に Clairic を公開しました",
-          "url": "https://x.com/HuggingApps/status/2123447587445277113",
-          "metrics": {
-            "views": 67161,
-            "likes": 1124
-          }
-        },
-        {
-          "id": "2123529356089946543",
-          "author": "Sundar Pichai",
-          "handle": "sundarpichai",
-          "text": "量子コンピューティングでは通常、エンタングルメントがトップの注目を集めますが、量子文脈性…",
-          "url": "https://x.com/sundarpichai/status/2123529356089946543",
-          "metrics": {
-            "views": 126509,
-            "likes": 1880
-          }
-        },
-        {
-          "id": "2123563860829544525",
-          "author": "Machina",
-          "handle": "EXM7777",
-          "text": "Hugging Faceのリンク + Claude Fable 5.2 + レンタルGPU = 新しいスタートアップ",
-          "url": "https://x.com/EXM7777/status/2123563860829544525",
-          "metrics": {
-            "views": 5633,
-            "likes": 96
-          }
-        },
-        {
-          "id": "2123424773946433557",
-          "author": "DeepTechTR",
-          "handle": "DeepTechTR",
-          "text": "Etik uyarısı vermeyen yerel kodlama modeli: Qwen3-Coder-30B-A3B-ablite",
-          "url": "https://x.com/DeepTechTR/status/2123424773946433557",
-          "metrics": {
-            "views": 718,
-            "likes": 2
-          }
-        },
-        {
-          "id": "2123355624851583084",
-          "author": "GitHubDaily",
-          "handle": "GitHub_Daily",
-          "text": "筋トレを終えて家に帰ったら何を食べればいいのか…",
-          "url": "https://x.com/GitHub_Daily/status/2123355624851583084",
-          "metrics": {
-            "views": 2494,
-            "likes": 7
-          }
-        },
-        {
-          "id": "2123424471440601351",
-          "author": "BBC Breaking News",
-          "handle": "BBCBreaking",
-          "text": "AI企業Anthropic、時価総額1.5兆ドルで株式市場にデビュー",
-          "url": "https://x.com/BBCBreaking/status/2123424471440601351",
-          "metrics": {
-            "views": 777056,
-            "likes": 175
-          }
-        },
-        {
-          "id": "2123453874585337901",
-          "author": "PlayStation",
-          "handle": "PlayStation",
-          "text": "PlayStation Pulseワイヤレスヘッドセットが本日発売されました",
-          "url": "https://x.com/PlayStation/status/2123453874585337901",
-          "metrics": {
-            "views": 440886,
-            "likes": 1205
-          }
-        },
-        {
-          "id": "2123595699191468485",
-          "author": "しん|AI×iOS開発",
-          "handle": "protoduct_ai",
-          "text": "AIでアプリ作る人、これ入れて「AIが作った感」のあるUIを見つけて直してくれるチェッカー",
-          "url": "https://x.com/protoduct_ai/status/2123595699191468485",
-          "metrics": {
-            "views": 672,
+            "views": 2540,
             "likes": 6
           }
         },
         {
-          "id": "2123367688655483114",
-          "author": "Tom Huang",
-          "handle": "tuturetom",
-          "text": "DeepSeekの動画制作能力が飛躍的に強化！OpenMotionのオープンソースプラグイン",
-          "url": "https://x.com/tuturetom/status/2123367688655483114",
+          "id": "2124917923391443211",
+          "author": "Elon Musk",
+          "handle": "elonmusk",
+          "text": "このプラットフォームで法律に違反した者は、世界のどこにいようとも、必ず訴追される。",
+          "url": "https://x.com/elonmusk/status/2124917923391443211",
           "metrics": {
-            "views": 146234,
-            "likes": 3415
+            "views": 3890000,
+            "likes": 52000
+          }
+        },
+        {
+          "id": "2125159179681694110",
+          "author": "Moon Dev",
+          "handle": "MoonDevOnYT",
+          "text": "59 Trading Bot Results",
+          "url": "https://x.com/MoonDevOnYT/status/2125159179681694110",
+          "metrics": {
+            "views": 99,
+            "likes": 0
+          }
+        },
+        {
+          "id": "2124866592303382910",
+          "author": "Kevin Moreira",
+          "handle": "kevindatas",
+          "text": "もうUIデザインをゼロから学ぶ必要はありません。このGitHubの15リポジトリで、すべて解決できます。\n\nFable 5.2を使っているなら、まさに宝の山です。\n\nコンポーネント。アイコン。グラフ。通知。テーマ。独自のスタイル。\n\nAnthropic Skills → frontend-designで職人技を感じるインターフェースを",
+          "url": "https://x.com/kevindatas/status/2124866592303382910",
+          "metrics": {
+            "views": 100000,
+            "likes": 1292
+          }
+        },
+        {
+          "id": "2125152286032711790",
+          "author": "MarQuis Trill | Content Creator, X News Reporter",
+          "handle": "marquistrillx",
+          "text": "Anthropic interviewed 58 firms across law, finance, and manufacturing about where AI actually pays off. The biggest wins came from redesigning jobs and workflows, not stacking another tool on top of t",
+          "url": "https://x.com/marquistrillx/status/2125152286032711790",
+          "metrics": {
+            "views": 743,
+            "likes": 1
+          }
+        },
+        {
+          "id": "2125063464435769432",
+          "author": "Shenyuan Wang",
+          "handle": "ShenyuanNext",
+          "text": "お金をかけて被リンクを買わずに、Googleで4位を獲得。\n\nRedditのあるSEO担当者が、とても興味深い事例を共有しました。\n\n無料のソーシャルプラットフォーム3つだけで被リンクを構築し、競争の激しいキーワードでGoogleの検索結果1ページ目の4位を獲得したのです。\n\n対象キーワード：\n\nHow to get your",
+          "url": "https://x.com/ShenyuanNext/status/2125063464435769432",
+          "metrics": {
+            "views": 11000,
+            "likes": 122
+          }
+        },
+        {
+          "id": "2125167010879352964",
+          "author": "Oliver",
+          "handle": "oliviscusAI",
+          "text": "Someone built a Claude Code plugin that draws a interactive map of your entire app \n\nIt’s called Floorplan. Ask “make me a floorplan of this app” and it creates a zoomable map of your files, endpoints",
+          "url": "https://x.com/oliviscusAI/status/2125167010879352964",
+          "metrics": {
+            "views": 287,
+            "likes": 7
+          }
+        },
+        {
+          "id": "2125114720592289923",
+          "author": "トクリュウ株吉",
+          "handle": "cischaba",
+          "text": "なんだインテルか",
+          "url": "https://x.com/cischaba/status/2125114720592289923",
+          "metrics": {
+            "views": 191,
+            "likes": 0
+          }
+        },
+        {
+          "id": "2125083959176691816",
+          "author": "Scarlett",
+          "handle": "AItechscarlett",
+          "text": "\"The visuals are ready, but the audio still feels off.\"\n\nDon't rebuild the whole ad. Generate your skincare marketing scenes with Dreamina Marketing Studio for just $0.29 your first month, then bring",
+          "url": "https://x.com/AItechscarlett/status/2125083959176691816",
+          "metrics": {
+            "views": 136,
+            "likes": 3
+          }
+        },
+        {
+          "id": "2124863417328583054",
+          "author": "مالك بن حمود المالك",
+          "handle": "cnemalek",
+          "text": "これはすごい！ \n\nGrokのAIエージェント6体が、あなたのSNS運用チームを丸ごと担当する姿を想像してみて！\n\nそれぞれに役割がある：\n\n1体は、ほかより早くトレンドをキャッチする。\n1体は、コンテンツ戦略を立てる。\n1体は、投稿を書く。\n1体は、デザインを担当する。",
+          "url": "https://x.com/cnemalek/status/2124863417328583054",
+          "metrics": {
+            "views": 100000,
+            "likes": 1272
           }
         }
       ]
@@ -1510,556 +1213,325 @@
       "name": "Cloud",
       "handle": "cloud8wq",
       "sample": false,
-      "updatedAt": "2026-11-20T12:20:00+09:00",
+      "updatedAt": "2026-11-24T19:15:00+09:00",
       "posts": [
         {
-          "id": "2123612075167830421",
-          "author": "チャエン | デジライズ CEO《重要AIニュースを毎日最速で発信》",
-          "handle": "masahirochaen",
-          "text": "【新機能】Mac版Geminiアプリに「Computer use」が登場。アプリやWebをまたぐ作業を裏のウィンドウでGeminiが進めてくれる。",
-          "url": "https://x.com/masahirochaen/status/2123612075167830421",
+          "id": "2124860190097064344",
+          "author": "Taishi | AI Language Learning App",
+          "handle": "taishiyade",
+          "text": "AIショート動画を馬鹿にしてたけど毎日Higgsfield使ってるとさすがに笑えなくなってきた",
+          "url": "https://x.com/taishiyade/status/2124860190097064344",
           "metrics": {
-            "views": 1652,
-            "likes": 9
+            "views": 2205,
+            "likes": 17
           }
         },
         {
-          "id": "2123575135232024719",
-          "author": "Google",
-          "handle": "Google",
-          "text": "John Keats' \"To Autumn,\" animated entirely in code. Gemini 4 Neon built this 3D animation in pure vanilla JavaScript",
-          "url": "https://x.com/Google/status/2123575135232024719",
-          "metrics": {
-            "views": 55400,
-            "likes": 183
-          }
-        },
-        {
-          "id": "2123520499699617828",
-          "author": "Keith McCullough",
-          "handle": "KeithMcCullough",
-          "text": "We'll have an $ANT Risk Range Signal for you in that product by early next week",
-          "url": "https://x.com/KeithMcCullough/status/2123520499699617828",
-          "metrics": {
-            "views": 5777,
-            "likes": 36
-          }
-        },
-        {
-          "id": "2123603729996001656",
-          "author": "Author Inderjit Kaur",
-          "handle": "InderjitkaurALS",
-          "text": "It's #indieauthors #ShamelessSelfpromo for the #WritingCommunity",
-          "url": "https://x.com/InderjitkaurALS/status/2123603729996001656",
-          "metrics": {
-            "views": 51,
-            "likes": 1
-          }
-        },
-        {
-          "id": "2123596962138325008",
-          "author": "Sadao Tokuyama",
-          "handle": "tokufxug",
-          "text": "歩くだけで複数カメラの位置・向きを推定する「HumanCalib」",
-          "url": "https://x.com/tokufxug/status/2123596962138325008",
-          "metrics": {
-            "views": 545,
-            "likes": 9
-          }
-        },
-        {
-          "id": "2123400589380108342",
-          "author": "わどAI界のマスコット",
-          "handle": "wad0427",
-          "text": "Geminiに「あなたの実力を最大限発揮したプロモーションビデオを作成して」と言ったらこれできた",
-          "url": "https://x.com/wad0427/status/2123400589380108342",
-          "metrics": {
-            "views": 1021,
-            "likes": 5
-          }
-        },
-        {
-          "id": "2123319956381339961",
-          "author": "Elon Musk",
-          "handle": "elonmusk",
-          "text": "Moving all text conversations to be encrypted to ensure user privacy",
-          "url": "https://x.com/elonmusk/status/2123319956381339961",
-          "metrics": {
-            "views": 2981649,
-            "likes": 30154
-          }
-        },
-        {
-          "id": "2123506345307787332",
-          "author": "Hedgeye",
-          "handle": "Hedgeye",
-          "text": "Good and bad, every AI Bubble management team will get its 'in retrospect' moment - @KeithMcCullough, Early Look 11.19.26",
-          "url": "https://x.com/Hedgeye/status/2123506345307787332",
-          "metrics": {
-            "views": 6660,
-            "likes": 11
-          }
-        },
-        {
-          "id": "2123552751594668526",
-          "author": "木内翔大＠SHIFT AI代表「日本をAI先進国に」𝕏",
-          "handle": "shota7180",
-          "text": "OpenAI、会計業務向け「ChatGPT for Accounting」を提供開始！",
-          "url": "https://x.com/shota7180/status/2123552751594668526",
-          "metrics": {
-            "views": 3746,
-            "likes": 23
-          }
-        },
-        {
-          "id": "2123527859524559341",
+          "id": "2124965820220756280",
           "author": "Aravind Srinivas",
           "handle": "AravSrinivas",
-          "text": "Been working with @solbier1 for last 3 years and am not surprised that he's ranked the best investor.",
-          "url": "https://x.com/AravSrinivas/status/2123527859524559341",
+          "text": "Monitor your agents in batch mode with simple natural language using Perplexity Monitor API",
+          "url": "https://x.com/AravSrinivas/status/2124965820220756280",
           "metrics": {
-            "views": 14527,
-            "likes": 96
-          }
-        },
-        {
-          "id": "2123302990908117358",
-          "author": "Rahul Gandhi",
-          "handle": "RahulGandhi",
-          "text": "Dadi was formidable: fearless, resilient, and full of love.",
-          "url": "https://x.com/RahulGandhi/status/2123302990908117358",
-          "metrics": {
-            "views": 419607,
-            "likes": 13450
-          }
-        },
-        {
-          "id": "2123412251730382960",
-          "author": "いち｜AI社員と働く経営者",
-          "handle": "ichiaimarketer",
-          "text": "ガチでこれ出したくなかったんですけど、もういいです。Mac Studio、自分の環境全部晒します。",
-          "url": "https://x.com/ichiaimarketer/status/2123412251730382960",
-          "metrics": {
-            "views": 45375,
-            "likes": 416
-          }
-        },
-        {
-          "id": "2123597197115560137",
-          "author": "Narendra Modi",
-          "handle": "narendramodi",
-          "text": "苦行と清浄を常に守り、真理と法に心を寄せる者は、父母を日々、真心をもって礼拝すべきである。",
-          "url": "https://x.com/narendramodi/status/2123597197115560137",
-          "metrics": {
-            "views": 144898,
-            "likes": 1528
-          }
-        },
-        {
-          "id": "2123459608786415870",
-          "author": "unusual_whales",
-          "handle": "unusual_whales",
-          "text": "$ANT just went public. Watch out for these etfs coming soon: $ANTT 2x Long, $ANTZ 2x Short Anthropic ETF",
-          "url": "https://x.com/unusual_whales/status/2123459608786415870",
-          "metrics": {
-            "views": 103556,
-            "likes": 76
-          }
-        },
-        {
-          "id": "2123427324653945157",
-          "author": "Chelsea FC",
-          "handle": "ChelseaFC",
-          "text": "Ready for the day.",
-          "url": "https://x.com/ChelseaFC/status/2123427324653945157",
-          "metrics": {
-            "views": 476914,
-            "likes": 13303
-          }
-        },
-        {
-          "id": "2123598031597810162",
-          "author": "チャエン | デジライズ CEO《重要AIニュースを毎日最速で発信》",
-          "handle": "masahirochaen",
-          "text": "OpenAIの新しい音声モデル「GPT-Live-1.1」を早速試してみました。",
-          "url": "https://x.com/masahirochaen/status/2123598031597810162",
-          "metrics": {
-            "views": 4423,
-            "likes": 15
-          }
-        },
-        {
-          "id": "2123470665210851508",
-          "author": "Google",
-          "handle": "Google",
-          "text": "Carve fresh tracks down six real Mont Blanc lines in this first-person Chamonix ski simulator. Coded by Gemini 4 Neon in @Antigravity",
-          "url": "https://x.com/Google/status/2123470665210851508",
-          "metrics": {
-            "views": 114706,
-            "likes": 809
-          }
-        },
-        {
-          "id": "2123514090559828388",
-          "author": "Keith McCullough",
-          "handle": "KeithMcCullough",
-          "text": "Good news: I only got stopped out of 1 Long in Real-Time Alerts today.",
-          "url": "https://x.com/KeithMcCullough/status/2123514090559828388",
-          "metrics": {
-            "views": 4626,
-            "likes": 3
-          }
-        },
-        {
-          "id": "2123532522315305131",
-          "author": "Polymarket Money",
-          "handle": "PolymarketMoney",
-          "text": "BREAKING: Alibaba may cut its plan to build 20,000 megawatts of AI data centers as global chip rules shift.",
-          "url": "https://x.com/PolymarketMoney/status/2123532522315305131",
-          "metrics": {
-            "views": 12845,
-            "likes": 145
-          }
-        },
-        {
-          "id": "2123532524559507843",
-          "author": "Polymarket Money",
-          "handle": "PolymarketMoney",
-          "text": "Trade Alibaba with up to 10x leverage on Polymarket Perps:",
-          "url": "https://x.com/PolymarketMoney/status/2123532524559507843",
-          "metrics": {
-            "views": 1808,
-            "likes": 2
-          }
-        },
-        {
-          "id": "2123552151767290267",
-          "author": "にく",
-          "handle": "29meat_ai",
-          "text": "アプリ開発をイチから本気で学んでいるなら、絶対に、絶対に…",
-          "url": "https://x.com/29meat_ai/status/2123552151767290267",
-          "metrics": {
-            "views": 545,
-            "likes": 3
-          }
-        },
-        {
-          "id": "2123496143124582611",
-          "author": "Bessemer",
-          "handle": "BessemerVP",
-          "text": "Tone starts at the top. At every stage, @AnthropicAI has held to its original mission",
-          "url": "https://x.com/BessemerVP/status/2123496143124582611",
-          "metrics": {
-            "views": 1338,
-            "likes": 20
-          }
-        },
-        {
-          "id": "2123596330140418503",
-          "author": "NBA",
-          "handle": "NBA",
-          "text": "Minnesota Vikings wide receiver Justin Jefferson is courtside for tonight's Knicks/Timberwolves action!",
-          "url": "https://x.com/NBA/status/2123596330140418503",
-          "metrics": {
-            "views": 124515,
-            "likes": 1486
-          }
-        },
-        {
-          "id": "2123461791766262161",
-          "author": "Liz Ann Sonders",
-          "handle": "LizAnnSonders",
-          "text": "October @KansasCityFed Manufacturing Index 18 vs. 11 est.",
-          "url": "https://x.com/LizAnnSonders/status/2123461791766262161",
-          "metrics": {
-            "views": 14575,
+            "views": 14619,
             "likes": 79
           }
         },
         {
-          "id": "2123553738740953465",
-          "author": "Eddie Jaoude | DevRel | Open Source",
-          "handle": "eddiejaoude",
-          "text": "Awesome to finally meet the famous @sudo_moot in person on his London trip",
-          "url": "https://x.com/eddiejaoude/status/2123553738740953465",
-          "metrics": {
-            "views": 773,
-            "likes": 2
-          }
-        },
-        {
-          "id": "2123609777548697605",
-          "author": "やぎ（八木 利生太郎）/ Last Scene代表",
-          "handle": "yagiryuuu",
-          "text": "OpenAI Developersが、音声モデル「GPT-Live-1.1」をAPIで使えるようにしたと発表していたのでメモ。",
-          "url": "https://x.com/yagiryuuu/status/2123609777548697605",
-          "metrics": {
-            "views": 84,
-            "likes": 2
-          }
-        },
-        {
-          "id": "2123306957394337973",
-          "author": "BJP",
-          "handle": "BJP4India",
-          "text": "見て、皇太子はアメリカに着いた途端、寒さにビビった！",
-          "url": "https://x.com/BJP4India/status/2123306957394337973",
-          "metrics": {
-            "views": 442663,
-            "likes": 7029
-          }
-        },
-        {
-          "id": "2123466799442256341",
-          "author": "Ray Dalio",
-          "handle": "RayDalio",
-          "text": "You have a responsibility to be reasonable and considerate when you are advocating for your point of view",
-          "url": "https://x.com/RayDalio/status/2123466799442256341",
-          "metrics": {
-            "views": 42806,
-            "likes": 279
-          }
-        },
-        {
-          "id": "2123393458333216892",
-          "author": "Serbian Infidel",
-          "handle": "SerbianInfidel",
-          "text": "Neka je na sreću, uspeh i svaku polzu naroda Srbije! Imamo novog Predsednika Narodne skupštine",
-          "url": "https://x.com/SerbianInfidel/status/2123393458333216892",
-          "metrics": {
-            "views": 454,
-            "likes": 46
-          }
-        },
-        {
-          "id": "2123577998096166944",
-          "author": "チャエン | デジライズ CEO《重要AIニュースを毎日最速で発信》",
+          "id": "2125036126956331385",
+          "author": "チャエン | デジライズ CEO",
           "handle": "masahirochaen",
-          "text": "【速報】OpenAIが音声モデル「GPT-Live-1.1」をAPIで公開。",
-          "url": "https://x.com/masahirochaen/status/2123577998096166944",
+          "text": "【速報】AnthropicがClaude Shipを発表。Claudeがプルリクエストをレビューして直し、承認まで行う。",
+          "url": "https://x.com/masahirochaen/status/2125036126956331385",
           "metrics": {
-            "views": 18848,
-            "likes": 139
+            "views": 23985,
+            "likes": 133
           }
         },
         {
-          "id": "2123548127080656938",
-          "author": "Google",
-          "handle": "Google",
-          "text": "Race @GoogleMaps Pegman through Tokyo's Shibuya Scramble Crossing. Built with Gemini 4 Neon",
-          "url": "https://x.com/Google/status/2123548127080656938",
-          "metrics": {
-            "views": 151570,
-            "likes": 920
-          }
-        },
-        {
-          "id": "2123595417334206767",
-          "author": "Sadao Tokuyama",
-          "handle": "tokufxug",
-          "text": "3DGSを物体単位で編集する「SplatLab」",
-          "url": "https://x.com/tokufxug/status/2123595417334206767",
-          "metrics": {
-            "views": 2844,
-            "likes": 73
-          }
-        },
-        {
-          "id": "2123294941896130911",
-          "author": "木内翔大＠SHIFT AI代表「日本をAI先進国に」𝕏",
-          "handle": "shota7180",
-          "text": "3社の見積書から、発注前に確認すべき点をどこまで洗い出せるか？Gemini 4 Neon",
-          "url": "https://x.com/shota7180/status/2123294941896130911",
-          "metrics": {
-            "views": 4363,
-            "likes": 10
-          }
-        },
-        {
-          "id": "2123508092092477551",
+          "id": "2124971577318207880",
           "author": "Keith McCullough",
           "handle": "KeithMcCullough",
-          "text": "Longs: The Tizzle $TLT",
-          "url": "https://x.com/KeithMcCullough/status/2123508092092477551",
+          "text": "#NazVol went out at 36, all good",
+          "url": "https://x.com/KeithMcCullough/status/2124971577318207880",
           "metrics": {
-            "views": 5820,
-            "likes": 25
+            "views": 8752,
+            "likes": 50
           }
         },
         {
-          "id": "2123529293074465236",
-          "author": "GitHub",
-          "handle": "github",
-          "text": "Dependabot just flagged a vulnerability. But can your app reach the affected code?",
-          "url": "https://x.com/github/status/2123529293074465236",
+          "id": "2124873580383211650",
+          "author": "sou | Ai & Tech",
+          "handle": "sonuv_dev",
+          "text": "Google might have the biggest unfair advantage in the entire AI race, and I don't think people are paying enough attention to it.",
+          "url": "https://x.com/sonuv_dev/status/2124873580383211650",
           "metrics": {
-            "views": 14982,
-            "likes": 66
+            "views": 134028,
+            "likes": 116
           }
         },
         {
-          "id": "2123535871240761623",
-          "author": "チャエン | デジライズ CEO《重要AIニュースを毎日最速で発信》",
-          "handle": "masahirochaen",
-          "text": "最近一生懸命作っているアプリ「Autodo」",
-          "url": "https://x.com/masahirochaen/status/2123535871240761623",
+          "id": "2125046380616089647",
+          "author": "Sadao Tokuyama",
+          "handle": "tokufxug",
+          "text": "1万件超のLiDARスキャンを48時間で処理する並列AIワークフロー",
+          "url": "https://x.com/tokufxug/status/2125046380616089647",
           "metrics": {
-            "views": 13413,
-            "likes": 72
+            "views": 3075,
+            "likes": 55
           }
         },
         {
-          "id": "2123549734229192907",
-          "author": "Netflix",
-          "handle": "netflix",
-          "text": "When your crush shows up to the function with Hudson Williams. The Altruists is now playing.",
-          "url": "https://x.com/netflix/status/2123549734229192907",
-          "metrics": {
-            "views": 314606,
-            "likes": 3049
-          }
-        },
-        {
-          "id": "2123461406515441728",
-          "author": "Hedgeye",
-          "handle": "Hedgeye",
-          "text": "JUST IN: Anthropic, $ANT, shares rise to $115",
-          "url": "https://x.com/Hedgeye/status/2123461406515441728",
-          "metrics": {
-            "views": 8165,
-            "likes": 20
-          }
-        },
-        {
-          "id": "2123375564509921472",
-          "author": "にく",
-          "handle": "29meat_ai",
-          "text": "Gemini 4 Neon×Three.js はんなりぃぃぃぃぃ！！",
-          "url": "https://x.com/29meat_ai/status/2123375564509921472",
-          "metrics": {
-            "views": 2785,
-            "likes": 36
-          }
-        },
-        {
-          "id": "2123475464043786417",
+          "id": "2124918561617694750",
           "author": "Elon Musk",
           "handle": "elonmusk",
-          "text": "You can create an entire company made of Grok Bots!",
-          "url": "https://x.com/elonmusk/status/2123475464043786417",
+          "text": "True",
+          "url": "https://x.com/elonmusk/status/2124918561617694750",
           "metrics": {
-            "views": 3178784,
-            "likes": 16204
+            "views": 1982158,
+            "likes": 12020
           }
         },
         {
-          "id": "2123551256887345368",
-          "author": "Insajder TV",
-          "handle": "Insajder_net",
-          "text": "BLOG UŽIVO Skupština izabrala šest potpredsednika",
-          "url": "https://x.com/Insajder_net/status/2123551256887345368",
+          "id": "2124505027880382512",
+          "author": "Kevin Moreira",
+          "handle": "kevindatas",
+          "text": "これはとんでもない話だ...Googleの元CEO、エリック・シュミットが、今後2年で金持ちになる最も簡単な方法を語った",
+          "url": "https://x.com/kevindatas/status/2124505027880382512",
           "metrics": {
-            "views": 1001,
-            "likes": 24
+            "views": 803166,
+            "likes": 7478
           }
         },
         {
-          "id": "2123496825877598271",
-          "author": "StudioYebisu",
-          "handle": "studio_yebisu",
-          "text": "良さがバレ始めたからT3 Codeの良さを本気で伝えるか…Gemini 4 Neon使いたいけど",
-          "url": "https://x.com/studio_yebisu/status/2123496825877598271",
+          "id": "2125166595190202838",
+          "author": "Mike Kipruto",
+          "handle": "itsMikeKipruto",
+          "text": "If you're selling digital products such as WordPress plugins, themes, software, eBooks, or templates, Easy Digital Downloads (EDD)",
+          "url": "https://x.com/itsMikeKipruto/status/2125166595190202838",
           "metrics": {
-            "views": 50997,
-            "likes": 545
-          }
-        },
-        {
-          "id": "2123434429528097099",
-          "author": "unusual_whales",
-          "handle": "unusual_whales",
-          "text": "BREAKING: $ANT is expected to start trading soon.",
-          "url": "https://x.com/unusual_whales/status/2123434429528097099",
-          "metrics": {
-            "views": 104591,
-            "likes": 80
-          }
-        },
-        {
-          "id": "2123464412971635018",
-          "author": "Aravind Srinivas",
-          "handle": "AravSrinivas",
-          "text": "We launched the Context API yesterday and a feedback given to us by @tobi",
-          "url": "https://x.com/AravSrinivas/status/2123464412971635018",
-          "metrics": {
-            "views": 16201,
-            "likes": 153
-          }
-        },
-        {
-          "id": "2123453922580857060",
-          "author": "PBS News",
-          "handle": "NewsHour",
-          "text": "WATCH LIVE: Ukraine allies hold news conference from Coalition of the Willing summit in Berlin",
-          "url": "https://x.com/NewsHour/status/2123453922580857060",
-          "metrics": {
-            "views": 8174,
-            "likes": 19
-          }
-        },
-        {
-          "id": "2123284053554282591",
-          "author": "わどAI界のマスコット",
-          "handle": "wad0427",
-          "text": "Museすごいなめっちゃ伸びた",
-          "url": "https://x.com/wad0427/status/2123284053554282591",
-          "metrics": {
-            "views": 862,
+            "views": 70,
             "likes": 5
           }
         },
         {
-          "id": "2123408863735255081",
-          "author": "Shah Rukh Khan",
-          "handle": "iamsrk",
-          "text": "All you need is belief. Golden Goose and D'YAVOL X.",
-          "url": "https://x.com/iamsrk/status/2123408863735255081",
+          "id": "2124972719234326621",
+          "author": "Mohamed A. El-Erian",
+          "handle": "elerianm",
+          "text": "The fall in oil prices continued today, taking Brent to below $90 a barrel and WTI to $80.",
+          "url": "https://x.com/elerianm/status/2124972719234326621",
           "metrics": {
-            "views": 568823,
-            "likes": 8930
+            "views": 25738,
+            "likes": 210
           }
         },
         {
-          "id": "2123585968020332864",
-          "author": "ここ@メルカリ副業で月10万稼ぐ生活",
-          "handle": "samon_gf",
-          "text": "AIを使ってあれこれ始めてみたんだけど、結局AIは確認や許可待ちだったり",
-          "url": "https://x.com/samon_gf/status/2123585968020332864",
+          "id": "2124981145922146739",
+          "author": "Google",
+          "handle": "Google",
+          "text": "Search is getting even more tailored with the ability to connect additional apps to Personal Intelligence",
+          "url": "https://x.com/Google/status/2124981145922146739",
           "metrics": {
-            "views": 39,
+            "views": 107622,
+            "likes": 599
+          }
+        },
+        {
+          "id": "2125048523397947714",
+          "author": "あきらパパ【生成AI活用エンジニア&３児のパパ】",
+          "handle": "akira_papa_IT",
+          "text": "えっと、GoogleさんがGemini API CLIをオープンソースで公開してるんですけどマジですか笑",
+          "url": "https://x.com/akira_papa_IT/status/2125048523397947714",
+          "metrics": {
+            "views": 35892,
+            "likes": 397
+          }
+        },
+        {
+          "id": "2124942828274925651",
+          "author": "Elon Musk",
+          "handle": "elonmusk",
+          "text": "Everyone I know at Nvidia wanted Jensen back and it shows",
+          "url": "https://x.com/elonmusk/status/2124942828274925651",
+          "metrics": {
+            "views": 4830087,
+            "likes": 162795
+          }
+        },
+        {
+          "id": "2125057043216351626",
+          "author": "AI Will",
+          "handle": "FinanceYF5",
+          "text": "Fable5.2杀进PhysicalAI",
+          "url": "https://x.com/FinanceYF5/status/2125057043216351626",
+          "metrics": {
+            "views": 2197,
             "likes": 3
           }
         },
         {
-          "id": "2123448808222990806",
+          "id": "2125000673280368687",
+          "author": "Lightspeed",
+          "handle": "lightspeedvp",
+          "text": "Your AI agent can spend your money. Who covers its mistakes?",
+          "url": "https://x.com/lightspeedvp/status/2125000673280368687",
+          "metrics": {
+            "views": 1643,
+            "likes": 7
+          }
+        },
+        {
+          "id": "2125056812072264101",
+          "author": "にらまよ",
+          "handle": "niramayo2096",
+          "text": "まじかAntigravity初心者がT3 CodeやColabで世界変わった！！Gemini 4 Neonすんごー！！",
+          "url": "https://x.com/niramayo2096/status/2125056812072264101",
+          "metrics": {
+            "views": 23155,
+            "likes": 290
+          }
+        },
+        {
+          "id": "2125081364240486427",
+          "author": "Danny Thompson",
+          "handle": "DThompsonDev",
+          "text": "Whenever I get these emails from stripe I geek out because it means someone is finally solving the problems they had",
+          "url": "https://x.com/DThompsonDev/status/2125081364240486427",
+          "metrics": {
+            "views": 2548,
+            "likes": 15
+          }
+        },
+        {
+          "id": "2124963233148567792",
           "author": "The NAM",
           "handle": "ShopFloorNAM",
-          "text": "From beverage cans to gutters, 230 people at Golden Aluminum make products Americans use every day.",
-          "url": "https://x.com/ShopFloorNAM/status/2123448808222990806",
+          "text": "Editorial Board outlines clearly the commonsense permitting reforms advanced by #BAAJA",
+          "url": "https://x.com/ShopFloorNAM/status/2124963233148567792",
           "metrics": {
-            "views": 287,
+            "views": 670,
+            "likes": 6
+          }
+        },
+        {
+          "id": "2124960278253056266",
+          "author": "Big Tech Alert",
+          "handle": "BigTechAlert",
+          "text": "Jensen Doesn’t Follow Lisa\nLisa Doesn’t Follow Jensen",
+          "url": "https://x.com/BigTechAlert/status/2124960278253056266",
+          "metrics": {
+            "views": 2557,
             "likes": 2
           }
         },
         {
-          "id": "2123474013209158143",
-          "author": "govin.eth | G哥",
-          "handle": "goan999999",
-          "text": "Anthropic $ANT 你上市就上市，干嘛今天封我Claude号？",
-          "url": "https://x.com/goan999999/status/2123474013209158143",
+          "id": "2124982944150516032",
+          "author": "喜寿超えプログラマ",
+          "handle": "DachikanJ",
+          "text": "食べられない物を、ボタンを押すだけで登録。お店では、大きな字の1枚をスマホごと見せます。",
+          "url": "https://x.com/DachikanJ/status/2124982944150516032",
           "metrics": {
-            "views": 594,
+            "views": 124,
             "likes": 3
+          }
+        },
+        {
+          "id": "2124963253659017673",
+          "author": "a16z",
+          "handle": "a16z",
+          "text": "OpenAI's Ashoka Rajendra, who cofounded Orchestra Bio, on the prospect of a one-person biotech company",
+          "url": "https://x.com/a16z/status/2124963253659017673",
+          "metrics": {
+            "views": 20297,
+            "likes": 78
+          }
+        },
+        {
+          "id": "2125148742210744767",
+          "author": "Yoko",
+          "handle": "Kibet_bull",
+          "text": "AI can think for you. When did you last give your own thinking a workout?",
+          "url": "https://x.com/Kibet_bull/status/2125148742210744767",
+          "metrics": {
+            "views": 457,
+            "likes": 6
+          }
+        },
+        {
+          "id": "2124837791544799370",
+          "author": "にく",
+          "handle": "29meat_ai",
+          "text": "ちょっと待って、さっき電卓叩いてマジで変な声出たんだが！？今年のブラックフライデー、Google Antigravity周りがぶっ飛びすぎて",
+          "url": "https://x.com/29meat_ai/status/2124837791544799370",
+          "metrics": {
+            "views": 34057,
+            "likes": 194
+          }
+        },
+        {
+          "id": "2124953883399397696",
+          "author": "Hedgeye",
+          "handle": "Hedgeye",
+          "text": "@KeithMcCullough's analogy for a #Quad4 bounce.",
+          "url": "https://x.com/Hedgeye/status/2124953883399397696",
+          "metrics": {
+            "views": 9625,
+            "likes": 34
+          }
+        },
+        {
+          "id": "2125138943360344322",
+          "author": "Eddie Jaoude | DevRel | Open Source",
+          "handle": "eddiejaoude",
+          "text": "New feature on X, anyone used it yet?",
+          "url": "https://x.com/eddiejaoude/status/2125138943360344322",
+          "metrics": {
+            "views": 760,
+            "likes": 10
+          }
+        },
+        {
+          "id": "2125152750598033436",
+          "author": "Amazon Web Services",
+          "handle": "awscloud",
+          "text": "In a sport where every second matters...",
+          "url": "https://x.com/awscloud/status/2125152750598033436",
+          "metrics": {
+            "views": 3311,
+            "likes": 6
+          }
+        },
+        {
+          "id": "2125061867806572585",
+          "author": "なべたろブログ/SEO/AIのトッププロ",
+          "handle": "seonabe",
+          "text": "「クリック率2%って、高いの？低いの？」基準がないと、直すべきかどうかも判断できません。",
+          "url": "https://x.com/seonabe/status/2125061867806572585",
+          "metrics": {
+            "views": 348,
+            "likes": 4
+          }
+        },
+        {
+          "id": "2124928970533798114",
+          "author": "Santiago",
+          "handle": "svpino",
+          "text": "$110M to build robots that you can take anywhere and use them right away.",
+          "url": "https://x.com/svpino/status/2124928970533798114",
+          "metrics": {
+            "views": 6607,
+            "likes": 26
+          }
+        },
+        {
+          "id": "2125064361886777797",
+          "author": "にく",
+          "handle": "29meat_ai",
+          "text": "やばぁぁぁぁぁ！！ちょっと待って、画質エグすぎない！？！？Colab × Blender使ってAntigravityに任せたら全自動でできちゃったwww",
+          "url": "https://x.com/29meat_ai/status/2125064361886777797",
+          "metrics": {
+            "views": 114512,
+            "likes": 765
           }
         }
       ]
